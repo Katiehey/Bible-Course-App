@@ -1,0 +1,172 @@
+# Bible Course App - .gitignore
+
+# ===========================
+# Operating System Files
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ===========================
+# Development Environments
+# ===========================
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Xcode
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Android Studio
+.gradle/
+local.properties
+*.iml
+.externalNativeBuild
+.cxx
+
+# ===========================
+# Build Outputs
+# ===========================
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+bin/
+gen/
+out/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# Database & Local Storage
+# ===========================
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# User Data (for testing only)
+user-data/
+test-data/
+
+# ===========================
+# Audio Files (if using pre-recorded)
+# ===========================
+
+# Uncomment if using pre-recorded audio and managing via LFS
+# *.mp3
+# *.m4a
+# *.wav
+# *.aac
+
+# ===========================
+# Logs & Temporary Files
+# ===========================
+
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.cache
+
+# ===========================
+# Environment & Secrets
+# ===========================
+
+.env
+.env.local
+.env.*.local
+secrets.json
+api-keys.json
+
+# ===========================
+# Testing
+# ===========================
+
+coverage/
+*.lcov
+.nyc_output/
+
+# ===========================
+# Documentation Build
+# ===========================
+
+docs/_build/
+docs/.buildinfo
+
+# ===========================
+# Package Manager
+# ===========================
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# ===========================
+# Project-Specific
+# ===========================
+
+# Do NOT ignore curriculum content
+# !curriculum/
+
+# Ignore generated audio files if TTS is caching
+audio-cache/
+tts-cache/
+
+# Ignore user progress data (privacy)
+user-progress.db
+user-answers.json

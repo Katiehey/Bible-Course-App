@@ -1,0 +1,78 @@
+{
+  "lesson_id": "bf01_lesson_01",
+  "course_id": "biblical_foundations_01",
+  "sequence": 1,
+  "title": "Introduction to Biblical Study",
+  "objective": "Understand the Bible as a library of texts requiring method",
+  "duration_estimate": "6 minutes",
+  "prerequisite": null,
+  "required_passages": [],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson one in Biblical Foundations. You are beginning a structured study of Scripture as unified narrative.",
+      "word_count": 21
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": null,
+      "audio_script": "This lesson introduces foundational concepts. No passage reading is required for this session.",
+      "word_count": 15
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "The Bible is a collection of 66 books written across 1500 years. These texts include historical narrative, poetry, law, prophecy, and letters. Each book was written in a specific historical context. Authors wrote to particular audiences with distinct purposes.",
+      "word_count": 45
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Each genre requires different reading strategies. Historical narrative describes events and their theological significance. Poetry uses symbolic language and parallelism. Law establishes covenant terms and community standards. Prophecy addresses covenant faithfulness and future hope. Letters provide doctrinal instruction and practical guidance.",
+      "word_count": 45
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key concept: canon. Canon means the authoritative collection of texts recognized as Scripture. The Protestant canon contains 39 Old Testament books and 27 New Testament books. This defines the boundaries of biblical theology.",
+      "word_count": 38
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "How many books are in the Protestant biblical canon?",
+      "correct_answer": "66",
+      "acceptable_variants": [
+        "sixty-six",
+        "66 books",
+        "sixty six"
+      ],
+      "word_count": 9
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson one. You learned basic canon structure and genre categories. Next lesson introduces the historical-grammatical method.",
+      "word_count": 21
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "canon",
+      "definition": "The authoritative collection of texts recognized as Scripture"
+    },
+    {
+      "term": "genre",
+      "definition": "Literary category with distinct conventions such as narrative, poetry, law, prophecy, or epistle"
+    }
+  ],
+  "study_notes": "Understanding genre is essential for proper interpretation. Reading poetry as historical narrative or law as poetry leads to misinterpretation. Each genre communicates differently.",
+  "metadata": {
+    "created": "2026-02-07",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

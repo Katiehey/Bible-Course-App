@@ -1,0 +1,95 @@
+{
+  "lesson_id": "bf01_lesson_03",
+  "course_id": "biblical_foundations_01",
+  "sequence": 3,
+  "title": "Covenant in Genesis",
+  "objective": "Identify covenant as a structuring theme in Genesis",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_02",
+  "required_passages": [
+    {
+      "passage_id": "gen_12_1_3",
+      "reference": "Genesis 12:1-3",
+      "translation": "ESV",
+      "text": "Now the LORD said to Abram, Go from your country and your kindred and your father's house to the land that I will show you. And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed."
+    },
+    {
+      "passage_id": "gen_15_1_6",
+      "reference": "Genesis 15:1-6",
+      "translation": "ESV",
+      "text": "After these things the word of the LORD came to Abram in a vision: Fear not, Abram, I am your shield; your reward shall be very great. But Abram said, O Lord GOD, what will you give me, for I continue childless, and the heir of my house is Eliezer of Damascus? And Abram said, Behold, you have given me no offspring, and a member of my household will be my heir. And behold, the word of the LORD came to him: This man shall not be your heir; your very own son shall be your heir. And he brought him outside and said, Look toward heaven, and number the stars, if you are able to number them. Then he said to him, So shall your offspring be. And he believed the LORD, and he counted it to him as righteousness."
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson three in Biblical Foundations. You are studying covenant structure in Genesis. Previous lessons covered canon and method.",
+      "word_count": 22
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_12_1_3",
+      "audio_script": "Listen to Genesis 12, verses 1 through 3.",
+      "word_count": 9
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Genesis 12 marks a narrative shift. The author moves from universal judgment to particular promise. Abraham receives three covenant elements. Chapters 1 through 11 describe creation, fall, and spreading human rebellion. Chapter 12 begins a new section focused on one family line.",
+      "word_count": 46
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Notice the repetition of blessing in verses 2 and 3. The structure is imperative followed by promise. God commands Abraham to leave. God promises land, descendants, and blessing. Land appears in verse 1. Great nation indicates numerous descendants in verse 2. Blessing occurs three times across verses 2 and 3.",
+      "word_count": 55
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key theological themes: covenant initiation, unconditional promise, divine election. These terms describe God's action independent of human merit. God chooses Abraham without stated reason. The promises depend on divine commitment, not human performance.",
+      "word_count": 38
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What three elements does God promise to Abraham in Genesis 12?",
+      "correct_answer": "Land, descendants, and blessing",
+      "acceptable_variants": [
+        "land, offspring, blessing",
+        "territory, descendants, divine favor",
+        "land, great nation, blessing"
+      ],
+      "word_count": 11
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson three. You studied covenant structure in Genesis 12. Next lesson examines creation and commission.",
+      "word_count": 19
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "covenant",
+      "definition": "A formal agreement establishing relationship between parties with defined obligations or promises"
+    },
+    {
+      "term": "unconditional promise",
+      "definition": "A divine commitment not dependent on human action or response"
+    },
+    {
+      "term": "divine election",
+      "definition": "God's sovereign choice of persons or groups for particular purposes in redemptive history"
+    }
+  ],
+  "study_notes": "Genesis 12:1-3 is foundational for understanding biblical theology. Covenant structure here is unilateral—God initiates, God promises, no conditions stated. This pattern differs from Sinai covenant in Exodus 19-24, which includes stipulations.",
+  "metadata": {
+    "created": "2026-02-07",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}
