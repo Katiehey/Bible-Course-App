@@ -75,7 +75,7 @@ class SessionController {
       audioState: this.audio.state,
       segmentIdx: this.fsm.segmentIdx,
       segmentType: seg.type,
-      audioScript: seg.audio_script ? seg.audio_script.slice(0, 100) : '',
+      audioScript: seg.audio_script ? seg.audio_script : '',
       session: this.progress.getSession(this.userId)
     };
   }
