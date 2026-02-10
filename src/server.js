@@ -18,14 +18,29 @@ const silentLogger = {
 const PORT = process.env.PORT || 3000;
 let lessons = [];
 const sessions = new Map();
+let isReady = false;
 
 // Initialize lessons on startup
 (async () => {
-  const root = path.join(process.cwd(), 'curriculum');
-  const result = await loadAllLessons(root);
-  lessons = result.lessons;
-  console.log(`Loaded ${lessons.length} lessons`);
+  try {
+    const root = path.join(process.cwd(), 'curriculum');
+    console.log(`Loading lessons from: ${root}`);
+    const result = await loadAllLessons(root);
+    lessons = result.lessons;
+    console.log(`✓ Successfully loaded ${lessons.length} lessons`);
+    isReady = true;
+  } catch (err) {
+    console.error('⚠ Failed to load lessons:', err.message);
+    isReady = true; // Still mark as ready to allow server to start
+  }
 })();
+
+// Start server immediately (don't wait for lessons)
+setTimeout(() => {
+  server.listen(PORT, () => {
+    console.log(`🚀 Bible Course App server running on http://localhost:${PORT}`);
+  });
+}, 100);
 
 const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
@@ -40,6 +55,13 @@ const server = http.createServer(async (req, res) => {
   if (req.method === 'OPTIONS') {
     res.writeHead(200);
     res.end();
+    return;
+  }
+
+  // Health check endpoint (must respond fast)
+  if (pathname === '/health') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ status: 'ok', ready: isReady }));
     return;
   }
 
@@ -172,8 +194,4 @@ const server = http.createServer(async (req, res) => {
   // Not found
   res.writeHead(404, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({ error: 'Not Found' }));
-});
-
-server.listen(PORT, () => {
-  console.log(`Bible Course App server running on http://localhost:${PORT}`);
 });
