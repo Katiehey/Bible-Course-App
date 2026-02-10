@@ -4,6 +4,8 @@
   "private": true,
   "main": "src/bin/validateLessons.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
     "validate-lessons": "node src/bin/validateLessons.js",
     "session": "node src/bin/interactiveSession.js",
     "session:audio": "node src/bin/sessionWithAudio.js",

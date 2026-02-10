@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Course App - Voice Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📖 Bible Course App</h1>
+            <p>Interactive Voice-Guided Bible Study</p>
+        </div>
+
+        <div id="splash" class="splash">
+            <button id="startBtn" class="btn-primary">Begin Learning</button>
+        </div>
+
+        <div id="lesson" class="lesson hidden">
+            <div class="lesson-header">
+                <h2 id="lessonTitle">Lesson Title</h2>
+                <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
+            </div>
+
+            <div class="lesson-content">
+                <div class="segment-info">
+                    <div class="segment-progress">
+                        <span id="segmentNum">0</span> of <span id="segmentTotal">7</span>
+                    </div>
+                    <div class="segment-type" id="segmentType">Ready</div>
+                </div>
+
+                <div class="audio-display">
+                    <div id="audioScript" class="audio-script">
+                        Click the microphone to start speaking, or click "Start Lesson" below.
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="micBtn" class="btn-mic" title="Click and speak your command">
+                        🎤 Speak
+                    </button>
+                    <div id="micStatus" class="mic-status">Ready</div>
+                </div>
+
+                <div class="available-commands">
+                    <h3>Available Commands:</h3>
+                    <ul>
+                        <li>"Begin the lesson"</li>
+                        <li>"Read the passage"</li>
+                        <li>"Explain the context"</li>
+                        <li>"Analyze the structure"</li>
+                        <li>"Summarize the key themes"</li>
+                        <li>"Ask the review question"</li>
+                        <li>"End the lesson"</li>
+                    </ul>
+                </div>
+
+                <div class="status-info">
+                    <div id="status" class="status"></div>
+                </div>
+
+                <button id="playBtn" class="btn-secondary">▶ Play Audio</button>
+                <button id="exitBtn" class="btn-danger">Exit Lesson</button>
+            </div>
+        </div>
+
+        <div id="error" class="error hidden">
+            <p id="errorMessage"></p>
+            <button onclick="location.reload()" class="btn-primary">Retry</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
