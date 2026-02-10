@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_13",
+  "course_id": "hermeneutics_i",
+  "sequence": 13,
+  "title": "Synthesis: From Meaning to Theological Claim",
+  "objective": "Form clear theological propositions supported by text and context",
+  "duration_estimate": "8 minutes",
+  "prerequisite": "herm01_lesson_12",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson thirteen. Move from exegesis to theological synthesis.","word_count":11},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice summarizing textual findings in one sentence.","word_count":12},
+    {"type":"context","sequence":3,"audio_script":"Synthesis respects both the specific text and its canonical connections. Theological claim should be proportionate to textual evidence.","word_count":22},
+    {"type":"analysis","sequence":4,"audio_script":"State your theological proposition, cite textual support, note genre influence, and specify limits of application.","word_count":19},
+    {"type":"themes","sequence":5,"audio_script":"Key skill: justified theological inference—derive claims demonstrably from the text.","word_count":12},
+    {"type":"question","sequence":6,"audio_script":"What should a theological proposition include?","correct_answer":"A claim supported by textual evidence and contextual reasoning","acceptable_variants":["Textual support and context","Claim with evidence"],"word_count":10},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson thirteen. Next lesson addresses doctrinal humility and boundary conditions.","word_count":12}
+  ],
+  "vocabulary":[{"term":"theological synthesis","definition":"Process of forming theological claims grounded in exegetical findings"}],
+  "study_notes":"Avoid overclaiming; ensure claims are proportionate and tethered to the text's scope.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

@@ -1,0 +1,89 @@
+{
+  "lesson_id": "bf01_lesson_12",
+  "course_id": "biblical_foundations_01",
+  "sequence": 12,
+  "title": "Law and Covenant Relationship",
+  "objective": "Explain the function of law within covenant structure",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_11",
+  "required_passages": [
+    {
+      "passage_id": "exo_24_3_8",
+      "reference": "Exodus 24:3-8",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "deu_6_1_9",
+      "reference": "Deuteronomy 6:1-9",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twelve. You are studying law and covenant relationship. Lesson eleven examined Sinai covenant structure.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "exo_24_3_8",
+      "audio_script": "Listen to Exodus 24, verses 3 through 8.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Israel accepts covenant stipulations. The people respond in covenant commitment. Blood seals the covenant. This is covenant ratification ceremony establishing reciprocal obligation.",
+      "word_count": 27
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Law functions within covenant as stipulation. It defines covenant membership and obligation. Obedience maintains covenant relationship. Disobedience brings judgment. Law is relational not abstract.",
+      "word_count": 30
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: covenant stipulations govern relationship. Law preserves covenantal order. Obedience is response to grace. Judgment for disobedience is covenant discipline. Law should be loved not feared.",
+      "word_count": 31
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What seals Israel's covenant commitment?",
+      "correct_answer": "Blood",
+      "acceptable_variants": [
+        "Covenant blood",
+        "Blood sacrifice",
+        "Ratification by blood"
+      ],
+      "word_count": 6
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twelve. You studied law and covenant relationship. Next lesson examines the tabernacle as covenant meeting place.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "covenant stipulations",
+      "definition": "Specific obligations and conditions governing a covenant relationship"
+    },
+    {
+      "term": "covenant obedience",
+      "definition": "Human response to covenant stipulations maintaining the covenantal relationship"
+    }
+  ],
+  "study_notes": "Understanding law within covenant context prevents misinterpretation. Law is not about earning salvation but maintaining covenant relationship with God.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

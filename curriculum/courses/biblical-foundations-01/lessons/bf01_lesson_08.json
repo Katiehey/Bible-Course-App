@@ -1,0 +1,84 @@
+{
+  "lesson_id": "bf01_lesson_08",
+  "course_id": "biblical_foundations_01",
+  "sequence": 8,
+  "title": "Testing and Confirmation",
+  "objective": "Analyze covenant testing in the binding of Isaac",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_07",
+  "required_passages": [
+    {
+      "passage_id": "gen_22_1_18",
+      "reference": "Genesis 22:1-18",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eight. You are studying covenant testing and confirmation. Lesson seven examined Abrahamic covenant promise.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_22_1_18",
+      "audio_script": "Listen to Genesis 22, verses 1 through 18.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "God commands Abraham to sacrifice Isaac. This command appears to contradict covenant promise. Abraham obeys despite the contradiction. The test reveals genuine faith commitment.",
+      "word_count": 28
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Genesis 22 demonstrates obedience as response to covenant. Abraham's willingness to sacrifice his son confirms covenant commitment. Divine intervention through the ram substitution prevents death.",
+      "word_count": 29
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: covenant oath refers to God's formal commitment formalized through covenant testing. Testing proves genuine commitment. Substitutionary sacrifice appears for the first time. This pattern prefigures later atonement theology.",
+      "word_count": 33
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does God provide as a substitute for Isaac?",
+      "correct_answer": "A ram caught in the thicket",
+      "acceptable_variants": [
+        "A ram",
+        "An animal substitute",
+        "A ram in the thicket"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson eight. You studied covenant testing and confirmation. Next lesson begins Unit Three on exodus and law.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "covenant oath",
+      "definition": "A formal divine commitment sealed by sworn declaration or ritual action"
+    },
+    {
+      "term": "testing",
+      "definition": "A trial of faith or obedience revealing genuine commitment to covenant"
+    }
+  ],
+  "study_notes": "Genesis 22 is foundational for understanding substitutionary atonement. The pattern of substitute sacrifice becomes central to covenant theology in Exodus and Leviticus.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

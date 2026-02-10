@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_03",
+  "course_id": "hermeneutics_i",
+  "sequence": 3,
+  "title": "Historical Setting",
+  "objective": "Understand author, date, and cultural background impact on meaning",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_02",
+  "required_passages": [],
+  "segments": [
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson three. We address historical setting and its interpretive weight.","word_count":14},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Consider who wrote the text and when it was written.","word_count":15},
+    {"type":"context","sequence":3,"audio_script":"Historical context includes author intention, audience situation, and social-political background. These factors shape rhetorical aims.","word_count":23},
+    {"type":"analysis","sequence":4,"audio_script":"Use external resources like commentaries and atlases to confirm historical claims. Avoid speculative reconstructions without evidence.","word_count":21},
+    {"type":"themes","sequence":5,"audio_script":"Key theme: historical sensitivity reduces anachronism and helps locate author's intended meaning.","word_count":17},
+    {"type":"question","sequence":6,"audio_script":"Name one element of historical setting that affects interpretation.","correct_answer":"Author or audience","acceptable_variants":["Author","Date","Audience","Cultural background"],"word_count":12},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson three. Next lesson covers literary structure and discourse analysis.","word_count":12}
+  ],
+  "vocabulary":[{"term":"historical setting","definition":"Author, date, audience, and cultural factors surrounding a text"}],
+  "study_notes":"Historical research supports but does not override clear textual meaning. Use evidence conservatively.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

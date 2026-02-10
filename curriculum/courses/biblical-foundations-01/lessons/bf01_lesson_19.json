@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_19",
+  "course_id": "biblical_foundations_01",
+  "sequence": 19,
+  "title": "Temple and Centralization",
+  "objective": "Explain Solomon's temple in covenant theology",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_18",
+  "required_passages": [
+    {
+      "passage_id": "1ki_8_22_30",
+      "reference": "1 Kings 8:22-30",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "1ki_8_54_61",
+      "reference": "1 Kings 8:54-61",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson nineteen. You are studying the temple and centralization. Lesson eighteen examined the Davidic covenant.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "1ki_8_22_30",
+      "audio_script": "Listen to 1 Kings 8, verses 22 through 30.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Solomon constructs the temple. It replaces the portable tabernacle. The temple becomes central to covenant worship. It is place where God dwells among his people.",
+      "word_count": 28
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The temple centralizes worship. Sacrifices are offered only in Jerusalem. The king mediates national covenant relationship. Temple becomes symbol of God's presence and covenant commitment.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: temple is God's house among his people. Centralized worship strengthens covenant identity. King mediates covenant. Prayer at temple expresses covenant faith.",
+      "word_count": 26
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the primary function of Solomon's temple?",
+      "correct_answer": "Central place of covenant worship and God's dwelling",
+      "acceptable_variants": [
+        "Central worship place",
+        "Where God dwells",
+        "Temple worship",
+        "Centralized sacrifice"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson nineteen. You studied the temple and centralization. Next lesson examines prophetic covenant critique.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "centralization",
+      "definition": "Concentration of worship practices and sacrifice in one location under priestly and royal oversight"
+    },
+    {
+      "term": "temple",
+      "definition": "Permanent building replacing the tabernacle as God's dwelling place and center of covenant worship"
+    }
+  ],
+  "study_notes": "The temple represents institutional maturity of covenant worship. Its destruction becomes significant as judgment on covenant violation.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

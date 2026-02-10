@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_21",
+  "course_id": "biblical_foundations_01",
+  "sequence": 21,
+  "title": "Covenant Curse and Exile",
+  "objective": "Trace covenant disobedience to exile consequence",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_20",
+  "required_passages": [
+    {
+      "passage_id": "2ki_17_7_18",
+      "reference": "2 Kings 17:7-18",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "jer_25_8_11",
+      "reference": "Jeremiah 25:8-11",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twenty-one. You are studying covenant curse and exile. Lesson twenty examined prophetic covenant critique.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "2ki_17_7_18",
+      "audio_script": "Listen to 2 Kings 17, verses 7 through 18.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Israel experiences persistent covenant violation. Prophets warn of judgment. Exile to Assyria follows northern kingdom disobedience. Babylonian exile follows southern kingdom violation. Exile is covenant curse.",
+      "word_count": 34
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Exile fulfills covenant curse predicted for disobedience. Forced removal from land is ultimate judgment. Loss of temple marks rupture in covenant worship. Yet exile is not final separation.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: exile is covenant curse for persistent disobedience. God permits destruction but remains faithful. Exile purges unfaithfulness. Judgment serves redemptive purpose.",
+      "word_count": 26
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the primary consequence of covenant disobedience?",
+      "correct_answer": "Exile from the land",
+      "acceptable_variants": [
+        "Exile",
+        "Removal from land",
+        "Covenant curse",
+        "Judgment"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twenty-one. You studied covenant curse and exile. Next lesson examines prophetic hope in restoration.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "exile",
+      "definition": "Forced removal from land as covenant curse for sustained disobedience to God"
+    },
+    {
+      "term": "Babylonian exile",
+      "definition": "Deportation of Judah to Babylon in 586 BCE following covenant violation and temple destruction"
+    }
+  ],
+  "study_notes": "Exile demonstrates covenant as dynamic relationship with real consequences. It is not the end of covenant but purging judgment leading to restoration.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

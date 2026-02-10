@@ -1,0 +1,84 @@
+{
+  "lesson_id": "bf01_lesson_16",
+  "course_id": "biblical_foundations_01",
+  "sequence": 16,
+  "title": "Cycle of Judges",
+  "objective": "Recognize covenant faithfulness cycle in Judges",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_15",
+  "required_passages": [
+    {
+      "passage_id": "jdg_2_11_19",
+      "reference": "Judges 2:11-19",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson sixteen. You are studying the cycle of judges. Lesson fifteen examined conquest and covenant fulfillment.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "jdg_2_11_19",
+      "audio_script": "Listen to Judges 2, verses 11 through 19.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Israel enters promised land but lacks centralized leadership. Judges arise to address crises. The period demonstrates recurring pattern. Israel forgets God, falls into oppression, cries out, God sends deliverer.",
+      "word_count": 34
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Judges 2 describes the pattern explicitly. The cycle repeats multiple times. Apostasy leads to punishment. Repentance brings deliverance. The cycle shows covenant relationship is dynamic not static.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: apostasy means turning away from God. Covenant cycle repeats throughout history. God responds to repentance with deliverance. Judges are covenant restorers.",
+      "word_count": 26
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the pattern described in Judges 2:11-19?",
+      "correct_answer": "Israel apostasizes, God punishes, Israel repents, God delivers",
+      "acceptable_variants": [
+        "Sin, punishment, repentance, deliverance",
+        "Apostasy, oppression, prayer, liberation",
+        "Cycle of unfaithfulness and redemption"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson sixteen. You studied the cycle in Judges. Next lesson examines the establishment of kingship.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "apostasy",
+      "definition": "Deliberate turning away from God and breach of covenant commitment"
+    },
+    {
+      "term": "judges",
+      "definition": "Covenant restorers whom God raises up to deliver Israel from oppression and return to faithfulness"
+    }
+  ],
+  "study_notes": "The judges period shows covenant as dynamic relationship subject to violation and restoration. It demonstrates God's patience and repeated offer of grace.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

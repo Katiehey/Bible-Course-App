@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_22",
+  "course_id": "biblical_foundations_01",
+  "sequence": 22,
+  "title": "Prophetic Hope",
+  "objective": "Identify restoration promises in prophetic literature",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_21",
+  "required_passages": [
+    {
+      "passage_id": "jer_31_31_34",
+      "reference": "Jeremiah 31:31-34",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "eze_36_24_28",
+      "reference": "Ezekiel 36:24-28",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twenty-two. You are studying prophetic hope. Lesson twenty-one examined covenant curse and exile.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "jer_31_31_34",
+      "audio_script": "Listen to Jeremiah 31, verses 31 through 34.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Even during exile, prophets promise restoration. God will not abandon covenant people. New covenant is promised. Internal transformation will mark restoration.",
+      "word_count": 25
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Jeremiah 31 promises new covenant written on hearts. Ezekiel 36 promises new spirit within Israel. Restoration is not mere return to land. It involves spiritual renewal and covenant restoration.",
+      "word_count": 32
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: new covenant is God's future commitment. Restoration is both external and internal. God promises not to abandon covenant people. Hope persists despite judgment.",
+      "word_count": 28
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does God promise in the new covenant?",
+      "correct_answer": "God's law written on people's hearts",
+      "acceptable_variants": [
+        "Covenant written internally",
+        "Law in hearts",
+        "New covenant relationship",
+        "Spiritual renewal"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twenty-two. You studied prophetic hope. Next lesson examines return and rebuilding.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "new covenant",
+      "definition": "God's promised future covenant marked by internal transformation and permanent relationship"
+    },
+    {
+      "term": "restoration",
+      "definition": "God's return of exiled people to land and renewal of covenant relationship"
+    }
+  ],
+  "study_notes": "Prophetic promises of new covenant form bridge to New Testament. Jesus is presented as inaugurator of new covenant.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

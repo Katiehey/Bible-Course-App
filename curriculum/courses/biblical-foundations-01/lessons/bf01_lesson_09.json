@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_09",
+  "course_id": "biblical_foundations_01",
+  "sequence": 9,
+  "title": "Oppression and Deliverance",
+  "objective": "Connect exodus event to covenant faithfulness",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_08",
+  "required_passages": [
+    {
+      "passage_id": "exo_2_23_25",
+      "reference": "Exodus 2:23-25",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "exo_6_2_8",
+      "reference": "Exodus 6:2-8",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson nine. You are studying oppression and deliverance. Lesson eight completed the Genesis unit on covenant structure.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "exo_2_23_25",
+      "audio_script": "Listen to Exodus 2, verses 23 through 25.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Israel experiences oppression in Egypt. Generations pass. God hears their cry and remembers covenant with Abraham. Deliverance is covenant memory—God acts to fulfill ancient promises.",
+      "word_count": 32
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Exodus 6 explicitly connects deliverance to Abrahamic covenant. God promises to bring Israel out through mighty acts. Land is gift not earned. Deliverance manifests covenant faithfulness.",
+      "word_count": 29
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: redemption means divine rescue from bondage. Covenant memory means God recalls and acts on previous commitments. Exodus is redemptive event establishing Israel as covenant people.",
+      "word_count": 28
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does God remember when Israel cries out from oppression?",
+      "correct_answer": "God's covenant with Abraham",
+      "acceptable_variants": [
+        "The covenant",
+        "God's promises",
+        "His covenant with the patriarchs",
+        "The Abrahamic covenant"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson nine. You studied oppression and deliverance. Next lesson examines the Passover and substitutionary themes.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "redemption",
+      "definition": "Divine rescue from bondage effected through God's covenant faithfulness"
+    },
+    {
+      "term": "covenant memory",
+      "definition": "God's recall and fulfillment of previous covenant commitments"
+    }
+  ],
+  "study_notes": "The exodus demonstrates that covenant is not abandoned despite delay. God's faithfulness persists through generations and manifests through redemptive acts.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_24",
+  "course_id": "biblical_foundations_01",
+  "sequence": 24,
+  "title": "Waiting and Expectation",
+  "objective": "Explain intertestamental hope for covenant fulfillment",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_23",
+  "required_passages": [
+    {
+      "passage_id": "mal_3_1_4",
+      "reference": "Malachi 3:1-4",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "mal_4_5_6",
+      "reference": "Malachi 4:5-6",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twenty-four. You are studying waiting and expectation. This is the final lesson in Biblical Foundations One.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "mal_3_1_4",
+      "audio_script": "Listen to Malachi 3, verses 1 through 4.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Malachi is the final Old Testament book. It expresses covenant people's waiting. Messianic expectation is central. God promises future covenant messenger. New covenant fulfillment is anticipated.",
+      "word_count": 31
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Malachi promises covenant messenger to prepare the way. The text looks forward to dramatic covenant renewal. Intertestamental period is time of waiting. New covenant promises require ultimate fulfillment.",
+      "word_count": 32
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: messianic expectation is central to covenant theology. Covenant people wait for ultimate fulfillment. God's promises persist. New covenant is anticipated as future event.",
+      "word_count": 29
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does Malachi promise will happen?",
+      "correct_answer": "A messenger will prepare the way for the Lord",
+      "acceptable_variants": [
+        "Messenger will come",
+        "Elijah will return",
+        "Preparation for the Lord",
+        "Covenant messenger"
+      ],
+      "word_count": 9
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twenty-four and Biblical Foundations One. You have studied covenant structure throughout Scripture. From creation through new covenant promise, covenant is God's framework for relationship. Congratulations on completing this course.",
+      "word_count": 35
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "messianic expectation",
+      "definition": "Hope for future messenger or king who will fulfill God's covenant promises and restore covenant relationship"
+    },
+    {
+      "term": "intertestamental period",
+      "definition": "Historical era between Old and New Testament marked by waiting for covenant fulfillment"
+    }
+  ],
+  "study_notes": "Malachi's final words leave the covenant people waiting. The connection between Old and New Testament is this expectation. Jesus is presented as the fulfillment of these covenant hopes.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

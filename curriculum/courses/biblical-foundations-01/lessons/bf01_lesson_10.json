@@ -1,0 +1,89 @@
+{
+  "lesson_id": "bf01_lesson_10",
+  "course_id": "biblical_foundations_01",
+  "sequence": 10,
+  "title": "Passover and Substitution",
+  "objective": "Identify substitutionary themes in Passover narrative",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_09",
+  "required_passages": [
+    {
+      "passage_id": "exo_12_1_13",
+      "reference": "Exodus 12:1-13",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "exo_12_21_28",
+      "reference": "Exodus 12:21-28",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson ten. You are studying the Passover and substitution. Lesson nine examined exodus as covenant redemption.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "exo_12_1_13",
+      "audio_script": "Listen to Exodus 12, verses 1 through 13.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "God commands Passover observance. Each household sacrifices a lamb. Blood marks the door. Divine judgment passes over marked homes. This is the final plague preceding Israel's liberation.",
+      "word_count": 33
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The lamb dies in place of the firstborn. Blood becomes protective sign. This is substitutionary sacrifice. The animal dies so the household lives. This pattern establishes sacrificial theology.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: substitutionary death means one dies on behalf of another. Passover is redemption through blood. Sacrifice becomes covenant mechanism. Death and escape are inseparable.",
+      "word_count": 28
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What marks the door of those whose firstborn are spared?",
+      "correct_answer": "The blood of the lamb",
+      "acceptable_variants": [
+        "Lamb's blood",
+        "Blood",
+        "Mark of blood"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson ten. You studied Passover and substitutionary themes. Next lesson examines the Sinai covenant structure.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "substitutionary death",
+      "definition": "One person or animal dying as a substitute for another, bearing consequences meant for the other"
+    },
+    {
+      "term": "Passover",
+      "definition": "God's deliverance of Israel from Egypt marked by sacrifice of lamb and blood on doorposts"
+    }
+  ],
+  "study_notes": "Passover is the foundational substitutionary sacrifice. All later sacrificial theology in Leviticus and the temple system are developments of this pattern.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

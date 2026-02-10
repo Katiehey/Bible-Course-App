@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_23",
+  "course_id": "biblical_foundations_01",
+  "sequence": 23,
+  "title": "Return and Rebuilding",
+  "objective": "Describe post-exilic restoration efforts",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_22",
+  "required_passages": [
+    {
+      "passage_id": "ezr_3_1_6",
+      "reference": "Ezra 3:1-6",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "neh_8_1_8",
+      "reference": "Nehemiah 8:1-8",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twenty-three. You are studying return and rebuilding. Lesson twenty-two examined prophetic hope.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "ezr_3_1_6",
+      "audio_script": "Listen to Ezra 3, verses 1 through 6.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Exiled Israel returns to Jerusalem. Rebuilding begins under Persian permission. The temple is reconstructed. Covenant worship resumes. The return is partial restoration.",
+      "word_count": 28
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Post-exilic period involves rebuilding community and worship. Jerusalem walls are rebuilt. Torah is read publicly. Covenant becomes centered on law and community identity.",
+      "word_count": 29
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: return fulfills prophetic promise. Rebuilding restores covenant worship. Community reforms emerge around Torah. Covenant is renewed through restored institutions.",
+      "word_count": 27
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What do returned exiles rebuild in Jerusalem?",
+      "correct_answer": "The temple and community",
+      "acceptable_variants": [
+        "The temple",
+        "Temple and walls",
+        "Temple and community institutions",
+        "Covenant worship"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twenty-three. You studied return and rebuilding. Final lesson examines waiting and messianic expectation.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "post-exilic period",
+      "definition": "Historical era following return from Babylonian exile marked by rebuilding and Torah-centered community"
+    },
+    {
+      "term": "second temple",
+      "definition": "Rebuilt temple following return from exile serving as center of post-exilic worship"
+    }
+  ],
+  "study_notes": "Post-exilic period marks transition in covenant structure. Torah becomes central to Jewish identity and practice.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

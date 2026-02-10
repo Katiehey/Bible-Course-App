@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_13",
+  "course_id": "biblical_foundations_01",
+  "sequence": 13,
+  "title": "Tabernacle and Presence",
+  "objective": "Describe tabernacle as covenant meeting place",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_12",
+  "required_passages": [
+    {
+      "passage_id": "exo_25_1_9",
+      "reference": "Exodus 25:1-9",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "exo_40_34_38",
+      "reference": "Exodus 40:34-38",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson thirteen. You are studying the tabernacle and divine presence. Lesson twelve examined law within covenant.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "exo_25_1_9",
+      "audio_script": "Listen to Exodus 25, verses 1 through 9.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "God commands construction of the tabernacle. It is sanctuary where God meets his people. The structure represents God's presence among Israel. The tabernacle enables covenant access.",
+      "word_count": 30
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The tabernacle has specific compartments with theological meaning. Holy of Holies contains the ark. Veil separates God's presence from the people. Only the high priest enters once yearly. Access is mediated and controlled.",
+      "word_count": 35
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: divine presence is central to covenant relationship. The tabernacle facilitates meeting with God. Specific structure and rules protect holiness. Priests mediate access to divine presence.",
+      "word_count": 29
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the primary purpose of the tabernacle?",
+      "correct_answer": "A place where God meets his people",
+      "acceptable_variants": [
+        "Meeting place with God",
+        "Sanctuary for God's presence",
+        "Covenant meeting place",
+        "Where God dwells"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson thirteen. You studied the tabernacle and divine presence. Next lesson examines sacrifice and atonement.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "tabernacle",
+      "definition": "Portable sanctuary where God's presence dwells and where Israel's priests conduct covenant worship"
+    },
+    {
+      "term": "divine presence",
+      "definition": "God's manifestation and dwelling among his people through covenant relationship"
+    }
+  ],
+  "study_notes": "The tabernacle represents God's commitment to dwell with his people. It is concrete expression of covenantal relationship and the possibility of divine-human meeting.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

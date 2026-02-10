@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_04",
+  "course_id": "biblical_foundations_01",
+  "sequence": 4,
+  "title": "Creation and Commission",
+  "objective": "Recognize creation as foundational covenant context",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_03",
+  "required_passages": [
+    {
+      "passage_id": "gen_1_26_28",
+      "reference": "Genesis 1:26-28",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "gen_2_15_17",
+      "reference": "Genesis 2:15-17",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson four. You are studying creation and commission. The previous lesson established covenant structure in Genesis 12.",
+      "word_count": 18
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_1_26_28",
+      "audio_script": "Listen to Genesis 1, verses 26 through 28.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Genesis begins with creation narrative. God creates humanity in his image. This establishes the foundation for covenant relationship. Creation is not accidental but deliberate. Humanity receives commission before fall or covenant.",
+      "word_count": 38
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The text emphasizes divine purpose in creation. God makes humanity in his image for dominion mandate. Genesis 2 specifies the covenant context more precisely. The garden is covenant meeting place. God provides provision and purpose.",
+      "word_count": 39
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: image of God refers to human capacity for relationship and stewardship. Dominion mandate means responsible rule over creation. These are foundational to covenant theology throughout Scripture.",
+      "word_count": 29
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the dominion mandate?",
+      "correct_answer": "Human responsibility to rule and steward creation",
+      "acceptable_variants": [
+        "Command to govern creation",
+        "Stewardship of the earth",
+        "Authority over creation",
+        "Responsible rule over creation"
+      ],
+      "word_count": 7
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson four. You studied creation and divine commission. Next lesson traces the narrative movement from creation to fall.",
+      "word_count": 19
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "image of God",
+      "definition": "Human capacity for relationship with God and responsible stewardship of creation"
+    },
+    {
+      "term": "dominion mandate",
+      "definition": "God's command for humanity to rule and steward creation responsibly"
+    }
+  ],
+  "study_notes": "Creation narrative establishes the context for all subsequent covenant relationships. Understanding creation as purposeful and relational shapes biblical hermeneutics throughout.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

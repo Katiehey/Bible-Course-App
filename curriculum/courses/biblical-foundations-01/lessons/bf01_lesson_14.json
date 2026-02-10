@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_14",
+  "course_id": "biblical_foundations_01",
+  "sequence": 14,
+  "title": "Sacrifice and Atonement",
+  "objective": "Identify basic sacrificial categories and purposes",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_13",
+  "required_passages": [
+    {
+      "passage_id": "lev_1_1_9",
+      "reference": "Leviticus 1:1-9",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "lev_16_15_22",
+      "reference": "Leviticus 16:15-22",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson fourteen. You are studying sacrifice and atonement. Lesson thirteen examined the tabernacle.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "lev_1_1_9",
+      "audio_script": "Listen to Leviticus 1, verses 1 through 9.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Leviticus prescribes sacrificial system. Burnt offerings, grain offerings, peace offerings, sin offerings, and guilt offerings each have distinct purposes. Sacrifice is central to covenant worship.",
+      "word_count": 29
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Sin offering addresses guilt. Blood is applied to altar. The animal dies for the person's sin. Day of Atonement is climactic annual ritual. High priest enters Holy of Holies with blood. Sacrifice effects atonement.",
+      "word_count": 36
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: atonement means reconciliation through blood. Sin offering is substitutionary. Day of Atonement is covenant renewal. Community participation maintains covenant health.",
+      "word_count": 25
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the primary purpose of the sin offering?",
+      "correct_answer": "To atone for sin",
+      "acceptable_variants": [
+        "Atonement",
+        "Address guilt",
+        "Make atonement for sin",
+        "Reconciliation for sin"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson fourteen. You studied sacrifice and atonement. Next lesson begins Unit Four on land and kingship.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "atonement",
+      "definition": "Reconciliation between God and people effected through blood sacrifice and substitutionary death"
+    },
+    {
+      "term": "Day of Atonement",
+      "definition": "Annual covenant renewal festival when the high priest enters the Holy of Holies with sacrificial blood"
+    }
+  ],
+  "study_notes": "The sacrificial system is foundational to understanding Christian atonement theology. Jesus is presented as ultimate sacrifice and high priest in Hebrews.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

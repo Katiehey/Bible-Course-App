@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_18",
+  "course_id": "biblical_foundations_01",
+  "sequence": 18,
+  "title": "Davidic Covenant",
+  "objective": "Identify key elements of the Davidic covenant",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_17",
+  "required_passages": [
+    {
+      "passage_id": "2sa_7_8_16",
+      "reference": "2 Samuel 7:8-16",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "psa_89_3_4",
+      "reference": "Psalm 89:3-4",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eighteen. You are studying the Davidic covenant. Lesson seventeen examined the establishment of kingship.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "2sa_7_8_16",
+      "audio_script": "Listen to 2 Samuel 7, verses 8 through 16.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "David wishes to build temple for God. God refuses but makes covenant with David. The covenant establishes David's dynasty perpetually. Promise extends beyond David to his descendants.",
+      "word_count": 32
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The Davidic covenant adds dynastical element to Israel's covenant theology. David's throne is established forever. This becomes basis for messianic expectation. The covenant is unconditional and eternal.",
+      "word_count": 32
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: Davidic covenant is dynastic. Messianic promise expects descendant of David. Throne is established eternally. King mediates covenant blessing.",
+      "word_count": 25
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does God promise to David?",
+      "correct_answer": "An eternal dynasty and throne",
+      "acceptable_variants": [
+        "Everlasting kingdom",
+        "Eternal throne",
+        "Perpetual dynasty",
+        "House established forever"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson eighteen. You studied the Davidic covenant. Next lesson examines the temple and centralized worship.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "Davidic covenant",
+      "definition": "God's covenant with David establishing his dynasty eternally and forming basis for messianic expectation"
+    },
+    {
+      "term": "messianic promise",
+      "definition": "Expectation of future descendant of David who will fulfill God's redemptive purposes"
+    }
+  ],
+  "study_notes": "The Davidic covenant bridges Old and New Testament. Jesus is presented as the ultimate fulfillment of messianic promise through David's lineage.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

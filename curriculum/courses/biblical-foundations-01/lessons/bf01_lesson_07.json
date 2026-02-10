@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_07",
+  "course_id": "biblical_foundations_01",
+  "sequence": 7,
+  "title": "Abraham and Promise",
+  "objective": "Explain the structure of Abrahamic covenant promises",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_06",
+  "required_passages": [
+    {
+      "passage_id": "gen_15_1_6",
+      "reference": "Genesis 15:1-6",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "gen_17_1_8",
+      "reference": "Genesis 17:1-8",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson seven. You are studying Abraham and covenant promise. Lesson six examined covenant preservation through Noah.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_15_1_6",
+      "audio_script": "Listen to Genesis 15, verses 1 through 6.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "God calls Abraham from Ur of the Chaldees. This call is unmerited and unilateral. Abraham believes God despite personal circumstances. Faith becomes the human response to divine election.",
+      "word_count": 32
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Genesis 15 describes covenant formalization through ritual. Genesis 17 specifies covenant stipulations. Circumcision becomes covenant sign. The structure moves from promise to formalization to obligation.",
+      "word_count": 32
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: divine election means God chooses Abraham without stated merit. Unconditional promise means God commits independent of human response. Faith means Abraham trusts God's word despite circumstances. Covenant oath formalizes God's commitment.",
+      "word_count": 36
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is Abraham's response to God's covenant promise?",
+      "correct_answer": "Faith",
+      "acceptable_variants": [
+        "He believed the Lord",
+        "Trust in God",
+        "Obedience",
+        "He believed"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson seven. You studied Abraham and covenant promise. Next lesson examines covenant testing in the binding of Isaac.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "divine election",
+      "definition": "God's sovereign choice of persons or groups for particular purposes in redemptive history"
+    },
+    {
+      "term": "faith",
+      "definition": "Trust in God's word and character despite circumstances or uncertainty"
+    }
+  ],
+  "study_notes": "The Abrahamic covenant is central to biblical theology. Understanding its unconditional nature distinguishes it from the later Sinai covenant which includes stipulations.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

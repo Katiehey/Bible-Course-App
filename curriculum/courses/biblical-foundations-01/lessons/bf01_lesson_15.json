@@ -1,0 +1,89 @@
+{
+  "lesson_id": "bf01_lesson_15",
+  "course_id": "biblical_foundations_01",
+  "sequence": 15,
+  "title": "Conquest and Covenant Fulfillment",
+  "objective": "Trace land promise fulfillment in Joshua",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_14",
+  "required_passages": [
+    {
+      "passage_id": "jos_1_1_9",
+      "reference": "Joshua 1:1-9",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "jos_21_43_45",
+      "reference": "Joshua 21:43-45",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson fifteen. You are studying conquest and covenant fulfillment. Lesson fourteen examined sacrifice and atonement.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "jos_1_1_9",
+      "audio_script": "Listen to Joshua 1, verses 1 through 9.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Joshua leads Israel into promised land. The conquest fulfills covenant promise to Abraham. Specific victories occupy the land. Distribution among tribes completes the conquest.",
+      "word_count": 28
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Joshua 21 reports fulfillment of land promise. The text emphasizes covenant faithfulness. Nothing falls to the ground that God has not promised. Land gift is covenant fulfillment not human conquest.",
+      "word_count": 33
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: land promise is Abrahamic covenant fulfillment. Conquest is God's action on covenant people's behalf. Obedience conditions possession. Land possession is temporary conditional on covenantal faithfulness.",
+      "word_count": 32
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What covenant promise does the conquest of Canaan fulfill?",
+      "correct_answer": "The land promise to Abraham",
+      "acceptable_variants": [
+        "Abraham's land covenant",
+        "God's promise of land",
+        "Abrahamic covenant land promise"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson fifteen. You studied conquest and covenant fulfillment. Next lesson examines the cycle in Judges.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "land promise",
+      "definition": "God's covenant commitment to give Abraham's descendants the land of Canaan"
+    },
+    {
+      "term": "covenant fulfillment",
+      "definition": "God's completion of promised actions in covenant relationship"
+    }
+  ],
+  "study_notes": "Land promise is conditional on ongoing covenant faithfulness. The book of Judges demonstrates the consequences of covenant violation through loss of territory.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

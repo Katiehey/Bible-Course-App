@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_04",
+  "course_id": "hermeneutics_i",
+  "sequence": 4,
+  "title": "Language and Translation Awareness",
+  "objective": "Recognize how original language features and translation choices affect reading",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_03",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson four. We focus on language features and translation impact.","word_count":13},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Note how translations render key terms differently.","word_count":12},
+    {"type":"context","sequence":3,"audio_script":"Original languages have grammatical and lexical nuances. Translation choices can highlight or obscure emphases.","word_count":18},
+    {"type":"analysis","sequence":4,"audio_script":"Compare multiple translations and consult interlinear resources when necessary. Be cautious about deriving doctrine from a single translation artifact.","word_count":23},
+    {"type":"themes","sequence":5,"audio_script":"Key skill: translation awareness—observe how translator decisions shape perceived meaning.","word_count":13},
+    {"type":"question","sequence":6,"audio_script":"What should you compare to spot translation differences?","correct_answer":"Multiple translations","acceptable_variants":["Different translations","Interlinear text"],"word_count":7},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson four. Next lesson addresses intertextual links and citation patterns.","word_count":14}
+  ],
+  "vocabulary":[{"term":"translation awareness","definition":"Sensitivity to how translation choices affect textual meaning"}],
+  "study_notes":"Translations are tools; original language study is ideal but translation comparison is practical and helpful.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

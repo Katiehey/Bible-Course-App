@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_06",
+  "course_id": "hermeneutics_i",
+  "sequence": 6,
+  "title": "Correlating Historical and Literary Contexts",
+  "objective": "Integrate historical background with literary shape to form a stable meaning hypothesis",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_05",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson six. We integrate historical background with literary structure.","word_count":13},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice outlining argument flow and historical issues together.","word_count":13},
+    {"type":"context","sequence":3,"audio_script":"Combine internal textual evidence with external historical data. The intersection narrows plausible meanings and prevents speculation.","word_count":22},
+    {"type":"analysis","sequence":4,"audio_script":"Formulate a meaning hypothesis grounded on textual features and historical support. Mark evidential confidence levels.","word_count":18},
+    {"type":"themes","sequence":5,"audio_script":"Key skill: correlate data sources and prefer readings supported by both text and history.","word_count":14},
+    {"type":"question","sequence":6,"audio_script":"What is a stable meaning hypothesis based on?","correct_answer":"Textual evidence and historical context","acceptable_variants":["Text and history","Literary and historical data"],"word_count":8},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson six. Unit One complete. Next unit begins genre analysis.","word_count":12}
+  ],
+  "vocabulary":[{"term":"meaning hypothesis","definition":"A textually-grounded proposal about what a passage means"}],
+  "study_notes":"Record hypotheses and their evidence. Good scholarship notes degrees of confidence.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

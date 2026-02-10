@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_01",
+  "course_id": "hermeneutics_i",
+  "sequence": 1,
+  "title": "Observation: Noticing the Text",
+  "objective": "Develop precise observation skills to list textual details and features",
+  "duration_estimate": "6 minutes",
+  "prerequisite": null,
+  "required_passages": [],
+  "segments": [
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson one in Hermeneutics One. Focus on observing the text carefully.","word_count":14},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice listing words, repeated terms, and structural markers.","word_count":13},
+    {"type":"context","sequence":3,"audio_script":"Observation includes noting repetition, key terms, conjunctions, and sentence boundaries. These features guide interpretation.","word_count":21},
+    {"type":"analysis","sequence":4,"audio_script":"Ask what the text says first before asking why. Avoid imposing background assumptions during observation. Keep it descriptive.","word_count":22},
+    {"type":"themes","sequence":5,"audio_script":"Key skill: careful description. Accurate observation prevents anachronistic readings and prepares for context analysis.","word_count":18},
+    {"type":"question","sequence":6,"audio_script":"What is the first step in the historical-grammatical method?","correct_answer":"Observation","acceptable_variants":["Observe","Noticing the text"],"word_count":9},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson one. Next lesson applies observation to immediate literary context.","word_count":14}
+  ],
+  "vocabulary":[{"term":"observation","definition":"Careful noting of textual features without interpretation"}],
+  "study_notes":"Observation is the foundational discipline. Spend time listing explicit data before inference.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

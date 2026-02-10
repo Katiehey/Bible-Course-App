@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_05",
+  "course_id": "biblical_foundations_01",
+  "sequence": 5,
+  "title": "Fall and Consequence",
+  "objective": "Trace the narrative movement from creation to judgment",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_04",
+  "required_passages": [
+    {
+      "passage_id": "gen_3_1_7",
+      "reference": "Genesis 3:1-7",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "gen_3_14_19",
+      "reference": "Genesis 3:14-19",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson five. You are studying the fall and its covenant consequences. Lesson four examined creation and commission.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_3_1_7",
+      "audio_script": "Listen to Genesis 3, verses 1 through 7.",
+      "word_count": 9
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Adam and Eve violate God's prohibition. Disobedience to God's word characterizes sin. The serpent's temptation questions God's word and motives. Human response involves deliberate choice against God's command.",
+      "word_count": 31
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Genesis 3 establishes a pattern. Covenant stipulation is given. Violation occurs. Consequences follow. This structure repeats throughout biblical narrative. The fall is covenant breach with inevitable judgment.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: covenant curse describes divine consequence for breach. Judgment is relational—separation from God. Death is explicitly stated consequence. Cursed ground indicates cosmic disruption.",
+      "word_count": 30
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the primary consequence of the fall?",
+      "correct_answer": "Death and separation from God",
+      "acceptable_variants": [
+        "Death",
+        "Covenant curse",
+        "Judgment",
+        "Separation from God"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson five. You studied the fall and covenant curse. Next lesson examines covenant preservation in the flood narrative.",
+      "word_count": 18
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "fall",
+      "definition": "Human disobedience to God's covenant command resulting in judgment and alienation"
+    },
+    {
+      "term": "covenant curse",
+      "definition": "Divine consequence for breach of covenant stipulations"
+    }
+  ],
+  "study_notes": "The fall establishes the pattern of covenant structure that persists throughout Scripture. Understanding fall as covenant breach helps interpret subsequent narratives.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

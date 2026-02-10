@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_17",
+  "course_id": "hermeneutics_i",
+  "sequence": 17,
+  "title": "Peer Review and Revising Interpretations",
+  "objective": "Apply feedback and revise interpretive conclusions when warranted",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_16",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson seventeen. Learn to accept critique and revise interpretive claims.","word_count":12},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Consider common critiques and test your claims against them.","word_count":14},
+    {"type":"context","sequence":3,"audio_script":"Scholarly dialogue refines interpretation. Peer review exposes blind spots and improves evidential support.","word_count":18},
+    {"type":"analysis","sequence":4,"audio_script":"When critique identifies weak evidence, modify your claim, document changes, and explain why the revision is superior.","word_count":21},
+    {"type":"themes","sequence":5,"audio_script":"Key virtue: scholarly humility—interpretations can improve with community testing.","word_count":11},
+    {"type":"question","sequence":6,"audio_script":"What should you do when a reviewer points out weak evidence?","correct_answer":"Reassess and revise the interpretation","acceptable_variants":["Revise the claim","Re-examine evidence"],"word_count":11},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson seventeen. Final lesson summarizes method and next steps for practice.","word_count":13}
+  ],
+  "vocabulary":[{"term":"peer review","definition":"Critical evaluation of scholarly work by qualified peers to improve quality and validity"}],
+  "study_notes":"Keep revision history and reasons to demonstrate intellectual integrity.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

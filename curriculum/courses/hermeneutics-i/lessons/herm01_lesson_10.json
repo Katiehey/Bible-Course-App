@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_10",
+  "course_id": "hermeneutics_i",
+  "sequence": 10,
+  "title": "Genre: Prophecy",
+  "objective": "Read prophetic texts with attention to oracles, judgment, and future promise",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_09",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson ten. We consider prophetic oracles, signs, and symbolic action.","word_count":13},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice identifying address, indictment, and promise sections.","word_count":13},
+    {"type":"context","sequence":3,"audio_script":"Prophecy often includes symbolic acts, courtroom language, and future-looking promises tied to covenant faithfulness.","word_count":19},
+    {"type":"analysis","sequence":4,"audio_script":"Distinguish immediate fulfillment from typological or eschatological layers. Anchor interpretation in historical context first.","word_count":18},
+    {"type":"themes","sequence":5,"audio_script":"Key skill: separate historical oracle from later theological application.","word_count":9},
+    {"type":"question","sequence":6,"audio_script":"What are common parts of a prophetic oracle?","correct_answer":"Indictment, judgment, and promise","acceptable_variants":["Address, indictment, promise","Oracle sections"],"word_count":7},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson ten. Next lesson addresses epistolary and didactic genres.","word_count":11}
+  ],
+  "vocabulary":[{"term":"oracle","definition":"A prophetic speech conveying divine message, often with indictment and promise"}],
+  "study_notes":"Prophetic language is densely symbolic; prioritize historical referent before theological expansion.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

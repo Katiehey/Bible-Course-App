@@ -1,0 +1,16 @@
+{
+  "name": "bible-course-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/bin/validateLessons.js",
+  "scripts": {
+    "validate-lessons": "node src/bin/validateLessons.js",
+    "session": "node src/bin/interactiveSession.js",
+    "session:audio": "node src/bin/sessionWithAudio.js",
+    "session:progress": "node src/bin/sessionWithProgress.js",
+    "app": "node src/bin/uiSession.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

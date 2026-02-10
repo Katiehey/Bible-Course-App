@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_06",
+  "course_id": "biblical_foundations_01",
+  "sequence": 6,
+  "title": "Noah and Universal Covenant",
+  "objective": "Identify covenant preservation themes in the flood narrative",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_05",
+  "required_passages": [
+    {
+      "passage_id": "gen_6_17_22",
+      "reference": "Genesis 6:17-22",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "gen_9_8_17",
+      "reference": "Genesis 9:8-17",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson six. You are studying Noah and universal covenant. Lesson five examined covenant curse in the fall narrative.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "gen_6_17_22",
+      "audio_script": "Listen to Genesis 6, verses 17 through 22.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Human sin spreads across creation. Genesis 6 describes escalating rebellion. God responds with judgment through flood. But God preserves a remnant through Noah. This pattern of judgment and preservation shapes biblical narrative.",
+      "word_count": 36
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The flood is covenant judgment—consequence of sustained rebellion. But Noah finds grace. God specifies covenant stipulations for preservation. After flood, God establishes a new covenant with Noah explicitly named.",
+      "word_count": 33
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: Noahic covenant is universal—applies to all humanity. Divine promise is unconditional. Rainbow is covenant sign. Judgment and preservation coexist. God maintains purpose despite human failure.",
+      "word_count": 31
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does God establish with Noah after the flood?",
+      "correct_answer": "A universal covenant with the sign of the rainbow",
+      "acceptable_variants": [
+        "Universal covenant",
+        "Noahic covenant",
+        "Covenant with rainbow sign",
+        "Promise never to flood the earth again"
+      ],
+      "word_count": 10
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson six. You studied covenant preservation through Noah. Next lesson examines Abraham and covenant promise.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "Noahic covenant",
+      "definition": "God's universal covenant with Noah promising preservation of creation and never to destroy the earth by flood"
+    },
+    {
+      "term": "covenant sign",
+      "definition": "A visible symbol of God's covenant commitment to a people"
+    }
+  ],
+  "study_notes": "The Noahic covenant is foundational for understanding God's commitment to creation. It bridges the fall judgment and the particular Abrahamic covenant.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

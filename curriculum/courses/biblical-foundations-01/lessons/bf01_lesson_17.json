@@ -1,0 +1,89 @@
+{
+  "lesson_id": "bf01_lesson_17",
+  "course_id": "biblical_foundations_01",
+  "sequence": 17,
+  "title": "Establishment of Kingship",
+  "objective": "Understand the transition to monarchy in Israel",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_16",
+  "required_passages": [
+    {
+      "passage_id": "1sa_8_4_9",
+      "reference": "1 Samuel 8:4-9",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "1sa_10_17_25",
+      "reference": "1 Samuel 10:17-25",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson seventeen. You are studying the establishment of kingship. Lesson sixteen examined the judges cycle.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "1sa_8_4_9",
+      "audio_script": "Listen to 1 Samuel 8, verses 4 through 9.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Israel requests a king like other nations. Samuel warns against rejecting God's direct rule. God grants the request. Saul is anointed king. The establishment of monarchy represents institutional change.",
+      "word_count": 33
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The monarchy is God's sovereign provision despite Israel's motives. The transition from judges to kings represents institutional development. Kingship becomes part of covenant structure.",
+      "word_count": 30
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: kingship is theocratic institution. The king is God's representative. Authority flows from God through the king. Kingship brings centralization and institutional stability.",
+      "word_count": 28
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does Israel request from Samuel?",
+      "correct_answer": "A king to judge them like other nations",
+      "acceptable_variants": [
+        "A king",
+        "A king like other nations",
+        "Monarchy"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson seventeen. You studied the establishment of kingship. Next lesson examines the Davidic covenant.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "theocracy",
+      "definition": "Form of government in which God rules directly through divine representatives"
+    },
+    {
+      "term": "kingship",
+      "definition": "Institutional form of governance in Israel where the king serves as God's covenant representative"
+    }
+  ],
+  "study_notes": "The transition to monarchy represents institutional development of covenant structure. The king becomes medator of covenant blessing on behalf of the people.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

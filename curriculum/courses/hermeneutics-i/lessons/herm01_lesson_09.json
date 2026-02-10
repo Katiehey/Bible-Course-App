@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_09",
+  "course_id": "hermeneutics_i",
+  "sequence": 9,
+  "title": "Genre: Law and Covenant Texts",
+  "objective": "Interpret legal material within covenantal and social contexts",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "herm01_lesson_08",
+  "required_passages": [],
+  "segments":[
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson nine. We study law texts and their covenant function.","word_count":12},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Identify stipulations, sanctions, and beneficiaries.","word_count":11},
+    {"type":"context","sequence":3,"audio_script":"Law appears in treaty-like structures. Note social, ritual, and restorative purposes. Laws regulate community life.","word_count":17},
+    {"type":"analysis","sequence":4,"audio_script":"Distinguish casuistic from apodictic law. Consider intended audience and ritual frameworks when interpreting obligations.","word_count":16},
+    {"type":"themes","sequence":5,"audio_script":"Key idea: law functions to maintain covenant order and communal holiness.","word_count":12},
+    {"type":"question","sequence":6,"audio_script":"Name a structural component of covenant law.","correct_answer":"Stipulation or sanction","acceptable_variants":["Stipulation","Sanction","Preamble"],"word_count":7},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson nine. Next lesson examines prophetic literature genre features.","word_count":11}
+  ],
+  "vocabulary":[{"term":"apodictic law","definition":"Direct, absolute commands often expressed as general principles"}],
+  "study_notes":"Legal texts require attention to both wording and social practice; application requires careful analogical reasoning.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

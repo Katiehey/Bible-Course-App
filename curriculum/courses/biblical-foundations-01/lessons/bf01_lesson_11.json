@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_11",
+  "course_id": "biblical_foundations_01",
+  "sequence": 11,
+  "title": "Sinai Covenant Structure",
+  "objective": "Recognize covenant treaty form in Exodus 19-20",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_10",
+  "required_passages": [
+    {
+      "passage_id": "exo_19_3_6",
+      "reference": "Exodus 19:3-6",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "exo_20_1_17",
+      "reference": "Exodus 20:1-17",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eleven. You are studying Sinai covenant structure. Lesson ten examined Passover as substitutionary sacrifice.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "exo_19_3_6",
+      "audio_script": "Listen to Exodus 19, verses 3 through 6.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "God meets Israel at Mount Sinai. The covenant is formalized in ratification ceremony. Thunder and fire accompany the event. The context emphasizes divine transcendence and holiness.",
+      "word_count": 30
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The Sinai covenant includes explicit stipulations. The Ten Commandments represent covenant law. This differs from Abrahamic covenant which contains only promises. Sinai adds obligation and reciprocity.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: Sinai covenant follows ancient treaty pattern. It includes preamble, historical prologue, stipulations, and sanctions. The Decalogue represents fundamental law. Covenant membership requires obedience.",
+      "word_count": 31
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is the central law given at Sinai?",
+      "correct_answer": "The Ten Commandments",
+      "acceptable_variants": [
+        "The Decalogue",
+        "The Ten Commandments or Decalogue",
+        "God's commandments",
+        "The law"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson eleven. You studied Sinai covenant structure. Next lesson examines law and covenant relationship.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "Sinai covenant",
+      "definition": "God's covenant with Israel at Mount Sinai including law and stipulations governing covenant membership"
+    },
+    {
+      "term": "Decalogue",
+      "definition": "The Ten Commandments representing the fundamental law of the Sinai covenant"
+    }
+  ],
+  "study_notes": "The Sinai covenant differs fundamentally from the Abrahamic covenant. Understanding this distinction is crucial for biblical theology. Abrahamic covenant is unconditional promise; Sinai covenant is conditional law.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

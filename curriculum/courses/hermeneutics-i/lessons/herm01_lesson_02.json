@@ -1,0 +1,22 @@
+{
+  "lesson_id": "herm01_lesson_02",
+  "course_id": "hermeneutics_i",
+  "sequence": 2,
+  "title": "Immediate Context",
+  "objective": "Learn how surrounding verses and paragraphs shape meaning",
+  "duration_estimate": "6 minutes",
+  "prerequisite": "herm01_lesson_01",
+  "required_passages": [],
+  "segments": [
+    {"type":"orientation","sequence":1,"audio_script":"This is lesson two. Focus on the immediate literary context of a passage.","word_count":14},
+    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice reading the verse plus surrounding three to five verses.","word_count":14},
+    {"type":"context","sequence":3,"audio_script":"Immediate context clarifies referents, tense, and flow of argument. Many apparent contradictions resolve with context.","word_count":22},
+    {"type":"analysis","sequence":4,"audio_script":"Map how sentences connect. Note transitions like then and for; these signal logical relations.","word_count":19},
+    {"type":"themes","sequence":5,"audio_script":"Key idea: never interpret a verse in isolation. Context governs meaning and prevents misreading.","word_count":15},
+    {"type":"question","sequence":6,"audio_script":"What should you read alongside a verse to understand it?","correct_answer":"Immediate context","acceptable_variants":["Surrounding verses","Paragraph context"],"word_count":11},
+    {"type":"close","sequence":7,"audio_script":"This completes lesson two. Next lesson examines historical setting and original audience.","word_count":12}
+  ],
+  "vocabulary":[{"term":"immediate context","definition":"The verses and paragraphs directly surrounding a text that shape its meaning"}],
+  "study_notes":"Always expand reading window to include immediate context before analysis.",
+  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+}

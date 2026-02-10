@@ -1,0 +1,90 @@
+{
+  "lesson_id": "bf01_lesson_20",
+  "course_id": "biblical_foundations_01",
+  "sequence": 20,
+  "title": "Prophetic Covenant Critique",
+  "objective": "Recognize prophetic enforcement of covenant obligations",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_19",
+  "required_passages": [
+    {
+      "passage_id": "amo_5_21_24",
+      "reference": "Amos 5:21-24",
+      "translation": "ESV"
+    },
+    {
+      "passage_id": "mic_6_6_8",
+      "reference": "Micah 6:6-8",
+      "translation": "ESV"
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twenty. You are studying prophetic covenant critique. Lesson nineteen examined the temple and centralization.",
+      "word_count": 16
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "amo_5_21_24",
+      "audio_script": "Listen to Amos 5, verses 21 through 24.",
+      "word_count": 10
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Prophets arise to call Israel to covenant faithfulness. They critique ritual without justice. Prophetic literature is covenant enforcement. God is not satisfied with mere external observance.",
+      "word_count": 33
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Prophetic covenant lawsuit follows ancient trial form. God prosecutes Israel for covenant breach. Prophets specify violations. Judgment is predicted consequence. Repentance is offered alternative.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes: prophets enforce covenant stipulations. Justice and righteousness are covenant obligations. External ritual without inner transformation is rejected. Repentance is persistent call.",
+      "word_count": 29
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does the prophet say God requires instead of sacrifice?",
+      "correct_answer": "Justice and righteousness",
+      "acceptable_variants": [
+        "Justice",
+        "Righteousness",
+        "Justice, mercy, and humility",
+        "Covenant obedience"
+      ],
+      "word_count": 8
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twenty. You studied prophetic covenant critique. Next lesson begins Unit Five on exile and restoration.",
+      "word_count": 17
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "prophetic literature",
+      "definition": "Divinely inspired speeches calling Israel to covenant faithfulness and warning of judgment"
+    },
+    {
+      "term": "covenant lawsuit",
+      "definition": "Prophetic prosecution of Israel for covenant breach following ancient legal procedure"
+    }
+  ],
+  "study_notes": "Prophetic literature demonstrates that covenant relationship requires both internal faithfulness and external justice. Ritual without righteousness is rejected.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "course_id": "hermeneutics_i",
+  "title": "Hermeneutics I",
+  "subtitle": "Applying the Historical-Grammatical Method",
+  "description": "A practical course to develop systematic skills in the historical-grammatical method: observing text, analyzing context, identifying genre, and deriving theological meaning.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 18,
+  "estimated_duration_weeks": 3,
+  "difficulty_level": "beginner-intermediate",
+  "prerequisite": null,
+  "learning_outcomes": [
+    "Apply historical-grammatical method to short passages",
+    "Identify genre-specific reading strategies",
+    "Distinguish text, context, and theological reading steps",
+    "Construct clear theological propositions from texts"
+  ],
+  "units": [
+    {
+      "unit_id": "herm_unit_01",
+      "unit_number": 1,
+      "title": "Text and Context",
+      "description": "Observation, immediate context, historical setting (Lessons 1–6)",
+      "lessons": [1,2,3,4,5,6]
+    },
+    {
+      "unit_id": "herm_unit_02",
+      "unit_number": 2,
+      "title": "Genre Analysis",
+      "description": "Poetry, narrative, law, prophecy, epistle (Lessons 7–12)",
+      "lessons": [7,8,9,10,11,12]
+    },
+    {
+      "unit_id": "herm_unit_03",
+      "unit_number": 3,
+      "title": "Theological Interpretation",
+      "description": "Synthesis, theological proposition, application boundaries (Lessons 13–18)",
+      "lessons": [13,14,15,16,17,18]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "6-9",
+    "knowledge_assessment": "short factual and process questions",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "created_date": "2026-02-10",
+  "last_updated": "2026-02-10",
+  "content_status": {
+    "scripts_complete": true,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "editor": "curriculum-team",
+    "review_status": "pending"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "course_id": "biblical_foundations_01",
+  "title": "Biblical Foundations I",
+  "subtitle": "Covenant Structure in Scripture",
+  "description": "A structured theology course examining Scripture as unified narrative organized around covenant. Students will identify major covenants structuring biblical narrative, explain the relationship between Old and New Testament, describe basic genre categories and their reading strategies, trace key theological themes across Scripture, and apply the historical-grammatical method to selected passages.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 24,
+  "estimated_duration_weeks": 4,
+  "estimated_duration_hours": 3,
+  "difficulty_level": "beginner-intermediate",
+  "prerequisite": null,
+  "learning_outcomes": [
+    "Identify major covenants structuring biblical narrative",
+    "Explain the relationship between Old and New Testament",
+    "Describe basic genre categories and their reading strategies",
+    "Trace key theological themes across Scripture",
+    "Apply historical-grammatical method to selected passages"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Covenant structure as organizing principle"
+  },
+  "units": [
+    {
+      "unit_id": "bf01_unit_01",
+      "unit_number": 1,
+      "title": "Introduction to Biblical Study",
+      "description": "Canon formation, genre categories, reading strategy",
+      "lessons": [1, 2, 3]
+    },
+    {
+      "unit_id": "bf01_unit_02",
+      "unit_number": 2,
+      "title": "Covenant Framework in Genesis",
+      "description": "Creation, Noah, Abraham, covenant structure",
+      "lessons": [4, 5, 6, 7, 8]
+    },
+    {
+      "unit_id": "bf01_unit_03",
+      "unit_number": 3,
+      "title": "Exodus and Law",
+      "description": "Sinai covenant, legal literature, tabernacle theology",
+      "lessons": [9, 10, 11, 12, 13, 14]
+    },
+    {
+      "unit_id": "bf01_unit_04",
+      "unit_number": 4,
+      "title": "Land and Kingship",
+      "description": "Joshua-Judges cycle, Davidic covenant, prophetic critique",
+      "lessons": [15, 16, 17, 18, 19, 20]
+    },
+    {
+      "unit_id": "bf01_unit_05",
+      "unit_number": 5,
+      "title": "Exile and Restoration",
+      "description": "Prophetic response, return themes, canon closure",
+      "lessons": [21, 22, 23, 24]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "6-8",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound, no adaptive paths"
+  },
+  "content_scope": {
+    "subject": "biblical theology through covenant structure",
+    "primary_texts": "Protestant canon (39 OT + 27 NT books)",
+    "genre_coverage": ["historical narrative", "poetry", "law", "prophecy", "epistle"],
+    "historical_span": "Genesis through Malachi",
+    "theological_themes": [
+      "covenant",
+      "election",
+      "redemption",
+      "sacrifice",
+      "atonement",
+      "kingship",
+      "messianic expectation"
+    ]
+  },
+  "completion_assessment": {
+    "type": "multiple-choice knowledge check",
+    "passing_score_percent": 75,
+    "questions": [
+      "What are the three elements of the Abrahamic covenant promise?",
+      "What literary form does the Sinai covenant follow?",
+      "What is the primary function of the tabernacle in Exodus?",
+      "What dynasty does the Davidic covenant establish?",
+      "What does Jeremiah 31 promise regarding a new covenant?"
+    ]
+  },
+  "next_course": {
+    "course_id": "hermeneutics_i",
+    "title": "Hermeneutics I",
+    "description": "Apply historical-grammatical method systematically to develop skills for independent biblical study"
+  },
+  "created_date": "2026-02-10",
+  "last_updated": "2026-02-10",
+  "content_status": {
+    "scripts_complete": true,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "editor": "curriculum-team",
+    "review_status": "pending",
+    "alignment": "evangelical-reformed-tradition"
+  }
+}
