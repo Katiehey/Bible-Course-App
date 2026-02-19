@@ -49,6 +49,17 @@ class SessionFSM {
     return this.current;
   }
 
+  gotoSegment(segmentType){
+    if(!this.lesson || !Array.isArray(this.lesson.segments)) throw new Error('lesson required');
+    const idx = this.lesson.segments.findIndex(s => s.type === segmentType);
+    if(idx === -1) throw new Error('Segment not found: ' + segmentType);
+    this.segmentIdx = idx;
+    const seg = this.lesson.segments[idx];
+    this.current = seg.type || this.current;
+    this.logger.log('Goto segment', this.current, 'segmentIdx=', this.segmentIdx);
+    return { state: this.current, segment: seg };
+  }
+
   handleCommand(cmd){
     // basic command mapping
     const c = (cmd||'').toLowerCase().trim();

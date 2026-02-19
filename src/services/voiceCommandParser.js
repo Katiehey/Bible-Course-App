@@ -13,13 +13,13 @@ class VoiceCommandParser {
     ];
     // Map lesson commands to FSM navigation
     this.commandMap = {
-      'begin the lesson': 'start',
-      'read the passage': 'next',
-      'explain the context': 'next',
-      'analyze the structure': 'next',
-      'summarize the key themes': 'next',
-      'ask the review question': 'next',
-      'end the lesson': 'stop'
+      'begin the lesson': 'orientation',
+      'read the passage': 'reading',
+      'explain the context': 'context',
+      'analyze the structure': 'analysis',
+      'summarize the key themes': 'themes',
+      'ask the review question': 'question',
+      'end the lesson': 'finished'
     };
   }
 
@@ -49,9 +49,8 @@ class VoiceCommandParser {
     
     try{
       let result;
-      if(fsmCmd === 'start') result = fsm.start(fsm.lesson);
-      else if(fsmCmd === 'next') result = fsm.next();
-      else if(fsmCmd === 'stop') result = fsm.goto('finished');
+      if(fsmCmd === 'finished') result = fsm.goto('finished');
+      else result = fsm.gotoSegment(fsmCmd);
       
       return { status: 'ok', command: lessonCmd, result };
     }catch(err){
