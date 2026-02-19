@@ -334,7 +334,8 @@ async function loadNextLesson() {
         const data = await response.json();
         if (data.next) {
             localStorage.setItem('currentLessonId', data.next.id);
-            location.reload();
+            debugLog('load: saved ' + data.next.id + ' to localStorage');
+            reloadSessionWithNewLesson(data.next.id);
         } else {
             updateStatus('No more lessons in this course!');
             debugLog('load: no more lessons');
@@ -354,7 +355,8 @@ async function loadPreviousLesson() {
         const data = await response.json();
         if (data.prev) {
             localStorage.setItem('currentLessonId', data.prev.id);
-            location.reload();
+            debugLog('load: saved ' + data.prev.id + ' to localStorage');
+            reloadSessionWithNewLesson(data.prev.id);
         } else {
             updateStatus('You are on the first lesson!');
             debugLog('load: no previous lessons');
@@ -362,6 +364,38 @@ async function loadPreviousLesson() {
     } catch (err) {
         debugLog('load error: ' + err.message);
         updateStatus('Error loading previous lesson');
+    }
+}
+
+// Reload session with a new lesson without full page reload
+async function reloadSessionWithNewLesson(newLessonId) {
+    try {
+        debugLog('reload: session with lesson ' + newLessonId);
+        const response = await fetch(`/api/session/new?lessonId=${encodeURIComponent(newLessonId)}`);
+        const data = await response.json();
+        
+        if (data.error) {
+            updateStatus('Error loading lesson');
+            return;
+        }
+
+        currentUserId = data.userId;
+        currentLessonId = data.lesson.id;
+        document.getElementById('lessonTitle').textContent = data.lesson.title;
+        document.getElementById('lessonId').textContent = `ID: ${data.lesson.id} (${data.lesson.sequence})`;
+        document.getElementById('segmentTotal').textContent = data.lesson.segments;
+        document.getElementById('audioScript').textContent = '';
+        document.getElementById('segmentNum').textContent = '0';
+        document.getElementById('segmentType').textContent = 'Ready';
+        
+        if (nextLessonBtn) nextLessonBtn.style.display = 'none';
+        
+        updateStatus('Lesson loaded. Tap "Begin the lesson" to start.');
+        updateMicStatus('Ready', '#999');
+        debugLog('reload: session ready for lesson ' + newLessonId);
+    } catch (err) {
+        debugLog('reload error: ' + err.message);
+        updateStatus('Error reloading lesson');
     }
 }
 
