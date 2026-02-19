@@ -214,6 +214,10 @@ async function sendCommand(command) {
 // Speech synthesis
 function speakText(text) {
     // Cancel any ongoing speech
+    if (!synth) {
+        updateStatus('Speech not supported on this browser.');
+        return;
+    }
     if (synth.speaking) synth.cancel();
 
     if (!voicesReady) {

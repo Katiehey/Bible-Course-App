@@ -19,7 +19,7 @@ class VoiceCommandParser {
       'analyze the structure': 'analysis',
       'summarize the key themes': 'themes',
       'ask the review question': 'question',
-      'end the lesson': 'finished'
+      'end the lesson': 'close'
     };
   }
 
