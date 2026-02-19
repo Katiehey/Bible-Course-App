@@ -30,6 +30,7 @@ const playBtn = document.getElementById('playBtn');
 const exitBtn = document.getElementById('exitBtn');
 const sendBtn = document.getElementById('sendBtn');
 const nextLessonBtn = document.getElementById('nextLessonBtn');
+const prevLessonBtn = document.getElementById('prevLessonBtn');
 const commandInput = document.getElementById('commandInput');
 const commandButtons = document.querySelectorAll('[data-command]');
 const voiceSelect = document.getElementById('voiceSelect');
@@ -141,6 +142,7 @@ safeAddListener(micBtn, 'click', toggleListening);
 safeAddListener(playBtn, 'click', playAudio);
 safeAddListener(exitBtn, 'click', endLesson);
 safeAddListener(nextLessonBtn, 'click', loadNextLesson);
+safeAddListener(prevLessonBtn, 'click', loadPreviousLesson);
 safeAddListener(sendBtn, 'click', sendManualCommand);
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -340,6 +342,26 @@ async function loadNextLesson() {
     } catch (err) {
         debugLog('load error: ' + err.message);
         updateStatus('Error loading next lesson');
+    }
+}
+
+// Load previous lesson
+async function loadPreviousLesson() {
+    if (!currentLessonId) return;
+    try {
+        debugLog('load: previous lesson');
+        const response = await fetch(`/api/lesson/prev?lessonId=${encodeURIComponent(currentLessonId)}`);
+        const data = await response.json();
+        if (data.prev) {
+            localStorage.setItem('currentLessonId', data.prev.id);
+            location.reload();
+        } else {
+            updateStatus('You are on the first lesson!');
+            debugLog('load: no previous lessons');
+        }
+    } catch (err) {
+        debugLog('load error: ' + err.message);
+        updateStatus('Error loading previous lesson');
     }
 }
 

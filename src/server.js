@@ -170,6 +170,27 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (pathname === '/api/lesson/prev') {
+    const { lessonId } = query;
+    if (!lessonId) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'lessonId required' }));
+      return;
+    }
+    const current = lessons.find(l => l.lesson_id === lessonId);
+    if (!current) {
+      res.writeHead(404, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'Lesson not found' }));
+      return;
+    }
+    const inCourse = lessons.filter(l => l.course_id === current.course_id).sort((a, b) => a.sequence - b.sequence);
+    const idx = inCourse.findIndex(l => l.lesson_id === lessonId);
+    const prev = idx > 0 ? inCourse[idx - 1] : null;
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ prev: prev ? { id: prev.lesson_id, title: prev.title, sequence: prev.sequence } : null }));
+    return;
+  }
+
   if (pathname === '/api/session/command') {
     let body = '';
     req.on('data', chunk => body += chunk);
