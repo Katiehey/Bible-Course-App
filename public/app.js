@@ -115,27 +115,35 @@ const voiceSelect = document.getElementById('voiceSelect');
 const rateRange = document.getElementById('rateRange');
 const rateValue = document.getElementById('rateValue');
 
+function safeAddListener(el, event, handler) {
+    if (el && el.addEventListener) {
+        el.addEventListener(event, handler);
+    }
+}
+
 // Event listeners
-startBtn.addEventListener('click', initializeSession);
-micBtn.addEventListener('click', toggleListening);
-playBtn.addEventListener('click', playAudio);
-exitBtn.addEventListener('click', endLesson);
-sendBtn.addEventListener('click', sendManualCommand);
+safeAddListener(startBtn, 'click', initializeSession);
+safeAddListener(micBtn, 'click', toggleListening);
+safeAddListener(playBtn, 'click', playAudio);
+safeAddListener(exitBtn, 'click', endLesson);
+safeAddListener(sendBtn, 'click', sendManualCommand);
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const cmd = btn.getAttribute('data-command');
         if (cmd) sendCommand(cmd);
     });
 });
-commandInput.addEventListener('keydown', (e) => {
+safeAddListener(commandInput, 'keydown', (e) => {
     if (e.key === 'Enter') sendManualCommand();
 });
 
-rateRange.addEventListener('input', () => {
-    rateValue.textContent = `${parseFloat(rateRange.value).toFixed(2)}x`;
+safeAddListener(rateRange, 'input', () => {
+    if (rateValue) {
+        rateValue.textContent = `${parseFloat(rateRange.value).toFixed(2)}x`;
+    }
 });
 
-voiceSelect.addEventListener('change', () => {
+safeAddListener(voiceSelect, 'change', () => {
     const idx = parseInt(voiceSelect.value, 10);
     selectedVoice = Number.isFinite(idx) ? cachedVoices[idx] : null;
 });
@@ -163,8 +171,8 @@ async function initializeSession() {
         updateMicStatus('Ready', '#999');
 
         if (isMobile) {
-            rateRange.value = '1.1';
-            rateValue.textContent = '1.10x';
+            if (rateRange) rateRange.value = '1.1';
+            if (rateValue) rateValue.textContent = '1.10x';
         }
 
         // Start with the first segment on a user gesture
@@ -227,7 +235,8 @@ function speakText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     if (selectedVoice) utterance.voice = selectedVoice;
     utterance.lang = 'en-US';
-    utterance.rate = parseFloat(rateRange.value || '1.0');
+    const rate = rateRange && rateRange.value ? rateRange.value : '1.0';
+    utterance.rate = parseFloat(rate);
     utterance.pitch = 1;
     utterance.volume = 1;
     
