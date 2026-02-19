@@ -7,6 +7,9 @@ let currentUserId = null;
 let isListening = false;
 let voicesReady = false;
 let cachedVoices = [];
+let selectedVoice = null;
+
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 // Initialize speech recognition
 if (SpeechRecognition) {
@@ -51,6 +54,7 @@ function loadVoices() {
     cachedVoices = synth.getVoices();
     if (cachedVoices && cachedVoices.length) {
         voicesReady = true;
+        populateVoiceSelect();
     }
 }
 
@@ -59,6 +63,41 @@ if (synth) {
     synth.onvoiceschanged = () => {
         loadVoices();
     };
+}
+
+function populateVoiceSelect() {
+    if (!voiceSelect) return;
+    voiceSelect.innerHTML = '';
+
+    cachedVoices.forEach((v, i) => {
+        const option = document.createElement('option');
+        option.value = String(i);
+        option.textContent = `${v.name} (${v.lang})`;
+        voiceSelect.appendChild(option);
+    });
+
+    const preferred = pickPreferredVoice(cachedVoices);
+    if (preferred) {
+        const idx = cachedVoices.indexOf(preferred);
+        if (idx >= 0) {
+            voiceSelect.value = String(idx);
+            selectedVoice = preferred;
+        }
+    }
+}
+
+function pickPreferredVoice(voices) {
+    if (!voices || !voices.length) return null;
+    const lower = (s) => (s || '').toLowerCase();
+    const preferNames = isMobile
+        ? ['samantha', 'ava', 'victoria', 'karen', 'moira', 'tessa', 'alex']
+        : ['google us english', 'microsoft', 'samantha', 'alex'];
+
+    for (const name of preferNames) {
+        const v = voices.find(vv => lower(vv.name).includes(name));
+        if (v) return v;
+    }
+    return voices.find(v => lower(v.lang).startsWith('en')) || voices[0];
 }
 
 // UI Elements
@@ -72,6 +111,9 @@ const exitBtn = document.getElementById('exitBtn');
 const sendBtn = document.getElementById('sendBtn');
 const commandInput = document.getElementById('commandInput');
 const commandButtons = document.querySelectorAll('[data-command]');
+const voiceSelect = document.getElementById('voiceSelect');
+const rateRange = document.getElementById('rateRange');
+const rateValue = document.getElementById('rateValue');
 
 // Event listeners
 startBtn.addEventListener('click', initializeSession);
@@ -87,6 +129,15 @@ commandButtons.forEach(btn => {
 });
 commandInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') sendManualCommand();
+});
+
+rateRange.addEventListener('input', () => {
+    rateValue.textContent = `${parseFloat(rateRange.value).toFixed(2)}x`;
+});
+
+voiceSelect.addEventListener('change', () => {
+    const idx = parseInt(voiceSelect.value, 10);
+    selectedVoice = Number.isFinite(idx) ? cachedVoices[idx] : null;
 });
 
 // Initialize session
@@ -110,6 +161,11 @@ async function initializeSession() {
         
         updateStatus('Session started. Ready for commands!');
         updateMicStatus('Ready', '#999');
+
+        if (isMobile) {
+            rateRange.value = '1.1';
+            rateValue.textContent = '1.10x';
+        }
 
         // Start with the first segment on a user gesture
         await sendCommand('begin the lesson');
@@ -165,9 +221,9 @@ function speakText(text) {
     }
 
     const utterance = new SpeechSynthesisUtterance(text);
-    const preferred = cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'));
-    if (preferred) utterance.voice = preferred;
-    utterance.rate = 0.9;
+    if (selectedVoice) utterance.voice = selectedVoice;
+    utterance.lang = 'en-US';
+    utterance.rate = parseFloat(rateRange.value || '1.0');
     utterance.pitch = 1;
     utterance.volume = 1;
     
@@ -202,11 +258,15 @@ async function playAudio() {
 
 // End lesson
 function endLesson() {
-    sendCommand('end the lesson').then(() => {
-        setTimeout(() => {
-            location.reload();
-        }, 1000);
-    });
+    updateStatus('Ending lesson...');
+    if (synth.speaking) synth.cancel();
+    sendCommand('end the lesson')
+        .catch(() => {})
+        .finally(() => {
+            setTimeout(() => {
+                location.reload();
+            }, 600);
+        });
 }
 
 // Helper functions

@@ -129,6 +129,44 @@ body {
     margin: 30px 0;
 }
 
+.tts-settings {
+    background: #f9f9ff;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+}
+
+.tts-settings h3 {
+    color: #667eea;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+.tts-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.tts-row label {
+    width: 60px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.tts-row select,
+.tts-row input[type="range"] {
+    flex: 1;
+}
+
+#rateValue {
+    width: 48px;
+    text-align: right;
+    font-size: 0.85em;
+    color: #555;
+}
+
 .quick-commands {
     background: #f7f8ff;
     padding: 15px;
@@ -310,6 +348,15 @@ body {
 @media (max-width: 600px) {
     .header h1 {
         font-size: 1.8em;
+    }
+
+    .tts-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tts-row label {
+        width: auto;
     }
 
     .manual-command {
