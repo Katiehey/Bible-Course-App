@@ -62,6 +62,24 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
+.debug-panel {
+    background: #111;
+    color: #d1f7c4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 12px;
+    max-height: 180px;
+    overflow: auto;
+}
+
+.debug-header {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #7ee787;
+}
+
 .hidden {
     display: none !important;
 }

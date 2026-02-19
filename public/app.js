@@ -11,6 +11,11 @@ let selectedVoice = null;
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
+const debugLog = typeof window !== 'undefined' && window.__debugLog
+    ? window.__debugLog
+    : () => {};
+debugLog('app.js loaded');
+
 // Initialize speech recognition
 if (SpeechRecognition) {
     recognition = new SpeechRecognition();
@@ -22,17 +27,20 @@ if (SpeechRecognition) {
         isListening = true;
         updateMicStatus('Listening...', '#4CAF50');
         document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #4CAF50 0%, #45a049 100%)';
+        debugLog('speech: listening');
     };
 
     recognition.onend = () => {
         isListening = false;
         updateMicStatus('Ready', '#999');
         document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+        debugLog('speech: ended');
     };
 
     recognition.onerror = (event) => {
         updateMicStatus(`Error: ${event.error}`, '#f44336');
         console.error('Speech recognition error:', event.error);
+        debugLog('speech error: ' + event.error);
     };
 
     recognition.onresult = async (event) => {
@@ -43,6 +51,7 @@ if (SpeechRecognition) {
         
         console.log('You said:', transcript);
         updateMicStatus(`You said: "${transcript}"`, '#667eea');
+        debugLog('speech result: ' + transcript);
         
         // Send command to backend
         await sendCommand(transcript.toLowerCase());
@@ -151,6 +160,7 @@ safeAddListener(voiceSelect, 'change', () => {
 // Initialize session
 async function initializeSession() {
     try {
+        debugLog('init: start session');
         const response = await fetch('/api/session/new');
         const data = await response.json();
         
@@ -169,6 +179,7 @@ async function initializeSession() {
         
         updateStatus('Session started. Ready for commands!');
         updateMicStatus('Ready', '#999');
+        debugLog('init: session ready');
 
         if (isMobile) {
             if (rateRange) rateRange.value = '1.1';
@@ -178,6 +189,7 @@ async function initializeSession() {
         // Start with the first segment on a user gesture
         await sendCommand('begin the lesson');
     } catch (err) {
+        debugLog('init error: ' + err.message);
         showError(err.message);
     }
 }
@@ -187,6 +199,7 @@ async function sendCommand(command) {
     if (!currentUserId) return;
 
     try {
+        debugLog('command: ' + command);
         const response = await fetch('/api/session/command', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -194,6 +207,7 @@ async function sendCommand(command) {
         });
 
         const data = await response.json();
+        debugLog('command response: ' + JSON.stringify({ status: data.status, segment: data.segment, segmentIdx: data.segmentIdx }));
 
         if (data.error) {
             updateStatus(`Error: ${data.error}`);
@@ -215,6 +229,7 @@ async function sendCommand(command) {
         }
 
     } catch (err) {
+        debugLog('command error: ' + err.message);
         updateStatus(`Error: ${err.message}`);
     }
 }
@@ -224,6 +239,7 @@ function speakText(text) {
     // Cancel any ongoing speech
     if (!synth) {
         updateStatus('Speech not supported on this browser.');
+        debugLog('speech: not supported');
         return;
     }
     if (synth.speaking) synth.cancel();
@@ -241,12 +257,14 @@ function speakText(text) {
     utterance.volume = 1;
     
     synth.speak(utterance);
+    debugLog('speech: speak');
 }
 
 // Toggle listening
 function toggleListening() {
     if (!recognition) {
         updateMicStatus('Speech recognition not supported. Use tap commands below.', '#f44336');
+        debugLog('speech: recognition not supported');
         return;
     }
 
@@ -273,6 +291,7 @@ async function playAudio() {
 function endLesson() {
     updateStatus('Ending lesson...');
     if (synth.speaking) synth.cancel();
+    debugLog('end lesson');
     sendCommand('end the lesson')
         .catch(() => {})
         .finally(() => {

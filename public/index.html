@@ -23,6 +23,11 @@
                 <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
             </div>
 
+            <div id="debugPanel" class="debug-panel hidden">
+                <div class="debug-header">Debug (mobile)</div>
+                <pre id="debugLog"></pre>
+            </div>
+
             <div class="lesson-content">
                 <div class="segment-info">
                     <div class="segment-progress">
@@ -102,6 +107,22 @@
         </div>
     </div>
 
-    <script src="app.js?v=2"></script>
+    <script>
+        (function(){
+            const logEl = document.getElementById('debugLog');
+            const panel = document.getElementById('debugPanel');
+            function show(){ if(panel) panel.classList.remove('hidden'); }
+            function log(msg){ if(logEl){ show(); logEl.textContent += msg + '\n'; } }
+            window.__debugLog = log;
+            window.addEventListener('error', (e) => {
+                log('error: ' + (e.message || e.error));
+            });
+            window.addEventListener('unhandledrejection', (e) => {
+                log('rejection: ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason)));
+            });
+            log('boot: inline logger ready');
+        })();
+    </script>
+    <script src="app.js?v=3"></script>
 </body>
 </html>
