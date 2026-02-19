@@ -5,6 +5,8 @@ const synth = window.speechSynthesis;
 let recognition;
 let currentUserId = null;
 let isListening = false;
+let voicesReady = false;
+let cachedVoices = [];
 
 // Initialize speech recognition
 if (SpeechRecognition) {
@@ -44,6 +46,21 @@ if (SpeechRecognition) {
     };
 }
 
+// Load available voices for mobile TTS
+function loadVoices() {
+    cachedVoices = synth.getVoices();
+    if (cachedVoices && cachedVoices.length) {
+        voicesReady = true;
+    }
+}
+
+if (synth) {
+    loadVoices();
+    synth.onvoiceschanged = () => {
+        loadVoices();
+    };
+}
+
 // UI Elements
 const splashScreen = document.getElementById('splash');
 const lessonScreen = document.getElementById('lesson');
@@ -52,12 +69,25 @@ const startBtn = document.getElementById('startBtn');
 const micBtn = document.getElementById('micBtn');
 const playBtn = document.getElementById('playBtn');
 const exitBtn = document.getElementById('exitBtn');
+const sendBtn = document.getElementById('sendBtn');
+const commandInput = document.getElementById('commandInput');
+const commandButtons = document.querySelectorAll('[data-command]');
 
 // Event listeners
 startBtn.addEventListener('click', initializeSession);
 micBtn.addEventListener('click', toggleListening);
 playBtn.addEventListener('click', playAudio);
 exitBtn.addEventListener('click', endLesson);
+sendBtn.addEventListener('click', sendManualCommand);
+commandButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const cmd = btn.getAttribute('data-command');
+        if (cmd) sendCommand(cmd);
+    });
+});
+commandInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') sendManualCommand();
+});
 
 // Initialize session
 async function initializeSession() {
@@ -80,6 +110,9 @@ async function initializeSession() {
         
         updateStatus('Session started. Ready for commands!');
         updateMicStatus('Ready', '#999');
+
+        // Start with the first segment on a user gesture
+        await sendCommand('begin the lesson');
     } catch (err) {
         showError(err.message);
     }
@@ -105,6 +138,9 @@ async function sendCommand(command) {
 
         // Update UI
         document.getElementById('segmentType').textContent = data.segment || 'Ready';
+        if (typeof data.segmentIdx === 'number') {
+            document.getElementById('segmentNum').textContent = String(data.segmentIdx + 1);
+        }
         updateStatus(`✓ ${data.message || data.command}`);
 
         // Auto-play audio
@@ -122,9 +158,15 @@ async function sendCommand(command) {
 // Speech synthesis
 function speakText(text) {
     // Cancel any ongoing speech
-    synth.cancel();
+    if (synth.speaking) synth.cancel();
+
+    if (!voicesReady) {
+        loadVoices();
+    }
 
     const utterance = new SpeechSynthesisUtterance(text);
+    const preferred = cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+    if (preferred) utterance.voice = preferred;
     utterance.rate = 0.9;
     utterance.pitch = 1;
     utterance.volume = 1;
@@ -135,7 +177,7 @@ function speakText(text) {
 // Toggle listening
 function toggleListening() {
     if (!recognition) {
-        updateMicStatus('Speech recognition not supported', '#f44336');
+        updateMicStatus('Speech recognition not supported. Use tap commands below.', '#f44336');
         return;
     }
 
@@ -149,13 +191,12 @@ function toggleListening() {
 // Play audio command
 async function playAudio() {
     if (!currentUserId) return;
-
-    try {
-        const response = await fetch(`/api/session/audio?userId=${currentUserId}`);
-        const data = await response.json();
+    const text = document.getElementById('audioScript').textContent.trim();
+    if (text) {
         updateStatus('▶ Playing audio...');
-    } catch (err) {
-        updateStatus(`Error: ${err.message}`);
+        speakText(text);
+    } else {
+        updateStatus('No segment loaded yet. Tap “Begin the lesson”.');
     }
 }
 
@@ -186,10 +227,17 @@ function showError(message) {
     errorScreen.classList.remove('hidden');
 }
 
+function sendManualCommand() {
+    const cmd = commandInput.value.trim();
+    if (!cmd) return;
+    commandInput.value = '';
+    sendCommand(cmd);
+}
+
 // Check browser support
 window.addEventListener('load', () => {
     if (!SpeechRecognition) {
-        updateMicStatus('⚠ Speech recognition not supported in this browser', '#ff9800');
+        updateMicStatus('⚠ Speech recognition not supported in this browser. Use tap commands below.', '#ff9800');
         micBtn.disabled = true;
     }
 });

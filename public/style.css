@@ -129,6 +129,54 @@ body {
     margin: 30px 0;
 }
 
+.quick-commands {
+    background: #f7f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+}
+
+.quick-commands h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.command-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.btn-chip {
+    border: 1px solid #dfe3ff;
+    background: white;
+    color: #4b5bdc;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-chip:hover {
+    background: #eef0ff;
+}
+
+.manual-command {
+    display: flex;
+    gap: 8px;
+}
+
+.manual-command input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
 .btn-mic {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -262,6 +310,10 @@ body {
 @media (max-width: 600px) {
     .header h1 {
         font-size: 1.8em;
+    }
+
+    .manual-command {
+        flex-direction: column;
     }
 
     .available-commands ul {
