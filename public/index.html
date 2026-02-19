@@ -13,6 +13,11 @@
             <p>Interactive Voice-Guided Bible Study</p>
         </div>
 
+        <div id="debugPanel" class="debug-panel hidden">
+            <div class="debug-header">Debug (mobile)</div>
+            <pre id="debugLog"></pre>
+        </div>
+
         <div id="splash" class="splash">
             <button id="startBtn" class="btn-primary">Begin Learning</button>
         </div>
@@ -21,11 +26,6 @@
             <div class="lesson-header">
                 <h2 id="lessonTitle">Lesson Title</h2>
                 <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
-            </div>
-
-            <div id="debugPanel" class="debug-panel hidden">
-                <div class="debug-header">Debug (mobile)</div>
-                <pre id="debugLog"></pre>
             </div>
 
             <div class="lesson-content">
@@ -121,8 +121,29 @@
                 log('rejection: ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason)));
             });
             log('boot: inline logger ready');
+
+            const btn = document.getElementById('startBtn');
+            if(btn){
+                btn.addEventListener('click', () => {
+                    log('click: begin learning');
+                    if (typeof window.initializeSession === 'function') {
+                        log('call: initializeSession');
+                        window.initializeSession();
+                    } else {
+                        log('warn: initializeSession not available');
+                    }
+                });
+            } else {
+                log('warn: startBtn not found');
+            }
+
+            setTimeout(() => {
+                if(!window.__appLoaded){
+                    log('warn: app.js did not load');
+                }
+            }, 2000);
         })();
     </script>
-    <script src="app.js?v=3"></script>
+    <script src="app.js?v=4"></script>
 </body>
 </html>

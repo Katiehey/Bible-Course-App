@@ -14,6 +14,9 @@ const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 const debugLog = typeof window !== 'undefined' && window.__debugLog
     ? window.__debugLog
     : () => {};
+if (typeof window !== 'undefined') {
+    window.__appLoaded = true;
+}
 debugLog('app.js loaded');
 
 // Initialize speech recognition
@@ -192,6 +195,10 @@ async function initializeSession() {
         debugLog('init error: ' + err.message);
         showError(err.message);
     }
+}
+
+if (typeof window !== 'undefined') {
+    window.initializeSession = initializeSession;
 }
 
 // Send command to backend
