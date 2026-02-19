@@ -329,9 +329,12 @@ function endLesson() {
 async function loadNextLesson() {
     if (!currentLessonId) return;
     try {
-        debugLog('load: next lesson');
+        debugLog('load: next lesson from ' + currentLessonId);
+        nextLessonBtn.disabled = true;
+        prevLessonBtn.disabled = true;
         const response = await fetch(`/api/lesson/next?lessonId=${encodeURIComponent(currentLessonId)}`);
         const data = await response.json();
+        debugLog('load: api returned ' + (data.next ? data.next.id : 'null'));
         if (data.next) {
             localStorage.setItem('currentLessonId', data.next.id);
             debugLog('load: saved ' + data.next.id + ' to localStorage');
@@ -339,10 +342,14 @@ async function loadNextLesson() {
         } else {
             updateStatus('No more lessons in this course!');
             debugLog('load: no more lessons');
+            nextLessonBtn.disabled = false;
+            prevLessonBtn.disabled = false;
         }
     } catch (err) {
         debugLog('load error: ' + err.message);
         updateStatus('Error loading next lesson');
+        nextLessonBtn.disabled = false;
+        prevLessonBtn.disabled = false;
     }
 }
 
@@ -350,9 +357,12 @@ async function loadNextLesson() {
 async function loadPreviousLesson() {
     if (!currentLessonId) return;
     try {
-        debugLog('load: previous lesson');
+        debugLog('load: previous lesson from ' + currentLessonId);
+        nextLessonBtn.disabled = true;
+        prevLessonBtn.disabled = true;
         const response = await fetch(`/api/lesson/prev?lessonId=${encodeURIComponent(currentLessonId)}`);
         const data = await response.json();
+        debugLog('load: api returned ' + (data.prev ? data.prev.id : 'null'));
         if (data.prev) {
             localStorage.setItem('currentLessonId', data.prev.id);
             debugLog('load: saved ' + data.prev.id + ' to localStorage');
@@ -360,10 +370,14 @@ async function loadPreviousLesson() {
         } else {
             updateStatus('You are on the first lesson!');
             debugLog('load: no previous lessons');
+            nextLessonBtn.disabled = false;
+            prevLessonBtn.disabled = false;
         }
     } catch (err) {
         debugLog('load error: ' + err.message);
         updateStatus('Error loading previous lesson');
+        nextLessonBtn.disabled = false;
+        prevLessonBtn.disabled = false;
     }
 }
 
@@ -376,6 +390,9 @@ async function reloadSessionWithNewLesson(newLessonId) {
         
         if (data.error) {
             updateStatus('Error loading lesson');
+            debugLog('reload error: ' + data.error);
+            nextLessonBtn.disabled = false;
+            prevLessonBtn.disabled = false;
             return;
         }
 
@@ -393,9 +410,13 @@ async function reloadSessionWithNewLesson(newLessonId) {
         updateStatus('Lesson loaded. Tap "Begin the lesson" to start.');
         updateMicStatus('Ready', '#999');
         debugLog('reload: session ready for lesson ' + newLessonId);
+        nextLessonBtn.disabled = false;
+        prevLessonBtn.disabled = false;
     } catch (err) {
         debugLog('reload error: ' + err.message);
         updateStatus('Error reloading lesson');
+        nextLessonBtn.disabled = false;
+        prevLessonBtn.disabled = false;
     }
 }
 
