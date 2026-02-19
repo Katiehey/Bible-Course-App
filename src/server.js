@@ -117,7 +117,14 @@ const server = http.createServer(async (req, res) => {
 
   if (pathname === '/api/session/new') {
     const userId = 'user-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
-    const lesson = lessons[0] || null;
+    const { lessonId } = query;
+    let lesson = null;
+    if (lessonId) {
+      lesson = lessons.find(l => l.lesson_id === lessonId);
+    }
+    if (!lesson) {
+      lesson = lessons[0] || null;
+    }
     
     if (!lesson) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
@@ -134,9 +141,32 @@ const server = http.createServer(async (req, res) => {
       lesson: {
         id: lesson.lesson_id,
         title: lesson.title,
-        segments: lesson.segments.length
+        segments: lesson.segments.length,
+        course_id: lesson.course_id,
+        sequence: lesson.sequence
       }
     }));
+    return;
+  }
+
+  if (pathname === '/api/lesson/next') {
+    const { lessonId } = query;
+    if (!lessonId) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'lessonId required' }));
+      return;
+    }
+    const current = lessons.find(l => l.lesson_id === lessonId);
+    if (!current) {
+      res.writeHead(404, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'Lesson not found' }));
+      return;
+    }
+    const inCourse = lessons.filter(l => l.course_id === current.course_id).sort((a, b) => a.sequence - b.sequence);
+    const idx = inCourse.findIndex(l => l.lesson_id === lessonId);
+    const next = idx >= 0 && idx < inCourse.length - 1 ? inCourse[idx + 1] : null;
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ next: next ? { id: next.lesson_id, title: next.title, sequence: next.sequence } : null }));
     return;
   }
 

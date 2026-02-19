@@ -8,6 +8,7 @@ let isListening = false;
 let voicesReady = false;
 let cachedVoices = [];
 let selectedVoice = null;
+let currentLessonId = null;
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -28,6 +29,7 @@ const micBtn = document.getElementById('micBtn');
 const playBtn = document.getElementById('playBtn');
 const exitBtn = document.getElementById('exitBtn');
 const sendBtn = document.getElementById('sendBtn');
+const nextLessonBtn = document.getElementById('nextLessonBtn');
 const commandInput = document.getElementById('commandInput');
 const commandButtons = document.querySelectorAll('[data-command]');
 const voiceSelect = document.getElementById('voiceSelect');
@@ -138,6 +140,7 @@ safeAddListener(startBtn, 'click', initializeSession);
 safeAddListener(micBtn, 'click', toggleListening);
 safeAddListener(playBtn, 'click', playAudio);
 safeAddListener(exitBtn, 'click', endLesson);
+safeAddListener(nextLessonBtn, 'click', loadNextLesson);
 safeAddListener(sendBtn, 'click', sendManualCommand);
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -164,7 +167,9 @@ safeAddListener(voiceSelect, 'change', () => {
 async function initializeSession() {
     try {
         debugLog('init: start session');
-        const response = await fetch('/api/session/new');
+        const savedLessonId = localStorage.getItem('currentLessonId');
+        const url = savedLessonId ? `/api/session/new?lessonId=${encodeURIComponent(savedLessonId)}` : '/api/session/new';
+        const response = await fetch(url);
         const data = await response.json();
         
         if (data.error) {
@@ -173,8 +178,10 @@ async function initializeSession() {
         }
 
         currentUserId = data.userId;
+        currentLessonId = data.lesson.id;
+        localStorage.setItem('currentLessonId', currentLessonId);
         document.getElementById('lessonTitle').textContent = data.lesson.title;
-        document.getElementById('lessonId').textContent = `ID: ${data.lesson.id}`;
+        document.getElementById('lessonId').textContent = `ID: ${data.lesson.id} (${data.lesson.sequence})`;
         document.getElementById('segmentTotal').textContent = data.lesson.segments;
         
         splashScreen.classList.add('hidden');
@@ -227,6 +234,13 @@ async function sendCommand(command) {
             document.getElementById('segmentNum').textContent = String(data.segmentIdx + 1);
         }
         updateStatus(`✓ ${data.message || data.command}`);
+        
+        // Check if we reached the close segment
+        if (data.segment === 'close' && nextLessonBtn) {
+            nextLessonBtn.style.display = 'block';
+        } else if (nextLessonBtn) {
+            nextLessonBtn.style.display = 'none';
+        }
 
         // Auto-play audio
         if (data.script) {
@@ -303,9 +317,38 @@ function endLesson() {
         .catch(() => {})
         .finally(() => {
             setTimeout(() => {
-                location.reload();
+                // Show next lesson button after reaching close segment
+                checkAndShowNextLessonBtn();
             }, 600);
         });
+}
+
+// Load next lesson
+async function loadNextLesson() {
+    if (!currentLessonId) return;
+    try {
+        debugLog('load: next lesson');
+        const response = await fetch(`/api/lesson/next?lessonId=${encodeURIComponent(currentLessonId)}`);
+        const data = await response.json();
+        if (data.next) {
+            localStorage.setItem('currentLessonId', data.next.id);
+            location.reload();
+        } else {
+            updateStatus('No more lessons in this course!');
+            debugLog('load: no more lessons');
+        }
+    } catch (err) {
+        debugLog('load error: ' + err.message);
+        updateStatus('Error loading next lesson');
+    }
+}
+
+// Check if we're at the close segment and show next button
+function checkAndShowNextLessonBtn() {
+    const segmentType = document.getElementById('segmentType').textContent;
+    if (segmentType === 'close' && nextLessonBtn) {
+        nextLessonBtn.style.display = 'block';
+    }
 }
 
 // Helper functions
