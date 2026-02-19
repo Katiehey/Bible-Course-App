@@ -19,6 +19,21 @@ if (typeof window !== 'undefined') {
 }
 debugLog('app.js loaded');
 
+// UI Elements
+const splashScreen = document.getElementById('splash');
+const lessonScreen = document.getElementById('lesson');
+const errorScreen = document.getElementById('error');
+const startBtn = document.getElementById('startBtn');
+const micBtn = document.getElementById('micBtn');
+const playBtn = document.getElementById('playBtn');
+const exitBtn = document.getElementById('exitBtn');
+const sendBtn = document.getElementById('sendBtn');
+const commandInput = document.getElementById('commandInput');
+const commandButtons = document.querySelectorAll('[data-command]');
+const voiceSelect = document.getElementById('voiceSelect');
+const rateRange = document.getElementById('rateRange');
+const rateValue = document.getElementById('rateValue');
+
 // Initialize speech recognition
 if (SpeechRecognition) {
     recognition = new SpeechRecognition();
@@ -111,21 +126,6 @@ function pickPreferredVoice(voices) {
     }
     return voices.find(v => lower(v.lang).startsWith('en')) || voices[0];
 }
-
-// UI Elements
-const splashScreen = document.getElementById('splash');
-const lessonScreen = document.getElementById('lesson');
-const errorScreen = document.getElementById('error');
-const startBtn = document.getElementById('startBtn');
-const micBtn = document.getElementById('micBtn');
-const playBtn = document.getElementById('playBtn');
-const exitBtn = document.getElementById('exitBtn');
-const sendBtn = document.getElementById('sendBtn');
-const commandInput = document.getElementById('commandInput');
-const commandButtons = document.querySelectorAll('[data-command]');
-const voiceSelect = document.getElementById('voiceSelect');
-const rateRange = document.getElementById('rateRange');
-const rateValue = document.getElementById('rateValue');
 
 function safeAddListener(el, event, handler) {
     if (el && el.addEventListener) {
