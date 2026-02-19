@@ -76,6 +76,7 @@ class SessionController {
       segmentIdx: this.fsm.segmentIdx,
       segmentType: seg.type,
       audioScript: seg.audio_script ? seg.audio_script : '',
+      lesson: this.lesson,
       session: this.progress.getSession(this.userId)
     };
   }

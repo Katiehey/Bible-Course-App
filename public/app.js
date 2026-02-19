@@ -235,8 +235,7 @@ async function sendCommand(command) {
         if (typeof data.segmentIdx === 'number') {
             document.getElementById('segmentNum').textContent = String(data.segmentIdx + 1);
         }
-        updateStatus(`✓ ${data.message || data.command}`);
-        
+        updateStatus(`✓ ${data.message || data.command}`);        debugLog('command: lesson ' + (data.lessonId || 'unknown') + ' segment ' + (data.segment || 'unknown') + ' idx=' + (data.segmentIdx || 0));        
         // Check if we reached the close segment
         if (data.segment === 'close' && nextLessonBtn) {
             nextLessonBtn.style.display = 'block';

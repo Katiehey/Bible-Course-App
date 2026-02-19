@@ -216,6 +216,7 @@ const server = http.createServer(async (req, res) => {
           state: state.fsmState,
           segment: state.segmentType,
           segmentIdx: state.segmentIdx,
+          lessonId: state.lesson ? state.lesson.lesson_id : 'unknown',
           script: state.audioScript,
           message: result.message || result.state
         }));
