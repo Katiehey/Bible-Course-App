@@ -152,7 +152,10 @@ safeAddListener(document.getElementById('resetBtn'), 'click', () => {
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const cmd = btn.getAttribute('data-command');
-        if (cmd) sendCommand(cmd);
+        if (cmd) {
+            debugLog('tap: command ' + cmd);
+            sendCommand(cmd);
+        }
     });
 });
 safeAddListener(commandInput, 'keydown', (e) => {
@@ -240,7 +243,9 @@ async function sendCommand(command) {
         if (typeof data.segmentIdx === 'number') {
             document.getElementById('segmentNum').textContent = String(data.segmentIdx + 1);
         }
-        updateStatus(`✓ ${data.message || data.command}`);        debugLog('command: lesson ' + (data.lessonId || 'unknown') + ' segment ' + (data.segment || 'unknown') + ' idx=' + (data.segmentIdx || 0));        
+        updateStatus(`✓ ${data.message || data.command}`);
+        debugLog('command: lesson ' + (data.lessonId || 'unknown') + ' segment ' + (data.segment || 'unknown') + ' idx=' + (data.segmentIdx || 0));
+        
         // Check if we reached the close segment
         if (data.segment === 'close' && nextLessonBtn) {
             nextLessonBtn.style.display = 'block';
@@ -248,11 +253,14 @@ async function sendCommand(command) {
             nextLessonBtn.style.display = 'none';
         }
 
-        // Auto-play audio
+        // Auto-play audio - especially important on mobile
         if (data.script) {
             document.getElementById('audioScript').textContent = data.script;
-            // Play using TTS
-            speakText(data.script);
+            debugLog('command: auto-playing audio for segment ' + data.segment);
+            // Small delay to ensure UI is updated before speaking
+            setTimeout(() => {
+                speakText(data.script);
+            }, 100);
         }
 
     } catch (err) {
@@ -269,7 +277,11 @@ function speakText(text) {
         debugLog('speech: not supported');
         return;
     }
-    if (synth.speaking) synth.cancel();
+    
+    if (synth.speaking) {
+        synth.cancel();
+        debugLog('speech: cancelled previous speech');
+    }
 
     if (!voicesReady) {
         loadVoices();
@@ -283,22 +295,40 @@ function speakText(text) {
     utterance.pitch = 1;
     utterance.volume = 1;
     
+    // Add event listeners for better debugging
+    utterance.onstart = () => {
+        debugLog('speech: started');
+    };
+    
+    utterance.onend = () => {
+        debugLog('speech: ended');
+    };
+    
+    utterance.onerror = (e) => {
+        debugLog('speech error: ' + e.error);
+    };
+    
+    debugLog('speech: speaking (' + text.substring(0, 50) + '...)');
     synth.speak(utterance);
-    debugLog('speech: speak');
 }
 
 // Toggle listening
 function toggleListening() {
     if (!recognition) {
-        updateMicStatus('Speech recognition not supported. Use tap commands below.', '#f44336');
+        updateMicStatus('⚠ Voice recognition not supported on this device. Use tap commands to navigate.', '#ff9800');
         debugLog('speech: recognition not supported');
+        if (isMobile) {
+            debugLog('speech: on mobile, recommend using tap command buttons instead');
+        }
         return;
     }
 
     if (isListening) {
         recognition.stop();
+        updateMicStatus('Stopped listening', '#999');
     } else {
         recognition.start();
+        updateMicStatus('Listening...', '#4CAF50');
     }
 }
 
