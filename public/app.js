@@ -144,6 +144,11 @@ safeAddListener(exitBtn, 'click', endLesson);
 safeAddListener(nextLessonBtn, 'click', loadNextLesson);
 safeAddListener(prevLessonBtn, 'click', loadPreviousLesson);
 safeAddListener(sendBtn, 'click', sendManualCommand);
+safeAddListener(document.getElementById('resetBtn'), 'click', () => {
+    localStorage.removeItem('currentLessonId');
+    debugLog('reset: cleared localStorage');
+    updateStatus('Progress reset. Tap "Begin Learning" to start from lesson 1.');
+});
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const cmd = btn.getAttribute('data-command');
