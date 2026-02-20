@@ -10,7 +10,8 @@
     {
       "passage_id": "gen_1_26_28",
       "reference": "Genesis 1:26-28",
-      "translation": "ESV"
+      "translation": "ESV",
+      "text": "Then God said, Let us make man in our image, after our likeness. And let them have dominion over the fish of the sea and over the fowl of the air and over every living thing that moveth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them. And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea and over the fowl of the air and over every living thing that moveth upon the earth."
     },
     {
       "passage_id": "gen_2_15_17",
@@ -29,8 +30,8 @@
       "type": "reading",
       "sequence": 2,
       "passage_id": "gen_1_26_28",
-      "audio_script": "Listen to Genesis 1, verses 26 through 28.",
-      "word_count": 10
+      "audio_script": "Then God said, Let us make man in our image, after our likeness. And let them have dominion over the fish of the sea and over the fowl of the air and over every living thing that moveth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them. And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea and over the fowl of the air and over every living thing that moveth upon the earth.",
+      "word_count": 109
     },
     {
       "type": "context",

@@ -10,7 +10,8 @@
     {
       "passage_id": "gen_3_1_7",
       "reference": "Genesis 3:1-7",
-      "translation": "ESV"
+      "translation": "ESV",
+      "text": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden? And the woman said unto the serpent, We may eat of the fruit of the trees of the garden: But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die. And the serpent said unto the woman, Ye shall not surely die: For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil. And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons."
     },
     {
       "passage_id": "gen_3_14_19",
@@ -29,8 +30,8 @@
       "type": "reading",
       "sequence": 2,
       "passage_id": "gen_3_1_7",
-      "audio_script": "Listen to Genesis 3, verses 1 through 7.",
-      "word_count": 9
+      "audio_script": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden? And the woman said unto the serpent, We may eat of the fruit of the trees of the garden: But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die. And the serpent said unto the woman, Ye shall not surely die: For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil. And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat. And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.",
+      "word_count": 204
     },
     {
       "type": "context",
@@ -47,7 +48,7 @@
     {
       "type": "themes",
       "sequence": 5,
-      "audio_script": "Key themes: covenant curse describes divine consequence for breach. Judgment is relational—separation from God. Death is explicitly stated consequence. Cursed ground indicates cosmic disruption.",
+      "audio_script": "Key themes: covenant curse describes divine consequence for breach. Judgment is relational\u2014separation from God. Death is explicitly stated consequence. Cursed ground indicates cosmic disruption.",
       "word_count": 30
     },
     {
