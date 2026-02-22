@@ -1,0 +1,62 @@
+{
+  "lesson_id": "ntf01_lesson_04",
+  "course_id": "new_testament_foundations_01_matthew",
+  "sequence": 4,
+  "title": "The Temptation of Jesus",
+  "objective": "Examine how Jesus overcame Satan's temptations, demonstrating His obedience and qualifying as the perfect sacrifice.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf01_lesson_03",
+  "required_passages": [
+    {
+      "passage_id": "mat_4_1_11",
+      "reference": "Matthew 4:1-11",
+      "text": "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, 'If you are the Son of God, command these stones to become loaves of bread.' But he answered, 'It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God.' Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, 'If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and On their hands they will bear you up, lest you strike your foot against a stone.' Jesus said to him, 'Again it is written, You shall not put the Lord your God to the test.' Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, 'All these I will give you, if you will fall down and worship me.' Then Jesus said to him, 'Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve.' Then the devil left him, and behold, angels came and were ministering to him."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "orientation",
+      "type": "orientation",
+      "audio_script": "Welcome to lesson four. After His baptism, Jesus faces temptation in the wilderness. This testing reveals His character and qualifies Him as our Savior who understands our struggles."
+    },
+    {
+      "segment_id": "reading",
+      "type": "reading",
+      "audio_script": "Listen to Matthew chapter 4, verses 1 through 11. Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, 'If you are the Son of God, command these stones to become loaves of bread.' But he answered, 'It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God.' Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, 'If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and On their hands they will bear you up, lest you strike your foot against a stone.' Jesus said to him, 'Again it is written, You shall not put the Lord your God to the test.' Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, 'All these I will give you, if you will fall down and worship me.' Then Jesus said to him, 'Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve.' Then the devil left him, and behold, angels came and were ministering to him."
+    },
+    {
+      "segment_id": "context",
+      "type": "context",
+      "audio_script": "The Spirit led Jesus into wilderness testing, echoing Israel's 40 years in the desert. Unlike Israel who failed repeatedly, Jesus would prove faithful. Satan's temptations targeted Jesus' identity, mission, and methods."
+    },
+    {
+      "segment_id": "analysis",
+      "type": "analysis",
+      "audio_script": "Each temptation attacked a different area. Physical needs challenged Him to use divine power for self-preservation. The pinnacle test urged presumption on God's protection. The mountain offer proposed shortcuts to His kingdom without the cross. Jesus answered each with Scripture from Deuteronomy."
+    },
+    {
+      "segment_id": "themes",
+      "type": "themes",
+      "audio_script": "Major themes include the power of God's Word, obedience through suffering, trust in God's timing, and proper worship. Jesus succeeds where Israel and Adam failed, qualifying as the obedient Son who can represent humanity."
+    },
+    {
+      "segment_id": "question",
+      "type": "question",
+      "audio_script": "Consider this: How does Jesus' use of Scripture in temptation teach us about spiritual warfare? What does His resistance to shortcuts reveal about God's ways versus worldly methods?"
+    },
+    {
+      "segment_id": "close",
+      "type": "close",
+      "audio_script": "Jesus emerged from testing victorious, proven as the faithful Son. His obedience qualifies Him to save us. Next, we'll see Him begin His Galilean ministry. Excellent work today."
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "matthew",
+    "chapter_range": "4:1-11",
+    "theological_themes": ["temptation", "obedience", "scripture_authority", "spiritual_warfare", "christology"],
+    "time_period": "circa_27_ad",
+    "canonical_order": 40
+  }
+}

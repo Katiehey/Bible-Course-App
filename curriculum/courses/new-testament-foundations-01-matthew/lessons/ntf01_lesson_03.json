@@ -1,0 +1,62 @@
+{
+  "lesson_id": "ntf01_lesson_03",
+  "course_id": "new_testament_foundations_01_matthew",
+  "sequence": 3,
+  "title": "John the Baptist and Jesus' Baptism",
+  "objective": "Understand John's preparatory ministry and the significance of Jesus' baptism as the inauguration of His public ministry.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf01_lesson_02",
+  "required_passages": [
+    {
+      "passage_id": "mat_3_1_17",
+      "reference": "Matthew 3:1-17",
+      "text": "In those days John the Baptist came preaching in the wilderness of Judea, 'Repent, for the kingdom of heaven is at hand.' For this is he who was spoken of by the prophet Isaiah when he said, 'The voice of one crying in the wilderness: Prepare the way of the Lord; make his paths straight.' Now John wore a garment of camel's hair and a leather belt around his waist, and his food was locusts and wild honey. Then Jerusalem and all Judea and all the region about the Jordan were going out to him, and they were baptized by him in the river Jordan, confessing their sins. But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, 'You brood of vipers! Who warned you to flee from the wrath to come? Bear fruit in keeping with repentance. And do not presume to say to yourselves, We have Abraham as our father, for I tell you, God is able from these stones to raise up children for Abraham. Even now the axe is laid to the root of the trees. Every tree therefore that does not bear good fruit is cut down and thrown into the fire. I baptize you with water for repentance, but he who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire. His winnowing fork is in his hand, and he will clear his threshing floor and gather his wheat into the barn, but the chaff he will burn with unquenchable fire.' Then Jesus came from Galilee to the Jordan to John, to be baptized by him. John would have prevented him, saying, 'I need to be baptized by you, and do you come to me?' But Jesus answered him, 'Let it be so now, for thus it is fitting for us to fulfill all righteousness.' Then he consented. And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of God descending like a dove and coming to rest on him; and behold, a voice from heaven said, 'This is my beloved Son, with whom I am well pleased.'"
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "orientation",
+      "type": "orientation",
+      "audio_script": "Welcome to lesson three. Today we witness the beginning of Jesus' public ministry through His baptism by John. This marks a pivotal transition from His hidden years to His active mission."
+    },
+    {
+      "segment_id": "reading",
+      "type": "reading",
+      "audio_script": "Listen to Matthew chapter 3, verses 1 through 17. In those days John the Baptist came preaching in the wilderness of Judea, 'Repent, for the kingdom of heaven is at hand.' For this is he who was spoken of by the prophet Isaiah when he said, 'The voice of one crying in the wilderness: Prepare the way of the Lord; make his paths straight.' Now John wore a garment of camel's hair and a leather belt around his waist, and his food was locusts and wild honey. Then Jerusalem and all Judea and all the region about the Jordan were going out to him, and they were baptized by him in the river Jordan, confessing their sins. But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, 'You brood of vipers! Who warned you to flee from the wrath to come? Bear fruit in keeping with repentance. And do not presume to say to yourselves, We have Abraham as our father, for I tell you, God is able from these stones to raise up children for Abraham. Even now the axe is laid to the root of the trees. Every tree therefore that does not bear good fruit is cut down and thrown into the fire. I baptize you with water for repentance, but he who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire. His winnowing fork is in his hand, and he will clear his threshing floor and gather his wheat into the barn, but the chaff he will burn with unquenchable fire.' Then Jesus came from Galilee to the Jordan to John, to be baptized by him. John would have prevented him, saying, 'I need to be baptized by you, and do you come to me?' But Jesus answered him, 'Let it be so now, for thus it is fitting for us to fulfill all righteousness.' Then he consented. And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of God descending like a dove and coming to rest on him; and behold, a voice from heaven said, 'This is my beloved Son, with whom I am well pleased.'"
+    },
+    {
+      "segment_id": "context",
+      "type": "context",
+      "audio_script": "John appears after 400 years of prophetic silence, fulfilling Isaiah's prophecy. His ministry prepared Israel for the Messiah through a call to repentance. His message challenged religious assumptions and pointed to One greater than himself."
+    },
+    {
+      "segment_id": "analysis",
+      "type": "analysis",
+      "audio_script": "John's baptism symbolized cleansing and repentance. Jesus' baptism was different; He had no sin to confess. Instead, He identified with sinners and inaugurated His mission to fulfill all righteousness. The Father's voice and Spirit's descent confirmed His identity."
+    },
+    {
+      "segment_id": "themes",
+      "type": "themes",
+      "audio_script": "Key themes include prophetic fulfillment, the kingdom's arrival, true repentance bearing fruit, and the Trinity revealed at Jesus' baptism. John models humility, pointing away from himself to Christ."
+    },
+    {
+      "segment_id": "question",
+      "type": "question",
+      "audio_script": "Reflect on this: How does Jesus' willingness to be baptized show His commitment to identifying with humanity? What does the Father's declaration teach us about Jesus' identity and mission?"
+    },
+    {
+      "segment_id": "close",
+      "type": "close",
+      "audio_script": "Jesus' baptism marks the beginning of His public ministry and reveals the Trinity working together in redemption. Next, we'll see Him tested in the wilderness. Well done today."
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "matthew",
+    "chapter_range": "3",
+    "theological_themes": ["prophetic_fulfillment", "repentance", "trinity", "messiah_identity", "baptism"],
+    "time_period": "circa_27_ad",
+    "canonical_order": 40
+  }
+}

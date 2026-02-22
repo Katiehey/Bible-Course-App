@@ -1,0 +1,62 @@
+{
+  "lesson_id": "ntf01_lesson_06",
+  "course_id": "new_testament_foundations_01_matthew",
+  "sequence": 6,
+  "title": "The Beatitudes: Kingdom Values",
+  "objective": "Understand the Beatitudes as Jesus' declaration of kingdom values that contrast with worldly thinking.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf01_lesson_05",
+  "required_passages": [
+    {
+      "passage_id": "mat_5_1_16",
+      "reference": "Matthew 5:1-16",
+      "text": "Seeing the crowds, he went up on the mountain, and when he sat down, his disciples came to him. And he opened his mouth and taught them, saying: 'Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. Blessed are you when others revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven, for so they persecuted the prophets who were before you. You are the salt of the earth, but if salt has lost its taste, how shall its saltiness be restored? It is no longer good for anything except to be thrown out and trampled under people's feet. You are the light of the world. A city set on a hill cannot be hidden. Nor do people light a lamp and put it under a basket, but on a stand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.'"
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "orientation",
+      "type": "orientation",
+      "audio_script": "Welcome to lesson six. We now enter the Sermon on the Mount, Jesus' most famous teaching. Today we focus on the Beatitudes, which turn worldly values upside down and reveal what kingdom citizens look like."
+    },
+    {
+      "segment_id": "reading",
+      "type": "reading",
+      "audio_script": "Listen to Matthew chapter 5, verses 1 through 16. Seeing the crowds, he went up on the mountain, and when he sat down, his disciples came to him. And he opened his mouth and taught them, saying: 'Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. Blessed are you when others revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven, for so they persecuted the prophets who were before you. You are the salt of the earth, but if salt has lost its taste, how shall its saltiness be restored? It is no longer good for anything except to be thrown out and trampled under people's feet. You are the light of the world. A city set on a hill cannot be hidden. Nor do people light a lamp and put it under a basket, but on a stand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.'"
+    },
+    {
+      "segment_id": "context",
+      "type": "context",
+      "audio_script": "Jesus ascended a mountain, echoing Moses receiving the Law. But while Moses brought commandments on stone, Jesus brings the kingdom's constitution. The Beatitudes describe those who receive God's blessing, not through power or wealth, but through spiritual poverty and righteousness."
+    },
+    {
+      "segment_id": "analysis",
+      "type": "analysis",
+      "audio_script": "Each beatitude pairs present condition with future promise. The poor in spirit, mourners, and meek aren't naturally blessed by world standards. Yet Jesus pronounces them blessed because they receive the kingdom. The final beatitudes add persecution, showing that kingdom living brings opposition. Salt and light imagery calls disciples to preserve and illuminate."
+    },
+    {
+      "segment_id": "themes",
+      "type": "themes",
+      "audio_script": "Central themes include kingdom reversal of values, present suffering with future hope, internal character over external performance, and the community's mission as salt and light. These verses challenge worldly pursuit of power, wealth, and comfort."
+    },
+    {
+      "segment_id": "question",
+      "type": "question",
+      "audio_script": "Consider this: How do the Beatitudes challenge your natural instincts about what makes life good? Which beatitude most speaks to your current season, and how does it offer hope or correction?"
+    },
+    {
+      "segment_id": "close",
+      "type": "close",
+      "audio_script": "The Beatitudes reveal God's upside-down kingdom where the lowly are exalted and the suffering receive comfort. They call us to different values. Next, we'll see how Jesus fulfills the Law. Well done today."
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "matthew",
+    "chapter_range": "5:1-16",
+    "theological_themes": ["beatitudes", "kingdom_values", "sermon_on_mount", "discipleship", "righteousness"],
+    "time_period": "circa_28_ad",
+    "canonical_order": 40
+  }
+}
