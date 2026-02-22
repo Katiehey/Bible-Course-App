@@ -1,0 +1,79 @@
+{
+  "lesson_id": "ntf01_lesson_01",
+  "course_id": "new_testament_foundations_01_matthew",
+  "sequence": 1,
+  "title": "Matthew: Introduction and Genealogy",
+  "objective": "Understand Matthew's purpose and the significance of Jesus' genealogy",
+  "duration_estimate": "8 minutes",
+  "prerequisite": null,
+  "required_passages": [
+    {
+      "passage_id": "mat_1_1_17",
+      "reference": "Matthew 1:1-17",
+      "translation": "ESV",
+      "text": "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham. Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers, and Judah the father of Perez and Zerah by Tamar, and Perez the father of Hezron, and Hezron the father of Ram, and Ram the father of Amminadab, and Amminadab the father of Nahshon, and Nahshon the father of Salmon, and Salmon the father of Boaz by Rahab, and Boaz the father of Obed by Ruth, and Obed the father of Jesse, and Jesse the father of David the king. And David was the father of Solomon by the wife of Uriah, and Solomon the father of Rehoboam, and Rehoboam the father of Abijah, and Abijah the father of Asaph, and Asaph the father of Jehoshaphat, and Jehoshaphat the father of Joram, and Joram the father of Uzziah, and Uzziah the father of Jotham, and Jotham the father of Ahaz, and Ahaz the father of Hezekiah, and Hezekiah the father of Manasseh, and Manasseh the father of Amos, and Amos the father of Josiah, and Josiah the father of Jechoniah and his brothers, at the time of the deportation to Babylon. And after the deportation to Babylon: Jechoniah was the father of Shealtiel, and Shealtiel the father of Zerubbabel, and Zerubbabel the father of Abiud, and Abiud the father of Eliakim, and Eliakim the father of Azor, and Azor the father of Zadok, and Zadok the father of Achim, and Achim the father of Eliud, and Eliud the father of Eleazar, and Eleazar the father of Matthan, and Matthan the father of Jacob, and Jacob the father of Joseph the husband of Mary, of whom Jesus was born, who is called Christ. So all the generations from Abraham to David were fourteen generations, and from David to the deportation to Babylon fourteen generations, and from the deportation to Babylon to the Christ fourteen generations."
+    }
+  ],
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Welcome to New Testament Foundations. This is lesson one, focusing on the Gospel of Matthew. Matthew was written to demonstrate that Jesus is the promised Messiah who fulfills Old Testament prophecy.",
+      "word_count": 35
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "mat_1_1_17",
+      "audio_script": "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham. Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers, and Judah the father of Perez and Zerah by Tamar, and Perez the father of Hezron, and Hezron the father of Ram, and Ram the father of Amminadab, and Amminadab the father of Nahshon, and Nahshon the father of Salmon, and Salmon the father of Boaz by Rahab, and Boaz the father of Obed by Ruth, and Obed the father of Jesse, and Jesse the father of David the king. And David was the father of Solomon by the wife of Uriah, and Solomon the father of Rehoboam, and Rehoboam the father of Abijah, and Abijah the father of Asaph, and Asaph the father of Jehoshaphat, and Jehoshaphat the father of Joram, and Joram the father of Uzziah, and Uzziah the father of Jotham, and Jotham the father of Ahaz, and Ahaz the father of Hezekiah, and Hezekiah the father of Manasseh, and Manasseh the father of Amos, and Amos the father of Josiah, and Josiah the father of Jechoniah and his brothers, at the time of the deportation to Babylon. And after the deportation to Babylon: Jechoniah was the father of Shealtiel, and Shealtiel the father of Zerubbabel, and Zerubbabel the father of Abiud, and Abiud the father of Eliakim, and Eliakim the father of Azor, and Azor the father of Zadok, and Zadok the father of Achim, and Achim the father of Eliud, and Eliud the father of Eleazar, and Eleazar the father of Matthan, and Matthan the father of Jacob, and Jacob the father of Joseph the husband of Mary, of whom Jesus was born, who is called Christ. So all the generations from Abraham to David were fourteen generations, and from David to the deportation to Babylon fourteen generations, and from the deportation to Babylon to the Christ fourteen generations.",
+      "word_count": 310
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Matthew wrote primarily for a Jewish audience. He begins with a genealogy to establish Jesus' legal right to David's throne. The genealogy is structured into three sets of fourteen generations. This numerical pattern emphasizes completeness and divine ordering. Matthew includes four women in the genealogy: Tamar, Rahab, Ruth, and Bathsheba. Each woman's story involves scandal or foreignness, foreshadowing God's grace to outsiders through Jesus.",
+      "word_count": 68
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Notice three key elements. First, Jesus is called son of David and son of Abraham. This links him to both the royal covenant and the promise to bless all nations. Second, the genealogy divides history into three epochs: patriarchal, monarchical, and exilic. Jesus comes at the climax of this historical progression. Third, the unusual inclusion of women highlights God's sovereign grace. Matthew signals that Jesus' kingdom will include the marginalized and unexpected.",
+      "word_count": 78
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key theme: fulfillment of promise. Matthew presents Jesus as the culmination of Israel's history. Every genealogical name represents God's faithfulness across generations. The pattern of fourteen generations may reference David, whose name in Hebrew numerology equals fourteen. This genealogy is not merely historical record but theological argument. Jesus is the promised king who brings God's covenant purposes to completion.",
+      "word_count": 63
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: Why does Matthew begin with a genealogy? Answer: to establish Jesus' legal claim to David's throne and demonstrate that he fulfills God's covenant promises to Abraham and David.",
+      "correct_answer": "to establish Jesus' legal claim to David's throne and show he fulfills covenant promises",
+      "acceptable_variants": [
+        "to prove jesus is the promised messiah",
+        "to show jesus descends from david and abraham",
+        "to connect jesus to israels covenant history",
+        "to demonstrate jesus fulfills old testament prophecy"
+      ],
+      "word_count": 38
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "You have completed lesson one on Matthew's genealogy. Next lesson will examine the birth narrative and early life of Jesus. Matthew continues to demonstrate how Jesus fulfills prophecy at every stage.",
+      "word_count": 35
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "matthew",
+    "chapter_range": "1:1-17",
+    "theological_themes": ["messianic_fulfillment", "covenant_continuity", "davidic_kingship"],
+    "target_audience": "adults",
+    "created_date": "2026-02-22",
+    "version": "1.0"
+  }
+}
