@@ -5,6 +5,7 @@ const synth = window.speechSynthesis;
 let recognition;
 let currentUserId = null;
 let isListening = false;
+let continuousMode = false;
 let voicesReady = false;
 let cachedVoices = [];
 let selectedVoice = null;
@@ -40,22 +41,40 @@ const rateValue = document.getElementById('rateValue');
 // Initialize speech recognition
 if (SpeechRecognition) {
     recognition = new SpeechRecognition();
-    recognition.continuous = false;
+    recognition.continuous = true;
     recognition.interimResults = false;
     recognition.lang = 'en-US';
 
     recognition.onstart = () => {
         isListening = true;
-        updateMicStatus('Listening...', '#4CAF50');
+        if (continuousMode) {
+            updateMicStatus('🎤 Listening continuously... (click mic to stop)', '#4CAF50');
+        } else {
+            updateMicStatus('Listening...', '#4CAF50');
+        }
         document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #4CAF50 0%, #45a049 100%)';
         debugLog('speech: listening');
     };
 
     recognition.onend = () => {
         isListening = false;
-        updateMicStatus('Ready', '#999');
-        document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-        debugLog('speech: ended');
+        if (continuousMode) {
+            // Automatically restart if in continuous mode
+            setTimeout(() => {
+                if (continuousMode && !isListening) {
+                    try {
+                        recognition.start();
+                        debugLog('speech: auto-restarting in continuous mode');
+                    } catch (e) {
+                        debugLog('speech: restart failed - ' + e.message);
+                    }
+                }
+            }, 100);
+        } else {
+            updateMicStatus('Ready', '#999');
+            document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+            debugLog('speech: ended');
+        }
     };
 
     recognition.onerror = (event) => {
@@ -324,11 +343,16 @@ function toggleListening() {
     }
 
     if (isListening) {
+        continuousMode = false;
         recognition.stop();
         updateMicStatus('Stopped listening', '#999');
+        document.getElementById('micBtn').style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+        debugLog('speech: stopped continuous mode');
     } else {
+        continuousMode = true;
         recognition.start();
-        updateMicStatus('Listening...', '#4CAF50');
+        updateMicStatus('🎤 Listening continuously...', '#4CAF50');
+        debugLog('speech: started continuous mode');
     }
 }
 
