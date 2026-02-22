@@ -370,17 +370,26 @@ async function playAudio() {
 
 // End lesson
 function endLesson() {
-    updateStatus('Ending lesson...');
+    updateStatus('Exiting lesson...');
     if (synth.speaking) synth.cancel();
-    debugLog('end lesson');
-    sendCommand('end the lesson')
-        .catch(() => {})
-        .finally(() => {
-            setTimeout(() => {
-                // Show next lesson button after reaching close segment
-                checkAndShowNextLessonBtn();
-            }, 600);
-        });
+    debugLog('exit lesson: returning to splash');
+    
+    // Stop continuous listening if active
+    if (continuousMode && recognition) {
+        continuousMode = false;
+        recognition.stop();
+        debugLog('exit lesson: stopped continuous mode');
+    }
+    
+    // Hide lesson screen, show splash
+    lessonScreen.classList.add('hidden');
+    splashScreen.classList.remove('hidden');
+    
+    // Clear current session
+    currentUserId = null;
+    
+    updateStatus('Lesson exited. Ready to start a new lesson.');
+    debugLog('exit lesson: complete');
 }
 
 // Load next lesson
