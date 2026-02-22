@@ -1,0 +1,62 @@
+{
+  "lesson_id": "ntf02_lesson_05",
+  "course_id": "new_testament_foundations_02_mark",
+  "sequence": 5,
+  "title": "Faith and Healing",
+  "objective": "Understand the relationship between faith and Jesus' healing power through encounters with a woman and a synagogue ruler.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf02_lesson_04",
+  "required_passages": [
+    {
+      "passage_id": "mar_5_21_6_6",
+      "reference": "Mark 5:21-6:6",
+      "text": "And when Jesus had crossed again in the boat to the other side, a great crowd gathered about him, and he was beside the sea. Then came one of the rulers of the synagogue, Jairus by name, and seeing him, he fell at his feet and implored him earnestly, saying, 'My little daughter is at the point of death. Come and lay your hands on her, so that she may be made well and live.' And he went with him. And a great crowd followed him and thronged about him. And there was a woman who had had a discharge of blood for twelve years, and who had suffered much under many physicians, and had spent all that she had, and was no better but rather grew worse. She had heard the reports about Jesus and came up behind him in the crowd and touched his garment. For she said, 'If I touch even his garments, I will be made well.' And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease. And Jesus, perceiving in himself that power had gone out from him, immediately turned about in the crowd and said, 'Who touched my garments?' And his disciples said to him, 'You see the crowd pressing around you, and yet you say, Who touched me?' And he looked around to see who had done it. But the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth. And he said to her, 'Daughter, your faith has made you well; go in peace, and be healed of your disease.' While he was still speaking, there came from the ruler's house some who said, 'Your daughter is dead. Why trouble the Teacher any further?' But overhearing what they said, Jesus said to the ruler of the synagogue, 'Do not fear, only believe.' And he allowed no one to follow him except Peter and James and John the brother of James. They came to the house of the ruler of the synagogue, and Jesus saw a commotion, people weeping and wailing loudly. And when he had entered, he said to them, 'Why are you making a commotion and weeping? The child is not dead but sleeping.' And they laughed at him. But he put them all outside and took the child's father and mother and those who were with him and went in where the child was. Taking her by the hand he said to her, 'Talitha cumi,' which means, 'Little girl, I say to you, arise.' And immediately the girl got up and began walking (for she was twelve years of age), and they were immediately overcome with amazement. And he strictly charged them that no one should know this, and told them to give her something to eat. He went away from there and came to his hometown, and his disciples followed him. And on the Sabbath he began to teach in the synagogue, and many who heard him were astonished, saying, 'Where did this man get these things? What is the wisdom given to him? How are such mighty works done by his hands? Is not this the carpenter, the son of Mary and brother of James and Joses and Judas and Simon? And are not his sisters here with us?' And they took offense at him. And Jesus said to them, 'A prophet is not without honor, except in his hometown and among his relatives and in his own household.' And he could do no mighty work there, except that he laid his hands on a few sick people and healed them. And he marveled because of their unbelief."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "orientation",
+      "type": "orientation",
+      "audio_script": "Welcome to lesson five. Today we see faith's power through two intertwined stories: a desperate woman touching Jesus' garment and a father pleading for his dying daughter. Faith connects people to Jesus' healing power."
+    },
+    {
+      "segment_id": "reading",
+      "type": "reading",
+      "audio_script": "Listen to Mark chapter 5 verse 21 through chapter 6 verse 6. And when Jesus had crossed again in the boat to the other side, a great crowd gathered about him. Then came one of the rulers of the synagogue, Jairus by name, and seeing him, he fell at his feet and implored him earnestly, saying, 'My little daughter is at the point of death. Come and lay your hands on her, so that she may be made well and live.' And he went with him. And there was a woman who had had a discharge of blood for twelve years, and who had suffered much under many physicians. She had heard the reports about Jesus and came up behind him in the crowd and touched his garment. For she said, 'If I touch even his garments, I will be made well.' And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease. And Jesus said, 'Who touched my garments?' But the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth. And he said to her, 'Daughter, your faith has made you well; go in peace, and be healed of your disease.' While he was still speaking, there came from the ruler's house some who said, 'Your daughter is dead. Why trouble the Teacher any further?' But overhearing what they said, Jesus said to the ruler of the synagogue, 'Do not fear, only believe.' They came to the house of the ruler of the synagogue, and Jesus saw a commotion, people weeping and wailing loudly. And when he had entered, he said to them, 'Why are you making a commotion and weeping? The child is not dead but sleeping.' And they laughed at him. But he put them all outside and took the child's father and mother and those who were with him and went in where the child was. Taking her by the hand he said to her, 'Talitha cumi,' which means, 'Little girl, I say to you, arise.' And immediately the girl got up and began walking, and they were immediately overcome with amazement. He went away from there and came to his hometown. And on the Sabbath he began to teach in the synagogue, and many who heard him were astonished, saying, 'Where did this man get these things? Is not this the carpenter, the son of Mary?' And they took offense at him. And Jesus said to them, 'A prophet is not without honor, except in his hometown.' And he could do no mighty work there, except that he laid his hands on a few sick people and healed them. And he marveled because of their unbelief."
+    },
+    {
+      "segment_id": "context",
+      "type": "context",
+      "audio_script": "Mark sandwiches the bleeding woman's story within Jairus's account, creating dramatic tension. Both involve the number twelve: twelve years of bleeding, a twelve-year-old girl. Both require faith amid desperation. The Nazareth rejection contrasts faith with familiarity breeding contempt."
+    },
+    {
+      "segment_id": "analysis",
+      "type": "analysis",
+      "audio_script": "The woman's condition made her ceremonially unclean, yet she touches Jesus in faith. He publicly honors her, calling her 'Daughter.' Jairus faces news of death but hears 'Do not fear, only believe.' Jesus raises the girl with tender words in Aramaic. Nazareth's unbelief limits Jesus' work, showing faith's necessity for receiving God's power."
+    },
+    {
+      "segment_id": "themes",
+      "type": "themes",
+      "audio_script": "Key themes include faith as the channel for Jesus' power, persistence in seeking Him despite obstacles, Jesus' compassion for outcasts and mourners, authority over death itself, and how familiarity can harden hearts. Unbelief limits what God can do through lack of receptivity."
+    },
+    {
+      "segment_id": "question",
+      "type": "question",
+      "audio_script": "Reflect on this: What obstacles might have stopped the bleeding woman from reaching Jesus? How does Jesus' command 'Do not fear, only believe' speak to your current struggles? Why does familiarity sometimes breed unbelief?"
+    },
+    {
+      "segment_id": "close",
+      "type": "close",
+      "audio_script": "Faith connects desperate people to Jesus' healing power, whether touching His garment or trusting His word over death's news. Yet familiarity can blind hearts to His glory. Next, we'll see the Twelve sent out. Great work today."
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "mark",
+    "chapter_range": "5:21-6:6",
+    "theological_themes": ["faith", "healing", "resurrection", "unbelief", "compassion"],
+    "time_period": "circa_28_ad",
+    "canonical_order": 41
+  }
+}
