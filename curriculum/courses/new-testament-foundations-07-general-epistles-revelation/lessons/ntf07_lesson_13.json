@@ -6,7 +6,18 @@
   "objective": "Practice hospitality, discernment, and faithful leadership shaped by truth and love.",
   "duration": "8 minutes",
   "prerequisite": "ntf07_lesson_12",
-  "required_passages": [{"passage_id":"2jn_1_1_13_3jn_1_1_15","reference":"2 John 1:1-13; 3 John 1:1-15","text":"Walk in truth... watch yourselves... do not receive false teachers... Beloved, do not imitate evil but imitate good... I have no greater joy than to hear that my children are walking in the truth."}],
+  "required_passages": [
+    {
+      "passage_id": "2jn_1_1_13",
+      "reference": "2 John 1:1-13",
+      "text": "Walk in truth... watch yourselves... do not receive false teachers..."
+    },
+    {
+      "passage_id": "3jn_1_1_15",
+      "reference": "3 John 1:1-15",
+      "text": "Beloved, do not imitate evil but imitate good... I have no greater joy than to hear that my children are walking in the truth."
+    }
+  ],
   "segments": [
     {"segment_id":"orientation","type":"orientation","audio_script":"John's shortest letters show truth and love worked out in church life."},
     {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 John and 3 John. In 2 John, believers are urged to walk in truth and love while refusing partnership with false teachers who deny Christ. In 3 John, John commends Gaius for faithful hospitality toward gospel workers and rebukes Diotrephes for prideful control. He encourages imitation of good and joyful commitment to truth."},
