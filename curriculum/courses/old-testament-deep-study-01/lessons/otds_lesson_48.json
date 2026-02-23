@@ -1,0 +1,67 @@
+{
+  "lesson_id": "otds_lesson_48",
+  "course_id": "old_testament_deep_study_01",
+  "sequence": 48,
+  "title": "Judges: Deborah and Gideon",
+  "objective": "Deepen biblical-theological understanding of judges: deborah and gideon and its place in redemptive history.",
+  "duration": "9 minutes",
+  "prerequisite": "otds_lesson_47",
+  "required_passages": [
+    {
+      "passage_id": "judges_4_8",
+      "reference": "Judges 4-8",
+      "text": "Selected key passages for this unit segment, read in full during lesson delivery."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "orientation",
+      "type": "orientation",
+      "audio_script": "Today we study judges: deborah and gideon and trace God's covenant faithfulness."
+    },
+    {
+      "segment_id": "reading",
+      "type": "reading",
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+    },
+    {
+      "segment_id": "context",
+      "type": "context",
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+    },
+    {
+      "segment_id": "analysis",
+      "type": "analysis",
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+    },
+    {
+      "segment_id": "themes",
+      "type": "themes",
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+    },
+    {
+      "segment_id": "question",
+      "type": "question",
+      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+    },
+    {
+      "segment_id": "close",
+      "type": "close",
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "old",
+    "book": "judges",
+    "chapter_range": "4-8",
+    "theological_themes": [
+      "covenant",
+      "holiness",
+      "redemption",
+      "kingdom"
+    ],
+    "time_period": "old_testament_era",
+    "canonical_order": 48
+  }
+}
