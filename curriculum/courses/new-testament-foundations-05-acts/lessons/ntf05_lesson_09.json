@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf05_lesson_09",
+  "course_id": "new_testament_foundations_05_acts",
+  "sequence": 9,
+  "title": "Reasoning in the Cities",
+  "objective": "Track Paul's witness in Thessalonica, Berea, Athens, and Corinth, learning contextual mission without compromising truth.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf05_lesson_08",
+  "required_passages": [{"passage_id":"act_17_1_18_28","reference":"Acts 17:1-18:28","text":"Paul reasoned from the Scriptures that the Christ had to suffer and rise... Bereans examined the Scriptures daily... in Athens Paul proclaimed the unknown God who commands all people everywhere to repent... in Corinth the Lord said, 'Do not be afraid... I have many in this city who are my people.' ... Apollos was instructed more accurately by Priscilla and Aquila."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul engages diverse cultures and worldviews while staying centered on Christ. Today we follow his urban mission strategy."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 17 and 18. In Thessalonica, Paul reasoned from the Scriptures that the Messiah had to suffer and rise, and that Jesus is this Messiah. Some believed; others stirred riots. In Berea, people received the word eagerly and examined the Scriptures daily. In Athens, troubled by idolatry, Paul addressed the Areopagus, proclaiming the Creator God and calling all people to repent because God has appointed a man to judge the world, giving assurance by raising Him from the dead. Some mocked, some delayed, some believed. In Corinth, Paul labored and taught for many months. The Lord encouraged him in a vision: 'Do not be afraid... I have many in this city who are my people.' Later, Apollos powerfully taught, and Priscilla and Aquila helped him understand the way more accurately."},
+    {"segment_id":"context","type":"context","audio_script":"These cities represent religious, philosophical, and commercial centers. The gospel speaks into each context without losing doctrinal clarity."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Paul adapts approach, not message. In synagogues he argues from Scripture; among pagans he starts with creation and conscience. The resurrection remains central. Disciple-making includes ongoing correction and equipping, as seen with Apollos."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include scriptural reasoning, discernment, contextual apologetics, repentance, resurrection proclamation, courage in mission, and collaborative discipleship."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Can you explain the gospel clearly in both church and secular settings? How can you imitate Berean discernment?"},
+    {"segment_id":"close","type":"close","audio_script":"The gospel speaks truth in every culture. Next, we watch deep ministry in Ephesus and Paul's farewell to elders."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"acts","chapter_range":"17-18","theological_themes":["apologetics","contextualization","resurrection","repentance","discipleship","church_planting"],"time_period":"circa_50_ad","canonical_order":44}
+}

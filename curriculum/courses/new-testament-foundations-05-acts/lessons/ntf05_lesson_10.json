@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf05_lesson_10",
+  "course_id": "new_testament_foundations_05_acts",
+  "sequence": 10,
+  "title": "Word and Tears",
+  "objective": "Study Paul's Ephesian ministry, spiritual confrontation, and his shepherding farewell to the Ephesian elders.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf05_lesson_09",
+  "required_passages": [{"passage_id":"act_19_1_20_38","reference":"Acts 19:1-20:38","text":"In Ephesus, disciples received fuller teaching and the Spirit's work... God did extraordinary miracles through Paul... many burned magic books... a riot erupted over Artemis worship... Paul told elders, 'I did not shrink from declaring to you the whole counsel of God' ... 'pay careful attention... to care for the church of God' ... 'It is more blessed to give than to receive.'"}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Ephesus shows the gospel confronting spiritual darkness, economic idols, and leadership challenges. Today we also hear Paul's pastoral heart."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 19 and 20. In Ephesus, Paul taught powerfully for years, and the word spread widely. God worked extraordinary miracles, and many who practiced magic confessed and burned their costly books, showing true repentance. As many turned from idols, merchants tied to Artemis worship incited a city riot. Later, Paul gathered Ephesian elders and reminded them of his tears, trials, and faithful teaching in public and house to house. He testified to repentance toward God and faith in Jesus. He declared, 'I did not shrink from declaring to you the whole counsel of God.' He warned of fierce wolves and urged vigilance: 'Pay careful attention... to care for the church of God.' He commended them to God and the word of His grace."},
+    {"segment_id":"context","type":"context","audio_script":"Ephesus was a major religious and trade center. Gospel conversion threatened idolatrous systems. Paul's farewell speech is the New Testament's clearest pastoral leadership charge in narrative form."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel challenges both personal sin and public idols. Genuine repentance is costly and visible. Healthy leadership requires doctrinal fidelity, emotional investment, sacrificial integrity, and vigilance against false teaching. Ministry is both truth and tears."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include repentance from idolatry, spiritual power under Christ, whole-counsel teaching, elder responsibility, church protection, grace, and generous service."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What idols need to be burned in your life? Are you committed to the whole counsel of God, not partial truth?"},
+    {"segment_id":"close","type":"close","audio_script":"The word grows where repentance is real and leadership is faithful. Next, Paul heads to Jerusalem under warning and suffering."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"acts","chapter_range":"19-20","theological_themes":["repentance","idolatry","leadership","whole_counsel","church_care","grace"],"time_period":"circa_54_ad","canonical_order":44}
+}

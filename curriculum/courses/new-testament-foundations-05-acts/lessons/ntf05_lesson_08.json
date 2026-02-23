@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf05_lesson_08",
+  "course_id": "new_testament_foundations_05_acts",
+  "sequence": 8,
+  "title": "Grace and Guidance",
+  "objective": "Understand the Jerusalem Council and the second journey where God redirects mission into Macedonia.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf05_lesson_07",
+  "required_passages": [{"passage_id":"act_15_1_16_40","reference":"Acts 15:1-16:40","text":"Some taught, 'Unless you are circumcised... you cannot be saved.' ... Peter said, 'we believe that we will be saved through the grace of the Lord Jesus.' ... the council sent a letter... Paul received a vision, 'Come over to Macedonia and help us.' ... Lydia believed... Paul and Silas were imprisoned and sang hymns... an earthquake opened doors... the jailer asked, 'What must I do to be saved?' They said, 'Believe in the Lord Jesus.'"}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"A doctrinal crisis and a missionary redirection shape the church's future. Today we see salvation by grace defended and mission crossing into Europe."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 15 and 16. In Jerusalem, some demanded circumcision for salvation. Peter testified that God gave Gentiles the Spirit by faith, and said, 'We will be saved through the grace of the Lord Jesus.' James affirmed this from Scripture. The council sent a letter to Gentile believers clarifying essentials for fellowship, not a works-based gospel. Paul began a new journey with Silas. The Spirit prevented certain routes, then in a vision a man from Macedonia called for help. In Philippi, Lydia believed and opened her home. After Paul cast out a spirit from a slave girl, Paul and Silas were beaten and jailed. At midnight they prayed and sang. An earthquake opened doors, yet they stayed. The jailer asked, 'What must I do to be saved?' They answered, 'Believe in the Lord Jesus.' He and his household were baptized."},
+    {"segment_id":"context","type":"context","audio_script":"The Jerusalem Council protects gospel clarity and church unity. The Macedonian call marks a major geographic expansion into Europe."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel is grace alone through faith, not ethnic boundary markers or law-keeping. Unity requires truth and love. Mission guidance is often directional through closed and open doors. Joyful worship in suffering becomes a powerful witness."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include justification by grace, doctrinal discernment, unity across cultures, Spirit guidance, worship in suffering, household conversions, and mission expansion."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Do you add conditions to grace in your thinking? How do you respond when God closes one door and opens another?"},
+    {"segment_id":"close","type":"close","audio_script":"The church stands firm on grace and follows God's guidance into new fields. Next, Paul reasons in key cities and forms strategic churches."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"acts","chapter_range":"15-16","theological_themes":["grace","jerusalem_council","justification","spirit_guidance","suffering","mission"],"time_period":"circa_49_ad","canonical_order":44}
+}

@@ -1,0 +1,34 @@
+{
+  "lesson_id": "ntf05_lesson_02",
+  "course_id": "new_testament_foundations_05_acts",
+  "sequence": 2,
+  "title": "Pentecost Power",
+  "objective": "Explore the coming of the Holy Spirit, Peter's sermon, and the birth of the New Testament church.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf05_lesson_01",
+  "required_passages": [
+    {
+      "passage_id": "act_2_1_47",
+      "reference": "Acts 2:1-47",
+      "text": "When the day of Pentecost arrived, they were all together in one place... they were all filled with the Holy Spirit and began to speak in other tongues... Peter said, 'This is what was uttered through the prophet Joel'... 'this Jesus... God raised up'... 'Let all the house of Israel therefore know for certain that God has made him both Lord and Christ, this Jesus whom you crucified.' ... 'Repent and be baptized... and you will receive the gift of the Holy Spirit.' ... about three thousand souls were added... They devoted themselves to the apostles' teaching and the fellowship, to the breaking of bread and the prayers."
+    }
+  ],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Pentecost is the decisive outpouring of the Spirit. Today we witness bold proclamation, mass conversion, and the church's foundational practices."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 2. On Pentecost, a sound like a mighty rushing wind filled the house, and divided tongues as of fire rested on each of them. They were filled with the Holy Spirit and spoke in other languages. Jews from many nations heard the mighty works of God in their own tongues. Peter stood and explained: this fulfills Joel's prophecy. He proclaimed Jesus' death by lawless men, His resurrection, and exaltation. Peter declared, 'God has made him both Lord and Christ, this Jesus whom you crucified.' The crowd was cut to the heart and asked, 'What shall we do?' Peter answered, 'Repent and be baptized... and you will receive the gift of the Holy Spirit.' About three thousand were added. The believers devoted themselves to apostolic teaching, fellowship, breaking bread, and prayers, sharing generously with glad hearts."},
+    {"segment_id":"context","type":"context","audio_script":"Pentecost was a Jewish pilgrimage feast, bringing nations to Jerusalem. God uses this moment to launch global witness. Peter, once fearful, now preaches boldly because the Spirit has come."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Pentecost reverses Babel's confusion by uniting people through the gospel. The Spirit empowers proclamation centered on Jesus' death, resurrection, and lordship. Repentance and baptism publicly mark allegiance to Christ. The church's pattern is theological depth, shared life, worship, and generous love."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Spirit baptism, fulfillment of prophecy, Christ-centered preaching, repentance and baptism, salvation by grace, church formation, devotion to teaching and prayer, and missional community life."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is your life marked by repentance and Spirit dependence? Are you devoted to apostolic truth, fellowship, prayer, and generosity?"},
+    {"segment_id":"close","type":"close","audio_script":"The Spirit has come, Christ is proclaimed, and the church is born. Next, we see bold witness under opposition in Jerusalem."}
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "acts",
+    "chapter_range": "2",
+    "theological_themes": ["pentecost", "holy_spirit", "repentance", "baptism", "church", "apostolic_preaching"],
+    "time_period": "circa_30_ad",
+    "canonical_order": 44
+  }
+}

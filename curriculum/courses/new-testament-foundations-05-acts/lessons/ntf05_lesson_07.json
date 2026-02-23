@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf05_lesson_07",
+  "course_id": "new_testament_foundations_05_acts",
+  "sequence": 7,
+  "title": "Sent from Antioch",
+  "objective": "Follow Paul and Barnabas on the first missionary journey and see the gospel spread through proclamation and suffering.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf05_lesson_06",
+  "required_passages": [{"passage_id":"act_13_1_14_28","reference":"Acts 13:1-14:28","text":"The Holy Spirit said, 'Set apart for me Barnabas and Saul...' ... in Pisidian Antioch Paul preached redemptive history fulfilled in Jesus... many Gentiles rejoiced... Jews stirred persecution... in Lystra Paul was stoned... they strengthened the disciples, saying, 'through many tribulations we must enter the kingdom of God.'"}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Mission now moves intentionally from Antioch. Today we follow the first missionary journey and its mix of fruit and suffering."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 13 and 14. In Antioch, while the church worshiped and fasted, the Holy Spirit said, 'Set apart for me Barnabas and Saul.' They preached in Cyprus and then in Pisidian Antioch, where Paul proclaimed Jesus as David's promised Savior raised from the dead. Many believed, especially Gentiles, but opposition grew. In Iconium and Lystra, God confirmed the word with signs. After healing a crippled man, crowds tried to worship Paul and Barnabas as gods, but they redirected glory to the living Creator. Soon opponents stoned Paul and left him for dead, yet he rose and continued. They revisited cities to strengthen disciples and appoint elders in every church."},
+    {"segment_id":"context","type":"context","audio_script":"This journey establishes Paul's pattern: synagogue first, then Gentile mission. New churches are planted with local leadership, not dependence on traveling apostles."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Mission is Spirit-initiated, church-sent, Scripture-preached, and suffering-enduring. Success is measured by faithful witness and mature disciples, not comfort. Appointing elders shows long-term church health matters from the start."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Spirit-led sending, gospel proclamation, Gentile joy, persecution, perseverance, discipleship, and eldership formation."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you open to being sent by the Spirit? How do you define ministry success when hardship comes?"},
+    {"segment_id":"close","type":"close","audio_script":"The gospel advances through Spirit-led courage. Next, the Jerusalem Council clarifies salvation by grace for all believers."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"acts","chapter_range":"13-14","theological_themes":["missionary_journey","spirit_sending","church_planting","perseverance","elders"],"time_period":"circa_46_ad","canonical_order":44}
+}
