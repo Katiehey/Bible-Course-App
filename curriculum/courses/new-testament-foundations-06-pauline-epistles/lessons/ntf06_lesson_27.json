@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_27",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 27,
+  "title": "Philemon: Gospel Reconciliation",
+  "objective": "See how the gospel transforms social relationships through forgiveness, honor, and restored fellowship.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf06_lesson_26",
+  "required_passages": [{"passage_id":"phm_1_1_25","reference":"Philemon 1:1-25","text":"I appeal to you for my child, Onesimus... receive him no longer as a bondservant but more than a bondservant, as a beloved brother... refresh my heart in Christ."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Philemon is short but profound: gospel theology embodied in relational reconciliation."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Philemon. Paul writes from prison on behalf of Onesimus, once useless but now useful, asking Philemon to receive him as a beloved brother. Paul offers to cover any debt and appeals on the basis of love rather than command, modeling Christlike mediation and reconciliation."},
+    {"segment_id":"context","type":"context","audio_script":"In a world shaped by status and coercion, Paul reframes relationship in terms of family in Christ."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel does not remain abstract; it rewires power, debt, and identity. Forgiveness and mutual honor become tangible signs of new creation community."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include reconciliation, forgiveness, mediation, brotherhood in Christ, and transformed relationships."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Who might God be calling you to receive, forgive, or advocate for in gospel love?"},
+    {"segment_id":"close","type":"close","audio_script":"Pauline Epistles conclude with reconciliation lived out. Next we can begin General Epistles and Revelation."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"philemon","chapter_range":"1","theological_themes":["reconciliation","forgiveness","mediation","church_family"],"time_period":"circa_60_ad","canonical_order":57}
+}

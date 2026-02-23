@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_22",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 22,
+  "title": "1 Timothy: Order in God's Household",
+  "objective": "Establish sound doctrine, godly leadership, and prayerful order in the local church.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_21",
+  "required_passages": [{"passage_id":"1ti_1_1_3_16","reference":"1 Timothy 1:1-3:16","text":"Charge certain persons not to teach any different doctrine... Christ Jesus came into the world to save sinners... let us pray... overseers and deacons must be above reproach... great indeed... Christ was manifested in the flesh."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul instructs Timothy to guard doctrine and shape church life according to the gospel."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Timothy 1-3. Paul commands Timothy to confront false teaching and preserve love from a pure heart. He celebrates mercy shown to him as a former persecutor. He urges prayer for all people and gives qualifications for overseers and deacons so God's household displays truth."},
+    {"segment_id":"context","type":"context","audio_script":"Ephesus faced doctrinal confusion and needed stable leadership structures."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Doctrine and character belong together. Leadership credibility is moral before managerial. The church is pillar and support of truth in the world."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include sound doctrine, grace for sinners, prayer, qualified leadership, and church order."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does your ministry value character as highly as gifting?"},
+    {"segment_id":"close","type":"close","audio_script":"God's household must reflect God's truth. Next, Paul guides Timothy in pastoral endurance and practical care."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_timothy","chapter_range":"1-3","theological_themes":["doctrine","leadership","church_order","prayer"],"time_period":"circa_63_ad","canonical_order":54}
+}

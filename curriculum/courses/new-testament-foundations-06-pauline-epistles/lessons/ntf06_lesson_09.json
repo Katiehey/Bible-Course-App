@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_09",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 9,
+  "title": "2 Corinthians: Reconciliation and Generosity",
+  "objective": "Embrace reconciliation with God and practical generosity flowing from grace.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_08",
+  "required_passages": [{"passage_id":"2co_5_1_9_15","reference":"2 Corinthians 5:1-9:15","text":"If anyone is in Christ, he is a new creation... God... gave us the ministry of reconciliation... For our sake he made him to be sin who knew no sin... God loves a cheerful giver."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul links gospel reconciliation to relational restoration and financial generosity."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Corinthians 5-9. Paul describes believers as ambassadors of reconciliation: God in Christ reconciling the world to Himself. He appeals for transformed holiness and restored relationships. He then organizes relief for needy believers, presenting giving as grace, willing joy, and worshipful partnership."},
+    {"segment_id":"context","type":"context","audio_script":"Corinth needed both relational repair with Paul and tangible participation in support for suffering churches."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"The cross creates new identity and mission. Reconciled people become reconciling people. Generosity is not coercion but gospel-shaped gratitude and trust in God's provision."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include new creation, substitutionary atonement, ministry of reconciliation, holiness, grace giving, and kingdom partnership."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where does Christ call you to pursue reconciliation? Is your giving marked by gospel joy?"},
+    {"segment_id":"close","type":"close","audio_script":"Reconciled by grace, we live and give differently. Next, Paul defends apostolic authority through weakness and Christ's strength."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_corinthians","chapter_range":"5-9","theological_themes":["reconciliation","new_creation","atonement","generosity","mission"],"time_period":"circa_56_ad","canonical_order":47}
+}

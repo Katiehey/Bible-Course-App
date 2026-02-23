@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_04",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 4,
+  "title": "Romans: Mercy and Mission",
+  "objective": "Summarize God's faithfulness, transformed ethics, and gospel mission in Romans 9-16.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_03",
+  "required_passages": [{"passage_id":"rom_9_1_16_27","reference":"Romans 9:1-16:27","text":"Oh, the depth of the riches... of God! ... Present your bodies as a living sacrifice... Love one another... Welcome one another as Christ has welcomed you... I make it my ambition to preach the gospel where Christ has not been named."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Romans ends by joining deep theology to transformed community and outward mission."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Romans 9-16. Paul wrestles with Israel's unbelief while affirming God's sovereign mercy and covenant faithfulness. He calls believers to offer themselves as living sacrifices, renew their minds, love genuinely, submit appropriately, and welcome one another across differences. He then shares his missionary ambition and partnership vision."},
+    {"segment_id":"context","type":"context","audio_script":"Roman house churches faced ethnic and conscience tensions. Paul applies gospel truth to unity and witness."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Doctrine fuels discipleship. Worship is whole-life surrender. Unity requires mutual welcome under Christ's lordship. Mature churches become mission bases for unreached peoples."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include God's mercy, humility before mystery, sacrificial living, Christian unity, conscience wisdom, and frontier mission."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where is the gospel calling you to deeper humility, unity, and missionary action?"},
+    {"segment_id":"close","type":"close","audio_script":"Romans forms a complete gospel vision for belief, belonging, and mission. Next we turn to Corinth's church struggles."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"romans","chapter_range":"9-16","theological_themes":["mercy","election","ethics","unity","mission"],"time_period":"circa_57_ad","canonical_order":45}
+}

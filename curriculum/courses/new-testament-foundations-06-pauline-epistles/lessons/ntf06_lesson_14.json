@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_14",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 14,
+  "title": "Ephesians: Walk Worthy",
+  "objective": "Practice gospel-shaped relationships and stand firm with the armor of God.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_13",
+  "required_passages": [{"passage_id":"eph_4_1_6_24","reference":"Ephesians 4:1-6:24","text":"Walk in a manner worthy... put on the new self... be imitators of God... submit to one another... put on the whole armor of God... stand firm."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul turns from theology to practice: how redeemed people walk together and resist evil."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Ephesians 4-6. Paul urges humility, patience, and unity in the Spirit. He calls believers to put off the old self and put on the new. He applies gospel ethics to speech, sexuality, work, family, and mutual submission. He concludes with the armor of God and persistent prayer in spiritual warfare."},
+    {"segment_id":"context","type":"context","audio_script":"Household and social structures are transformed not by domination but by Christlike love and service."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Sanctification is communal and practical. Spiritual warfare is resisted through truth, righteousness, faith, Scripture, and prayer—not worldly methods."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include worthy walk, new self, holy relationships, unity, spiritual warfare, and persevering prayer."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Which piece of spiritual armor do you most need to put on intentionally right now?"},
+    {"segment_id":"close","type":"close","audio_script":"The gospel reshapes life and equips us to stand. Next, Philippians teaches joy and humility in Christ."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"ephesians","chapter_range":"4-6","theological_themes":["sanctification","unity","relationships","armor_of_god","prayer"],"time_period":"circa_60_ad","canonical_order":49}
+}

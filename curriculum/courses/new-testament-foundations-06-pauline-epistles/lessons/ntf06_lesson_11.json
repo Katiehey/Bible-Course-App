@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_11",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 11,
+  "title": "Galatians: No Other Gospel",
+  "objective": "Defend justification by faith against legalism and understand Christian freedom in Christ.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_10",
+  "required_passages": [{"passage_id":"gal_1_1_3_29","reference":"Galatians 1:1-3:29","text":"If anyone is preaching to you a gospel contrary... let him be accursed... a person is not justified by works of the law but through faith in Jesus Christ... The righteous shall live by faith."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Galatians is Paul's urgent defense of grace against distortion."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Galatians 1-3. Paul rebukes the churches for deserting the true gospel. He recounts his apostolic call and confrontation with Peter to preserve gospel truth. He insists justification is by faith in Christ, not law works. Abraham's example and Christ's redeeming curse-bearing work confirm this."},
+    {"segment_id":"context","type":"context","audio_script":"False teachers pressured Gentiles to adopt Jewish law markers as conditions of full belonging."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Any addition to grace creates another gospel. Faith unites believers to Christ and Abraham's promise, forming one family beyond ethnic barriers."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include gospel purity, justification by faith, apostolic authority, promise over law, and unity in Christ."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where might performance thinking be replacing grace in your spiritual life?"},
+    {"segment_id":"close","type":"close","audio_script":"Christ alone justifies. Next, we explore freedom, Spirit fruit, and practical life in Galatians 4-6."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"galatians","chapter_range":"1-3","theological_themes":["grace","justification","faith","gospel"],"time_period":"circa_49_ad","canonical_order":48}
+}

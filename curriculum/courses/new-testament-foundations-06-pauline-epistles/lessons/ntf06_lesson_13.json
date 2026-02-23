@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_13",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 13,
+  "title": "Ephesians: Identity in Christ",
+  "objective": "Celebrate God's saving plan and the church's new identity as one body in Christ.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_12",
+  "required_passages": [{"passage_id":"eph_1_1_3_21","reference":"Ephesians 1:1-3:21","text":"He chose us in him... by grace you have been saved through faith... He himself is our peace... through the church the manifold wisdom of God might now be made known."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Ephesians opens with worshipful theology of grace, unity, and God's eternal purpose."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Ephesians 1-3. Paul blesses God for election, redemption, and sealing by the Spirit. He reminds believers they were dead in sin but made alive by grace through faith. In Christ, Jew and Gentile are reconciled into one new humanity. Paul prays believers grasp Christ's immeasurable love."},
+    {"segment_id":"context","type":"context","audio_script":"Likely a circular letter, Ephesians gives a panoramic vision of salvation and church identity."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Identity precedes activity. The church is not an optional add-on but the display of God's wisdom. Grace destroys hostility and forms reconciled community."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include election, grace, union with Christ, reconciliation, church unity, Spirit sealing, and doxology."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is your identity anchored in grace, or in performance and comparison?"},
+    {"segment_id":"close","type":"close","audio_script":"Saved by grace, we become one people in Christ. Next, Ephesians calls believers to worthy living and spiritual warfare."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"ephesians","chapter_range":"1-3","theological_themes":["grace","identity","church","unity","reconciliation"],"time_period":"circa_60_ad","canonical_order":49}
+}

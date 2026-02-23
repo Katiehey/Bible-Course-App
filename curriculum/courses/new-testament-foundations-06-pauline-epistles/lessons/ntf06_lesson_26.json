@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_26",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 26,
+  "title": "Titus: Doctrine and Good Works",
+  "objective": "Establish healthy churches through sound doctrine, qualified elders, and visible good works.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf06_lesson_25",
+  "required_passages": [{"passage_id":"tit_1_1_3_15","reference":"Titus 1:1-3:15","text":"Appoint elders in every town... hold firm to the trustworthy word... the grace of God has appeared... training us... to be zealous for good works... He saved us... by the washing of regeneration and renewal of the Holy Spirit."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Titus shows how gospel truth forms healthy communities with credible public witness."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Titus. Paul instructs Titus to appoint qualified elders, silence false teachers, and teach doctrine that produces self-controlled, honorable living across all ages. He grounds ethics in grace: God saved us not by works but by mercy, and this salvation trains believers to devote themselves to good works."},
+    {"segment_id":"context","type":"context","audio_script":"Churches in Crete needed strong leadership and consistent gospel-shaped conduct in a difficult cultural setting."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Sound doctrine and good works are inseparable. Grace is both saving and training, producing people who adorn the gospel in society."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include elder qualification, doctrinal integrity, regeneration, sanctification, civic witness, and good works."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does your life make the gospel more believable to those watching you?"},
+    {"segment_id":"close","type":"close","audio_script":"Grace saves and trains us for fruitful lives. Next, Philemon displays gospel reconciliation in one personal relationship."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"titus","chapter_range":"1-3","theological_themes":["church_order","grace","regeneration","good_works","witness"],"time_period":"circa_63_ad","canonical_order":56}
+}

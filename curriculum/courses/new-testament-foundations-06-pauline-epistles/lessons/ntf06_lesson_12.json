@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_12",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 12,
+  "title": "Galatians: Freedom by the Spirit",
+  "objective": "Live out Christian freedom through love, Spirit-led holiness, and restored community.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_11",
+  "required_passages": [{"passage_id":"gal_4_1_6_18","reference":"Galatians 4:1-6:18","text":"For freedom Christ has set us free... Walk by the Spirit, and you will not gratify the desires of the flesh... the fruit of the Spirit is love, joy, peace... Bear one another's burdens."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Freedom in Christ is not self-rule but Spirit-enabled love."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Galatians 4-6. Paul contrasts slavery and sonship, urges believers not to return to law bondage, and commands: 'Walk by the Spirit.' He lists works of the flesh and fruit of the Spirit, calling the church to gentleness, burden-bearing, and sowing to the Spirit."},
+    {"segment_id":"context","type":"context","audio_script":"Galatian churches needed practical guidance to avoid both legalism and license."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Gospel freedom produces transformed character and communal care. The Spirit forms Christlike life that law cannot manufacture."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include adoption, freedom, Spirit-led sanctification, fruit of the Spirit, mutual restoration, and new creation."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you sowing to the flesh or to the Spirit in your daily rhythms?"},
+    {"segment_id":"close","type":"close","audio_script":"True freedom bears Spirit fruit and serves others in love. Next, Ephesians unveils God's cosmic plan in Christ."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"galatians","chapter_range":"4-6","theological_themes":["freedom","holy_spirit","fruit","sanctification","community"],"time_period":"circa_49_ad","canonical_order":48}
+}

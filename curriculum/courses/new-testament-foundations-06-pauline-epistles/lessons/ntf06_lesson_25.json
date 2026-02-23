@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_25",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 25,
+  "title": "2 Timothy: Preach the Word",
+  "objective": "Finish with Paul's final charge to preach Scripture faithfully and endure to the end.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf06_lesson_24",
+  "required_passages": [{"passage_id":"2ti_3_1_4_22","reference":"2 Timothy 3:1-4:22","text":"All Scripture is breathed out by God... Preach the word... I have fought the good fight, I have finished the race, I have kept the faith."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul's final words call every minister and disciple to Scripture-rooted endurance."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Timothy 3-4. Paul warns of difficult times and deceptive teachers, then highlights Scripture's divine authority and usefulness for teaching and training. He solemnly charges Timothy: preach the word in season and out of season. Paul closes with testimony of endurance and confidence in the Lord's righteous crown."},
+    {"segment_id":"context","type":"context","audio_script":"As apostolic era leadership transitions, Scripture-centered preaching becomes the enduring anchor for the church."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Faithful ministry resists novelty by remaining tethered to God's breathed-out word. Finishing well requires steadfast doctrine, courage, and hope in Christ's appearing."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Scripture authority, preaching, discernment, perseverance, and finishing the race."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you ordering your life around God's word in a way that will help you finish well?"},
+    {"segment_id":"close","type":"close","audio_script":"Preach the word and endure to the end. Next, Titus applies gospel doctrine to church order and public witness."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_timothy","chapter_range":"3-4","theological_themes":["scripture","preaching","perseverance","finishing_well"],"time_period":"circa_66_ad","canonical_order":55}
+}

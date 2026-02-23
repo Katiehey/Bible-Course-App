@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_17",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 17,
+  "title": "Colossians: Christ Supreme",
+  "objective": "Exalt the supremacy of Christ over creation, redemption, and every competing philosophy.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_16",
+  "required_passages": [{"passage_id":"col_1_1_2_23","reference":"Colossians 1:1-2:23","text":"He is the image of the invisible God... all things were created through him and for him... in him all the fullness of God was pleased to dwell... in Christ are hidden all the treasures of wisdom and knowledge."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Colossians centers everything on Christ's unmatched supremacy."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Colossians 1-2. Paul thanks God for gospel fruit and prays for spiritual wisdom. He presents Christ as Creator, Sustainer, Head of the church, and Reconciler by His cross. He warns against empty philosophy, legalism, and mystical additions, declaring believers complete in Christ."},
+    {"segment_id":"context","type":"context","audio_script":"Colossae faced syncretistic teaching that diminished Christ by adding spiritual formulas and regulations."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"If Christ is supreme and sufficient, believers need no supplemental spirituality. Growth comes by continuing in Christ, rooted and built up in Him."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Christology, reconciliation, gospel growth, discernment, fullness in Christ, and freedom from legalism."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What additions are tempting you to seek fullness outside of Christ?"},
+    {"segment_id":"close","type":"close","audio_script":"Christ is fully sufficient. Next, Paul applies this supremacy to holy living and witness."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"colossians","chapter_range":"1-2","theological_themes":["supremacy_of_christ","sufficiency","reconciliation","discernment"],"time_period":"circa_60_ad","canonical_order":51}
+}

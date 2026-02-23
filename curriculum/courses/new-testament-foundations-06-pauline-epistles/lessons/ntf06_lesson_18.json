@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_18",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 18,
+  "title": "Colossians: New Self Living",
+  "objective": "Practice putting off the old self and putting on Christlike virtues in home and public life.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_17",
+  "required_passages": [{"passage_id":"col_3_1_4_18","reference":"Colossians 3:1-4:18","text":"Set your minds on things that are above... put to death what is earthly... put on compassionate hearts... whatever you do... do everything in the name of the Lord Jesus."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Union with Christ produces practical transformation in speech, relationships, and work."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Colossians 3-4. Paul tells believers to seek things above because they have died and risen with Christ. They must put to death sin and put on compassion, humility, patience, forgiveness, and love. He applies this to households, work, and prayerful witness toward outsiders."},
+    {"segment_id":"context","type":"context","audio_script":"Colossian believers needed a clear path from doctrine to daily discipleship."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Sanctification is identity-driven: become what you are in Christ. Mission credibility grows where speech and relationships reflect gospel character."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include new self, holiness, forgiveness, Christ-centered households, vocational faithfulness, prayer, and witness."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What old pattern must be put off this week, and what Christlike virtue must be put on?"},
+    {"segment_id":"close","type":"close","audio_script":"The risen life reshapes everything. Next, Thessalonians teaches hope and endurance under pressure."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"colossians","chapter_range":"3-4","theological_themes":["sanctification","new_self","household_ethics","prayer","witness"],"time_period":"circa_60_ad","canonical_order":51}
+}

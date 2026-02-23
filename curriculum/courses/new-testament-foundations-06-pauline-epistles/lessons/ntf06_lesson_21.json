@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_21",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 21,
+  "title": "2 Thessalonians: Stand Firm",
+  "objective": "Discern end-times confusion and practice steadfast, disciplined faithfulness.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf06_lesson_20",
+  "required_passages": [{"passage_id":"2th_1_1_3_18","reference":"2 Thessalonians 1:1-3:18","text":"Stand firm... do not be quickly shaken... the Lord is faithful... if anyone is not willing to work, let him not eat... do not grow weary in doing good."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul corrects fear and disorder by grounding believers in truth and perseverance."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Thessalonians. Paul encourages persecuted believers with God's justice and Christ's return. He clarifies that the day of the Lord has not already come and warns against deception. He calls the church to stand firm in apostolic teaching and practice disciplined, responsible life."},
+    {"segment_id":"context","type":"context","audio_script":"False reports and idle behavior destabilized the church's hope and witness."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Eschatology should stabilize, not sensationalize. Truth and disciplined work protect community health while believers await Christ."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include perseverance, discernment, faithfulness, discipline, and patient hope."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are your end-times beliefs producing steady obedience or restless distraction?"},
+    {"segment_id":"close","type":"close","audio_script":"Stand firm in truth and do not grow weary in good. Next, the pastoral letters train church leaders for healthy doctrine and life."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_thessalonians","chapter_range":"1-3","theological_themes":["second_coming","discernment","steadfastness","discipline"],"time_period":"circa_51_ad","canonical_order":53}
+}

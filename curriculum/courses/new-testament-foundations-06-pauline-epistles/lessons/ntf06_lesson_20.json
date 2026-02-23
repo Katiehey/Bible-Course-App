@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_20",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 20,
+  "title": "1 Thessalonians: Holy Hope",
+  "objective": "Live in holiness, encouragement, and expectancy as we await the Lord's coming.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_19",
+  "required_passages": [{"passage_id":"1th_4_1_5_28","reference":"1 Thessalonians 4:1-5:28","text":"This is the will of God, your sanctification... The Lord himself will descend from heaven... encourage one another with these words... let us be sober... put on the breastplate of faith and love."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul joins practical holiness with future hope in Christ's appearing."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Thessalonians 4-5. Paul urges sexual holiness, brotherly love, diligent work, and peace. He comforts grieving believers with resurrection hope: the Lord will come, and the dead in Christ will rise. He calls the church to alertness, prayer, gratitude, and mutual edification."},
+    {"segment_id":"context","type":"context","audio_script":"Confusion about deceased believers and Christ's return troubled the community."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Future hope energizes present holiness. Eschatology is pastoral comfort, not speculation. Community life is sustained by encouragement, discernment, and persistent worship."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include sanctification, resurrection hope, return of Christ, vigilance, encouragement, and thankful prayer."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does Christ's return make you more watchful and holy in ordinary choices?"},
+    {"segment_id":"close","type":"close","audio_script":"Holy hope steadies the church. Next, 2 Thessalonians clarifies confusion about the day of the Lord."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_thessalonians","chapter_range":"4-5","theological_themes":["sanctification","second_coming","resurrection","encouragement","vigilance"],"time_period":"circa_50_ad","canonical_order":52}
+}

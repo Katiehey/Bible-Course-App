@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_03",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 3,
+  "title": "Romans: New Life in the Spirit",
+  "objective": "Learn how union with Christ brings freedom from sin's dominion and life by the Spirit.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf06_lesson_02",
+  "required_passages": [{"passage_id":"rom_5_1_8_39","reference":"Romans 5:1-8:39","text":"There is therefore now no condemnation for those who are in Christ Jesus... the law of the Spirit of life has set you free... nothing will be able to separate us from the love of God in Christ Jesus our Lord."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"From peace with God to victory in the Spirit, Romans 5-8 anchors Christian assurance and transformation."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Romans 5-8. Justified believers have peace with God. In Adam came death; in Christ comes life. Believers are united with Christ in His death and resurrection, no longer slaves of sin. Though the struggle with indwelling sin is real, the Spirit empowers obedience. Paul triumphantly declares: no condemnation in Christ and no separation from God's love."},
+    {"segment_id":"context","type":"context","audio_script":"Paul writes pastorally to believers wrestling with assurance and holiness in a broken world."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Sanctification is grounded in identity: believers are in Christ. The Spirit does not merely improve behavior; He gives new life, adoption, and hope. Suffering cannot cancel God's covenant love."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include union with Christ, sanctification, Spirit-led life, adoption, suffering with hope, assurance, and perseverance."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you fighting sin from fear, or from the secure identity of no condemnation in Christ?"},
+    {"segment_id":"close","type":"close","audio_script":"Life in the Spirit produces holiness and hope. Next, Paul addresses Israel, mercy, and practical Christian living."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"romans","chapter_range":"5-8","theological_themes":["union_with_christ","sanctification","holy_spirit","assurance"],"time_period":"circa_57_ad","canonical_order":45}
+}

@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_24",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 24,
+  "title": "2 Timothy: Fan into Flame",
+  "objective": "Receive Paul's final charge to courageous gospel endurance in suffering.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_23",
+  "required_passages": [{"passage_id":"2ti_1_1_2_26","reference":"2 Timothy 1:1-2:26","text":"God gave us a spirit not of fear but of power... share in suffering for the gospel... guard the good deposit... entrust to faithful men... endure hardship as a good soldier of Christ Jesus."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"From prison and near death, Paul calls Timothy to courage, loyalty, and multiplication."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Timothy 1-2. Paul urges Timothy to fan into flame his gift and not be ashamed of gospel testimony. He calls him to suffer with strength from grace, entrust truth to faithful teachers, and avoid quarrels while correcting opponents with gentleness."},
+    {"segment_id":"context","type":"context","audio_script":"Paul writes under Nero's hostility, aware his life is ending. This is a final leadership handoff."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Courage is Spirit-enabled, not personality-driven. Gospel ministry multiplies through entrusting truth to faithful people. Endurance requires disciplined focus and gentle doctrine-centered correction."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include courage, suffering, discipleship multiplication, doctrinal fidelity, and servant character."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Who are you intentionally entrusting with gospel truth for the next generation?"},
+    {"segment_id":"close","type":"close","audio_script":"Fan into flame the gift and endure. Next, Paul grounds final perseverance in Scripture and Christ's appearing."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_timothy","chapter_range":"1-2","theological_themes":["courage","suffering","discipleship","doctrine","endurance"],"time_period":"circa_66_ad","canonical_order":55}
+}

@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_15",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 15,
+  "title": "Philippians: Joy in Christ",
+  "objective": "Learn gospel joy in suffering and unity through Christ's humility.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_14",
+  "required_passages": [{"passage_id":"php_1_1_2_30","reference":"Philippians 1:1-2:30","text":"To live is Christ, and to die is gain... complete my joy by being of the same mind... Christ Jesus... humbled himself... therefore God has highly exalted him."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"From prison, Paul writes one of Scripture's most joyful letters."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Philippians 1-2. Paul rejoices that the gospel advances even through chains. He says, 'To live is Christ, and to die is gain.' He urges the church to unity and presents Christ's humility: though equal with God, He took servant form and obeyed to death on a cross; therefore God exalted Him."},
+    {"segment_id":"context","type":"context","audio_script":"Philippi was a supportive church, yet threatened by relational tensions and external pressure."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Christian joy is rooted in Christ's lordship, not circumstances. Unity grows where humility and self-giving love replace rivalry."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include joy in suffering, gospel partnership, Christ's humiliation and exaltation, unity, and faithful witness."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is your joy tied to outcomes, or anchored in Christ Himself?"},
+    {"segment_id":"close","type":"close","audio_script":"Joy and humility flourish under Christ's lordship. Next, Philippians 3-4 calls us to mature pursuit and prayerful peace."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"philippians","chapter_range":"1-2","theological_themes":["joy","humility","christ_hymn","unity","suffering"],"time_period":"circa_61_ad","canonical_order":50}
+}

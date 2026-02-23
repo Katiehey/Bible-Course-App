@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_07",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 7,
+  "title": "1 Corinthians: Worship, Gifts, and Resurrection",
+  "objective": "Understand ordered worship, love as the supreme gift, and the centrality of bodily resurrection.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf06_lesson_06",
+  "required_passages": [{"passage_id":"1co_11_1_16_24","reference":"1 Corinthians 11:1-16:24","text":"As often as you eat this bread and drink the cup, you proclaim the Lord's death... Now you are the body of Christ... If I... have not love, I am nothing... Christ has been raised from the dead... be steadfast... your labor is not in vain."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul brings correction to gathered worship and anchors everything in resurrection certainty."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 11-16. Paul corrects abuse at the Lord's Supper and calls for discernment and unity. He teaches diverse spiritual gifts within one body, placing love above all gifts. He urges orderly worship that edifies all. Finally, he defends Christ's resurrection and the future resurrection of believers, declaring death defeated in Christ."},
+    {"segment_id":"context","type":"context","audio_script":"Corinth prized spiritual display; Paul redirects them toward mutual edification and gospel substance."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Love is not optional sentiment but the operating principle of spiritual gifts. Resurrection is non-negotiable: without it, faith collapses; with it, labor has eternal meaning."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Lord's Supper integrity, body unity, spiritual gifts, love, ordered worship, resurrection victory, and steadfast service."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is love shaping your gifts and worship? Does resurrection hope strengthen your endurance?"},
+    {"segment_id":"close","type":"close","audio_script":"Love governs gifts, and resurrection secures hope. Next we move into 2 Corinthians and ministry through weakness."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"11-16","theological_themes":["worship","spiritual_gifts","love","resurrection","hope"],"time_period":"circa_55_ad","canonical_order":46}
+}

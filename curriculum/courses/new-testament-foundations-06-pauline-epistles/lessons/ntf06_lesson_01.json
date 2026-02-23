@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_01",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 1,
+  "title": "Romans: Gospel Power",
+  "objective": "Grasp Paul's thesis that the gospel reveals God's righteousness for salvation by faith.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf05_lesson_12",
+  "required_passages": [{"passage_id":"rom_1_1_17","reference":"Romans 1:1-17","text":"I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes... For in it the righteousness of God is revealed from faith for faith."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul's letters begin with Romans, his fullest gospel explanation. Today we focus on the message that saves."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Romans 1:1-17. Paul introduces himself as an apostle set apart for the gospel promised in Scripture concerning God's Son. He longs to preach in Rome and declares, 'I am not ashamed of the gospel... it is the power of God for salvation to everyone who believes.'"},
+    {"segment_id":"context","type":"context","audio_script":"Romans addresses a mixed Jewish-Gentile church and prepares for mission to Spain. Paul lays doctrinal foundations before practical exhortations."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel is not advice but divine power. Salvation comes by faith, not ethnicity or law performance. God's righteousness is both revealed and received in Christ."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include gospel centrality, righteousness by faith, global mission, and confidence in Christ."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you truly unashamed of the gospel in public and private life?"},
+    {"segment_id":"close","type":"close","audio_script":"The gospel saves all who believe. Next, Paul shows humanity's universal need for grace."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"romans","chapter_range":"1","theological_themes":["gospel","righteousness","faith","salvation"],"time_period":"circa_57_ad","canonical_order":45}
+}

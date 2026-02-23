@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_06",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 6,
+  "title": "1 Corinthians: Holy Bodies, Holy Community",
+  "objective": "Apply gospel holiness to sexuality, lawsuits, marriage, and liberty in everyday life.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf06_lesson_05",
+  "required_passages": [{"passage_id":"1co_5_1_10_33","reference":"1 Corinthians 5:1-10:33","text":"Do you not know that a little leaven leavens the whole lump?... Flee from sexual immorality... you are not your own, for you were bought with a price... whether you eat or drink, do all to the glory of God."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul applies the gospel to messy church life: discipline, sexuality, relationships, and conscience."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 5-10. Paul commands church discipline for unrepentant immorality, warns against lawsuits among believers, teaches that bodies belong to the Lord, gives pastoral counsel on marriage and singleness, and addresses food offered to idols by balancing freedom with love. He concludes: 'Do all to the glory of God.'"},
+    {"segment_id":"context","type":"context","audio_script":"Corinth's permissive culture pressured believers to detach faith from bodily and relational ethics."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Grace does not minimize holiness; it empowers it. Christian freedom is governed by love and witness. The body is a temple of the Spirit and belongs to Christ."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include discipline, purity, sanctified sexuality, covenant faithfulness, conscience, liberty, and God's glory in ordinary life."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are your choices shaped more by rights or by love for God's people and mission?"},
+    {"segment_id":"close","type":"close","audio_script":"Holiness is embodied discipleship for God's glory. Next, Paul addresses worship order, spiritual gifts, and resurrection hope."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"5-10","theological_themes":["holiness","discipline","body","freedom","glory_of_god"],"time_period":"circa_55_ad","canonical_order":46}
+}

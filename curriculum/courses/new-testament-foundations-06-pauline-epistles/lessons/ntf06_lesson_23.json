@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_23",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 23,
+  "title": "1 Timothy: Guard the Deposit",
+  "objective": "Persevere in pastoral ministry through Scripture-centered teaching, godliness, and wise care for the flock.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_22",
+  "required_passages": [{"passage_id":"1ti_4_1_6_21","reference":"1 Timothy 4:1-6:21","text":"Train yourself for godliness... devote yourself to the public reading of Scripture... godliness with contentment is great gain... fight the good fight of the faith... guard the deposit entrusted to you."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul equips Timothy for long-term, faithful shepherding in difficult times."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Timothy 4-6. Paul warns of later deceptions and calls Timothy to nourish the church with sound words. He emphasizes Scripture reading, teaching, and personal example. He gives instructions for caring for widows, honoring elders, and resisting greed. He charges Timothy to fight the good fight and keep the commandment unstained."},
+    {"segment_id":"context","type":"context","audio_script":"Pastoral ministry required both doctrinal vigilance and practical administration in diverse church needs."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Faithful ministry is sustained by Scripture, godly character, and endurance. Contentment protects against corrosive love of money. Guarding truth requires both courage and tenderness."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include godliness, Scripture ministry, pastoral care, generosity, contentment, and perseverance."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What habits are training you toward godliness rather than distraction?"},
+    {"segment_id":"close","type":"close","audio_script":"Guard the gospel with faithful life and teaching. Next, Paul's final letter calls Timothy to finish well."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_timothy","chapter_range":"4-6","theological_themes":["godliness","scripture","pastoral_care","contentment","perseverance"],"time_period":"circa_63_ad","canonical_order":54}
+}

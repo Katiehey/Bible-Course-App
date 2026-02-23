@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_08",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 8,
+  "title": "2 Corinthians: Comfort in Affliction",
+  "objective": "See how God comforts His people and displays gospel ministry through suffering and integrity.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_07",
+  "required_passages": [{"passage_id":"2co_1_1_4_18","reference":"2 Corinthians 1:1-4:18","text":"The Father of mercies and God of all comfort... we have this treasure in jars of clay, to show that the surpassing power belongs to God... momentary affliction is preparing an eternal weight of glory."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul opens 2 Corinthians by reframing suffering as the stage for God's sustaining power."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Corinthians 1-4. Paul blesses the God of all comfort who strengthens us in affliction so we can comfort others. He explains his ministry sincerity and dependence on God's promises. He contrasts old and new covenants, proclaiming the Spirit's transforming glory. Though afflicted and pressed, he says believers carry treasure in jars of clay so God's power is seen."},
+    {"segment_id":"context","type":"context","audio_script":"Opponents questioned Paul's credibility because of weakness and hardship."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"In gospel ministry, weakness is not disqualification but context for divine strength. Authentic leadership values integrity, transparency, and endurance over image."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include divine comfort, integrity, new covenant glory, weakness and power, perseverance, and eternal perspective."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Do you interpret hardship as failure, or as a place where God's power can be displayed?"},
+    {"segment_id":"close","type":"close","audio_script":"God comforts and strengthens servants in affliction. Next, Paul calls for holiness, generosity, and boast only in the Lord."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_corinthians","chapter_range":"1-4","theological_themes":["comfort","suffering","integrity","new_covenant","power_in_weakness"],"time_period":"circa_56_ad","canonical_order":47}
+}

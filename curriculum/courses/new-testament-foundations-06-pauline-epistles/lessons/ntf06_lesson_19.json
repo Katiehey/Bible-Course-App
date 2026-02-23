@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_19",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 19,
+  "title": "1 Thessalonians: Faithful Awaiting",
+  "objective": "Encourage holy endurance and hope in Christ's return amid affliction.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_18",
+  "required_passages": [{"passage_id":"1th_1_1_3_13","reference":"1 Thessalonians 1:1-3:13","text":"Your work of faith and labor of love and steadfastness of hope... you turned to God from idols... to wait for his Son from heaven."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul affirms a young church persevering through suffering with vibrant hope."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Thessalonians 1-3. Paul thanks God for their faith, love, and hope. They turned from idols to serve the living God and await Jesus from heaven. Despite persecution, they became examples to other believers. Paul expresses pastoral longing and sends Timothy to strengthen them."},
+    {"segment_id":"context","type":"context","audio_script":"Thessalonian believers faced hostility soon after conversion and needed reassurance."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Conversion includes turning and waiting: renouncing idols and expecting Christ. Healthy churches are formed by gospel reception, imitation, and multiplication through suffering."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include conversion, discipleship, perseverance, pastoral care, and eschatological hope."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What idols still compete with wholehearted devotion to the living God?"},
+    {"segment_id":"close","type":"close","audio_script":"Hope in Christ's return strengthens endurance. Next, Paul explains holiness and the resurrection hope of believers."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_thessalonians","chapter_range":"1-3","theological_themes":["conversion","hope","perseverance","discipleship"],"time_period":"circa_50_ad","canonical_order":52}
+}

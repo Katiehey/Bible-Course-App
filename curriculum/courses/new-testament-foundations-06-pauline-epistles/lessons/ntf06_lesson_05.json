@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_05",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 5,
+  "title": "1 Corinthians: Christ over Division",
+  "objective": "Address church factions and re-center identity, wisdom, and leadership in Christ crucified.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_04",
+  "required_passages": [{"passage_id":"1co_1_1_4_21","reference":"1 Corinthians 1:1-4:21","text":"Is Christ divided? ... We preach Christ crucified... Let no one boast in men... servants through whom you believed... The kingdom of God does not consist in talk but in power."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Corinth's gifted church was fractured by pride. Paul calls them back to the cross."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 1-4. Paul confronts party spirit: 'I follow Paul,' 'I follow Apollos.' He asks, 'Is Christ divided?' He insists the center is Christ crucified, which appears foolish to the world but is God's wisdom and power. Leaders are servants and stewards, not celebrities."},
+    {"segment_id":"context","type":"context","audio_script":"Corinth valued status, rhetoric, and power. These cultural values leaked into church identity."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"When churches orbit personalities, the cross is displaced. Gospel maturity rejects boasting and embraces humble service. True leadership builds on Christ, not brand."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include unity in Christ, folly of worldly wisdom, centrality of the cross, servant leadership, and spiritual maturity."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you forming identity around Christ, or around preferred leaders and styles?"},
+    {"segment_id":"close","type":"close","audio_script":"The cross heals division by humbling all. Next, Paul confronts holiness, discipline, and embodied witness."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"1-4","theological_themes":["unity","cross","wisdom","leadership"],"time_period":"circa_55_ad","canonical_order":46}
+}

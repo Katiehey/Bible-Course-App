@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf06_lesson_16",
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "sequence": 16,
+  "title": "Philippians: Press On",
+  "objective": "Pursue Christ-centered maturity, contentment, and prayerful peace.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_15",
+  "required_passages": [{"passage_id":"php_3_1_4_23","reference":"Philippians 3:1-4:23","text":"I count everything as loss because of the surpassing worth of knowing Christ Jesus... I press on... Rejoice in the Lord always... do not be anxious about anything... I can do all things through him who strengthens me."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Paul calls believers to leave self-righteousness behind and pursue Christ with steady joy."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Philippians 3-4. Paul rejects confidence in fleshly credentials and counts all things loss for Christ. He presses on toward the goal of knowing Him fully. He urges believers to rejoice always, pray instead of panic, think on what is true and excellent, and learn contentment in every circumstance through Christ's strength."},
+    {"segment_id":"context","type":"context","audio_script":"The church needed stability amid pressure, false confidence, and anxiety."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Maturity is directional: pressing on in grace. Peace flows from prayerful dependence and disciplined thought. Contentment is Christ-enabled, not circumstance-produced."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include knowing Christ, resurrection hope, spiritual maturity, anxiety and prayer, contentment, and generosity."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What are you still counting as gain that keeps you from deeper pursuit of Christ?"},
+    {"segment_id":"close","type":"close","audio_script":"Press on in Christ with joy and peace. Next, Colossians magnifies Christ's supremacy over all rival powers."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"philippians","chapter_range":"3-4","theological_themes":["discipleship","contentment","prayer","peace","perseverance"],"time_period":"circa_61_ad","canonical_order":50}
+}
