@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_08",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 8,
+  "title": "2 Peter: Grow and Guard",
+  "objective": "Pursue spiritual growth while resisting false teaching through confidence in apostolic truth.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf07_lesson_07",
+  "required_passages": [{"passage_id":"2pe_1_1_2_22","reference":"2 Peter 1:1-2:22","text":"His divine power has granted to us all things... make every effort to supplement your faith... we did not follow cleverly devised myths... there will be false teachers among you."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Peter's final letter combines growth exhortation with urgent warning."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Peter 1-2. Peter calls believers to maturity by adding virtue, knowledge, self-control, and love. He grounds confidence in eyewitness testimony and prophetic Scripture. He then exposes false teachers marked by greed and immorality, warning of their destructive influence and certain judgment."},
+    {"segment_id":"context","type":"context","audio_script":"Churches faced seductive teaching that denied holiness and distorted grace."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Spiritual stability requires both positive formation and protective discernment. Scripture's reliability anchors believers against doctrinal drift and moral compromise."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include sanctification, scriptural authority, discernment, judgment, and perseverance."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you intentionally growing in character, or coasting in spiritual passivity?"},
+    {"segment_id":"close","type":"close","audio_script":"Grow in grace and guard the gospel. Next, Peter teaches readiness for the day of the Lord."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_peter","chapter_range":"1-2","theological_themes":["growth","scripture","false_teachers","judgment","discernment"],"time_period":"circa_65_ad","canonical_order":61}
+}

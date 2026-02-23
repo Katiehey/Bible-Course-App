@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_15",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 15,
+  "title": "Revelation: Throne and Lamb",
+  "objective": "See God's throne, the worthy Lamb, and the unfolding judgments that reveal divine justice.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf07_lesson_14",
+  "required_passages": [{"passage_id":"rev_4_1_8_13","reference":"Revelation 4:1-8:13","text":"Holy, holy, holy... Worthy are you... Worthy is the Lamb who was slain... the seals were opened... the prayers of the saints rose before God."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"John is taken into heaven's throne room where worship frames all end-time events."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 4-8:13. John sees God's throne and ceaseless worship. A sealed scroll appears, and only the slain yet living Lamb is worthy to open it. As seals are opened, judgments unfold, while God's people are marked and a vast multitude from every nation worships the Lamb. Trumpet judgments begin, showing partial but serious warnings on the earth."},
+    {"segment_id":"context","type":"context","audio_script":"Apocalyptic imagery reveals spiritual realities behind earthly turmoil and suffering."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"History is not chaotic; it is governed from the throne through the Lamb. Judgment and mercy advance together, and the prayers of saints are integral to God's purposes."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include divine sovereignty, worship, the Lamb's worthiness, judgment, protection of God's people, and global redemption."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does your view of crisis begin with fear, or with the throne and the Lamb?"},
+    {"segment_id":"close","type":"close","audio_script":"The Lamb reigns as judgments unfold. Next, Revelation intensifies conflict and unveils God's faithful witnesses."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"4-8","theological_themes":["throne","lamb","worship","judgment","sovereignty"],"time_period":"circa_95_ad","canonical_order":66}
+}

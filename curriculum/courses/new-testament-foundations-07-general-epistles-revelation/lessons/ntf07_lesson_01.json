@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_01",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 1,
+  "title": "Hebrews: Better Revelation",
+  "objective": "See Jesus as God's final and superior revelation, greater than angels and previous mediators.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf06_lesson_27",
+  "required_passages": [{"passage_id":"heb_1_1_4_16","reference":"Hebrews 1:1-4:16","text":"Long ago... God spoke... by the prophets, but in these last days he has spoken to us by his Son... we have a great high priest... let us hold fast our confession."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Hebrews opens by exalting Jesus above all previous revelation."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Hebrews 1-4. God has spoken finally in His Son, who is radiance of His glory. Jesus is greater than angels and worthy of worship. The writer warns against drifting and calls believers to enter God's rest by faith. Jesus is presented as the sympathetic high priest who invites us to approach the throne of grace confidently."},
+    {"segment_id":"context","type":"context","audio_script":"Jewish-background believers faced pressure to retreat from Christ to older patterns."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Hebrews argues not against the Old Testament but for its fulfillment in Christ. Perseverance begins by seeing Jesus clearly as supreme and sufficient."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Christ's supremacy, final revelation, warning against drift, rest by faith, and priestly access to grace."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where are you tempted to drift, and how does Jesus' superiority call you back?"},
+    {"segment_id":"close","type":"close","audio_script":"Jesus is God's final word and our faithful high priest. Next, Hebrews shows His better priesthood and covenant."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"hebrews","chapter_range":"1-4","theological_themes":["supremacy_of_christ","revelation","perseverance","high_priest"],"time_period":"circa_64_ad","canonical_order":58}
+}

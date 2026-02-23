@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_07",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 7,
+  "title": "1 Peter: Suffering with Purpose",
+  "objective": "Persevere in suffering through Christlike conduct, shepherding care, and firm resistance to the enemy.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf07_lesson_06",
+  "required_passages": [{"passage_id":"1pe_3_1_5_14","reference":"1 Peter 3:1-5:14","text":"Always being prepared to make a defense... Christ also suffered once for sins... do not be surprised at the fiery trial... cast all your anxieties on him... resist the devil, firm in your faith."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Peter teaches believers how to suffer faithfully without losing joy or mission."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Peter 3-5. Peter gives relational guidance for households and community life, calling believers to bless when reviled and be ready to explain their hope. He frames suffering through Christ's once-for-all sacrifice and resurrection victory. Elders are charged to shepherd willingly, and all are urged to humble themselves, cast anxieties on God, and resist the devil."},
+    {"segment_id":"context","type":"context","audio_script":"Believers needed pastoral direction for public hostility and internal church stability."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Christian suffering is not meaningless; it becomes witness when joined to Christlike gentleness and holy endurance. Leadership integrity strengthens whole-community resilience."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include apologetic hope, suffering for righteousness, shepherding, humility, vigilance, spiritual warfare, and grace."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you responding to pressure with fear, or with gentle confidence rooted in Christ?"},
+    {"segment_id":"close","type":"close","audio_script":"Stand firm in true grace under trial. Next, 2 Peter warns against false teachers and calls for holy readiness."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_peter","chapter_range":"3-5","theological_themes":["suffering","apologetics","leadership","humility","spiritual_warfare"],"time_period":"circa_62_ad","canonical_order":60}
+}

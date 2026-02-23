@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_14",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 14,
+  "title": "Revelation: The Risen Lord Speaks",
+  "objective": "Encounter Jesus' glory and hear His messages to the seven churches.",
+  "duration": "10 minutes",
+  "prerequisite": "ntf07_lesson_13",
+  "required_passages": [{"passage_id":"rev_1_1_3_22","reference":"Revelation 1:1-3:22","text":"I am the Alpha and the Omega... Fear not, I am the first and the last... He who has an ear, let him hear what the Spirit says to the churches... To the one who conquers..."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Revelation begins with a vision of the exalted Christ and His direct words to real churches."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 1-3. John sees the Son of Man in blazing glory among lampstands, holding His churches. Jesus commands John to write to seven churches: commending faithfulness, correcting compromise, warning against lukewarmness, and promising reward to those who conquer. Each message ends, 'Hear what the Spirit says to the churches.'"},
+    {"segment_id":"context","type":"context","audio_script":"These churches lived under pressure from persecution, idolatry, and doctrinal compromise in Asia Minor."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Revelation is first a discipleship book for churches. Jesus knows each church completely and calls for repentance, endurance, and covenant loyalty."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Christ's authority, church accountability, repentance, perseverance, and conquering faith."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Which of the seven church conditions most resembles your own spiritual state right now?"},
+    {"segment_id":"close","type":"close","audio_script":"The risen Jesus walks among His people and calls them to overcome. Next, heaven's throne room reveals God's sovereign worship and rule."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"1-3","theological_themes":["christology","churches","repentance","perseverance","victory"],"time_period":"circa_95_ad","canonical_order":66}
+}

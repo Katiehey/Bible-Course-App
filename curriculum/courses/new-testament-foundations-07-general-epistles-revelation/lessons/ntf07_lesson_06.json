@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_06",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 6,
+  "title": "1 Peter: Living Hope",
+  "objective": "Anchor identity in new birth and living hope while embracing holy exile living.",
+  "duration": "9 minutes",
+  "prerequisite": "ntf07_lesson_05",
+  "required_passages": [{"passage_id":"1pe_1_1_2_25","reference":"1 Peter 1:1-2:25","text":"He has caused us to be born again to a living hope... you are a chosen race... sojourners and exiles... by his wounds you have been healed."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"Peter writes to believers under pressure, reminding them who they are in Christ."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Peter 1-2. Peter praises God for new birth into living hope through Jesus' resurrection. He calls believers to holiness and sincere love. As living stones, they form a spiritual house and royal priesthood. He urges honorable conduct among unbelievers and points to Christ's suffering example and healing work."},
+    {"segment_id":"context","type":"context","audio_script":"Scattered churches faced social marginalization and hostility in the Roman world."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Identity drives ethics: chosen people live as holy exiles. Suffering is reframed by Christ's pattern—entrusting ourselves to the faithful Judge while doing good."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include living hope, holiness, exile identity, priesthood of believers, honorable witness, and Christ's suffering."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does your daily conduct reflect your identity as a holy exile and royal priest?"},
+    {"segment_id":"close","type":"close","audio_script":"Living hope produces holy witness. Next, Peter addresses suffering relationships and steadfast shepherding."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_peter","chapter_range":"1-2","theological_themes":["living_hope","holiness","exile","witness","suffering"],"time_period":"circa_62_ad","canonical_order":60}
+}

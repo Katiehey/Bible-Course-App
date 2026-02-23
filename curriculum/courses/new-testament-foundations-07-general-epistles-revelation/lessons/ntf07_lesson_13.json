@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_13",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 13,
+  "title": "2 John and 3 John: Truth in Community",
+  "objective": "Practice hospitality, discernment, and faithful leadership shaped by truth and love.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf07_lesson_12",
+  "required_passages": [{"passage_id":"2jn_1_1_13_3jn_1_1_15","reference":"2 John 1:1-13; 3 John 1:1-15","text":"Walk in truth... watch yourselves... do not receive false teachers... Beloved, do not imitate evil but imitate good... I have no greater joy than to hear that my children are walking in the truth."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"John's shortest letters show truth and love worked out in church life."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 John and 3 John. In 2 John, believers are urged to walk in truth and love while refusing partnership with false teachers who deny Christ. In 3 John, John commends Gaius for faithful hospitality toward gospel workers and rebukes Diotrephes for prideful control. He encourages imitation of good and joyful commitment to truth."},
+    {"segment_id":"context","type":"context","audio_script":"House-church networks depended on itinerant teachers and relational trust, making discernment and hospitality crucial."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Christian love is not indiscriminate approval; it is truth-shaped faithfulness. Healthy leadership serves mission and welcomes faithful workers rather than seeking status."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include truth-love integration, discernment, hospitality, leadership integrity, and shared mission."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you supporting truth faithfully while resisting harmful teaching and toxic leadership patterns?"},
+    {"segment_id":"close","type":"close","audio_script":"Truth and love must govern every relationship. Next, Revelation reveals the risen Christ among His churches."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_3_john","chapter_range":"2_john_1_3_john_1","theological_themes":["truth","hospitality","discernment","leadership","mission"],"time_period":"circa_90_ad","canonical_order":63}
+}

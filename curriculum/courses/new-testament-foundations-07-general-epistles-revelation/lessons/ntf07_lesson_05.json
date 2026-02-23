@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_05",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 5,
+  "title": "James: Humble and Steadfast",
+  "objective": "Cultivate humility, justice, and prayerful perseverance while awaiting the Lord.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf07_lesson_04",
+  "required_passages": [{"passage_id":"jas_4_1_5_20","reference":"James 4:1-5:20","text":"God opposes the proud but gives grace to the humble... You also, be patient... for the coming of the Lord is at hand... The prayer of a righteous person has great power."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"James closes by calling believers to humility, justice, and persistent prayer."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to James 4-5. James rebukes quarrels rooted in selfish desires and commands submission to God. He warns against arrogant planning and exploitative wealth. He calls suffering believers to patient endurance until the Lord comes. He highlights prayer in all seasons and urges restoration of wandering believers."},
+    {"segment_id":"context","type":"context","audio_script":"Social tensions and economic injustice tested the witness of early Christian communities."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Humility before God reshapes relationships and priorities. Hope in Christ's return empowers patient justice, truthful speech, and intercessory care."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include humility, repentance, justice, patience, prayer, healing, and restoration."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where is God inviting you to repent of pride and practice patient, prayerful obedience?"},
+    {"segment_id":"close","type":"close","audio_script":"Humble faith endures and restores others. Next, 1 Peter teaches hope and holiness in suffering."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"james","chapter_range":"4-5","theological_themes":["humility","justice","prayer","perseverance","restoration"],"time_period":"circa_45_ad","canonical_order":59}
+}

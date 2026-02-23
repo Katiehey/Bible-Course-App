@@ -1,0 +1,20 @@
+{
+  "lesson_id": "ntf07_lesson_12",
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "sequence": 12,
+  "title": "1 John: Truth, Love, and Confidence",
+  "objective": "Discern spirits, abide in God's love, and rest in confident faith and prayer.",
+  "duration": "8 minutes",
+  "prerequisite": "ntf07_lesson_11",
+  "required_passages": [{"passage_id":"1jn_4_1_5_21","reference":"1 John 4:1-5:21","text":"Test the spirits... God is love... everyone who believes that Jesus is the Christ has been born of God... I write these things... that you may know that you have eternal life."}],
+  "segments": [
+    {"segment_id":"orientation","type":"orientation","audio_script":"John combines doctrinal testing with deep confidence in God's love."},
+    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 John 4-5. John commands believers to test spirits by confession of Jesus Christ come in the flesh. He reveals God's love shown in sending His Son as atoning sacrifice. He links love for God with obedience, and teaches confidence in prayer and eternal life through the Son."},
+    {"segment_id":"context","type":"context","audio_script":"Communities needed both theological discernment and relational healing."},
+    {"segment_id":"analysis","type":"analysis","audio_script":"Love and truth are inseparable. True assurance rests in Christ's person and work, evidenced by obedience and love for others."},
+    {"segment_id":"themes","type":"themes","audio_script":"Key themes include spirit-testing, God's love, atonement, assurance, obedience, and confident prayer."},
+    {"segment_id":"question","type":"question","audio_script":"Reflect on this: How are you testing teachings and voices in your life by apostolic truth about Jesus?"},
+    {"segment_id":"close","type":"close","audio_script":"Know Christ truly, love deeply, and pray confidently. Next, 2 and 3 John apply truth and love in church relationships."}
+  ],
+  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_john","chapter_range":"4-5","theological_themes":["truth","love","assurance","atonement","prayer"],"time_period":"circa_90_ad","canonical_order":62}
+}
