@@ -20,7 +20,18 @@
 
         <div id="splash" class="splash">
             <button id="startBtn" class="btn-primary">Begin Learning</button>
+            <button id="openIndexBtn" class="btn-secondary" style="margin-top: 12px;">📚 Open Lesson Index</button>
             <button id="resetBtn" class="btn-secondary" style="margin-top: 20px; font-size: 0.9em;">🔄 Reset Progress</button>
+        </div>
+
+        <div id="indexWindow" class="index-window hidden">
+            <div class="index-header">
+                <h2>Lesson Index</h2>
+                <button id="closeIndexBtn" class="btn-secondary">Close</button>
+            </div>
+            <p class="index-subtitle">Browse all courses and start any lesson directly.</p>
+            <input id="indexSearch" type="text" placeholder="Search course or lesson..." aria-label="Search lesson index" />
+            <div id="indexContent" class="index-content"></div>
         </div>
 
         <div id="lesson" class="lesson hidden">
@@ -98,6 +109,7 @@
                 </div>
 
                 <button id="playBtn" class="btn-secondary">▶ Play Audio</button>
+                <button id="openIndexFromLessonBtn" class="btn-secondary">📚 Index</button>
                 <button id="prevLessonBtn" class="btn-secondary">⬅ Previous Lesson</button>
                 <button id="nextLessonBtn" class="btn-secondary" style="display:none;">➡ Next Lesson</button>
                 <button id="exitBtn" class="btn-danger">Exit Lesson</button>

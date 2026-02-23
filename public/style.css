@@ -62,6 +62,93 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
+.index-window {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.index-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.index-header h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.index-subtitle {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+#indexSearch {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95em;
+    margin-bottom: 14px;
+}
+
+.index-content {
+    max-height: 65vh;
+    overflow: auto;
+    padding-right: 4px;
+}
+
+.index-course {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.index-course-title {
+    font-weight: 700;
+    color: #2f3a7e;
+    margin-bottom: 8px;
+}
+
+.index-lesson-list {
+    display: grid;
+    gap: 8px;
+}
+
+.index-lesson-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #f8f9ff;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.index-lesson-meta {
+    color: #444;
+    font-size: 0.9em;
+}
+
+.index-open-btn {
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+
+.index-open-btn:hover {
+    background: #566fe0;
+}
+
 .debug-panel {
     background: #111;
     color: #d1f7c4;

@@ -26,9 +26,11 @@ const splashScreen = document.getElementById('splash');
 const lessonScreen = document.getElementById('lesson');
 const errorScreen = document.getElementById('error');
 const startBtn = document.getElementById('startBtn');
+const openIndexBtn = document.getElementById('openIndexBtn');
 const micBtn = document.getElementById('micBtn');
 const playBtn = document.getElementById('playBtn');
 const exitBtn = document.getElementById('exitBtn');
+const openIndexFromLessonBtn = document.getElementById('openIndexFromLessonBtn');
 const sendBtn = document.getElementById('sendBtn');
 const nextLessonBtn = document.getElementById('nextLessonBtn');
 const prevLessonBtn = document.getElementById('prevLessonBtn');
@@ -37,6 +39,12 @@ const commandButtons = document.querySelectorAll('[data-command]');
 const voiceSelect = document.getElementById('voiceSelect');
 const rateRange = document.getElementById('rateRange');
 const rateValue = document.getElementById('rateValue');
+const indexWindow = document.getElementById('indexWindow');
+const closeIndexBtn = document.getElementById('closeIndexBtn');
+const indexSearch = document.getElementById('indexSearch');
+const indexContent = document.getElementById('indexContent');
+
+let lessonIndexCache = [];
 
 // Initialize speech recognition
 if (SpeechRecognition) {
@@ -157,9 +165,12 @@ function safeAddListener(el, event, handler) {
 
 // Event listeners
 safeAddListener(startBtn, 'click', initializeSession);
+safeAddListener(openIndexBtn, 'click', openIndexWindow);
 safeAddListener(micBtn, 'click', toggleListening);
 safeAddListener(playBtn, 'click', playAudio);
 safeAddListener(exitBtn, 'click', endLesson);
+safeAddListener(openIndexFromLessonBtn, 'click', openIndexWindow);
+safeAddListener(closeIndexBtn, 'click', closeIndexWindow);
 safeAddListener(nextLessonBtn, 'click', loadNextLesson);
 safeAddListener(prevLessonBtn, 'click', loadPreviousLesson);
 safeAddListener(sendBtn, 'click', sendManualCommand);
@@ -192,11 +203,101 @@ safeAddListener(voiceSelect, 'change', () => {
     selectedVoice = Number.isFinite(idx) ? cachedVoices[idx] : null;
 });
 
+safeAddListener(indexSearch, 'input', () => {
+    renderIndexWindow(indexSearch.value || '');
+});
+
+safeAddListener(indexSearch, 'keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeIndexWindow();
+    }
+});
+
+async function openIndexWindow() {
+    try {
+        if (!lessonIndexCache.length) {
+            const response = await fetch('/api/index');
+            const data = await response.json();
+            lessonIndexCache = data.courses || [];
+        }
+
+        splashScreen.classList.add('hidden');
+        lessonScreen.classList.add('hidden');
+        errorScreen.classList.add('hidden');
+        indexWindow.classList.remove('hidden');
+
+        if (indexSearch) {
+            indexSearch.value = '';
+        }
+        renderIndexWindow('');
+    } catch (err) {
+        showError(err.message);
+    }
+}
+
+function closeIndexWindow() {
+    indexWindow.classList.add('hidden');
+    if (currentUserId) {
+        lessonScreen.classList.remove('hidden');
+        return;
+    }
+    splashScreen.classList.remove('hidden');
+}
+
+function renderIndexWindow(searchTerm) {
+    if (!indexContent) return;
+
+    const query = (searchTerm || '').trim().toLowerCase();
+    const courses = lessonIndexCache
+        .map(course => {
+            const lessons = (course.lessons || []).filter(lesson => {
+                if (!query) return true;
+                return (
+                    (course.title || '').toLowerCase().includes(query) ||
+                    (lesson.title || '').toLowerCase().includes(query) ||
+                    (lesson.id || '').toLowerCase().includes(query)
+                );
+            });
+            return { ...course, lessons };
+        })
+        .filter(course => course.lessons.length > 0);
+
+    if (!courses.length) {
+        indexContent.innerHTML = '<p class="index-subtitle">No lessons match your search.</p>';
+        return;
+    }
+
+    indexContent.innerHTML = courses.map(course => {
+        const lessonRows = course.lessons.map(lesson => `
+            <div class="index-lesson-item">
+                <div class="index-lesson-meta">${lesson.sequence}. ${lesson.title}<br><small>${lesson.id}</small></div>
+                <button class="index-open-btn" data-lesson-id="${lesson.id}">Open</button>
+            </div>
+        `).join('');
+
+        return `
+            <div class="index-course">
+                <div class="index-course-title">${course.title} (${course.lessons.length})</div>
+                <div class="index-lesson-list">${lessonRows}</div>
+            </div>
+        `;
+    }).join('');
+
+    const buttons = indexContent.querySelectorAll('[data-lesson-id]');
+    buttons.forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const lessonId = btn.getAttribute('data-lesson-id');
+            if (!lessonId) return;
+            await initializeSession(lessonId);
+        });
+    });
+}
+
 // Initialize session
-async function initializeSession() {
+async function initializeSession(overrideLessonId = null) {
     try {
         debugLog('init: start session');
-        const savedLessonId = localStorage.getItem('currentLessonId');
+        const savedLessonId = overrideLessonId || localStorage.getItem('currentLessonId');
         const url = savedLessonId ? `/api/session/new?lessonId=${encodeURIComponent(savedLessonId)}` : '/api/session/new';
         const response = await fetch(url);
         const data = await response.json();
@@ -214,6 +315,8 @@ async function initializeSession() {
         document.getElementById('segmentTotal').textContent = data.lesson.segments;
         
         splashScreen.classList.add('hidden');
+        indexWindow.classList.add('hidden');
+        errorScreen.classList.add('hidden');
         lessonScreen.classList.remove('hidden');
         
         updateStatus('Session started. Ready for commands!');
@@ -383,6 +486,7 @@ function endLesson() {
     
     // Hide lesson screen, show splash
     lessonScreen.classList.add('hidden');
+    indexWindow.classList.add('hidden');
     splashScreen.classList.remove('hidden');
     
     // Clear current session

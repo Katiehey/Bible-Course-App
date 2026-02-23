@@ -115,6 +115,36 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (pathname === '/api/index') {
+    const grouped = lessons.reduce((acc, lesson) => {
+      const key = lesson.course_id || 'unknown_course';
+      if (!acc.has(key)) {
+        acc.set(key, {
+          id: key,
+          title: key.replace(/_/g, ' ').replace(/-/g, ' '),
+          lessons: []
+        });
+      }
+      acc.get(key).lessons.push({
+        id: lesson.lesson_id,
+        title: lesson.title,
+        sequence: lesson.sequence || 0
+      });
+      return acc;
+    }, new Map());
+
+    const courses = Array.from(grouped.values())
+      .map(course => ({
+        ...course,
+        lessons: course.lessons.sort((a, b) => a.sequence - b.sequence)
+      }))
+      .sort((a, b) => a.title.localeCompare(b.title));
+
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ courses }));
+    return;
+  }
+
   if (pathname === '/api/session/new') {
     const userId = 'user-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
     const { lessonId } = query;
