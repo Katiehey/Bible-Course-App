@@ -6,17 +6,74 @@
   "objective": "Identify proper limits for applying a theological claim to contemporary contexts",
   "duration_estimate": "8 minutes",
   "prerequisite": "herm01_lesson_13",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson fourteen. We examine boundary conditions for application.","word_count":12},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Consider differences between ancient context and today.","word_count":11},
-    {"type":"context","sequence":3,"audio_script":"Responsible application recognizes cultural, temporal, and canonical distances. Not all instructions transfer uniformly across contexts.","word_count":19},
-    {"type":"analysis","sequence":4,"audio_script":"List relevant differences and justify which aspects of a claim transfer and which do not. Use analogical reasoning carefully.","word_count":20},
-    {"type":"themes","sequence":5,"audio_script":"Key skill: responsible hermeneutics—apply with documented reasoning and humility.","word_count":11},
-    {"type":"question","sequence":6,"audio_script":"What must you document when applying a claim to modern contexts?","correct_answer":"Reasons and boundary conditions","acceptable_variants":["Justification","Boundary reasons"],"word_count":10},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson fourteen. Next lesson treats coherence with broader theological witness.","word_count":11}
+  "required_passages": [
+    {
+      "passage_id": "rom_12_1_2",
+      "reference": "Romans 12:1-2",
+      "text": "Distinguish original meaning from contemporary application and set responsible boundary conditions."
+    }
   ],
-  "vocabulary":[{"term":"boundary conditions","definition":"Factors that limit or qualify the appropriate application of a theological claim"}],
-  "study_notes":"Application requires careful analogical work; record assumptions and limits for review.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson fourteen. We examine boundary conditions for application.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "rom_12_1_2",
+      "audio_script": "Read Romans 12:1-2 and separate original-context meaning from appropriate present-day application.",
+      "word_count": 15
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Responsible application recognizes cultural, temporal, and canonical distances. Not all instructions transfer uniformly across contexts.",
+      "word_count": 19
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "List relevant differences and justify which aspects of a claim transfer and which do not. Use analogical reasoning carefully.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key skill: responsible hermeneutics—apply with documented reasoning and humility.",
+      "word_count": 11
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What must you document when applying a claim to modern contexts?",
+      "correct_answer": "Reasons and boundary conditions",
+      "acceptable_variants": [
+        "Justification",
+        "Boundary reasons"
+      ],
+      "word_count": 10
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson fourteen. Next lesson treats coherence with broader theological witness.",
+      "word_count": 11
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "boundary conditions",
+      "definition": "Factors that limit or qualify the appropriate application of a theological claim"
+    }
+  ],
+  "study_notes": "Application requires careful analogical work; record assumptions and limits for review.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

@@ -6,17 +6,74 @@
   "objective": "Use commentaries, lexica, and historical tools responsibly and critically",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_15",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson sixteen. Focus on responsible use of secondary resources.","word_count":12},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Note why authors reach their conclusions and what evidence they use.","word_count":15},
-    {"type":"context","sequence":3,"audio_script":"Secondary sources bring expertise but also interpretive biases. Evaluate their methods, assumptions, and data.","word_count":18},
-    {"type":"analysis","sequence":4,"audio_script":"Cite secondary sources when they add verifiable data. Distinguish between evidence and opinion in their arguments.","word_count":16},
-    {"type":"themes","sequence":5,"audio_script":"Key practice: critical engagement—use secondary sources to inform, not replace, primary textual work.","word_count":16},
-    {"type":"question","sequence":6,"audio_script":"When should you rely on a commentary?","correct_answer":"When it provides verifiable data or helpful linguistic/historical insight","acceptable_variants":["For historical data","For linguistic help"],"word_count":11},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson sixteen. Next lesson covers peer review and scholarly humility.","word_count":11}
+  "required_passages": [
+    {
+      "passage_id": "act_17_10_12",
+      "reference": "Acts 17:10-12",
+      "text": "Observe responsible evaluation practices: receiving claims with openness and testing them by Scripture."
+    }
   ],
-  "vocabulary":[{"term":"secondary source","definition":"Commentaries, lexicons, and scholarly works that interpret and analyze primary texts"}],
-  "study_notes":"Record sources and reasons for accepting particular scholarly positions to maintain traceability.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson sixteen. Focus on responsible use of secondary resources.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "act_17_10_12",
+      "audio_script": "Read Acts 17:10-12 and identify habits of responsible evaluation and evidence-based study.",
+      "word_count": 15
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Secondary sources bring expertise but also interpretive biases. Evaluate their methods, assumptions, and data.",
+      "word_count": 18
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Cite secondary sources when they add verifiable data. Distinguish between evidence and opinion in their arguments.",
+      "word_count": 16
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key practice: critical engagement—use secondary sources to inform, not replace, primary textual work.",
+      "word_count": 16
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "When should you rely on a commentary?",
+      "correct_answer": "When it provides verifiable data or helpful linguistic/historical insight",
+      "acceptable_variants": [
+        "For historical data",
+        "For linguistic help"
+      ],
+      "word_count": 11
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson sixteen. Next lesson covers peer review and scholarly humility.",
+      "word_count": 11
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "secondary source",
+      "definition": "Commentaries, lexicons, and scholarly works that interpret and analyze primary texts"
+    }
+  ],
+  "study_notes": "Record sources and reasons for accepting particular scholarly positions to maintain traceability.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

@@ -6,17 +6,74 @@
   "objective": "Read Hebrew poetry with attention to parallelism and imagery",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_07",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson eight. Focus on poetry: parallelism, meter, and imagery.","word_count":13},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice identifying synonymous and antithetic parallels.","word_count":12},
-    {"type":"context","sequence":3,"audio_script":"Hebrew poetry uses parallel lines to develop thought. Recognize metaphors and symbolic language.","word_count":18},
-    {"type":"analysis","sequence":4,"audio_script":"Interpret imagery carefully—ask whether metaphorical or literal reading fits context. Beware modern sentimentalizing.","word_count":18},
-    {"type":"themes","sequence":5,"audio_script":"Key skill: identify type of parallelism and interpret lines in relation to one another.","word_count":14},
-    {"type":"question","sequence":6,"audio_script":"What is parallelism in Hebrew poetry?","correct_answer":"Thoughts expressed in paired lines","acceptable_variants":["Linked lines","Corresponding clauses"],"word_count":6},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson eight. Next lesson covers legal and cultic texts.","word_count":11}
+  "required_passages": [
+    {
+      "passage_id": "psa_19_1_6",
+      "reference": "Psalm 19:1-6",
+      "text": "Identify poetic parallelism, imagery, and figurative language that carry the psalm's meaning."
+    }
   ],
-  "vocabulary":[{"term":"parallelism","definition":"Poetic device where lines correspond in meaning or contrast"}],
-  "study_notes":"Poetry frequently communicates theological depth through compact imagery; careful attention to line relations is required.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eight. Focus on poetry: parallelism, meter, and imagery.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "psa_19_1_6",
+      "audio_script": "Read Psalm 19:1-6 and identify synonymous, antithetic, or synthetic parallels in the poetry.",
+      "word_count": 15
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Hebrew poetry uses parallel lines to develop thought. Recognize metaphors and symbolic language.",
+      "word_count": 18
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Interpret imagery carefully—ask whether metaphorical or literal reading fits context. Beware modern sentimentalizing.",
+      "word_count": 18
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key skill: identify type of parallelism and interpret lines in relation to one another.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What is parallelism in Hebrew poetry?",
+      "correct_answer": "Thoughts expressed in paired lines",
+      "acceptable_variants": [
+        "Linked lines",
+        "Corresponding clauses"
+      ],
+      "word_count": 6
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson eight. Next lesson covers legal and cultic texts.",
+      "word_count": 11
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "parallelism",
+      "definition": "Poetic device where lines correspond in meaning or contrast"
+    }
+  ],
+  "study_notes": "Poetry frequently communicates theological depth through compact imagery; careful attention to line relations is required.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

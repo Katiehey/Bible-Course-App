@@ -6,17 +6,79 @@
   "objective": "Detect how other Scripture texts inform meaning and canonical relationships",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_04",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson five. We'll learn to spot intertextual echoes and canonical links.","word_count":14},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice identifying echoed phrases and allusions across Scripture.","word_count":15},
-    {"type":"context","sequence":3,"audio_script":"Intertextual references shape theological reading. New Testament authors frequently reread Old Testament passages in light of Christ.","word_count":20},
-    {"type":"analysis","sequence":4,"audio_script":"Ask whether the author intentionally cites or alludes to another text. Consider literary markers and shared vocabulary.","word_count":19},
-    {"type":"themes","sequence":5,"audio_script":"Key idea: Scripture interprets Scripture. Canonical context helps locate theological weight of passages.","word_count":14},
-    {"type":"question","sequence":6,"audio_script":"What does intertextuality mean?","correct_answer":"Scripture referring to Scripture","acceptable_variants":["Texts echoing each other","Biblical allusion"],"word_count":5},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson five. Next lesson teaches weighing secondary sources and commentaries.","word_count":14}
+  "required_passages": [
+    {
+      "passage_id": "hos_11_1",
+      "reference": "Hosea 11:1",
+      "text": "Observe the original historical statement in Hosea before tracing later canonical use."
+    },
+    {
+      "passage_id": "mat_2_13_15",
+      "reference": "Matthew 2:13-15",
+      "text": "Observe how Matthew cites Hosea and identify continuity and escalation in canonical context."
+    }
   ],
-  "vocabulary":[{"term":"intertextuality","definition":"The relationship and reference between different biblical texts"}],
-  "study_notes":"Intertextual awareness aids theological synthesis but avoid circular reasoning—ground claims in primary text evidence.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson five. We'll learn to spot intertextual echoes and canonical links.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "hos_11_1",
+      "audio_script": "Read Hosea 11:1 and Matthew 2:13-15, then compare how the earlier text is echoed and developed.",
+      "word_count": 19
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Intertextual references shape theological reading. New Testament authors frequently reread Old Testament passages in light of Christ.",
+      "word_count": 20
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Ask whether the author intentionally cites or alludes to another text. Consider literary markers and shared vocabulary.",
+      "word_count": 19
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key idea: Scripture interprets Scripture. Canonical context helps locate theological weight of passages.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What does intertextuality mean?",
+      "correct_answer": "Scripture referring to Scripture",
+      "acceptable_variants": [
+        "Texts echoing each other",
+        "Biblical allusion"
+      ],
+      "word_count": 5
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson five. Next lesson teaches weighing secondary sources and commentaries.",
+      "word_count": 14
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "intertextuality",
+      "definition": "The relationship and reference between different biblical texts"
+    }
+  ],
+  "study_notes": "Intertextual awareness aids theological synthesis but avoid circular reasoning—ground claims in primary text evidence.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

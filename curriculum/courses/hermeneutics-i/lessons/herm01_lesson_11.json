@@ -6,17 +6,74 @@
   "objective": "Interpret letters with attention to argument structure, purpose, and paraenesis",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_10",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson eleven. We study epistles, their structure, and rhetorical aims.","word_count":13},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice outlining the author's argument and exhortations.","word_count":12},
-    {"type":"context","sequence":3,"audio_script":"Letters address specific situations and contain doctrinal teaching plus practical application. Recognize occasional versus universal instruction.","word_count":20},
-    {"type":"analysis","sequence":4,"audio_script":"Ask which statements are prescriptive for all churches and which respond to local problems. Consider author's tone and goals.","word_count":20},
-    {"type":"themes","sequence":5,"audio_script":"Key skill: distinguish situational advice from timeless doctrine through textual and contextual cues.","word_count":14},
-    {"type":"question","sequence":6,"audio_script":"What two parts often appear in epistles?","correct_answer":"Doctrinal teaching and practical exhortation","acceptable_variants":["Teaching and exhortation","Argument and paraenesis"],"word_count":7},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson eleven. Next lesson integrates genre sensitivity into theological reading.","word_count":12}
+  "required_passages": [
+    {
+      "passage_id": "eph_2_1_10",
+      "reference": "Ephesians 2:1-10",
+      "text": "Outline argument progression from condition to divine action to purpose and implications."
+    }
   ],
-  "vocabulary":[{"term":"paraenesis","definition":"Ethical exhortation or practical instruction commonly found in letters"}],
-  "study_notes":"Pay attention to how authors move from doctrine to duty; proper application respects original intent.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eleven. We study epistles, their structure, and rhetorical aims.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "eph_2_1_10",
+      "audio_script": "Read Ephesians 2:1-10 and outline the author's argument, transitions, and exhortational implications.",
+      "word_count": 14
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Letters address specific situations and contain doctrinal teaching plus practical application. Recognize occasional versus universal instruction.",
+      "word_count": 20
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Ask which statements are prescriptive for all churches and which respond to local problems. Consider author's tone and goals.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key skill: distinguish situational advice from timeless doctrine through textual and contextual cues.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What two parts often appear in epistles?",
+      "correct_answer": "Doctrinal teaching and practical exhortation",
+      "acceptable_variants": [
+        "Teaching and exhortation",
+        "Argument and paraenesis"
+      ],
+      "word_count": 7
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson eleven. Next lesson integrates genre sensitivity into theological reading.",
+      "word_count": 12
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "paraenesis",
+      "definition": "Ethical exhortation or practical instruction commonly found in letters"
+    }
+  ],
+  "study_notes": "Pay attention to how authors move from doctrine to duty; proper application respects original intent.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

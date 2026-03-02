@@ -6,17 +6,74 @@
   "objective": "Check theological claims against the broader canon for coherence",
   "duration_estimate": "8 minutes",
   "prerequisite": "herm01_lesson_14",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson fifteen. We evaluate claims for coherence with the whole canon.","word_count":12},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Consider relevant cross-references and major doctrinal loci.","word_count":12},
-    {"type":"context","sequence":3,"audio_script":"Canonical coherence means new claims should not contradict central teachings. The canon provides checks and balances for interpretation.","word_count":20},
-    {"type":"analysis","sequence":4,"audio_script":"Compare your claim with parallel texts and key doctrinal passages. If tensions exist, revisit your exegesis and qualifications.","word_count":20},
-    {"type":"themes","sequence":5,"audio_script":"Key skill: theological humility—seek coherence and revise when necessary.","word_count":11},
-    {"type":"question","sequence":6,"audio_script":"What should you do if a claim seems to contradict canonical teaching?","correct_answer":"Reassess and revise the claim","acceptable_variants":["Revise","Re-examine evidence"],"word_count":12},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson fifteen. Next lesson practices whole-text synthesis on a short passage.","word_count":12}
+  "required_passages": [
+    {
+      "passage_id": "heb_10_1_18",
+      "reference": "Hebrews 10:1-18",
+      "text": "Trace canonical coherence between earlier sacrificial texts and the argument about Christ's priestly work."
+    }
   ],
-  "vocabulary":[{"term":"canonical coherence","definition":"Agreement of an interpretation with the broader witness and teaching of Scripture"}],
-  "study_notes":"Use major theological themes as orienting horizons but let primary texts constrain conclusions.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson fifteen. We evaluate claims for coherence with the whole canon.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "heb_10_1_18",
+      "audio_script": "Read Hebrews 10:1-18 and note how the author integrates earlier Scripture into a coherent canonical argument.",
+      "word_count": 18
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Canonical coherence means new claims should not contradict central teachings. The canon provides checks and balances for interpretation.",
+      "word_count": 20
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Compare your claim with parallel texts and key doctrinal passages. If tensions exist, revisit your exegesis and qualifications.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key skill: theological humility—seek coherence and revise when necessary.",
+      "word_count": 11
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What should you do if a claim seems to contradict canonical teaching?",
+      "correct_answer": "Reassess and revise the claim",
+      "acceptable_variants": [
+        "Revise",
+        "Re-examine evidence"
+      ],
+      "word_count": 12
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson fifteen. Next lesson practices whole-text synthesis on a short passage.",
+      "word_count": 12
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "canonical coherence",
+      "definition": "Agreement of an interpretation with the broader witness and teaching of Scripture"
+    }
+  ],
+  "study_notes": "Use major theological themes as orienting horizons but let primary texts constrain conclusions.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

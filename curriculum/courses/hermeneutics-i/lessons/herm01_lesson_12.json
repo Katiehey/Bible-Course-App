@@ -6,17 +6,74 @@
   "objective": "Select appropriate strategy based on genre and context",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_11",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson twelve. We integrate genre knowledge to choose reading strategy.","word_count":13},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Decide whether to read literally, metaphorically, or rhetorically.","word_count":12},
-    {"type":"context","sequence":3,"audio_script":"Genre determines whether to seek propositional statements, symbolic meaning, or narrative implication. Match method to form.","word_count":20},
-    {"type":"analysis","sequence":4,"audio_script":"When in doubt, prioritize author's apparent intent and original audience's likely reception. Document your reasoning.","word_count":18},
-    {"type":"themes","sequence":5,"audio_script":"Key skill: genre-informed prudence—apply methods that respect textual form.","word_count":11},
-    {"type":"question","sequence":6,"audio_script":"What informs your choice of reading strategy?","correct_answer":"The genre and context of the passage","acceptable_variants":["Genre","Form and context"],"word_count":9},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson twelve. Next unit begins theological interpretation and synthesis.","word_count":12}
+  "required_passages": [
+    {
+      "passage_id": "jhn_15_1_11",
+      "reference": "John 15:1-11",
+      "text": "Discern metaphorical language and interpret the discourse in its literary and theological context."
+    }
   ],
-  "vocabulary":[{"term":"genre-informed","definition":"Approach that tailors interpretive method to a text's literary type"}],
-  "study_notes":"Always state why a reading strategy fits the text; transparent reasoning aids critique and revision.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson twelve. We integrate genre knowledge to choose reading strategy.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "jhn_15_1_11",
+      "audio_script": "Read John 15:1-11 and decide where language is metaphorical, literal, or exhortational.",
+      "word_count": 14
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Genre determines whether to seek propositional statements, symbolic meaning, or narrative implication. Match method to form.",
+      "word_count": 20
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "When in doubt, prioritize author's apparent intent and original audience's likely reception. Document your reasoning.",
+      "word_count": 18
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key skill: genre-informed prudence—apply methods that respect textual form.",
+      "word_count": 11
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What informs your choice of reading strategy?",
+      "correct_answer": "The genre and context of the passage",
+      "acceptable_variants": [
+        "Genre",
+        "Form and context"
+      ],
+      "word_count": 9
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson twelve. Next unit begins theological interpretation and synthesis.",
+      "word_count": 12
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "genre-informed",
+      "definition": "Approach that tailors interpretive method to a text's literary type"
+    }
+  ],
+  "study_notes": "Always state why a reading strategy fits the text; transparent reasoning aids critique and revision.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

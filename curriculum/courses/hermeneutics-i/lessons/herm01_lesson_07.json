@@ -6,17 +6,75 @@
   "objective": "Apply narrative-reading strategies to historical stories",
   "duration_estimate": "7 minutes",
   "prerequisite": "herm01_lesson_06",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson seven. Begin genre analysis with narrative reading strategies.","word_count":13},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Practice identifying plot, characters, setting, and outcome.","word_count":13},
-    {"type":"context","sequence":3,"audio_script":"Narrative teaches through events and character actions. Pay attention to authorial selection and sequence.","word_count":17},
-    {"type":"analysis","sequence":4,"audio_script":"Ask about narrative point of view, focalization, and thematic refrains. Note what is included and omitted.","word_count":18},
-    {"type":"themes","sequence":5,"audio_script":"Key theme: narratives shape theology through story not propositional statement.","word_count":11},
-    {"type":"question","sequence":6,"audio_script":"Name a structural feature to observe in narrative texts.","correct_answer":"Plot or character action","acceptable_variants":["Plot","Characters","Sequence of events"],"word_count":9},
-    {"type":"close","sequence":7,"audio_script":"This completes lesson seven. Next lesson examines poetic texts and parallelism.","word_count":11}
+  "required_passages": [
+    {
+      "passage_id": "luk_15_11_32",
+      "reference": "Luke 15:11-32",
+      "text": "Trace narrative movement, character development, and resolution across the parable."
+    }
   ],
-  "vocabulary":[{"term":"focalization","definition":"The narrative perspective through which events are perceived"}],
-  "study_notes":"Narrative often conveys theology indirectly—interpret speeches and actions within plot context.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson seven. Begin genre analysis with narrative reading strategies.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "luk_15_11_32",
+      "audio_script": "Read Luke 15:11-32 and map characters, conflict, turning points, and resolution in the narrative.",
+      "word_count": 16
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Narrative teaches through events and character actions. Pay attention to authorial selection and sequence.",
+      "word_count": 17
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Ask about narrative point of view, focalization, and thematic refrains. Note what is included and omitted.",
+      "word_count": 18
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key theme: narratives shape theology through story not propositional statement.",
+      "word_count": 11
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Name a structural feature to observe in narrative texts.",
+      "correct_answer": "Plot or character action",
+      "acceptable_variants": [
+        "Plot",
+        "Characters",
+        "Sequence of events"
+      ],
+      "word_count": 9
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes lesson seven. Next lesson examines poetic texts and parallelism.",
+      "word_count": 11
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "focalization",
+      "definition": "The narrative perspective through which events are perceived"
+    }
+  ],
+  "study_notes": "Narrative often conveys theology indirectly—interpret speeches and actions within plot context.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }

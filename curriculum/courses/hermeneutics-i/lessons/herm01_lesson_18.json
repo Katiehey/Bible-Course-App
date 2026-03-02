@@ -6,17 +6,79 @@
   "objective": "Consolidate method into daily practice and habits for ongoing study",
   "duration_estimate": "8 minutes",
   "prerequisite": "herm01_lesson_17",
-  "required_passages": [],
-  "segments":[
-    {"type":"orientation","sequence":1,"audio_script":"This is lesson eighteen, the capstone. Plan daily habits to apply the method consistently.","word_count":15},
-    {"type":"reading","sequence":2,"passage_id":null,"audio_script":"No passage required. Make a weekly plan for observation, context study, and synthesis.","word_count":15},
-    {"type":"context","sequence":3,"audio_script":"Sustained practice turns skills into habits. Set realistic goals: short daily readings and weekly deeper study.","word_count":19},
-    {"type":"analysis","sequence":4,"audio_script":"Track your exegetical steps and review past conclusions periodically. Habitual practice improves speed and accuracy.","word_count":18},
-    {"type":"themes","sequence":5,"audio_script":"Key outcome: lifelong skill development—interpretation is a craft improved by disciplined practice.","word_count":15},
-    {"type":"question","sequence":6,"audio_script":"What habit will you form this week to practice the method?","correct_answer":"Daily observation practice","acceptable_variants":["Daily reading","Weekly exegesis practice"],"word_count":11},
-    {"type":"close","sequence":7,"audio_script":"This completes Hermeneutics One. Continue practicing and consult resources for deeper study. Well done.","word_count":16}
+  "required_passages": [
+    {
+      "passage_id": "psa_1_1_2",
+      "reference": "Psalm 1:1-2",
+      "text": "Read as a model for sustained delight and meditation in Scripture over time."
+    },
+    {
+      "passage_id": "2ti_3_16_17",
+      "reference": "2 Timothy 3:16-17",
+      "text": "Read as a framework for Scripture's formative role in lifelong training and ministry readiness."
+    }
   ],
-  "vocabulary":[{"term":"habit formation","definition":"Intentional regular practices that develop skill over time"}],
-  "study_notes":"Create a simple tracker for observations and hypotheses to review progress.",
-  "metadata":{"created":"2026-02-10","version":"1.0","content_reviewed":false,"audio_recorded":false}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "This is lesson eighteen, the capstone. Plan daily habits to apply the method consistently.",
+      "word_count": 15
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "passage_id": "psa_1_1_2",
+      "audio_script": "Read Psalm 1:1-2 and 2 Timothy 3:16-17, then build a weekly habit plan for disciplined study.",
+      "word_count": 20
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Sustained practice turns skills into habits. Set realistic goals: short daily readings and weekly deeper study.",
+      "word_count": 19
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Track your exegetical steps and review past conclusions periodically. Habitual practice improves speed and accuracy.",
+      "word_count": 18
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key outcome: lifelong skill development—interpretation is a craft improved by disciplined practice.",
+      "word_count": 15
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "What habit will you form this week to practice the method?",
+      "correct_answer": "Daily observation practice",
+      "acceptable_variants": [
+        "Daily reading",
+        "Weekly exegesis practice"
+      ],
+      "word_count": 11
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "This completes Hermeneutics One. Continue practicing and consult resources for deeper study. Well done.",
+      "word_count": 16
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "habit formation",
+      "definition": "Intentional regular practices that develop skill over time"
+    }
+  ],
+  "study_notes": "Create a simple tracker for observations and hypotheses to review progress.",
+  "metadata": {
+    "created": "2026-02-10",
+    "version": "1.0",
+    "content_reviewed": false,
+    "audio_recorded": false
+  }
 }
