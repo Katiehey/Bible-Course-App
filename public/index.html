@@ -9,19 +9,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📖 Bible Course App</h1>
+            <h1>Bible Course App</h1>
             <p>Interactive Voice-Guided Bible Study</p>
         </div>
 
+        <!-- #9: Debug panel hidden by default, toggled via button -->
         <div id="debugPanel" class="debug-panel hidden">
-            <div class="debug-header">Debug (mobile)</div>
+            <div class="debug-header">Debug Log <button id="debugCloseBtn" class="btn-debug-close">close</button></div>
             <pre id="debugLog"></pre>
         </div>
 
         <div id="splash" class="splash">
             <button id="startBtn" class="btn-primary">Begin Learning</button>
-            <button id="openIndexBtn" class="btn-secondary" style="margin-top: 12px;">📚 Open Lesson Index</button>
-            <button id="resetBtn" class="btn-secondary" style="margin-top: 20px; font-size: 0.9em;">🔄 Reset Progress</button>
+            <button id="openIndexBtn" class="btn-secondary" style="margin-top: 12px;">Open Lesson Index</button>
+            <button id="resetBtn" class="btn-secondary" style="margin-top: 20px; font-size: 0.9em;">Reset Progress</button>
         </div>
 
         <div id="indexWindow" class="index-window hidden">
@@ -40,14 +41,45 @@
                 <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
             </div>
 
-            <div class="lesson-content">
-                <div class="segment-info">
-                    <div class="segment-progress">
-                        <span id="segmentNum">0</span> of <span id="segmentTotal">7</span>
-                    </div>
-                    <div class="segment-type" id="segmentType">Ready</div>
+            <!-- #7: 7-dot step indicator -->
+            <div class="segment-steps" id="segmentSteps">
+                <div class="step-item" data-segment="orientation">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Orient</div>
                 </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="reading">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Reading</div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="context">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Context</div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="analysis">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Analysis</div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="themes">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Themes</div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="question">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Question</div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item" data-segment="close">
+                    <div class="step-dot"></div>
+                    <div class="step-label">Close</div>
+                </div>
+            </div>
 
+            <div class="lesson-content">
                 <div class="audio-display">
                     <div id="audioScript" class="audio-script">
                         Click the microphone to start speaking, or click "Start Lesson" below.
@@ -56,13 +88,14 @@
 
                 <div class="controls">
                     <button id="micBtn" class="btn-mic" title="Click and speak your command">
-                        🎤 Speak
+                        Speak
                     </button>
                     <div id="micStatus" class="mic-status">Ready</div>
                 </div>
 
-                <div class="tts-settings">
-                    <h3>Audio Settings</h3>
+                <!-- #10: TTS settings collapsed behind a toggle -->
+                <details class="tts-settings" id="ttsSettings">
+                    <summary>Audio Settings</summary>
                     <div class="tts-row">
                         <label for="voiceSelect">Voice</label>
                         <select id="voiceSelect" aria-label="Select voice"></select>
@@ -72,18 +105,19 @@
                         <input id="rateRange" type="range" min="0.8" max="1.3" step="0.05" value="1.0" />
                         <span id="rateValue">1.0x</span>
                     </div>
-                </div>
+                </details>
 
+                <!-- #5: Contextual command buttons (JS controls active/done/future states) -->
                 <div class="quick-commands">
-                    <h3>Tap Commands:</h3>
+                    <h3>Commands:</h3>
                     <div class="command-buttons">
-                        <button class="btn-chip" data-command="begin the lesson">Begin the lesson</button>
-                        <button class="btn-chip" data-command="read the passage">Read the passage</button>
-                        <button class="btn-chip" data-command="explain the context">Explain the context</button>
-                        <button class="btn-chip" data-command="analyze the structure">Analyze the structure</button>
-                        <button class="btn-chip" data-command="summarize the key themes">Summarize the key themes</button>
-                        <button class="btn-chip" data-command="ask the review question">Ask the review question</button>
-                        <button class="btn-chip" data-command="end the lesson">End the lesson</button>
+                        <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
+                        <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
+                        <button class="btn-chip" data-command="explain the context" data-segment="context">Explain the context</button>
+                        <button class="btn-chip" data-command="analyze the structure" data-segment="analysis">Analyze the structure</button>
+                        <button class="btn-chip" data-command="summarize the key themes" data-segment="themes">Summarize the key themes</button>
+                        <button class="btn-chip" data-command="ask the review question" data-segment="question">Ask the review question</button>
+                        <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
                     </div>
                     <div class="manual-command">
                         <input id="commandInput" type="text" placeholder="Type a command (optional)" aria-label="Type a command" />
@@ -91,28 +125,28 @@
                     </div>
                 </div>
 
-                <div class="available-commands">
-                    <h3>Available Commands:</h3>
-                    <ul>
-                        <li>"Begin the lesson"</li>
-                        <li>"Read the passage"</li>
-                        <li>"Explain the context"</li>
-                        <li>"Analyze the structure"</li>
-                        <li>"Summarize the key themes"</li>
-                        <li>"Ask the review question"</li>
-                        <li>"End the lesson"</li>
-                    </ul>
-                </div>
+                <!-- #6: Removed duplicate Available Commands list -->
 
                 <div class="status-info">
                     <div id="status" class="status"></div>
                 </div>
 
-                <button id="playBtn" class="btn-secondary">▶ Play Audio</button>
-                <button id="openIndexFromLessonBtn" class="btn-secondary">📚 Index</button>
-                <button id="prevLessonBtn" class="btn-secondary">⬅ Previous Lesson</button>
-                <button id="nextLessonBtn" class="btn-secondary" style="display:none;">➡ Next Lesson</button>
-                <button id="exitBtn" class="btn-danger">Exit Lesson</button>
+                <!-- #8: Grouped bottom buttons -->
+                <div class="btn-group-utility">
+                    <button id="playBtn" class="btn-secondary">Play Audio</button>
+                    <button id="openIndexFromLessonBtn" class="btn-secondary">Index</button>
+                </div>
+
+                <div class="btn-group-nav">
+                    <button id="prevLessonBtn" class="btn-nav">Previous Lesson</button>
+                    <button id="nextLessonBtn" class="btn-nav btn-nav-next hidden">Next Lesson</button>
+                </div>
+
+                <div class="btn-exit-row">
+                    <button id="exitBtn" class="btn-danger">Exit Lesson</button>
+                    <!-- #9: Debug toggle -->
+                    <button id="debugToggleBtn" class="btn-debug-toggle">debug</button>
+                </div>
             </div>
         </div>
 
@@ -126,8 +160,7 @@
         (function(){
             const logEl = document.getElementById('debugLog');
             const panel = document.getElementById('debugPanel');
-            function show(){ if(panel) panel.classList.remove('hidden'); }
-            function log(msg){ if(logEl){ show(); logEl.textContent += msg + '\n'; } }
+            function log(msg){ if(logEl){ logEl.textContent += msg + '\n'; } }
             window.__debugLog = log;
             window.addEventListener('error', (e) => {
                 log('error: ' + (e.message || e.error));
@@ -136,6 +169,20 @@
                 log('rejection: ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason)));
             });
             log('boot: inline logger ready');
+
+            // Debug toggle
+            const toggleBtn = document.getElementById('debugToggleBtn');
+            const closeBtn = document.getElementById('debugCloseBtn');
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', () => {
+                    if (panel) panel.classList.toggle('hidden');
+                });
+            }
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    if (panel) panel.classList.add('hidden');
+                });
+            }
 
             const btn = document.getElementById('startBtn');
             if(btn){
@@ -159,6 +206,6 @@
             }, 2000);
         })();
     </script>
-    <script src="app.js?v=5"></script>
+    <script src="app.js?v=6"></script>
 </body>
 </html>

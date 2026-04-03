@@ -109,10 +109,32 @@ body {
     margin-bottom: 12px;
 }
 
+/* #3: Course-level progress header */
 .index-course-title {
     font-weight: 700;
     color: #2f3a7e;
+    margin-bottom: 4px;
+}
+
+.index-course-progress {
+    font-size: 0.8em;
+    color: #888;
     margin-bottom: 8px;
+}
+
+.index-course-progress-bar {
+    height: 4px;
+    background: #eee;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.index-course-progress-fill {
+    height: 100%;
+    background: #4CAF50;
+    border-radius: 2px;
+    transition: width 0.3s ease;
 }
 
 .index-lesson-list {
@@ -130,9 +152,20 @@ body {
     padding: 8px 10px;
 }
 
+/* #3: Completed lesson styling in index */
+.index-lesson-item.index-lesson-done {
+    background: #f0fff4;
+}
+
 .index-lesson-meta {
     color: #444;
     font-size: 0.9em;
+}
+
+.lesson-done-badge {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-right: 2px;
 }
 
 .index-open-btn {
@@ -143,12 +176,14 @@ body {
     padding: 6px 10px;
     font-size: 0.85em;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .index-open-btn:hover {
     background: #566fe0;
 }
 
+/* #9: Debug panel - always hidden until toggled */
 .debug-panel {
     background: #111;
     color: #d1f7c4;
@@ -165,6 +200,19 @@ body {
     font-weight: 600;
     margin-bottom: 6px;
     color: #7ee787;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-debug-close {
+    background: none;
+    border: 1px solid #555;
+    color: #aaa;
+    font-size: 0.75em;
+    cursor: pointer;
+    padding: 1px 6px;
+    border-radius: 3px;
 }
 
 .hidden {
@@ -173,9 +221,9 @@ body {
 
 .lesson-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 .lesson-header h2 {
@@ -189,29 +237,74 @@ body {
     font-size: 0.9em;
 }
 
-.segment-info {
+/* #7: 7-dot step indicator */
+.segment-steps {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 12px 10px 8px;
     background: #f9f9f9;
     border-radius: 8px;
+    overflow-x: auto;
 }
 
-.segment-progress {
-    font-weight: bold;
-    color: #667eea;
-    font-size: 1.1em;
+.step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    flex: 0 0 auto;
 }
 
-.segment-type {
+.step-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 2px solid #ccc;
+    transition: all 0.25s ease;
+}
+
+.step-label {
+    font-size: 0.6em;
+    color: #bbb;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.step-divider {
+    flex: 1;
+    height: 2px;
+    background: #ddd;
+    min-width: 4px;
+    margin-bottom: 18px;
+    transition: background 0.25s ease;
+}
+
+.step-item.step-done .step-dot {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.step-item.step-done .step-label {
+    color: #4CAF50;
+}
+
+.step-item.step-done + .step-divider {
+    background: #4CAF50;
+}
+
+.step-item.step-current .step-dot {
     background: #667eea;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    font-weight: bold;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.25);
+    transform: scale(1.25);
+}
+
+.step-item.step-current .step-label {
+    color: #667eea;
+    font-weight: 700;
 }
 
 .audio-display {
@@ -219,7 +312,7 @@ body {
     border-left: 4px solid #667eea;
     padding: 20px;
     border-radius: 8px;
-    margin: 20px 0;
+    margin: 0 0 20px;
     min-height: 80px;
 }
 
@@ -231,20 +324,45 @@ body {
 
 .controls {
     text-align: center;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
+/* #10: TTS settings as collapsible details */
 .tts-settings {
     background: #f9f9ff;
-    padding: 12px;
+    padding: 10px 12px;
     border-radius: 10px;
-    margin: 10px 0 20px;
+    margin: 0 0 16px;
 }
 
-.tts-settings h3 {
+.tts-settings summary {
     color: #667eea;
-    font-size: 0.95em;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tts-settings summary::-webkit-details-marker {
+    display: none;
+}
+
+.tts-settings summary::after {
+    content: ' ▸';
+    font-size: 0.8em;
+    color: #999;
+}
+
+.tts-settings[open] summary {
     margin-bottom: 10px;
+}
+
+.tts-settings[open] summary::after {
+    content: ' ▾';
 }
 
 .tts-row {
@@ -272,11 +390,12 @@ body {
     color: #555;
 }
 
+/* #5 + #6: Command buttons with contextual states */
 .quick-commands {
     background: #f7f8ff;
     padding: 15px;
     border-radius: 10px;
-    margin: 10px 0 20px;
+    margin: 0 0 16px;
 }
 
 .quick-commands h3 {
@@ -301,9 +420,40 @@ body {
     font-size: 0.85em;
     cursor: pointer;
     transition: all 0.2s ease;
+    opacity: 0.4;
 }
 
-.btn-chip:hover {
+/* next action to take */
+.btn-chip.btn-chip-next {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+    opacity: 1;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.35);
+}
+
+.btn-chip.btn-chip-next:hover {
+    background: #566fe0;
+}
+
+/* already completed segment */
+.btn-chip.btn-chip-done {
+    opacity: 0.45;
+    color: #888;
+    border-color: #ddd;
+    background: #f5f5f5;
+    cursor: default;
+}
+
+/* current/replay */
+.btn-chip.btn-chip-current {
+    opacity: 0.8;
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.btn-chip.btn-chip-current:hover {
     background: #eef0ff;
 }
 
@@ -349,44 +499,9 @@ body {
     margin-top: 10px;
 }
 
-.available-commands {
-    background: #f0f7ff;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.available-commands h3 {
-    color: #667eea;
-    margin-bottom: 10px;
-    font-size: 0.95em;
-}
-
-.available-commands ul {
-    list-style: none;
-    columns: 2;
-    gap: 20px;
-}
-
-.available-commands li {
-    color: #555;
-    font-size: 0.85em;
-    margin-bottom: 8px;
-    padding-left: 20px;
-    position: relative;
-}
-
-.available-commands li:before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #667eea;
-    font-weight: bold;
-}
-
 .status-info {
-    margin: 20px 0;
-    padding: 15px;
+    margin: 0 0 16px;
+    padding: 12px 15px;
     background: #f9f9f9;
     border-radius: 8px;
     min-height: 30px;
@@ -395,6 +510,76 @@ body {
 .status {
     color: #666;
     font-size: 0.95em;
+}
+
+/* #8: Grouped bottom buttons */
+.btn-group-utility {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-group-utility button {
+    flex: 1;
+}
+
+.btn-group-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-group-nav button {
+    flex: 1;
+}
+
+.btn-exit-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 12px;
+    margin-top: 4px;
+}
+
+.btn-nav {
+    background: #e8eaed;
+    color: #444;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-nav:hover {
+    background: #d8dce0;
+}
+
+.btn-nav-next {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.btn-nav-next:hover {
+    background: linear-gradient(135deg, #566fe0 0%, #6a3d92 100%);
+}
+
+/* #9: Debug toggle */
+.btn-debug-toggle {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 0.75em;
+    cursor: pointer;
+    padding: 2px 4px;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+.btn-debug-toggle:hover {
+    color: #999;
 }
 
 .btn-primary, .btn-secondary, .btn-danger {
@@ -468,13 +653,13 @@ body {
         flex-direction: column;
     }
 
-    .available-commands ul {
-        columns: 1;
-    }
-
     .btn-primary, .btn-secondary, .btn-danger {
         width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    .step-label {
+        font-size: 0.55em;
     }
 }

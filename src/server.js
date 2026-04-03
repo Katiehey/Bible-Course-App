@@ -258,6 +258,39 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  // #2: Segment-level resume — position session without replaying audio
+  if (pathname === '/api/session/goto') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', () => {
+      try {
+        const data = JSON.parse(body);
+        const { userId, segmentType } = data;
+        const session = sessions.get(userId);
+        if (!session) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'Session not found' }));
+          return;
+        }
+        session.fsm.gotoSegment(segmentType);
+        const state = session.getSessionState();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          status: 'ok',
+          state: state.fsmState,
+          segment: state.segmentType,
+          segmentIdx: state.segmentIdx,
+          lessonId: state.lesson ? state.lesson.lesson_id : 'unknown',
+          script: state.audioScript
+        }));
+      } catch (err) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
   if (pathname === '/api/session/audio') {
     const { userId } = query;
     const session = sessions.get(userId);
