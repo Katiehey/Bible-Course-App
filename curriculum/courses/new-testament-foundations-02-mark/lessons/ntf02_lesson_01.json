@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to the Gospel of Mark. Mark writes with urgency, showing Jesus as the Suffering Servant who came to serve and give His life. Today we see His authority established through teaching, exorcisms, and healings."
+      "sequence": 1,
+      "audio_script": "Welcome to the Gospel of Mark. Mark writes with urgency, showing Jesus as the Suffering Servant who came to serve and give His life. Today we see His authority established through teaching, exorcisms, and healings.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Mark chapter 1, verses 1 through 45. The beginning of the gospel of Jesus Christ, the Son of God. As it is written in Isaiah the prophet, 'Behold, I send my messenger before your face, who will prepare your way.' John appeared, baptizing in the wilderness and proclaiming a baptism of repentance. And he preached, saying, 'After me comes he who is mightier than I, the strap of whose sandals I am not worthy to stoop down and untie. I have baptized you with water, but he will baptize you with the Holy Spirit.' In those days Jesus came from Nazareth of Galilee and was baptized by John in the Jordan. And when he came up out of the water, immediately he saw the heavens being torn open and the Spirit descending on him like a dove. And a voice came from heaven, 'You are my beloved Son; with you I am well pleased.' The Spirit immediately drove him out into the wilderness. And he was in the wilderness forty days, being tempted by Satan. Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God, and saying, 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.' Passing alongside the Sea of Galilee, he saw Simon and Andrew casting a net into the sea. And Jesus said to them, 'Follow me, and I will make you become fishers of men.' And immediately they left their nets and followed him. And they went into Capernaum, and immediately on the Sabbath he entered the synagogue and was teaching. And they were astonished at his teaching, for he taught them as one who had authority. And immediately there was in their synagogue a man with an unclean spirit. And he cried out, 'What have you to do with us, Jesus of Nazareth? I know who you are—the Holy One of God.' But Jesus rebuked him, saying, 'Be silent, and come out of him!' And the unclean spirit came out of him. And they were all amazed. And at once his fame spread everywhere throughout all the surrounding region of Galilee. That evening they brought to him all who were sick or oppressed by demons. And the whole city was gathered together at the door. And he healed many who were sick with various diseases, and cast out many demons. And rising very early in the morning, while it was still dark, he departed and went out to a desolate place, and there he prayed. And a leper came to him, imploring him, and kneeling said to him, 'If you will, you can make me clean.' Moved with pity, he stretched out his hand and touched him and said to him, 'I will; be clean.' And immediately the leprosy left him, and he was made clean."
+      "sequence": 2,
+      "audio_script": "Listen to Mark chapter 1, verses 1 through 45. The beginning of the gospel of Jesus Christ, the Son of God. As it is written in Isaiah the prophet, 'Behold, I send my messenger before your face, who will prepare your way.' John appeared, baptizing in the wilderness and proclaiming a baptism of repentance. And he preached, saying, 'After me comes he who is mightier than I, the strap of whose sandals I am not worthy to stoop down and untie. I have baptized you with water, but he will baptize you with the Holy Spirit.' In those days Jesus came from Nazareth of Galilee and was baptized by John in the Jordan. And when he came up out of the water, immediately he saw the heavens being torn open and the Spirit descending on him like a dove. And a voice came from heaven, 'You are my beloved Son; with you I am well pleased.' The Spirit immediately drove him out into the wilderness. And he was in the wilderness forty days, being tempted by Satan. Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God, and saying, 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.' Passing alongside the Sea of Galilee, he saw Simon and Andrew casting a net into the sea. And Jesus said to them, 'Follow me, and I will make you become fishers of men.' And immediately they left their nets and followed him. And they went into Capernaum, and immediately on the Sabbath he entered the synagogue and was teaching. And they were astonished at his teaching, for he taught them as one who had authority. And immediately there was in their synagogue a man with an unclean spirit. And he cried out, 'What have you to do with us, Jesus of Nazareth? I know who you are—the Holy One of God.' But Jesus rebuked him, saying, 'Be silent, and come out of him!' And the unclean spirit came out of him. And they were all amazed. And at once his fame spread everywhere throughout all the surrounding region of Galilee. That evening they brought to him all who were sick or oppressed by demons. And the whole city was gathered together at the door. And he healed many who were sick with various diseases, and cast out many demons. And rising very early in the morning, while it was still dark, he departed and went out to a desolate place, and there he prayed. And a leper came to him, imploring him, and kneeling said to him, 'If you will, you can make me clean.' Moved with pity, he stretched out his hand and touched him and said to him, 'I will; be clean.' And immediately the leprosy left him, and he was made clean.",
+      "word_count": 476
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Mark opens with John the Baptist fulfilling Isaiah's prophecy, then immediately shows Jesus' baptism, temptation, and ministry launch. Mark's favorite word is 'immediately,' creating breathless pacing. Jesus' authority over demons, disease, and nature establishes His identity as God's Son."
+      "sequence": 3,
+      "audio_script": "Mark opens with John the Baptist fulfilling Isaiah's prophecy, then immediately shows Jesus' baptism, temptation, and ministry launch. Mark's favorite word is 'immediately,' creating breathless pacing. Jesus' authority over demons, disease, and nature establishes His identity as God's Son.",
+      "word_count": 39
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The heavens torn open at baptism symbolize God breaking into history. Jesus' authority amazes crowds; even demons recognize Him. He silences them, maintaining the messianic secret. His early morning prayer shows dependence on the Father despite His power. The leper's healing demonstrates compassion for society's outcasts."
+      "sequence": 4,
+      "audio_script": "The heavens torn open at baptism symbolize God breaking into history. Jesus' authority amazes crowds; even demons recognize Him. He silences them, maintaining the messianic secret. His early morning prayer shows dependence on the Father despite His power. The leper's healing demonstrates compassion for society's outcasts.",
+      "word_count": 46
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus' divine authority, the kingdom's arrival, immediate responses to His call, spiritual warfare against evil, and the messianic secret. Mark emphasizes action over words, showing the Servant's powerful yet humble ministry."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus' divine authority, the kingdom's arrival, immediate responses to His call, spiritual warfare against evil, and the messianic secret. Mark emphasizes action over words, showing the Servant's powerful yet humble ministry.",
+      "word_count": 34
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: How does the disciples' immediate response challenge modern discipleship? What does Jesus' early morning prayer teach about balancing ministry activity with intimacy with God?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the first thing Jesus does after being baptized and tempted in Mark 1? Answer: he calls four fishermen — Simon, Andrew, James, and John — to follow him.",
+      "correct_answer": "he calls four fishermen to follow him — Simon, Andrew, James, and John",
+      "acceptable_variants": [
+        "he calls his first disciples",
+        "he summons simon and andrew then james and john",
+        "jesus calls four fishermen as disciples"
+      ],
+      "word_count": 32
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Mark introduces Jesus as the authoritative Son of God who acts with power and compassion. His ministry launches with divine approval and immediate impact. Next, we'll see growing conflict with religious leaders. Well done today."
+      "sequence": 7,
+      "audio_script": "Mark introduces Jesus as the authoritative Son of God who acts with power and compassion. His ministry launches with divine approval and immediate impact. Next, we'll see growing conflict with religious leaders. Well done today.",
+      "word_count": 35
     }
   ],
   "metadata": {
@@ -55,8 +68,24 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "1:1-45",
-    "theological_themes": ["authority", "messianic_secret", "spiritual_warfare", "discipleship", "prayer"],
+    "theological_themes": [
+      "authority",
+      "messianic_secret",
+      "spiritual_warfare",
+      "discipleship",
+      "prayer"
+    ],
     "time_period": "circa_27_28_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "immediately",
+      "definition": "Mark's signature Greek word (euthys) appearing over forty times; its repetition creates the urgency and pace distinctive to Mark's Gospel"
+    },
+    {
+      "term": "exorcism",
+      "definition": "The casting out of a demon; Mark begins Jesus' public ministry with an exorcism in the Capernaum synagogue, establishing his authority over evil powers"
+    }
+  ]
 }

@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus dines with Pharisees and teaches about humility and the kingdom banquet. Then He tells three parables defending His welcome of sinners: the lost sheep, lost coin, and prodigal son—revealing God's heart for the lost."
+      "sequence": 1,
+      "audio_script": "Jesus dines with Pharisees and teaches about humility and the kingdom banquet. Then He tells three parables defending His welcome of sinners: the lost sheep, lost coin, and prodigal son—revealing God's heart for the lost.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke 14 and 15. When he went to dine at a Pharisee's house, they were watching him carefully. He healed a man with dropsy and said, 'Which of you, having a son or an ox that has fallen into a well on a Sabbath, will not immediately pull him out?' He told a parable: 'When you are invited to a wedding feast, do not sit in a place of honor. Go and sit in the lowest place. For everyone who exalts himself will be humbled, and he who humbles himself will be exalted. When you give a feast, invite the poor, the crippled, the lame, the blind, and you will be blessed.' A man once gave a great banquet and invited many. But they all began to make excuses. The master became angry and said, 'Go out to the streets and bring in the poor and crippled and blind and lame. Go out to the highways and compel people to come in, that my house may be filled.' He said, 'If anyone comes to me and does not hate his own father and mother, he cannot be my disciple. Any one who does not renounce all that he has cannot be my disciple.' Now the tax collectors and sinners were drawing near to hear him. And the Pharisees grumbled, 'This man receives sinners and eats with them.' So he told them: 'What man, having a hundred sheep, if he has lost one, does not leave the ninety-nine and go after the one that is lost? And when he has found it, he lays it on his shoulders, rejoicing. Just so, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance. What woman, having ten silver coins, if she loses one, does not seek diligently until she finds it? Just so, there is joy before the angels of God over one sinner who repents.' There was a man who had two sons. The younger said, 'Father, give me my share of property.' And he squandered his property in reckless living. When he came to himself, he said, 'I will arise and go to my father.' But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him. The father said, 'Bring the best robe and the fattened calf. For this my son was dead, and is alive again; he was lost, and is found.' The older son was angry. But the father said, 'Son, you are always with me. It was fitting to celebrate and be glad, for this your brother was dead, and is alive; he was lost, and is found.'"
+      "sequence": 2,
+      "audio_script": "Listen to Luke 14 and 15. When he went to dine at a Pharisee's house, they were watching him carefully. He healed a man with dropsy and said, 'Which of you, having a son or an ox that has fallen into a well on a Sabbath, will not immediately pull him out?' He told a parable: 'When you are invited to a wedding feast, do not sit in a place of honor. Go and sit in the lowest place. For everyone who exalts himself will be humbled, and he who humbles himself will be exalted. When you give a feast, invite the poor, the crippled, the lame, the blind, and you will be blessed.' A man once gave a great banquet and invited many. But they all began to make excuses. The master became angry and said, 'Go out to the streets and bring in the poor and crippled and blind and lame. Go out to the highways and compel people to come in, that my house may be filled.' He said, 'If anyone comes to me and does not hate his own father and mother, he cannot be my disciple. Any one who does not renounce all that he has cannot be my disciple.' Now the tax collectors and sinners were drawing near to hear him. And the Pharisees grumbled, 'This man receives sinners and eats with them.' So he told them: 'What man, having a hundred sheep, if he has lost one, does not leave the ninety-nine and go after the one that is lost? And when he has found it, he lays it on his shoulders, rejoicing. Just so, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance. What woman, having ten silver coins, if she loses one, does not seek diligently until she finds it? Just so, there is joy before the angels of God over one sinner who repents.' There was a man who had two sons. The younger said, 'Father, give me my share of property.' And he squandered his property in reckless living. When he came to himself, he said, 'I will arise and go to my father.' But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him. The father said, 'Bring the best robe and the fattened calf. For this my son was dead, and is alive again; he was lost, and is found.' The older son was angry. But the father said, 'Son, you are always with me. It was fitting to celebrate and be glad, for this your brother was dead, and is alive; he was lost, and is found.'",
+      "word_count": 453
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus challenges Sabbath legalism and social climbing at a Pharisee's dinner. The banquet parable shows Israel refusing God's invitation while outcasts enter. Discipleship requires total commitment. When criticized for eating with sinners, Jesus tells three parables defending God's joy over repentant sinners. The prodigal's father runs to embrace his returning son."
+      "sequence": 3,
+      "audio_script": "Jesus challenges Sabbath legalism and social climbing at a Pharisee's dinner. The banquet parable shows Israel refusing God's invitation while outcasts enter. Discipleship requires total commitment. When criticized for eating with sinners, Jesus tells three parables defending God's joy over repentant sinners. The prodigal's father runs to embrace his returning son.",
+      "word_count": 51
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "True honor comes through humility. The kingdom banquet fills with unexpected guests when the privileged refuse. Discipleship costs everything but gains infinitely more. The shepherd's search, the woman's diligence, and the father's compassion reveal God's passionate pursuit of the lost. Heaven rejoices over repentance. The older son's resentment mirrors Pharisaic self-righteousness missing grace's joy."
+      "sequence": 4,
+      "audio_script": "True honor comes through humility. The kingdom banquet fills with unexpected guests when the privileged refuse. Discipleship costs everything but gains infinitely more. The shepherd's search, the woman's diligence, and the father's compassion reveal God's passionate pursuit of the lost. Heaven rejoices over repentance. The older son's resentment mirrors Pharisaic self-righteousness missing grace's joy.",
+      "word_count": 54
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include humility exalted, grace to outcasts, kingdom banquet for the unexpected, costly discipleship requiring total commitment, God's passionate pursuit of the lost, heaven's joy over repentance, extravagant grace in restoration, and danger of elder-brother self-righteousness. Luke emphasizes Jesus welcoming sinners as revealing God's character."
+      "sequence": 5,
+      "audio_script": "Key themes include humility exalted, grace to outcasts, kingdom banquet for the unexpected, costly discipleship requiring total commitment, God's passionate pursuit of the lost, heaven's joy over repentance, extravagant grace in restoration, and danger of elder-brother self-righteousness. Luke emphasizes Jesus welcoming sinners as revealing God's character.",
+      "word_count": 46
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Where do you seek honor rather than humility? Have you counted the cost of discipleship? Are you rejoicing with heaven over repentant sinners, or resentful like the older brother? How does the father's extravagant welcome reveal God's heart?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the central theme of the three parables in Luke 15? Answer: the joy of God over one sinner who repents — the lost sheep, the lost coin, and the lost son all end in celebration of recovery.",
+      "correct_answer": "God's joy over one sinner who repents — the lost is found and there is celebration",
+      "acceptable_variants": [
+        "all three parables end with rejoicing over what was lost being found",
+        "God's passionate pursuit of the lost and the joy of their restoration",
+        "the theme is recovery and celebration — lost sheep, lost coin, lost son all found"
+      ],
+      "word_count": 41
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus reveals God's extravagant grace pursuing lost sinners with joy. The kingdom welcomes unexpected guests. True discipleship costs everything but receives overwhelming grace. Next, teaching on wealth. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus reveals God's extravagant grace pursuing lost sinners with joy. The kingdom welcomes unexpected guests. True discipleship costs everything but receives overwhelming grace. Next, teaching on wealth. Well done today.",
+      "word_count": 30
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "14-15",
-    "theological_themes": ["humility", "grace", "discipleship", "lost_found", "repentance", "joy", "self_righteousness"],
+    "theological_themes": [
+      "humility",
+      "grace",
+      "discipleship",
+      "lost_found",
+      "repentance",
+      "joy",
+      "self_righteousness"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "parable of the prodigal son",
+      "definition": "The third parable in Luke 15, also called the parable of the two sons; the father runs to meet the returning son and celebrates, while the elder son refuses to join — both are told to an audience of Pharisees and sinners"
+    },
+    {
+      "term": "tax collectors and sinners",
+      "definition": "The audience with whom Jesus ate and who gathered to hear him in Luke 15:1; the Pharisees' complaint about this association prompted the three parables of the lost"
+    }
+  ]
 }

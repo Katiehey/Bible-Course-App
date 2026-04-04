@@ -6,15 +6,86 @@
   "objective": "Follow Paul's arrest in Jerusalem and his bold testimony before hostile crowds and rulers.",
   "duration": "9 minutes",
   "prerequisite": "ntf05_lesson_10",
-  "required_passages": [{"passage_id":"act_21_1_23_35","reference":"Acts 21:1-23:35","text":"Paul went to Jerusalem despite warnings... he was seized in the temple... gave testimony of his conversion... before the council he declared hope in the resurrection... the Lord stood by him and said, 'Take courage, for as you have testified in Jerusalem, so you must bear witness also in Rome.'"}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul enters Jerusalem knowing suffering awaits. Today we see courageous testimony under arrest and Christ's personal encouragement."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 21 through 23. Though warned repeatedly, Paul went to Jerusalem in obedience. False accusations led to a temple riot, and Roman soldiers arrested him. Paul addressed the crowd, recounting his conversion and commission from Jesus to the Gentiles. The crowd erupted, and he was taken into custody. Before the council, Paul declared he was on trial for the hope and resurrection of the dead, dividing Pharisees and Sadducees. A plot formed to kill him, but Paul's nephew reported it. Roman authorities transferred Paul under heavy guard to Caesarea. That night the Lord stood by Paul and said, 'Take courage... you must bear witness also in Rome.'"},
-    {"segment_id":"context","type":"context","audio_script":"Jerusalem remains a flashpoint for tensions around law, temple, and Gentile mission. Acts shifts from itinerant missions to courtroom witness under imperial structures."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Faithfulness may require entering danger with clear conscience. Paul uses every legal and rhetorical opening to testify to Christ. Resurrection remains central to Christian hope and defense. Jesus' promise of Rome reframes imprisonment as mission, not defeat."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include obedience under warning, testimony in hostility, resurrection hope, divine providence, legal witness, and courage from Christ's presence."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where is God calling you to courage despite risk? How might your trials become platforms for witness?"},
-    {"segment_id":"close","type":"close","audio_script":"Paul is bound but not silenced. Next, we conclude Acts with trials, storm, and gospel witness in Rome."}
+  "required_passages": [
+    {
+      "passage_id": "act_21_1_23_35",
+      "reference": "Acts 21:1-23:35",
+      "text": "Paul went to Jerusalem despite warnings... he was seized in the temple... gave testimony of his conversion... before the council he declared hope in the resurrection... the Lord stood by him and said, 'Take courage, for as you have testified in Jerusalem, so you must bear witness also in Rome.'"
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"acts","chapter_range":"21-23","theological_themes":["suffering","testimony","resurrection","providence","courage"],"time_period":"circa_57_ad","canonical_order":44}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul enters Jerusalem knowing suffering awaits. Today we see courageous testimony under arrest and Christ's personal encouragement.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Acts 21 through 23. Though warned repeatedly, Paul went to Jerusalem in obedience. False accusations led to a temple riot, and Roman soldiers arrested him. Paul addressed the crowd, recounting his conversion and commission from Jesus to the Gentiles. The crowd erupted, and he was taken into custody. Before the council, Paul declared he was on trial for the hope and resurrection of the dead, dividing Pharisees and Sadducees. A plot formed to kill him, but Paul's nephew reported it. Roman authorities transferred Paul under heavy guard to Caesarea. That night the Lord stood by Paul and said, 'Take courage... you must bear witness also in Rome.'",
+      "word_count": 109
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Jerusalem remains a flashpoint for tensions around law, temple, and Gentile mission. Acts shifts from itinerant missions to courtroom witness under imperial structures.",
+      "word_count": 23
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Faithfulness may require entering danger with clear conscience. Paul uses every legal and rhetorical opening to testify to Christ. Resurrection remains central to Christian hope and defense. Jesus' promise of Rome reframes imprisonment as mission, not defeat.",
+      "word_count": 37
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include obedience under warning, testimony in hostility, resurrection hope, divine providence, legal witness, and courage from Christ's presence.",
+      "word_count": 20
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What was Paul's defense before Felix in Acts 24? Answer: Paul denied all charges of stirring up trouble and affirmed he believed everything written in the Law and Prophets, hoping in the resurrection of both just and unjust.",
+      "correct_answer": "Paul denied trouble-making and affirmed belief in resurrection and the Law and Prophets",
+      "acceptable_variants": [
+        "paul denied the charges and declared his hope in resurrection from the dead",
+        "he worshipped the God of his ancestors and believed the prophets and resurrection",
+        "acts 24 — paul's defense: fulfillment of the jewish hope including resurrection"
+      ],
+      "word_count": 40
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Paul is bound but not silenced. Next, we conclude Acts with trials, storm, and gospel witness in Rome.",
+      "word_count": 18
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "acts",
+    "chapter_range": "21-23",
+    "theological_themes": [
+      "suffering",
+      "testimony",
+      "resurrection",
+      "providence",
+      "courage"
+    ],
+    "time_period": "circa_57_ad",
+    "canonical_order": 44
+  },
+  "vocabulary": [
+    {
+      "term": "Paul's imprisonment",
+      "definition": "Paul's custody in Caesarea in Acts 24-26 and then in Rome in Acts 27-28; his imprisonments provide opportunities for defense speeches before Felix, Festus, Agrippa, and eventually in Rome"
+    },
+    {
+      "term": "Agrippa",
+      "definition": "King Agrippa II before whom Paul gave his defense in Acts 26; Paul's account of his conversion and mission prompted Agrippa's famous reply — almost you persuade me to be a Christian"
+    }
+  ]
 }

@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus performs two astounding signs: feeding five thousand with five loaves and two fish, then walking on water. Today we explore His teaching as the Bread of Life and the cost of true discipleship."
+      "sequence": 1,
+      "audio_script": "Jesus performs two astounding signs: feeding five thousand with five loaves and two fish, then walking on water. Today we explore His teaching as the Bread of Life and the cost of true discipleship.",
+      "word_count": 34
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapter 6. A large crowd was following Jesus because they saw the signs he was doing. Jesus went up on the mountain, and there he sat down with his disciples. Jesus said to Philip, 'Where are we to buy bread, so that these people may eat?' One of his disciples, Andrew, said, 'There is a boy here who has five barley loaves and two fish.' Jesus said, 'Have the people sit down.' The men sat down, about five thousand in number. Jesus then took the loaves, and when he had given thanks, he distributed them. So also the fish, as much as they wanted. And when they had eaten their fill, he told his disciples, 'Gather up the leftover fragments.' So they gathered them up and filled twelve baskets. When the people saw the sign, they said, 'This is indeed the Prophet who is to come!' Perceiving that they were about to take him by force to make him king, Jesus withdrew. When evening came, his disciples got into a boat and started across the sea. The sea became rough. When they had rowed about three or four miles, they saw Jesus walking on the sea and coming near the boat, and they were frightened. But he said, 'It is I; do not be afraid.' The crowd sought Jesus and found him. Jesus answered them, 'You are seeking me because you ate your fill of the loaves. Do not work for the food that perishes, but for the food that endures to eternal life. This is the work of God, that you believe in him whom he has sent.' They said, 'What sign do you do? Our fathers ate the manna in the wilderness.' Jesus said, 'It was not Moses who gave you the bread from heaven, but my Father gives you the true bread from heaven. For the bread of God is he who comes down from heaven and gives life to the world.' They said, 'Sir, give us this bread always.' Jesus said, 'I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. All that the Father gives me will come to me, and whoever comes to me I will never cast out. For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life, and I will raise him up on the last day.' The Jews grumbled, 'Is not this Jesus, the son of Joseph? How does he say, I have come down from heaven?' Jesus answered, 'No one can come to me unless the Father draws him. I am the bread of life. Your fathers ate the manna and they died. I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. And the bread that I will give for the life of the world is my flesh.' The Jews disputed, 'How can this man give us his flesh to eat?' Jesus said, 'Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. Whoever feeds on my flesh and drinks my blood has eternal life. For my flesh is true food, and my blood is true drink.' Many of his disciples said, 'This is a hard saying; who can listen to it?' Jesus said, 'Do you take offense at this? It is the Spirit who gives life. The words that I have spoken to you are spirit and life.' After this many disciples turned back and no longer walked with him. So Jesus said to the twelve, 'Do you want to go away as well?' Simon Peter answered, 'Lord, to whom shall we go? You have the words of eternal life, and we have believed, and have come to know, that you are the Holy One of God.'"
+      "sequence": 2,
+      "audio_script": "Listen to John chapter 6. A large crowd was following Jesus because they saw the signs he was doing. Jesus went up on the mountain, and there he sat down with his disciples. Jesus said to Philip, 'Where are we to buy bread, so that these people may eat?' One of his disciples, Andrew, said, 'There is a boy here who has five barley loaves and two fish.' Jesus said, 'Have the people sit down.' The men sat down, about five thousand in number. Jesus then took the loaves, and when he had given thanks, he distributed them. So also the fish, as much as they wanted. And when they had eaten their fill, he told his disciples, 'Gather up the leftover fragments.' So they gathered them up and filled twelve baskets. When the people saw the sign, they said, 'This is indeed the Prophet who is to come!' Perceiving that they were about to take him by force to make him king, Jesus withdrew. When evening came, his disciples got into a boat and started across the sea. The sea became rough. When they had rowed about three or four miles, they saw Jesus walking on the sea and coming near the boat, and they were frightened. But he said, 'It is I; do not be afraid.' The crowd sought Jesus and found him. Jesus answered them, 'You are seeking me because you ate your fill of the loaves. Do not work for the food that perishes, but for the food that endures to eternal life. This is the work of God, that you believe in him whom he has sent.' They said, 'What sign do you do? Our fathers ate the manna in the wilderness.' Jesus said, 'It was not Moses who gave you the bread from heaven, but my Father gives you the true bread from heaven. For the bread of God is he who comes down from heaven and gives life to the world.' They said, 'Sir, give us this bread always.' Jesus said, 'I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. All that the Father gives me will come to me, and whoever comes to me I will never cast out. For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life, and I will raise him up on the last day.' The Jews grumbled, 'Is not this Jesus, the son of Joseph? How does he say, I have come down from heaven?' Jesus answered, 'No one can come to me unless the Father draws him. I am the bread of life. Your fathers ate the manna and they died. I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. And the bread that I will give for the life of the world is my flesh.' The Jews disputed, 'How can this man give us his flesh to eat?' Jesus said, 'Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. Whoever feeds on my flesh and drinks my blood has eternal life. For my flesh is true food, and my blood is true drink.' Many of his disciples said, 'This is a hard saying; who can listen to it?' Jesus said, 'Do you take offense at this? It is the Spirit who gives life. The words that I have spoken to you are spirit and life.' After this many disciples turned back and no longer walked with him. So Jesus said to the twelve, 'Do you want to go away as well?' Simon Peter answered, 'Lord, to whom shall we go? You have the words of eternal life, and we have believed, and have come to know, that you are the Holy One of God.'",
+      "word_count": 656
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus miraculously feeds five thousand men with five loaves and two fish—His fourth sign. The crowd tries to make Him king by force. He walks on water to His disciples—the fifth sign. The next day, the crowd seeks Him for more bread. Jesus redirects them from physical to spiritual food, declaring Himself the Bread of Life who came down from heaven. His teaching about eating His flesh and drinking His blood offends many, who abandon Him. Peter confesses faith in Jesus as the Holy One of God."
+      "sequence": 3,
+      "audio_script": "Jesus miraculously feeds five thousand men with five loaves and two fish—His fourth sign. The crowd tries to make Him king by force. He walks on water to His disciples—the fifth sign. The next day, the crowd seeks Him for more bread. Jesus redirects them from physical to spiritual food, declaring Himself the Bread of Life who came down from heaven. His teaching about eating His flesh and drinking His blood offends many, who abandon Him. Peter confesses faith in Jesus as the Holy One of God.",
+      "word_count": 87
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The feeding of five thousand echoes God providing manna in the wilderness. Jesus is greater than Moses, the true bread from heaven. Walking on water displays His authority over nature. The crowd seeks Him for wrong reasons—physical provision, not spiritual truth. Jesus declares, 'I am the bread of life'—the first of seven 'I AM' statements. Coming to Him satisfies spiritual hunger eternally. Eating His flesh and drinking His blood speaks of believing in His sacrificial death. The Father draws people to Jesus. Many disciples abandon Him because the teaching is hard, but the Twelve remain. Peter's confession affirms Jesus as the Holy One of God possessing words of eternal life."
+      "sequence": 4,
+      "audio_script": "The feeding of five thousand echoes God providing manna in the wilderness. Jesus is greater than Moses, the true bread from heaven. Walking on water displays His authority over nature. The crowd seeks Him for wrong reasons—physical provision, not spiritual truth. Jesus declares, 'I am the bread of life'—the first of seven 'I AM' statements. Coming to Him satisfies spiritual hunger eternally. Eating His flesh and drinking His blood speaks of believing in His sacrificial death. The Father draws people to Jesus. Many disciples abandon Him because the teaching is hard, but the Twelve remain. Peter's confession affirms Jesus as the Holy One of God possessing words of eternal life.",
+      "word_count": 110
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus as the Bread of Life bringing eternal satisfaction, provision through miraculous signs, authority over nature, believing as the work of God, the Father drawing people to Jesus, Jesus giving His flesh for the world's life, eternal life through partaking of Christ, the hard cost of discipleship, many turning away, and Peter's confession of faith. John emphasizes Jesus as the source of eternal life requiring full commitment."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus as the Bread of Life bringing eternal satisfaction, provision through miraculous signs, authority over nature, believing as the work of God, the Father drawing people to Jesus, Jesus giving His flesh for the world's life, eternal life through partaking of Christ, the hard cost of discipleship, many turning away, and Peter's confession of faith. John emphasizes Jesus as the source of eternal life requiring full commitment.",
+      "word_count": 70
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Are you seeking Jesus for temporary benefits or eternal life? Have you come to Him for the bread that satisfies forever? What does eating His flesh and drinking His blood mean for your faith? Would you turn away when His teaching is hard, or confess with Peter that He has the words of eternal life?"
+      "sequence": 6,
+      "audio_script": "Review question: What does Jesus call himself in the Bread of Life discourse in John 6? Answer: I am the bread of life; whoever comes to me shall not hunger and whoever believes in me shall never thirst.",
+      "correct_answer": "I am the bread of life — whoever comes to me will never hunger or thirst",
+      "acceptable_variants": [
+        "the bread of life — I am the living bread come down from heaven",
+        "jesus declares I am the bread of life in john 6",
+        "the first I AM declaration — bread that gives life to the world"
+      ],
+      "word_count": 38
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus is the Bread of Life who came down from heaven to give eternal life. Believing in Him satisfies spiritual hunger forever. Following Him demands total commitment. Next, we'll see Jesus at the Feast of Tabernacles. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus is the Bread of Life who came down from heaven to give eternal life. Believing in Him satisfies spiritual hunger forever. Following Him demands total commitment. Next, we'll see Jesus at the Feast of Tabernacles. Well done.",
+      "word_count": 38
     }
   ],
   "metadata": {
@@ -55,8 +68,27 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "6",
-    "theological_themes": ["bread_of_life", "feeding_5000", "walking_on_water", "i_am_statements", "eternal_life", "flesh_and_blood", "discipleship_cost", "belief"],
+    "theological_themes": [
+      "bread_of_life",
+      "feeding_5000",
+      "walking_on_water",
+      "i_am_statements",
+      "eternal_life",
+      "flesh_and_blood",
+      "discipleship_cost",
+      "belief"
+    ],
     "time_period": "circa_28_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "I AM declarations",
+      "definition": "The seven absolute I AM statements in John's Gospel where Jesus identifies himself with divine predicates; the first is I am the bread of life in John 6:35"
+    },
+    {
+      "term": "eating my flesh and drinking my blood",
+      "definition": "Jesus' hard teaching in John 6:53-56 that provoked many disciples to leave; interpreted as demanding full participation in his death — trusting completely in his atoning sacrifice"
+    }
+  ]
 }

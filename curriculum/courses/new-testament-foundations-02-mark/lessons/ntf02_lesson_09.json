@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson nine. Jesus enters Jerusalem as King, but not the military conqueror people expected. He cleanses the temple, confronts leaders, and warns of coming judgment and His return. His authority provokes deadly opposition."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson nine. Jesus enters Jerusalem as King, but not the military conqueror people expected. He cleanses the temple, confronts leaders, and warns of coming judgment and His return. His authority provokes deadly opposition.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Mark chapters 11 through 13. Now when they drew near to Jerusalem, Jesus sent two of his disciples and said to them, 'Go into the village and you will find a colt tied, on which no one has ever sat. Untie it and bring it.' And they brought the colt to Jesus and threw their cloaks on it, and he sat on it. And many spread their cloaks on the road. And those who went before and those who followed were shouting, 'Hosanna! Blessed is he who comes in the name of the Lord! Blessed is the coming kingdom of our father David!' And he entered Jerusalem and went into the temple. And he entered the temple and began to drive out those who sold and those who bought in the temple, and he overturned the tables of the money-changers. And he was teaching them and saying, 'Is it not written, My house shall be called a house of prayer for all the nations? But you have made it a den of robbers.' And the chief priests and the scribes heard it and were seeking a way to destroy him. And they came again to Jerusalem. And as he was walking in the temple, the chief priests and the scribes and the elders came to him, and they said to him, 'By what authority are you doing these things?' Jesus said to them, 'I will ask you one question. Was the baptism of John from heaven or from man?' So they answered Jesus, 'We do not know.' And Jesus said to them, 'Neither will I tell you by what authority I do these things.' And as he came out of the temple, one of his disciples said to him, 'Look, Teacher, what wonderful stones and what wonderful buildings!' And Jesus said to him, 'Do you see these great buildings? There will not be left here one stone upon another that will not be thrown down.' And Jesus began to say to them, 'See that no one leads you astray. And when you hear of wars and rumors of wars, do not be alarmed. This must take place, but the end is not yet. But be on your guard. For they will deliver you over to councils, and you will be beaten in synagogues. And the gospel must first be proclaimed to all nations. And then they will see the Son of Man coming in clouds with great power and glory. Heaven and earth will pass away, but my words will not pass away. Therefore stay awake—for you do not know when the master of the house will come. And what I say to you I say to all: Stay awake.'"
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Mark chapters 11 through 13. Now when they drew near to Jerusalem, Jesus sent two of his disciples and said to them, 'Go into the village and you will find a colt tied, on which no one has ever sat. Untie it and bring it.' And they brought the colt to Jesus and threw their cloaks on it, and he sat on it. And many spread their cloaks on the road. And those who went before and those who followed were shouting, 'Hosanna! Blessed is he who comes in the name of the Lord! Blessed is the coming kingdom of our father David!' And he entered Jerusalem and went into the temple. And he entered the temple and began to drive out those who sold and those who bought in the temple, and he overturned the tables of the money-changers. And he was teaching them and saying, 'Is it not written, My house shall be called a house of prayer for all the nations? But you have made it a den of robbers.' And the chief priests and the scribes heard it and were seeking a way to destroy him. And they came again to Jerusalem. And as he was walking in the temple, the chief priests and the scribes and the elders came to him, and they said to him, 'By what authority are you doing these things?' Jesus said to them, 'I will ask you one question. Was the baptism of John from heaven or from man?' So they answered Jesus, 'We do not know.' And Jesus said to them, 'Neither will I tell you by what authority I do these things.' And as he came out of the temple, one of his disciples said to him, 'Look, Teacher, what wonderful stones and what wonderful buildings!' And Jesus said to him, 'Do you see these great buildings? There will not be left here one stone upon another that will not be thrown down.' And Jesus began to say to them, 'See that no one leads you astray. And when you hear of wars and rumors of wars, do not be alarmed. This must take place, but the end is not yet. But be on your guard. For they will deliver you over to councils, and you will be beaten in synagogues. And the gospel must first be proclaimed to all nations. And then they will see the Son of Man coming in clouds with great power and glory. Heaven and earth will pass away, but my words will not pass away. Therefore stay awake—for you do not know when the master of the house will come. And what I say to you I say to all: Stay awake.'",
+      "word_count": 455
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus' entry on a colt fulfills Zechariah's prophecy of a humble king. The temple cleansing declares judgment on corrupt worship. Leaders challenge His authority but can't answer His question about John. The Olivet Discourse warns of Jerusalem's destruction and calls for endurance until His return."
+      "sequence": 3,
+      "audio_script": "Jesus' entry on a colt fulfills Zechariah's prophecy of a humble king. The temple cleansing declares judgment on corrupt worship. Leaders challenge His authority but can't answer His question about John. The Olivet Discourse warns of Jerusalem's destruction and calls for endurance until His return.",
+      "word_count": 45
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Hosanna means 'save now,' but the crowd misunderstands what salvation Jesus brings. The cursed fig tree symbolizes Israel's fruitless religion. Temple cleansing shows zeal for true worship. Jesus' authority comes from God, validated by John's witness. The discourse reveals tribulation before glory, calling disciples to faithful witness and watchfulness."
+      "sequence": 4,
+      "audio_script": "Hosanna means 'save now,' but the crowd misunderstands what salvation Jesus brings. The cursed fig tree symbolizes Israel's fruitless religion. Temple cleansing shows zeal for true worship. Jesus' authority comes from God, validated by John's witness. The discourse reveals tribulation before glory, calling disciples to faithful witness and watchfulness.",
+      "word_count": 49
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus as the humble Davidic King, judgment on fruitless religion, true worship versus ritual, divine authority challenged by religious powers, persecution of disciples, the gospel to all nations, Christ's return in glory, and the call to watchfulness."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus as the humble Davidic King, judgment on fruitless religion, true worship versus ritual, divine authority challenged by religious powers, persecution of disciples, the gospel to all nations, Christ's return in glory, and the call to watchfulness.",
+      "word_count": 40
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: How does Jesus' entry on a donkey subvert expectations of kingly power? What fruitless religious activity needs cleansing from your life? How does the call to 'stay awake' apply to waiting for Christ's return?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say about the widow's offering that differed from all the other givers? Answer: she gave out of her poverty — everything she had — while the others gave out of their abundance.",
+      "correct_answer": "she gave out of her poverty — her whole livelihood — while others gave from their surplus",
+      "acceptable_variants": [
+        "she gave all she had unlike the rich who gave from excess",
+        "the widow gave everything she had to live on",
+        "others gave surplus but she gave out of her want — all her living"
+      ],
+      "word_count": 37
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus enters Jerusalem as King to cleanse, confront, and warn. He predicts suffering for His followers and the temple's destruction, but promises His glorious return. Stay awake and faithful. Next, we'll witness His passion. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus enters Jerusalem as King to cleanse, confront, and warn. He predicts suffering for His followers and the temple's destruction, but promises His glorious return. Stay awake and faithful. Next, we'll witness His passion. Well done today.",
+      "word_count": 37
     }
   ],
   "metadata": {
@@ -55,8 +68,25 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "11:1-13:37",
-    "theological_themes": ["triumphal_entry", "temple_cleansing", "authority", "olivet_discourse", "second_coming", "watchfulness"],
+    "theological_themes": [
+      "triumphal_entry",
+      "temple_cleansing",
+      "authority",
+      "olivet_discourse",
+      "second_coming",
+      "watchfulness"
+    ],
     "time_period": "circa_30_33_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "temple cleansing",
+      "definition": "Jesus' overturning of the money changers' tables in Mark 11; combined with his cursing of the fig tree, it frames Jerusalem's coming judgment for barren religion"
+    },
+    {
+      "term": "Olivet Discourse",
+      "definition": "Jesus' teaching in Mark 13 about the destruction of the temple and signs before the end; it warns disciples to watch and persevere in an age of tribulation"
+    }
+  ]
 }

@@ -1,0 +1,110 @@
+{
+  "course_id": "new_testament_foundations_06_pauline_epistles",
+  "title": "New Testament Foundations — Pauline Epistles",
+  "subtitle": "Paul's Letters Across Five Letter Groups",
+  "description": "A structured study of Paul's thirteen letters — from Romans through Philemon — examining gospel theology, church ethics, christology, and pastoral instruction across five letter groups.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 27,
+  "estimated_duration_weeks": 5,
+  "estimated_duration_hours": 4,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_05_acts",
+  "learning_outcomes": [
+    "Explain Paul's gospel theology as developed in Romans",
+    "Identify the major ethical issues Paul addresses in Corinthians",
+    "Describe Paul's argument for justification by faith in Galatians",
+    "Explain the Christ-hymn in Philippians 2 and its theological function",
+    "Identify the pastoral concerns of the Pastoral Epistles"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Gospel as the foundation of both doctrine and community life"
+  },
+  "units": [
+    {
+      "unit_id": "ntf06_unit_01",
+      "unit_number": 1,
+      "title": "Romans",
+      "description": "Paul's fullest gospel exposition — righteousness by faith for Jew and Gentile (Lessons 1–4)",
+      "lessons": [1, 2, 3, 4]
+    },
+    {
+      "unit_id": "ntf06_unit_02",
+      "unit_number": 2,
+      "title": "Corinthians",
+      "description": "Gospel and community ethics in a divided, gifted, and troubled church (Lessons 5–10)",
+      "lessons": [5, 6, 7, 8, 9, 10]
+    },
+    {
+      "unit_id": "ntf06_unit_03",
+      "unit_number": 3,
+      "title": "Galatians and Ephesians",
+      "description": "Freedom from the law and identity in Christ (Lessons 11–14)",
+      "lessons": [11, 12, 13, 14]
+    },
+    {
+      "unit_id": "ntf06_unit_04",
+      "unit_number": 4,
+      "title": "Prison and Thessalonian Epistles",
+      "description": "Joy, supremacy of Christ, and hope in the last day (Lessons 15–21)",
+      "lessons": [15, 16, 17, 18, 19, 20, 21]
+    },
+    {
+      "unit_id": "ntf06_unit_05",
+      "unit_number": 5,
+      "title": "Pastoral Epistles and Philemon",
+      "description": "Church order, sound teaching, and gospel reconciliation (Lessons 22–27)",
+      "lessons": [22, 23, 24, 25, 26, 27]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Pauline Epistles",
+    "primary_texts": "Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon",
+    "genre_coverage": ["epistle", "theological argument", "paraenesis", "doxology"],
+    "theological_themes": [
+      "justification_by_faith",
+      "union_with_christ",
+      "body_of_christ",
+      "resurrection",
+      "new_creation"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What is Paul's thesis statement in Romans 1:16-17?",
+      "What does Paul say is the greatest spiritual gift in 1 Corinthians 13?",
+      "What is Paul's argument against those requiring circumcision in Galatians?",
+      "What does Paul call the armor of God in Ephesians 6?",
+      "What does Paul tell Timothy about the purpose of Scripture in 2 Timothy 3:16?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_07_general_epistles_revelation",
+    "title": "New Testament Foundations — General Epistles and Revelation",
+    "description": "Study Hebrews through Revelation — the climax of NT instruction and canon"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

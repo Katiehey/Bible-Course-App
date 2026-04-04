@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus begins His public ministry with a sign at a wedding and a dramatic temple cleansing. Today we explore His first miracle revealing glory, His confrontation with commerce in the temple, and His nighttime conversation with Nicodemus about being born again."
+      "sequence": 1,
+      "audio_script": "Jesus begins His public ministry with a sign at a wedding and a dramatic temple cleansing. Today we explore His first miracle revealing glory, His confrontation with commerce in the temple, and His nighttime conversation with Nicodemus about being born again.",
+      "word_count": 41
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John 2 and 3. On the third day there was a wedding at Cana in Galilee. When the wine ran out, the mother of Jesus said to him, 'They have no wine.' And Jesus said, 'My hour has not yet come.' His mother said to the servants, 'Do whatever he tells you.' Now there were six stone water jars there for purification. Jesus said to the servants, 'Fill the jars with water.' And they filled them to the brim. And he said, 'Now draw some out and take it to the master of the feast.' When the master tasted the water now become wine, he said to the bridegroom, 'You have kept the good wine until now.' This, the first of his signs, Jesus did at Cana in Galilee, and manifested his glory. And his disciples believed in him. The Passover was at hand, and Jesus went up to Jerusalem. In the temple he found those selling oxen and sheep and pigeons. And making a whip of cords, he drove them all out of the temple. And he poured out the coins and overturned their tables. He told those who sold pigeons, 'Do not make my Father's house a house of trade.' The Jews said, 'What sign do you show us for doing these things?' Jesus answered, 'Destroy this temple, and in three days I will raise it up.' But he was speaking about the temple of his body. Now there was a man named Nicodemus, a ruler of the Jews. This man came to Jesus by night and said, 'Rabbi, we know that you are a teacher come from God, for no one can do these signs unless God is with him.' Jesus answered him, 'Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God.' Nicodemus said, 'How can a man be born when he is old?' Jesus answered, 'Unless one is born of water and the Spirit, he cannot enter the kingdom of God. That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. You must be born again. The wind blows where it wishes. So it is with everyone who is born of the Spirit.' Jesus said, 'As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life. For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. Whoever believes in him is not condemned, but whoever does not believe is condemned already. And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil.'"
+      "sequence": 2,
+      "audio_script": "Listen to John 2 and 3. On the third day there was a wedding at Cana in Galilee. When the wine ran out, the mother of Jesus said to him, 'They have no wine.' And Jesus said, 'My hour has not yet come.' His mother said to the servants, 'Do whatever he tells you.' Now there were six stone water jars there for purification. Jesus said to the servants, 'Fill the jars with water.' And they filled them to the brim. And he said, 'Now draw some out and take it to the master of the feast.' When the master tasted the water now become wine, he said to the bridegroom, 'You have kept the good wine until now.' This, the first of his signs, Jesus did at Cana in Galilee, and manifested his glory. And his disciples believed in him. The Passover was at hand, and Jesus went up to Jerusalem. In the temple he found those selling oxen and sheep and pigeons. And making a whip of cords, he drove them all out of the temple. And he poured out the coins and overturned their tables. He told those who sold pigeons, 'Do not make my Father's house a house of trade.' The Jews said, 'What sign do you show us for doing these things?' Jesus answered, 'Destroy this temple, and in three days I will raise it up.' But he was speaking about the temple of his body. Now there was a man named Nicodemus, a ruler of the Jews. This man came to Jesus by night and said, 'Rabbi, we know that you are a teacher come from God, for no one can do these signs unless God is with him.' Jesus answered him, 'Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God.' Nicodemus said, 'How can a man be born when he is old?' Jesus answered, 'Unless one is born of water and the Spirit, he cannot enter the kingdom of God. That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. You must be born again. The wind blows where it wishes. So it is with everyone who is born of the Spirit.' Jesus said, 'As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life. For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. Whoever believes in him is not condemned, but whoever does not believe is condemned already. And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil.'",
+      "word_count": 496
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "At Cana, Jesus transforms water into wine, His first sign revealing His glory. In Jerusalem, He cleanses the temple with righteous anger, speaking cryptically of His resurrection. Nicodemus, a religious leader, visits Jesus at night seeking understanding but struggling with the concept of spiritual rebirth."
+      "sequence": 3,
+      "audio_script": "At Cana, Jesus transforms water into wine, His first sign revealing His glory. In Jerusalem, He cleanses the temple with righteous anger, speaking cryptically of His resurrection. Nicodemus, a religious leader, visits Jesus at night seeking understanding but struggling with the concept of spiritual rebirth.",
+      "word_count": 45
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The Cana miracle demonstrates Jesus' creative power and foreshadows abundant life in the kingdom. His 'hour' refers to His crucifixion and glorification. The temple cleansing shows His authority over worship and points to His body as the true temple. Nicodemus represents those who recognize Jesus' signs but lack spiritual understanding. Being born again is not physical but spiritual—the Spirit's sovereign work. The bronze serpent foreshadows the cross. John 3:16 encapsulates the gospel: God's love, Christ's sacrifice, faith's requirement, eternal life's promise."
+      "sequence": 4,
+      "audio_script": "The Cana miracle demonstrates Jesus' creative power and foreshadows abundant life in the kingdom. His 'hour' refers to His crucifixion and glorification. The temple cleansing shows His authority over worship and points to His body as the true temple. Nicodemus represents those who recognize Jesus' signs but lack spiritual understanding. Being born again is not physical but spiritual—the Spirit's sovereign work. The bronze serpent foreshadows the cross. John 3:16 encapsulates the gospel: God's love, Christ's sacrifice, faith's requirement, eternal life's promise.",
+      "word_count": 81
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus revealing His glory through signs, the temple as His body pointing to resurrection, the necessity of spiritual rebirth, the Spirit's sovereign work in regeneration, Jesus as the Son of Man lifted up for salvation, God's love motivating the gospel, belief versus unbelief determining destiny, and light versus darkness as moral judgment. John emphasizes faith in Jesus for eternal life."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus revealing His glory through signs, the temple as His body pointing to resurrection, the necessity of spiritual rebirth, the Spirit's sovereign work in regeneration, Jesus as the Son of Man lifted up for salvation, God's love motivating the gospel, belief versus unbelief determining destiny, and light versus darkness as moral judgment. John emphasizes faith in Jesus for eternal life.",
+      "word_count": 63
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: How does the Cana miracle reveal Jesus' glory? What does Jesus cleansing the temple teach about worship? Have you been born again by the Spirit? How does John 3:16 describe God's love and your response? Are you coming to the light or loving darkness?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus tell Nicodemus was required to see the kingdom of God? Answer: he must be born again — born of water and the Spirit.",
+      "correct_answer": "he must be born again — born of water and the Spirit",
+      "acceptable_variants": [
+        "unless a man is born again he cannot see the kingdom of god",
+        "born of water and spirit — new birth from above is required",
+        "you must be born anew — the conversation with nicodemus in john 3"
+      ],
+      "word_count": 28
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus manifests His glory through signs, claims authority over the temple, and teaches Nicodemus about new birth. God's love gives His Son so believers have eternal life. Next, we'll see Jesus encounter a Samaritan woman. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus manifests His glory through signs, claims authority over the temple, and teaches Nicodemus about new birth. God's love gives His Son so believers have eternal life. Next, we'll see Jesus encounter a Samaritan woman. Well done.",
+      "word_count": 37
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "2-3",
-    "theological_themes": ["signs", "glory", "temple", "resurrection", "born_again", "holy_spirit", "john_3_16", "salvation", "belief"],
+    "theological_themes": [
+      "signs",
+      "glory",
+      "temple",
+      "resurrection",
+      "born_again",
+      "holy_spirit",
+      "john_3_16",
+      "salvation",
+      "belief"
+    ],
     "time_period": "circa_27_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "born again",
+      "definition": "Jesus' teaching to Nicodemus in John 3 that entry into the kingdom requires a new birth from above by the Spirit; the Greek can mean again or from above, capturing both renewal and divine origin"
+    },
+    {
+      "term": "lifting up",
+      "definition": "Jesus' prediction in John 3:14-15 that the Son of Man must be lifted up as Moses lifted the serpent; a double meaning in John referring to both crucifixion and exaltation"
+    }
+  ]
 }

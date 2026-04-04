@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study genesis: covenant confirmed and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study genesis: covenant confirmed and trace God's covenant faithfulness.",
+      "word_count": 11
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What sign did God require to mark all male members of Abraham's household under the Abrahamic covenant? Answer: circumcision.",
+      "correct_answer": "circumcision",
+      "acceptable_variants": [
+        "the circumcision of every male",
+        "cutting of the foreskin as a covenant sign",
+        "circumcision on the eighth day"
+      ],
+      "word_count": 21
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 7
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "circumcision",
+      "definition": "The cutting of the male foreskin required of all Abraham's household as the physical sign of the Abrahamic covenant (Genesis 17)"
+    },
+    {
+      "term": "covenant of grant",
+      "definition": "A form of ancient Near Eastern covenant in which a superior grants land or privilege to a vassal unconditionally; scholars classify God's covenant with Abraham in this category"
+    }
+  ]
 }

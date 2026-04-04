@@ -6,15 +6,86 @@
   "objective": "Rejoice in God's promised new heaven and new earth and the church's final hope in Christ's return.",
   "duration": "10 minutes",
   "prerequisite": "ntf07_lesson_18",
-  "required_passages": [{"passage_id":"rev_21_1_22_21","reference":"Revelation 21:1-22:21","text":"Then I saw a new heaven and a new earth... Behold, the dwelling place of God is with man... he will wipe away every tear... the river of the water of life... Surely I am coming soon."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"The Bible ends with renewal, worship, and hope: God dwelling with His people forever."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 21-22. John sees new heaven and new earth, the holy city descending as a bride. God dwells with His people; death, mourning, and pain are gone. The New Jerusalem shines with God's glory, and the Lamb is its lamp. A river of life flows from God's throne, and His servants reign forever. Revelation closes with invitation and warning: 'Come... take the water of life without price,' and the church's prayer, 'Come, Lord Jesus.'"},
-    {"segment_id":"context","type":"context","audio_script":"After judgment and conflict, Scripture culminates in restored creation and direct communion with God."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Christian hope is not escape from creation but its renewal under God's reign. The gospel invitation remains open until Christ returns. Worship, holiness, and mission are sustained by this future certainty."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include new creation, God's presence, healing, eternal worship, invitation to life, and hopeful expectancy."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does your daily life show that your ultimate home and hope are in God's coming kingdom?"},
-    {"segment_id":"close","type":"close","audio_script":"General Epistles and Revelation are complete. Christ will come, creation will be renewed, and God will dwell with His people forever."}
+  "required_passages": [
+    {
+      "passage_id": "rev_21_1_22_21",
+      "reference": "Revelation 21:1-22:21",
+      "text": "Then I saw a new heaven and a new earth... Behold, the dwelling place of God is with man... he will wipe away every tear... the river of the water of life... Surely I am coming soon."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"21-22","theological_themes":["new_creation","god_with_us","eternal_life","hope","come_lord_jesus"],"time_period":"circa_95_ad","canonical_order":66}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "The Bible ends with renewal, worship, and hope: God dwelling with His people forever.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Revelation 21-22. John sees new heaven and new earth, the holy city descending as a bride. God dwells with His people; death, mourning, and pain are gone. The New Jerusalem shines with God's glory, and the Lamb is its lamp. A river of life flows from God's throne, and His servants reign forever. Revelation closes with invitation and warning: 'Come... take the water of life without price,' and the church's prayer, 'Come, Lord Jesus.'",
+      "word_count": 76
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "After judgment and conflict, Scripture culminates in restored creation and direct communion with God.",
+      "word_count": 14
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Christian hope is not escape from creation but its renewal under God's reign. The gospel invitation remains open until Christ returns. Worship, holiness, and mission are sustained by this future certainty.",
+      "word_count": 31
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include new creation, God's presence, healing, eternal worship, invitation to life, and hopeful expectancy.",
+      "word_count": 16
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does God declare in Revelation 21:5 that he is doing? Answer: Behold, I am making all things new.",
+      "correct_answer": "Behold, I am making all things new",
+      "acceptable_variants": [
+        "I make all things new — god's declaration in revelation 21",
+        "god sitting on the throne says behold I make all things new",
+        "the final declaration — new creation through renewal of all things"
+      ],
+      "word_count": 21
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "General Epistles and Revelation are complete. Christ will come, creation will be renewed, and God will dwell with His people forever.",
+      "word_count": 21
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "revelation",
+    "chapter_range": "21-22",
+    "theological_themes": [
+      "new_creation",
+      "god_with_us",
+      "eternal_life",
+      "hope",
+      "come_lord_jesus"
+    ],
+    "time_period": "circa_95_ad",
+    "canonical_order": 66
+  },
+  "vocabulary": [
+    {
+      "term": "new Jerusalem",
+      "definition": "The city descending from heaven in Revelation 21 as the dwelling of God with his people; its dimensions as a cube echo the Most Holy Place and its gates of pearl and streets of gold describe the perfection of God's presence"
+    },
+    {
+      "term": "no more death",
+      "definition": "The promise in Revelation 21:4 that in the new creation death, mourning, crying, and pain are no more; it is the reversal of the fall's curse and the fulfillment of Isaiah 25:8"
+    }
+  ]
 }

@@ -6,15 +6,86 @@
   "objective": "Trace the final defeat of Satan, resurrection, and the great white throne judgment.",
   "duration": "9 minutes",
   "prerequisite": "ntf07_lesson_17",
-  "required_passages": [{"passage_id":"rev_20_1_15","reference":"Revelation 20:1-15","text":"Satan was bound... then released... and thrown into the lake of fire... the dead were judged... if anyone's name was not found written in the book of life, he was thrown into the lake of fire."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Revelation 20 presents ultimate accountability and the final end of evil."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 20. Satan is bound, later released for a final rebellion, then decisively defeated and cast into the lake of fire. John sees the great white throne where the dead are judged according to deeds, and anyone not found in the book of life faces the second death."},
-    {"segment_id":"context","type":"context","audio_script":"This chapter has interpretive debates, yet its central message is clear: evil is temporary and God's justice final."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"History moves toward God's righteous judgment, not endless cycles. Final justice vindicates holiness and exposes every unrepentant allegiance against God."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Satan's defeat, resurrection, final judgment, book of life, and ultimate justice."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: How does certain final judgment shape your urgency for repentance, holiness, and witness today?"},
-    {"segment_id":"close","type":"close","audio_script":"Evil ends under God's justice. Next, Scripture closes with new creation and eternal communion with God."}
+  "required_passages": [
+    {
+      "passage_id": "rev_20_1_15",
+      "reference": "Revelation 20:1-15",
+      "text": "Satan was bound... then released... and thrown into the lake of fire... the dead were judged... if anyone's name was not found written in the book of life, he was thrown into the lake of fire."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"20","theological_themes":["final_judgment","resurrection","book_of_life","justice","satan_defeat"],"time_period":"circa_95_ad","canonical_order":66}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Revelation 20 presents ultimate accountability and the final end of evil.",
+      "word_count": 11
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Revelation 20. Satan is bound, later released for a final rebellion, then decisively defeated and cast into the lake of fire. John sees the great white throne where the dead are judged according to deeds, and anyone not found in the book of life faces the second death.",
+      "word_count": 50
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "This chapter has interpretive debates, yet its central message is clear: evil is temporary and God's justice final.",
+      "word_count": 18
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "History moves toward God's righteous judgment, not endless cycles. Final justice vindicates holiness and exposes every unrepentant allegiance against God.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Satan's defeat, resurrection, final judgment, book of life, and ultimate justice.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Revelation 20:12 say the dead are judged by? Answer: what was written in the books, according to their works.",
+      "correct_answer": "what was written in the books, according to their works",
+      "acceptable_variants": [
+        "the books were opened and the dead judged by their works",
+        "revelation 20 — judgment according to what is written and what was done",
+        "the record in the books and the book of life determine the final verdict"
+      ],
+      "word_count": 23
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Evil ends under God's justice. Next, Scripture closes with new creation and eternal communion with God.",
+      "word_count": 16
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "revelation",
+    "chapter_range": "20",
+    "theological_themes": [
+      "final_judgment",
+      "resurrection",
+      "book_of_life",
+      "justice",
+      "satan_defeat"
+    ],
+    "time_period": "circa_95_ad",
+    "canonical_order": 66
+  },
+  "vocabulary": [
+    {
+      "term": "great white throne",
+      "definition": "The throne of final judgment in Revelation 20:11-15; the dead are raised and judged according to their works, and anyone not found in the book of life is cast into the lake of fire"
+    },
+    {
+      "term": "book of life",
+      "definition": "The record of those belonging to God in Revelation 20:12,15; those not found in it face the second death — its appearance throughout Revelation (3:5; 13:8; 17:8; 20:12,15) frames salvation as God's sovereign keeping"
+    }
+  ]
 }

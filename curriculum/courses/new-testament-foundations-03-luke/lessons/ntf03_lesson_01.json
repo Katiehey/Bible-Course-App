@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to the Gospel of Luke. Luke, a physician and careful historian, writes to give certainty about Jesus. Today we explore the miraculous births of John the Baptist and Jesus, showing God's faithfulness to His ancient promises."
+      "sequence": 1,
+      "audio_script": "Welcome to the Gospel of Luke. Luke, a physician and careful historian, writes to give certainty about Jesus. Today we explore the miraculous births of John the Baptist and Jesus, showing God's faithfulness to His ancient promises.",
+      "word_count": 37
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Luke chapters 1 and 2. In the days of Herod, king of Judea, there was a priest named Zechariah. And there appeared to him an angel of the Lord. But the angel said to him, 'Do not be afraid, Zechariah, for your prayer has been heard, and your wife Elizabeth will bear you a son, and you shall call his name John. And he will be filled with the Holy Spirit, even from his mother's womb. And he will go before him in the spirit and power of Elijah, to make ready for the Lord a people prepared.' In the sixth month the angel Gabriel was sent from God to a virgin betrothed to a man whose name was Joseph. And the virgin's name was Mary. And the angel said to her, 'Do not be afraid, Mary, for you have found favor with God. And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. He will be great and will be called the Son of the Most High. And the Lord God will give to him the throne of his father David, and of his kingdom there will be no end.' And Mary said, 'How will this be, since I am a virgin?' And the angel answered her, 'The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy—the Son of God. For nothing will be impossible with God.' And Mary said, 'Behold, I am the servant of the Lord; let it be to me according to your word.' And Mary said, 'My soul magnifies the Lord, and my spirit rejoices in God my Savior. He has brought down the mighty from their thrones and exalted those of humble estate.' In those days a decree went out from Caesar Augustus that all the world should be registered. And Joseph also went up from Galilee to Bethlehem, to be registered with Mary, his betrothed, who was with child. And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn. And in the same region there were shepherds out in the field. And an angel of the Lord appeared to them, and the glory of the Lord shone around them. And the angel said to them, 'Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.' And suddenly there was with the angel a multitude of the heavenly host praising God and saying, 'Glory to God in the highest, and on earth peace among those with whom he is pleased!' Now there was a man in Jerusalem, whose name was Simeon, and the Holy Spirit was upon him. And he took Jesus up in his arms and blessed God and said, 'Lord, now you are letting your servant depart in peace, for my eyes have seen your salvation that you have prepared in the presence of all peoples, a light for revelation to the Gentiles, and for glory to your people Israel.'"
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Luke chapters 1 and 2. In the days of Herod, king of Judea, there was a priest named Zechariah. And there appeared to him an angel of the Lord. But the angel said to him, 'Do not be afraid, Zechariah, for your prayer has been heard, and your wife Elizabeth will bear you a son, and you shall call his name John. And he will be filled with the Holy Spirit, even from his mother's womb. And he will go before him in the spirit and power of Elijah, to make ready for the Lord a people prepared.' In the sixth month the angel Gabriel was sent from God to a virgin betrothed to a man whose name was Joseph. And the virgin's name was Mary. And the angel said to her, 'Do not be afraid, Mary, for you have found favor with God. And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. He will be great and will be called the Son of the Most High. And the Lord God will give to him the throne of his father David, and of his kingdom there will be no end.' And Mary said, 'How will this be, since I am a virgin?' And the angel answered her, 'The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy—the Son of God. For nothing will be impossible with God.' And Mary said, 'Behold, I am the servant of the Lord; let it be to me according to your word.' And Mary said, 'My soul magnifies the Lord, and my spirit rejoices in God my Savior. He has brought down the mighty from their thrones and exalted those of humble estate.' In those days a decree went out from Caesar Augustus that all the world should be registered. And Joseph also went up from Galilee to Bethlehem, to be registered with Mary, his betrothed, who was with child. And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn. And in the same region there were shepherds out in the field. And an angel of the Lord appeared to them, and the glory of the Lord shone around them. And the angel said to them, 'Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.' And suddenly there was with the angel a multitude of the heavenly host praising God and saying, 'Glory to God in the highest, and on earth peace among those with whom he is pleased!' Now there was a man in Jerusalem, whose name was Simeon, and the Holy Spirit was upon him. And he took Jesus up in his arms and blessed God and said, 'Lord, now you are letting your servant depart in peace, for my eyes have seen your salvation that you have prepared in the presence of all peoples, a light for revelation to the Gentiles, and for glory to your people Israel.'",
+      "word_count": 557
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Luke opens with careful historical details, grounding these miraculous events in real time and place. Two barren couples receive miraculous sons: elderly Elizabeth and Zechariah, and virgin Mary. John prepares the way; Jesus is the way. The humble receive God's salvation while the powerful miss it."
+      "sequence": 3,
+      "audio_script": "Luke opens with careful historical details, grounding these miraculous events in real time and place. Two barren couples receive miraculous sons: elderly Elizabeth and Zechariah, and virgin Mary. John prepares the way; Jesus is the way. The humble receive God's salvation while the powerful miss it.",
+      "word_count": 46
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Gabriel announces both births, linking them in God's plan. Mary's Magnificat celebrates God's reversal of worldly values. Caesar's decree unwittingly fulfills prophecy, bringing Joseph to Bethlehem. Angels announce the Savior to lowly shepherds, not kings. Simeon and Anna recognize the Messiah, prophesying both redemption and suffering."
+      "sequence": 4,
+      "audio_script": "Gabriel announces both births, linking them in God's plan. Mary's Magnificat celebrates God's reversal of worldly values. Caesar's decree unwittingly fulfills prophecy, bringing Joseph to Bethlehem. Angels announce the Savior to lowly shepherds, not kings. Simeon and Anna recognize the Messiah, prophesying both redemption and suffering.",
+      "word_count": 46
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's faithfulness to promises, the Holy Spirit's empowering presence, reversal of worldly values, salvation for all peoples including Gentiles, humble recipients of grace, and joy at God's redemption. Luke emphasizes prayer, women, and outcasts receiving the good news."
+      "sequence": 5,
+      "audio_script": "Key themes include God's faithfulness to promises, the Holy Spirit's empowering presence, reversal of worldly values, salvation for all peoples including Gentiles, humble recipients of grace, and joy at God's redemption. Luke emphasizes prayer, women, and outcasts receiving the good news.",
+      "word_count": 41
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: How does Mary's response 'let it be to me according to your word' model faithful surrender? Why does God choose shepherds as the first witnesses? What does Simeon's prophecy reveal about the cost of redemption?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the name of the hymn Mary sings in Luke 1:46-55, and what is its central theme? Answer: the Magnificat; Mary praises God for reversing social order — exalting the humble and filling the hungry.",
+      "correct_answer": "the Magnificat; God exalts the humble and reverses the proud and powerful",
+      "acceptable_variants": [
+        "mary's song called the magnificat celebrating God's reversal",
+        "the magnificat — god brings down the mighty and raises the lowly",
+        "the song of mary in luke 1 — god's reversal of social order"
+      ],
+      "word_count": 38
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Luke's birth narrative reveals God keeping His ancient promises through miraculous births. The Savior comes humbly to bring light to all nations. Next, we'll see John preparing the way. Well done today."
+      "sequence": 7,
+      "audio_script": "Luke's birth narrative reveals God keeping His ancient promises through miraculous births. The Savior comes humbly to bring light to all nations. Next, we'll see John preparing the way. Well done today.",
+      "word_count": 32
     }
   ],
   "metadata": {
@@ -55,8 +68,25 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "1-2",
-    "theological_themes": ["incarnation", "virgin_birth", "holy_spirit", "salvation", "humility", "prophetic_fulfillment"],
+    "theological_themes": [
+      "incarnation",
+      "virgin_birth",
+      "holy_spirit",
+      "salvation",
+      "humility",
+      "prophetic_fulfillment"
+    ],
     "time_period": "circa_6_4_bc",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Magnificat",
+      "definition": "Mary's hymn of praise in Luke 1:46-55 echoing Hannah's prayer in 1 Samuel 2; it declares God's reversal of social order — the humble exalted and the mighty brought down"
+    },
+    {
+      "term": "Zechariah",
+      "definition": "The priest and father of John the Baptist who was struck mute for unbelief and then sang the Benedictus in Luke 1:67-79 at John's birth"
+    }
+  ]
 }

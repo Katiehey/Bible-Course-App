@@ -6,15 +6,86 @@
   "objective": "Live in holiness, encouragement, and expectancy as we await the Lord's coming.",
   "duration": "9 minutes",
   "prerequisite": "ntf06_lesson_19",
-  "required_passages": [{"passage_id":"1th_4_1_5_28","reference":"1 Thessalonians 4:1-5:28","text":"This is the will of God, your sanctification... The Lord himself will descend from heaven... encourage one another with these words... let us be sober... put on the breastplate of faith and love."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul joins practical holiness with future hope in Christ's appearing."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Thessalonians 4-5. Paul urges sexual holiness, brotherly love, diligent work, and peace. He comforts grieving believers with resurrection hope: the Lord will come, and the dead in Christ will rise. He calls the church to alertness, prayer, gratitude, and mutual edification."},
-    {"segment_id":"context","type":"context","audio_script":"Confusion about deceased believers and Christ's return troubled the community."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Future hope energizes present holiness. Eschatology is pastoral comfort, not speculation. Community life is sustained by encouragement, discernment, and persistent worship."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include sanctification, resurrection hope, return of Christ, vigilance, encouragement, and thankful prayer."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Does Christ's return make you more watchful and holy in ordinary choices?"},
-    {"segment_id":"close","type":"close","audio_script":"Holy hope steadies the church. Next, 2 Thessalonians clarifies confusion about the day of the Lord."}
+  "required_passages": [
+    {
+      "passage_id": "1th_4_1_5_28",
+      "reference": "1 Thessalonians 4:1-5:28",
+      "text": "This is the will of God, your sanctification... The Lord himself will descend from heaven... encourage one another with these words... let us be sober... put on the breastplate of faith and love."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_thessalonians","chapter_range":"4-5","theological_themes":["sanctification","second_coming","resurrection","encouragement","vigilance"],"time_period":"circa_50_ad","canonical_order":52}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul joins practical holiness with future hope in Christ's appearing.",
+      "word_count": 10
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 1 Thessalonians 4-5. Paul urges sexual holiness, brotherly love, diligent work, and peace. He comforts grieving believers with resurrection hope: the Lord will come, and the dead in Christ will rise. He calls the church to alertness, prayer, gratitude, and mutual edification.",
+      "word_count": 44
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Confusion about deceased believers and Christ's return troubled the community.",
+      "word_count": 10
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Future hope energizes present holiness. Eschatology is pastoral comfort, not speculation. Community life is sustained by encouragement, discernment, and persistent worship.",
+      "word_count": 21
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include sanctification, resurrection hope, return of Christ, vigilance, encouragement, and thankful prayer.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say will happen to believers who have died when the Lord returns in 1 Thessalonians 4? Answer: they will rise first, then those who are alive will be caught up together with them to meet the Lord in the air.",
+      "correct_answer": "the dead in Christ rise first, then the living are caught up with them to meet the Lord",
+      "acceptable_variants": [
+        "dead in christ rise first — then the living are caught up together in the air",
+        "1 thessalonians 4 — resurrection then rapture together to be with the lord",
+        "those who died are not at a disadvantage — they rise first at the lord's return"
+      ],
+      "word_count": 45
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Holy hope steadies the church. Next, 2 Thessalonians clarifies confusion about the day of the Lord.",
+      "word_count": 16
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "1_thessalonians",
+    "chapter_range": "4-5",
+    "theological_themes": [
+      "sanctification",
+      "second_coming",
+      "resurrection",
+      "encouragement",
+      "vigilance"
+    ],
+    "time_period": "circa_50_ad",
+    "canonical_order": 52
+  },
+  "vocabulary": [
+    {
+      "term": "parousia",
+      "definition": "Greek for arrival or presence; Paul uses it in 1 Thessalonians 4-5 for the Second Coming of Christ; the term was also used for the arrival of a king visiting a city"
+    },
+    {
+      "term": "day of the Lord",
+      "definition": "An OT and NT term for the day of God's decisive intervention in judgment and salvation; Paul tells the Thessalonians in chapter 5 it comes like a thief in the night — sudden and unexpected"
+    }
+  ]
 }

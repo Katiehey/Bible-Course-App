@@ -6,15 +6,85 @@
   "objective": "Grasp Paul's thesis that the gospel reveals God's righteousness for salvation by faith.",
   "duration": "9 minutes",
   "prerequisite": "ntf05_lesson_12",
-  "required_passages": [{"passage_id":"rom_1_1_17","reference":"Romans 1:1-17","text":"I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes... For in it the righteousness of God is revealed from faith for faith."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul's letters begin with Romans, his fullest gospel explanation. Today we focus on the message that saves."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Romans 1:1-17. Paul introduces himself as an apostle set apart for the gospel promised in Scripture concerning God's Son. He longs to preach in Rome and declares, 'I am not ashamed of the gospel... it is the power of God for salvation to everyone who believes.'"},
-    {"segment_id":"context","type":"context","audio_script":"Romans addresses a mixed Jewish-Gentile church and prepares for mission to Spain. Paul lays doctrinal foundations before practical exhortations."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel is not advice but divine power. Salvation comes by faith, not ethnicity or law performance. God's righteousness is both revealed and received in Christ."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include gospel centrality, righteousness by faith, global mission, and confidence in Christ."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you truly unashamed of the gospel in public and private life?"},
-    {"segment_id":"close","type":"close","audio_script":"The gospel saves all who believe. Next, Paul shows humanity's universal need for grace."}
+  "required_passages": [
+    {
+      "passage_id": "rom_1_1_17",
+      "reference": "Romans 1:1-17",
+      "text": "I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes... For in it the righteousness of God is revealed from faith for faith."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"romans","chapter_range":"1","theological_themes":["gospel","righteousness","faith","salvation"],"time_period":"circa_57_ad","canonical_order":45}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul's letters begin with Romans, his fullest gospel explanation. Today we focus on the message that saves.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Romans 1:1-17. Paul introduces himself as an apostle set apart for the gospel promised in Scripture concerning God's Son. He longs to preach in Rome and declares, 'I am not ashamed of the gospel... it is the power of God for salvation to everyone who believes.'",
+      "word_count": 48
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Romans addresses a mixed Jewish-Gentile church and prepares for mission to Spain. Paul lays doctrinal foundations before practical exhortations.",
+      "word_count": 19
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The gospel is not advice but divine power. Salvation comes by faith, not ethnicity or law performance. God's righteousness is both revealed and received in Christ.",
+      "word_count": 26
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include gospel centrality, righteousness by faith, global mission, and confidence in Christ.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul declare in Romans 1:16-17 about the gospel? Answer: he is not ashamed of it, for it is the power of God for salvation to everyone who believes, and in it God's righteousness is revealed from faith to faith.",
+      "correct_answer": "the gospel is God's power for salvation — revealing righteousness from faith to faith",
+      "acceptable_variants": [
+        "I am not ashamed of the gospel — it is God's power for salvation to all who believe",
+        "in the gospel god's righteousness is revealed from faith for faith",
+        "romans 1:16-17 — the power of salvation by faith for all"
+      ],
+      "word_count": 43
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "The gospel saves all who believe. Next, Paul shows humanity's universal need for grace.",
+      "word_count": 14
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "romans",
+    "chapter_range": "1",
+    "theological_themes": [
+      "gospel",
+      "righteousness",
+      "faith",
+      "salvation"
+    ],
+    "time_period": "circa_57_ad",
+    "canonical_order": 45
+  },
+  "vocabulary": [
+    {
+      "term": "righteousness of God",
+      "definition": "The central theme of Romans; God's righteousness is both his character attribute and the gift he gives to believers through faith in Christ — declared righteous, not merely treated as if righteous"
+    },
+    {
+      "term": "apostle",
+      "definition": "One sent with a commission; Paul identifies himself as an apostle set apart for the gospel in Romans 1:1 — establishing his authority and the divine origin of his message"
+    }
+  ]
 }

@@ -14,21 +14,80 @@
     }
   ],
   "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"A major turning point arrives: Gentiles receive the same gospel and Spirit. Today we watch barriers fall and the church become visibly multiethnic."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 10 through 12. Cornelius, a God-fearing centurion, received an angelic message to send for Peter. Meanwhile Peter saw a vision and heard, 'What God has made clean, do not call common.' In Cornelius's house Peter proclaimed Jesus—His life, death, and resurrection—and declared that everyone who believes receives forgiveness through His name. While Peter spoke, the Holy Spirit fell on the Gentiles, and they praised God. Peter commanded they be baptized. Back in Jerusalem, Peter explained the Spirit's work, and the believers glorified God for granting Gentiles repentance unto life. In Antioch many believed; Barnabas and Saul taught there, and disciples were first called Christians. Herod killed James, jailed Peter, but God delivered Peter by an angel as the church prayed earnestly."},
-    {"segment_id":"context","type":"context","audio_script":"Jew-Gentile separation shaped first-century identity. God directly intervenes through visions and Spirit outpouring to show full inclusion of Gentiles in Christ. Antioch emerges as a strategic mission center."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"God shows no partiality: salvation is by faith in Jesus for all peoples. The same Spirit, same gospel, and same baptism mark equal belonging. The church must adjust tradition to God's revealed mission. Prayer remains central amid persecution."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include impartial grace, Gentile inclusion, Spirit confirmation, repentance unto life, church discernment, Antioch mission culture, persecution, and deliverance through prayer."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are there people you still treat as outsiders to grace? How can your church better reflect the one gospel for all nations?"},
-    {"segment_id":"close","type":"close","audio_script":"God opens the door wide to the nations. Next, Paul and Barnabas are sent as missionaries from Antioch."}
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "A major turning point arrives: Gentiles receive the same gospel and Spirit. Today we watch barriers fall and the church become visibly multiethnic.",
+      "word_count": 23
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Acts 10 through 12. Cornelius, a God-fearing centurion, received an angelic message to send for Peter. Meanwhile Peter saw a vision and heard, 'What God has made clean, do not call common.' In Cornelius's house Peter proclaimed Jesus—His life, death, and resurrection—and declared that everyone who believes receives forgiveness through His name. While Peter spoke, the Holy Spirit fell on the Gentiles, and they praised God. Peter commanded they be baptized. Back in Jerusalem, Peter explained the Spirit's work, and the believers glorified God for granting Gentiles repentance unto life. In Antioch many believed; Barnabas and Saul taught there, and disciples were first called Christians. Herod killed James, jailed Peter, but God delivered Peter by an angel as the church prayed earnestly.",
+      "word_count": 124
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Jew-Gentile separation shaped first-century identity. God directly intervenes through visions and Spirit outpouring to show full inclusion of Gentiles in Christ. Antioch emerges as a strategic mission center.",
+      "word_count": 28
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "God shows no partiality: salvation is by faith in Jesus for all peoples. The same Spirit, same gospel, and same baptism mark equal belonging. The church must adjust tradition to God's revealed mission. Prayer remains central amid persecution.",
+      "word_count": 38
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include impartial grace, Gentile inclusion, Spirit confirmation, repentance unto life, church discernment, Antioch mission culture, persecution, and deliverance through prayer.",
+      "word_count": 22
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What did Peter's vision of the unclean animals in Acts 10 teach him? Answer: do not call anything impure that God has made clean — the vision prepared him to accept Cornelius, a Gentile.",
+      "correct_answer": "do not call anything impure that God has made clean — applied to accepting Gentiles",
+      "acceptable_variants": [
+        "god has made clean what you call impure — the vision prepared peter for cornelius",
+        "the vision overturned food laws as a sign that no person should be called unclean",
+        "acts 10 — the sheet vision meant gentiles are not to be excluded"
+      ],
+      "word_count": 36
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "God opens the door wide to the nations. Next, Paul and Barnabas are sent as missionaries from Antioch.",
+      "word_count": 18
+    }
   ],
   "metadata": {
     "difficulty": "intermediate",
     "testament": "new",
     "book": "acts",
     "chapter_range": "10-12",
-    "theological_themes": ["gentile_inclusion", "holy_spirit", "forgiveness", "unity", "antioch", "prayer", "persecution"],
+    "theological_themes": [
+      "gentile_inclusion",
+      "holy_spirit",
+      "forgiveness",
+      "unity",
+      "antioch",
+      "prayer",
+      "persecution"
+    ],
     "time_period": "circa_41_ad",
     "canonical_order": 44
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Cornelius",
+      "definition": "The Roman centurion in Acts 10 whose household received the Holy Spirit before baptism; Peter's visit to him and the Spirit's outpouring convinced the Jerusalem church that God had accepted Gentiles"
+    },
+    {
+      "term": "Jerusalem Council",
+      "definition": "The gathering in Acts 15 that decided Gentile believers did not need to be circumcised; it established that salvation is by grace alone through faith — the first major doctrinal decision of the church"
+    }
+  ]
 }

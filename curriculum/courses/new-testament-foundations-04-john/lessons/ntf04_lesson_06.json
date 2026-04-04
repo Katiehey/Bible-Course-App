@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "At the Feast of Tabernacles, Jesus teaches boldly in the temple. Today we explore His declaration as the Light of the World, His mercy to the adulteress, and His claim to eternal pre-existence."
+      "sequence": 1,
+      "audio_script": "At the Feast of Tabernacles, Jesus teaches boldly in the temple. Today we explore His declaration as the Light of the World, His mercy to the adulteress, and His claim to eternal pre-existence.",
+      "word_count": 33
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapters 7 and 8. The Jews' Feast of Booths was at hand. About the middle of the feast Jesus went up into the temple and began teaching. The Jews marveled, 'How is it that this man has learning?' Jesus answered, 'My teaching is not mine, but his who sent me. Has not Moses given you the law? Yet none of you keeps the law. Why do you seek to kill me?' Some said, 'Is not this the man whom they seek to kill? And here he is, speaking openly.' Many of the people believed in him. The Pharisees sent officers to arrest him. On the last day of the feast, Jesus stood up and cried out, 'If anyone thirsts, let him come to me and drink. Whoever believes in me, as the Scripture has said, Out of his heart will flow rivers of living water.' John explains this was about the Spirit. Some said, 'This really is the Prophet.' Others said, 'This is the Christ.' The officers returned without arresting Jesus, saying, 'No one ever spoke like this man!' Early in the morning Jesus came again to the temple. The scribes and Pharisees brought a woman caught in adultery and said, 'Teacher, Moses commanded us to stone such women. So what do you say?' Jesus said, 'Let him who is without sin among you be the first to throw a stone at her.' When they heard it, they went away one by one, and Jesus was left alone with the woman. Jesus said to her, 'Neither do I condemn you; go, and from now on sin no more.' Again Jesus spoke, saying, 'I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life.' The Pharisees said, 'Your testimony is not true.' Jesus answered, 'Even if I bear witness about myself, my testimony is true. I and the Father who sent me bear witness.' He said, 'Unless you believe that I am he you will die in your sins. When you have lifted up the Son of Man, then you will know that I am he.' Many believed in him. Jesus said to those who believed, 'If you abide in my word, you are truly my disciples, and you will know the truth, and the truth will set you free.' They answered, 'We are offspring of Abraham and have never been enslaved.' Jesus answered, 'Everyone who practices sin is a slave to sin. So if the Son sets you free, you will be free indeed. You seek to kill me because my word finds no place in you. If God were your Father, you would love me. You are of your father the devil, and your will is to do your father's desires.' The Jews said, 'Are we not right in saying you have a demon?' Jesus answered, 'If anyone keeps my word, he will never see death.' The Jews said, 'Are you greater than our father Abraham, who died?' Jesus answered, 'Your father Abraham rejoiced that he would see my day.' The Jews said, 'You are not yet fifty years old, and have you seen Abraham?' Jesus said to them, 'Truly, truly, I say to you, before Abraham was, I am.' So they picked up stones to throw at him, but Jesus hid himself."
+      "sequence": 2,
+      "audio_script": "Listen to John chapters 7 and 8. The Jews' Feast of Booths was at hand. About the middle of the feast Jesus went up into the temple and began teaching. The Jews marveled, 'How is it that this man has learning?' Jesus answered, 'My teaching is not mine, but his who sent me. Has not Moses given you the law? Yet none of you keeps the law. Why do you seek to kill me?' Some said, 'Is not this the man whom they seek to kill? And here he is, speaking openly.' Many of the people believed in him. The Pharisees sent officers to arrest him. On the last day of the feast, Jesus stood up and cried out, 'If anyone thirsts, let him come to me and drink. Whoever believes in me, as the Scripture has said, Out of his heart will flow rivers of living water.' John explains this was about the Spirit. Some said, 'This really is the Prophet.' Others said, 'This is the Christ.' The officers returned without arresting Jesus, saying, 'No one ever spoke like this man!' Early in the morning Jesus came again to the temple. The scribes and Pharisees brought a woman caught in adultery and said, 'Teacher, Moses commanded us to stone such women. So what do you say?' Jesus said, 'Let him who is without sin among you be the first to throw a stone at her.' When they heard it, they went away one by one, and Jesus was left alone with the woman. Jesus said to her, 'Neither do I condemn you; go, and from now on sin no more.' Again Jesus spoke, saying, 'I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life.' The Pharisees said, 'Your testimony is not true.' Jesus answered, 'Even if I bear witness about myself, my testimony is true. I and the Father who sent me bear witness.' He said, 'Unless you believe that I am he you will die in your sins. When you have lifted up the Son of Man, then you will know that I am he.' Many believed in him. Jesus said to those who believed, 'If you abide in my word, you are truly my disciples, and you will know the truth, and the truth will set you free.' They answered, 'We are offspring of Abraham and have never been enslaved.' Jesus answered, 'Everyone who practices sin is a slave to sin. So if the Son sets you free, you will be free indeed. You seek to kill me because my word finds no place in you. If God were your Father, you would love me. You are of your father the devil, and your will is to do your father's desires.' The Jews said, 'Are we not right in saying you have a demon?' Jesus answered, 'If anyone keeps my word, he will never see death.' The Jews said, 'Are you greater than our father Abraham, who died?' Jesus answered, 'Your father Abraham rejoiced that he would see my day.' The Jews said, 'You are not yet fifty years old, and have you seen Abraham?' Jesus said to them, 'Truly, truly, I say to you, before Abraham was, I am.' So they picked up stones to throw at him, but Jesus hid himself.",
+      "word_count": 558
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus attends the Feast of Tabernacles and teaches in the temple despite threats. He invites the thirsty to come and drink, referring to the Holy Spirit. Religious leaders try to arrest Him, but the officers are amazed by His words. Jesus shows mercy to a woman caught in adultery, then declares Himself the Light of the World. He teaches that believing in Him brings freedom from sin. He confronts those who claim Abraham as father, asserting His own pre-existence. When He declares, 'Before Abraham was, I am,' they attempt to stone Him for blasphemy."
+      "sequence": 3,
+      "audio_script": "Jesus attends the Feast of Tabernacles and teaches in the temple despite threats. He invites the thirsty to come and drink, referring to the Holy Spirit. Religious leaders try to arrest Him, but the officers are amazed by His words. Jesus shows mercy to a woman caught in adultery, then declares Himself the Light of the World. He teaches that believing in Him brings freedom from sin. He confronts those who claim Abraham as father, asserting His own pre-existence. When He declares, 'Before Abraham was, I am,' they attempt to stone Him for blasphemy.",
+      "word_count": 94
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus' teaching divides the crowd. Officers sent to arrest Him are captivated by His words. His invitation to the thirsty points to the Spirit believers will receive. The story of the adulteress shows Jesus' authority to forgive and call to holiness. 'I am the light of the world' is His second 'I AM' statement, contrasting light and darkness. Truth known through abiding in His word brings freedom. Sin enslaves, but the Son frees. Those who reject Jesus prove they are not of God. His claim 'before Abraham was, I am' invokes the divine name from Exodus 3:14, asserting eternal existence and deity. The crowd's attempt to stone Him shows they understand His claim to be God."
+      "sequence": 4,
+      "audio_script": "Jesus' teaching divides the crowd. Officers sent to arrest Him are captivated by His words. His invitation to the thirsty points to the Spirit believers will receive. The story of the adulteress shows Jesus' authority to forgive and call to holiness. 'I am the light of the world' is His second 'I AM' statement, contrasting light and darkness. Truth known through abiding in His word brings freedom. Sin enslaves, but the Son frees. Those who reject Jesus prove they are not of God. His claim 'before Abraham was, I am' invokes the divine name from Exodus 3:14, asserting eternal existence and deity. The crowd's attempt to stone Him shows they understand His claim to be God.",
+      "word_count": 116
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus as the Light of the World dispelling darkness, living water of the Spirit, mercy and call to holiness, truth bringing freedom, sin as slavery, abiding in Jesus' word, the devil as father of lies, Jesus' divine origin and authority, His eternal pre-existence, 'I am' as the divine name, and rejection leading to attempted murder. John emphasizes Jesus' deity and the necessity of believing in Him."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus as the Light of the World dispelling darkness, living water of the Spirit, mercy and call to holiness, truth bringing freedom, sin as slavery, abiding in Jesus' word, the devil as father of lies, Jesus' divine origin and authority, His eternal pre-existence, 'I am' as the divine name, and rejection leading to attempted murder. John emphasizes Jesus' deity and the necessity of believing in Him.",
+      "word_count": 69
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: Are you walking in the light or darkness? Have you experienced the freedom truth brings? What enslaves you that Jesus can set free? Do you recognize Jesus' claim to deity in 'Before Abraham was, I am'? Will you believe Him or reject Him?"
+      "sequence": 6,
+      "audio_script": "Review question: What does Jesus declare about himself in John 8:58 that provoked the crowd to pick up stones? Answer: Before Abraham was, I am.",
+      "correct_answer": "Before Abraham was, I am",
+      "acceptable_variants": [
+        "I AM — before Abraham existed I eternally am",
+        "john 8:58 — before abraham was born I am — claiming divine existence",
+        "the absolute I AM statement implying eternal divine identity before Abraham"
+      ],
+      "word_count": 25
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus is the Light of the World, offering living water of the Spirit. He shows mercy while calling to holiness. Truth known through Him brings freedom. He eternally exists as 'I am.' Next, we'll see Him heal a man born blind. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus is the Light of the World, offering living water of the Spirit. He shows mercy while calling to holiness. Truth known through Him brings freedom. He eternally exists as 'I am.' Next, we'll see Him heal a man born blind. Well done.",
+      "word_count": 43
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "7-8",
-    "theological_themes": ["light_of_world", "i_am_statements", "living_water", "holy_spirit", "mercy", "truth_sets_free", "sin_slavery", "pre_existence", "deity"],
+    "theological_themes": [
+      "light_of_world",
+      "i_am_statements",
+      "living_water",
+      "holy_spirit",
+      "mercy",
+      "truth_sets_free",
+      "sin_slavery",
+      "pre_existence",
+      "deity"
+    ],
     "time_period": "circa_28_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "I am the light of the world",
+      "definition": "Jesus' declaration in John 8:12 claiming to be the source of spiritual illumination; it echoes Genesis 1 and the pillar of fire in Exodus and leads to the healing of a blind man in chapter 9"
+    },
+    {
+      "term": "Before Abraham was, I am",
+      "definition": "Jesus' statement in John 8:58 using the absolute I AM (ego eimi) that echoes God's self-designation in Exodus 3:14; the crowd understood it as a claim to divinity and attempted to stone him"
+    }
+  ]
 }

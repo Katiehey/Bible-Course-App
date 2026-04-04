@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus heals a man paralyzed for thirty-eight years on the Sabbath, sparking controversy. Today we explore His third sign and His profound teaching on His relationship with the Father and authority over life and judgment."
+      "sequence": 1,
+      "audio_script": "Jesus heals a man paralyzed for thirty-eight years on the Sabbath, sparking controversy. Today we explore His third sign and His profound teaching on His relationship with the Father and authority over life and judgment.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapter 5. There was a feast of the Jews, and Jesus went up to Jerusalem. Now there is in Jerusalem a pool called Bethesda. In these lay a multitude of invalids. One man was there who had been an invalid for thirty-eight years. Jesus said to him, 'Do you want to be healed?' The sick man answered, 'Sir, I have no one to put me into the pool.' Jesus said to him, 'Get up, take up your bed, and walk.' And at once the man was healed, and he took up his bed and walked. Now that day was the Sabbath. So the Jews said to the man, 'It is the Sabbath, and it is not lawful for you to take up your bed.' Afterward Jesus found him in the temple and said, 'See, you are well! Sin no more, that nothing worse may happen to you.' The man told the Jews that it was Jesus who had healed him. And this was why the Jews were persecuting Jesus, because he was doing these things on the Sabbath. But Jesus answered them, 'My Father is working until now, and I am working.' This was why the Jews were seeking to kill him, because he was calling God his own Father, making himself equal with God. So Jesus said to them, 'Truly, truly, I say to you, the Son can do nothing of his own accord, but only what he sees the Father doing. For whatever the Father does, that the Son does likewise. For the Father loves the Son and shows him all that he is doing. For as the Father raises the dead and gives them life, so also the Son gives life to whom he will. The Father has given all judgment to the Son, that all may honor the Son, just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him. Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life. For as the Father has life in himself, so he has granted the Son also to have life in himself. And he has given him authority to execute judgment. An hour is coming when all who are in the tombs will hear his voice and come out, those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment. John has borne witness to the truth. But the testimony that I have is greater than that of John. For the works that I am doing bear witness that the Father has sent me. You search the Scriptures because you think that in them you have eternal life; and it is they that bear witness about me, yet you refuse to come to me that you may have life. If you believed Moses, you would believe me; for he wrote of me.'"
+      "sequence": 2,
+      "audio_script": "Listen to John chapter 5. There was a feast of the Jews, and Jesus went up to Jerusalem. Now there is in Jerusalem a pool called Bethesda. In these lay a multitude of invalids. One man was there who had been an invalid for thirty-eight years. Jesus said to him, 'Do you want to be healed?' The sick man answered, 'Sir, I have no one to put me into the pool.' Jesus said to him, 'Get up, take up your bed, and walk.' And at once the man was healed, and he took up his bed and walked. Now that day was the Sabbath. So the Jews said to the man, 'It is the Sabbath, and it is not lawful for you to take up your bed.' Afterward Jesus found him in the temple and said, 'See, you are well! Sin no more, that nothing worse may happen to you.' The man told the Jews that it was Jesus who had healed him. And this was why the Jews were persecuting Jesus, because he was doing these things on the Sabbath. But Jesus answered them, 'My Father is working until now, and I am working.' This was why the Jews were seeking to kill him, because he was calling God his own Father, making himself equal with God. So Jesus said to them, 'Truly, truly, I say to you, the Son can do nothing of his own accord, but only what he sees the Father doing. For whatever the Father does, that the Son does likewise. For the Father loves the Son and shows him all that he is doing. For as the Father raises the dead and gives them life, so also the Son gives life to whom he will. The Father has given all judgment to the Son, that all may honor the Son, just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him. Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life. For as the Father has life in himself, so he has granted the Son also to have life in himself. And he has given him authority to execute judgment. An hour is coming when all who are in the tombs will hear his voice and come out, those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment. John has borne witness to the truth. But the testimony that I have is greater than that of John. For the works that I am doing bear witness that the Father has sent me. You search the Scriptures because you think that in them you have eternal life; and it is they that bear witness about me, yet you refuse to come to me that you may have life. If you believed Moses, you would believe me; for he wrote of me.'",
+      "word_count": 508
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "At the pool of Bethesda, Jesus heals a man who had been paralyzed for thirty-eight years. Healing on the Sabbath provokes Jewish leaders' hostility. Jesus claims equality with the Father, asserting His authority to give life and execute judgment. He points to multiple witnesses: John the Baptist, His own works, the Father, and Scripture—all testifying to His identity."
+      "sequence": 3,
+      "audio_script": "At the pool of Bethesda, Jesus heals a man who had been paralyzed for thirty-eight years. Healing on the Sabbath provokes Jewish leaders' hostility. Jesus claims equality with the Father, asserting His authority to give life and execute judgment. He points to multiple witnesses: John the Baptist, His own works, the Father, and Scripture—all testifying to His identity.",
+      "word_count": 58
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus' Sabbath healing demonstrates His lordship over the Sabbath. Calling God 'My Father' claims unique relationship and equality with God. The Son perfectly mirrors the Father's actions. He possesses inherent life and authority to give life and judge. Those who believe have already passed from death to life. Future physical resurrection mirrors present spiritual resurrection. Jesus appeals to four witnesses: John's testimony, His miraculous works, the Father's testimony, and Scripture itself. Rejecting Jesus means rejecting Moses and the Scriptures."
+      "sequence": 4,
+      "audio_script": "Jesus' Sabbath healing demonstrates His lordship over the Sabbath. Calling God 'My Father' claims unique relationship and equality with God. The Son perfectly mirrors the Father's actions. He possesses inherent life and authority to give life and judge. Those who believe have already passed from death to life. Future physical resurrection mirrors present spiritual resurrection. Jesus appeals to four witnesses: John's testimony, His miraculous works, the Father's testimony, and Scripture itself. Rejecting Jesus means rejecting Moses and the Scriptures.",
+      "word_count": 79
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus' authority over Sabbath, equality with the Father, the Son doing the Father's works, giving life to whom He wills, authority to judge, honor due the Son as to the Father, believing unto eternal life, present and future resurrection, multiple witnesses to Jesus' identity, and Scripture testifying to Christ. John emphasizes Jesus' divine nature and life-giving power."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus' authority over Sabbath, equality with the Father, the Son doing the Father's works, giving life to whom He wills, authority to judge, honor due the Son as to the Father, believing unto eternal life, present and future resurrection, multiple witnesses to Jesus' identity, and Scripture testifying to Christ. John emphasizes Jesus' divine nature and life-giving power.",
+      "word_count": 60
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: How does Jesus' Sabbath healing reveal His priorities? What does His claim to equality with God mean for your faith? Have you passed from death to life by believing His word? Do you honor the Son as you honor the Father? How do the Scriptures testify about Jesus?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say about the relationship between his work and the Father's work in John 5? Answer: the Son can do nothing on his own; he does only what he sees the Father doing, and the Father shows the Son all he does.",
+      "correct_answer": "the Son does only what he sees the Father doing — they work in perfect unity",
+      "acceptable_variants": [
+        "the son does nothing apart from the father — the father shows the son all he does",
+        "perfect dependence and unity: whatever the father does, the son does likewise",
+        "john 5 — the son acts in complete submission and unity with the father"
+      ],
+      "word_count": 46
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus heals on the Sabbath and claims equality with the Father. He possesses authority to give life and execute judgment. Believing His word brings eternal life now and resurrection later. Next, Jesus feeds five thousand. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus heals on the Sabbath and claims equality with the Father. He possesses authority to give life and execute judgment. Believing His word brings eternal life now and resurrection later. Next, Jesus feeds five thousand. Well done.",
+      "word_count": 37
     }
   ],
   "metadata": {
@@ -55,8 +68,27 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "5",
-    "theological_themes": ["sabbath", "equality_with_god", "authority", "life_giver", "judgment", "resurrection", "testimony", "scripture"],
+    "theological_themes": [
+      "sabbath",
+      "equality_with_god",
+      "authority",
+      "life_giver",
+      "judgment",
+      "resurrection",
+      "testimony",
+      "scripture"
+    ],
     "time_period": "circa_28_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Sabbath healing",
+      "definition": "The healing of the invalid at the Pool of Bethesda in John 5, done on the Sabbath; it provokes controversy and leads to the discourse on the Son's authority — greater than the Sabbath"
+    },
+    {
+      "term": "five witnesses",
+      "definition": "The five testimonies Jesus lists in John 5:31-47 confirming his identity: John the Baptist, his works, the Father, the Scriptures, and Moses"
+    }
+  ]
 }

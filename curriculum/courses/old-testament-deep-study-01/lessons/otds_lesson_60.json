@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study chronicles: temple, kings, and hope and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study chronicles: temple, kings, and hope and trace God's covenant faithfulness.",
+      "word_count": 13
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the primary concern of Chronicles that distinguishes it from Samuel and Kings? Answer: Chronicles focuses on the temple, legitimate worship, and the Davidic line as the hope of the returning exiles.",
+      "correct_answer": "the temple, legitimate Davidic worship, and hope for the post-exilic community",
+      "acceptable_variants": [
+        "worship centered on the temple and the davidic line",
+        "chronicles emphasizes the temple and priestly worship more than the political history of kings",
+        "the chronicler's concern is proper worship and the continuity of David's line"
+      ],
+      "word_count": 35
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course. Canonical integration for this unit also includes 1 Chronicles, 2 Chronicles, Esther, Job, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Lamentations, Daniel, Hosea, Joel, Obadiah, Jonah, Nahum, Habakkuk, Zephaniah, Haggai, and Zechariah."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course. Canonical integration for this unit also includes 1 Chronicles, 2 Chronicles, Esther, Job, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Lamentations, Daniel, Hosea, Joel, Obadiah, Jonah, Nahum, Habakkuk, Zephaniah, Haggai, and Zechariah.",
+      "word_count": 46
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 60
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Chronicler",
+      "definition": "The author of 1-2 Chronicles, traditionally identified with Ezra; writing after the exile, he retells Israel's history from Adam to Cyrus's decree with emphasis on David, the temple, and proper worship"
+    },
+    {
+      "term": "Cyrus decree",
+      "definition": "The proclamation of Cyrus king of Persia in 2 Chronicles 36:22-23 permitting the exiles to return and rebuild the temple; Chronicles ends with this word of hope pointing toward Ezra-Nehemiah"
+    }
+  ]
 }

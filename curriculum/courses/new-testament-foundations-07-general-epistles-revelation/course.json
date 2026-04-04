@@ -1,0 +1,103 @@
+{
+  "course_id": "new_testament_foundations_07_general_epistles_revelation",
+  "title": "New Testament Foundations — General Epistles and Revelation",
+  "subtitle": "Perseverance, Warning, and the New Creation",
+  "description": "A structured study of Hebrews through Revelation examining the superiority of Christ, the call to endurance, warnings against false teaching, and the final vision of God's new creation.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 19,
+  "estimated_duration_weeks": 3,
+  "estimated_duration_hours": 3,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_06_pauline_epistles",
+  "learning_outcomes": [
+    "Explain the argument for Christ's superiority over Moses, Aaron, and the old covenant in Hebrews",
+    "Identify the warning passages in Hebrews and their function",
+    "Describe the relationship between faith and works in James",
+    "Explain the structure and major symbols of Revelation",
+    "Trace the theme of perseverance through suffering across the General Epistles"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Christ's finality and the church's endurance to the end"
+  },
+  "units": [
+    {
+      "unit_id": "ntf07_unit_01",
+      "unit_number": 1,
+      "title": "Hebrews",
+      "description": "Christ superior to all — the better covenant and priestly work (Lessons 1–3)",
+      "lessons": [1, 2, 3]
+    },
+    {
+      "unit_id": "ntf07_unit_02",
+      "unit_number": 2,
+      "title": "James and Peter",
+      "description": "Practical faith, suffering, and hope (Lessons 4–9)",
+      "lessons": [4, 5, 6, 7, 8, 9]
+    },
+    {
+      "unit_id": "ntf07_unit_03",
+      "unit_number": 3,
+      "title": "John's Letters and Jude",
+      "description": "Truth, love, and contending for the faith (Lessons 10–13)",
+      "lessons": [10, 11, 12, 13]
+    },
+    {
+      "unit_id": "ntf07_unit_04",
+      "unit_number": 4,
+      "title": "Revelation",
+      "description": "The Lamb's victory and the new creation (Lessons 14–19)",
+      "lessons": [14, 15, 16, 17, 18, 19]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "General Epistles and Revelation",
+    "primary_texts": "Hebrews, James, 1-2 Peter, 1-2-3 John, Jude, Revelation",
+    "genre_coverage": ["epistle", "apocalyptic", "homily", "paraenesis"],
+    "theological_themes": [
+      "perseverance",
+      "superior_priesthood",
+      "new_creation",
+      "judgment",
+      "faithful_witness"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What OT figure does Hebrews present as the type of Christ's priesthood?",
+      "What does James say faith without works is?",
+      "What does Peter call Christians in 1 Peter 2:9?",
+      "What are the seven churches addressed in Revelation 1-3?",
+      "What does Revelation 21 describe as God's final act?"
+    ]
+  },
+  "next_course": {
+    "course_id": "old_testament_deep_study_01",
+    "title": "Old Testament Deep Study",
+    "description": "Systematic study of the Old Testament from Genesis through Chronicles"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

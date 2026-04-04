@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus sets His face toward Jerusalem and begins teaching intensively. Today we explore the cost of discipleship, the Good Samaritan, Mary and Martha, the Lord's Prayer, and confrontation with religious leaders."
+      "sequence": 1,
+      "audio_script": "Jesus sets His face toward Jerusalem and begins teaching intensively. Today we explore the cost of discipleship, the Good Samaritan, Mary and Martha, the Lord's Prayer, and confrontation with religious leaders.",
+      "word_count": 31
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Luke 9 through 11. When the days drew near for him to be taken up, he set his face to go to Jerusalem. Someone said to him, 'I will follow you wherever you go.' And Jesus said, 'Foxes have holes, and birds have nests, but the Son of Man has nowhere to lay his head.' To another he said, 'Follow me.' But he said, 'Let me first bury my father.' Jesus said, 'Leave the dead to bury their own dead. But go and proclaim the kingdom of God.' The Lord appointed seventy-two others and sent them. They returned with joy, saying, 'Lord, even the demons are subject to us!' And he said, 'I saw Satan fall like lightning from heaven. Nevertheless, do not rejoice that spirits are subject to you, but rejoice that your names are written in heaven.' A lawyer said, 'What shall I do to inherit eternal life?' He said, 'Love the Lord your God with all your heart, and your neighbor as yourself.' But desiring to justify himself, he said, 'Who is my neighbor?' Jesus replied, 'A man was going down from Jerusalem to Jericho, and fell among robbers. A priest passed by on the other side. So likewise a Levite. But a Samaritan had compassion. He bound up his wounds and took care of him. Which proved to be a neighbor?' He said, 'The one who showed mercy.' And Jesus said, 'You go, and do likewise.' Martha welcomed him into her house. Mary sat at the Lord's feet and listened. But Martha was distracted with serving. The Lord answered, 'Martha, you are anxious about many things, but one thing is necessary. Mary has chosen the good portion.' One of his disciples said, 'Lord, teach us to pray.' And he said, 'When you pray, say: Father, hallowed be your name. Your kingdom come. Give us each day our daily bread, and forgive us our sins, for we ourselves forgive everyone. And lead us not into temptation. Ask, and it will be given you; seek, and you will find; knock, and it will be opened. How much more will the heavenly Father give the Holy Spirit to those who ask him!' He said to the Pharisees, 'Woe to you! For you tithe mint and rue and every herb, and neglect justice and the love of God. You are like unmarked graves.'"
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Luke 9 through 11. When the days drew near for him to be taken up, he set his face to go to Jerusalem. Someone said to him, 'I will follow you wherever you go.' And Jesus said, 'Foxes have holes, and birds have nests, but the Son of Man has nowhere to lay his head.' To another he said, 'Follow me.' But he said, 'Let me first bury my father.' Jesus said, 'Leave the dead to bury their own dead. But go and proclaim the kingdom of God.' The Lord appointed seventy-two others and sent them. They returned with joy, saying, 'Lord, even the demons are subject to us!' And he said, 'I saw Satan fall like lightning from heaven. Nevertheless, do not rejoice that spirits are subject to you, but rejoice that your names are written in heaven.' A lawyer said, 'What shall I do to inherit eternal life?' He said, 'Love the Lord your God with all your heart, and your neighbor as yourself.' But desiring to justify himself, he said, 'Who is my neighbor?' Jesus replied, 'A man was going down from Jerusalem to Jericho, and fell among robbers. A priest passed by on the other side. So likewise a Levite. But a Samaritan had compassion. He bound up his wounds and took care of him. Which proved to be a neighbor?' He said, 'The one who showed mercy.' And Jesus said, 'You go, and do likewise.' Martha welcomed him into her house. Mary sat at the Lord's feet and listened. But Martha was distracted with serving. The Lord answered, 'Martha, you are anxious about many things, but one thing is necessary. Mary has chosen the good portion.' One of his disciples said, 'Lord, teach us to pray.' And he said, 'When you pray, say: Father, hallowed be your name. Your kingdom come. Give us each day our daily bread, and forgive us our sins, for we ourselves forgive everyone. And lead us not into temptation. Ask, and it will be given you; seek, and you will find; knock, and it will be opened. How much more will the heavenly Father give the Holy Spirit to those who ask him!' He said to the Pharisees, 'Woe to you! For you tithe mint and rue and every herb, and neglect justice and the love of God. You are like unmarked graves.'",
+      "word_count": 398
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus resolves to go to Jerusalem despite rejection. He demands total commitment from would-be followers. The seventy-two return victoriously. A lawyer tests Jesus with questions about eternal life. Martha worries while Mary sits at Jesus' feet. Disciples ask for prayer instruction. Pharisees accuse Jesus of demonic power, but He proves His authority."
+      "sequence": 3,
+      "audio_script": "Jesus resolves to go to Jerusalem despite rejection. He demands total commitment from would-be followers. The seventy-two return victoriously. A lawyer tests Jesus with questions about eternal life. Martha worries while Mary sits at Jesus' feet. Disciples ask for prayer instruction. Pharisees accuse Jesus of demonic power, but He proves His authority.",
+      "word_count": 52
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Following Jesus requires abandoning security and earthly ties. The Good Samaritan redefines neighbor as anyone in need, regardless of ethnicity or religion. Compassionate action proves love. Mary models choosing better over busy. The Lord's Prayer is simple, communal, dependent. God gives the Holy Spirit to those who ask. Jesus exposes Pharisees' external religion hiding internal corruption."
+      "sequence": 4,
+      "audio_script": "Following Jesus requires abandoning security and earthly ties. The Good Samaritan redefines neighbor as anyone in need, regardless of ethnicity or religion. Compassionate action proves love. Mary models choosing better over busy. The Lord's Prayer is simple, communal, dependent. God gives the Holy Spirit to those who ask. Jesus exposes Pharisees' external religion hiding internal corruption.",
+      "word_count": 56
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include costly discipleship, universal neighbor-love across boundaries, active compassion over religious status, choosing devotion over distraction, persistent prayer, the Father's generosity in giving the Spirit, Jesus' authority over demons, spiritual warfare, and judgment on religious hypocrisy that burdens people while neglecting justice and love."
+      "sequence": 5,
+      "audio_script": "Key themes include costly discipleship, universal neighbor-love across boundaries, active compassion over religious status, choosing devotion over distraction, persistent prayer, the Father's generosity in giving the Spirit, Jesus' authority over demons, spiritual warfare, and judgment on religious hypocrisy that burdens people while neglecting justice and love.",
+      "word_count": 46
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: What excuses keep you from full commitment to Jesus? Who is your neighbor that you're avoiding? Are you more like Mary or Martha? How does the Lord's Prayer shape your praying? What external religion might hide internal corruption?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say was the great commandment in Luke 10 when the lawyer tested him? Answer: love the LORD your God with all your heart, soul, strength, and mind, and love your neighbor as yourself.",
+      "correct_answer": "love the LORD your God with all your heart, soul, strength, and mind, and love your neighbor as yourself",
+      "acceptable_variants": [
+        "the great commandment — total love for God and love neighbor as yourself",
+        "heart soul strength mind directed to God, and neighbor love equal to self-love",
+        "love god completely and love your neighbor as yourself"
+      ],
+      "word_count": 38
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus journeys to Jerusalem teaching radical discipleship, compassionate neighbor-love, devotional priority, and persistent prayer. He confronts religious hypocrisy. Next, more teaching on discipleship. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus journeys to Jerusalem teaching radical discipleship, compassionate neighbor-love, devotional priority, and persistent prayer. He confronts religious hypocrisy. Next, more teaching on discipleship. Well done today.",
+      "word_count": 26
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "9:51-11:54",
-    "theological_themes": ["discipleship", "neighbor_love", "compassion", "prayer", "holy_spirit", "spiritual_warfare", "religious_hypocrisy"],
+    "theological_themes": [
+      "discipleship",
+      "neighbor_love",
+      "compassion",
+      "prayer",
+      "holy_spirit",
+      "spiritual_warfare",
+      "religious_hypocrisy"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Good Samaritan",
+      "definition": "The parable in Luke 10:25-37 answering who is my neighbor; a Samaritan shows mercy to a beaten man where priests and Levites passed by — defining neighbor not by ethnicity but by merciful action"
+    },
+    {
+      "term": "Mary and Martha",
+      "definition": "The account in Luke 10:38-42 where Mary sits at Jesus' feet while Martha is distracted with serving; Jesus says Mary has chosen the better part — the image of a woman as a disciple sitting at a rabbi's feet was culturally unusual"
+    }
+  ]
 }

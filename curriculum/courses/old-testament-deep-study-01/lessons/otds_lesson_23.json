@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study leviticus: offerings and worship and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study leviticus: offerings and worship and trace God's covenant faithfulness.",
+      "word_count": 12
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the Hebrew term for the offering in Leviticus in which the offerer, priest, and God all share in the meal? Answer: the peace offering, also called the fellowship offering or shelamim.",
+      "correct_answer": "peace offering — also called fellowship offering or shelamim",
+      "acceptable_variants": [
+        "the shelamim or fellowship offering",
+        "the peace offering where all parties eat",
+        "shelem — the communion sacrifice shared between offerer and priests"
+      ],
+      "word_count": 35
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 23
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "burnt offering",
+      "definition": "The offering entirely consumed by fire on the altar, representing total consecration to God; the most common offering in Leviticus with no portion kept by the offerer"
+    },
+    {
+      "term": "guilt offering",
+      "definition": "The offering required for unintentional sins and violations of sacred property; it included restitution plus twenty percent and a sacrifice"
+    }
+  ]
 }

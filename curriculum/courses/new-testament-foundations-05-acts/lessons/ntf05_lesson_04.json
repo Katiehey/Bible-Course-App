@@ -14,21 +14,80 @@
     }
   ],
   "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Church growth is matched by testing. Today we see God's holiness, wise leadership development, and Stephen's martyrdom."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 5 through 7. Ananias and Sapphira lied about their gift, and Peter said they lied to the Holy Spirit; both fell dead, and great fear came upon all. The apostles performed many signs, were arrested, and an angel released them to keep preaching. Before the council they declared, 'We must obey God rather than men.' Gamaliel advised caution. As disciples increased, a complaint arose over neglected widows. The apostles appointed seven Spirit-filled servants, including Stephen. Stephen performed signs and was seized. In his speech, he retold Israel's history, showing repeated rejection of God's messengers and culminating in rejection of the Righteous One. Enraged leaders stoned him. Stephen saw Jesus standing at God's right hand and prayed for mercy on his killers as he died."},
-    {"segment_id":"context","type":"context","audio_script":"Rapid growth brings both external persecution and internal challenges. Luke shows that Spirit-filled leadership includes both word ministry and practical care. Stephen's speech reframes temple-centered religion around Jesus as the true fulfillment."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Holiness matters in gospel community; hypocrisy is not trivial. The apostles prioritize prayer and word while empowering others to serve, creating healthy ministry structure. Stephen models scriptural faithfulness and Christlike forgiveness at death. His martyrdom becomes a turning point that scatters believers for mission."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include holiness before God, honesty in community, obedience above human authority, shared leadership, Spirit-filled service, biblical theology of fulfillment in Christ, martyr witness, and forgiving enemies."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where does hidden hypocrisy need repentance? How can your community strengthen both word and mercy ministries? Are you prepared to witness faithfully at personal cost?"},
-    {"segment_id":"close","type":"close","audio_script":"God purifies and strengthens His church through testing. Next, the gospel moves beyond Jerusalem through persecution and conversion."}
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Church growth is matched by testing. Today we see God's holiness, wise leadership development, and Stephen's martyrdom.",
+      "word_count": 17
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Acts 5 through 7. Ananias and Sapphira lied about their gift, and Peter said they lied to the Holy Spirit; both fell dead, and great fear came upon all. The apostles performed many signs, were arrested, and an angel released them to keep preaching. Before the council they declared, 'We must obey God rather than men.' Gamaliel advised caution. As disciples increased, a complaint arose over neglected widows. The apostles appointed seven Spirit-filled servants, including Stephen. Stephen performed signs and was seized. In his speech, he retold Israel's history, showing repeated rejection of God's messengers and culminating in rejection of the Righteous One. Enraged leaders stoned him. Stephen saw Jesus standing at God's right hand and prayed for mercy on his killers as he died.",
+      "word_count": 127
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Rapid growth brings both external persecution and internal challenges. Luke shows that Spirit-filled leadership includes both word ministry and practical care. Stephen's speech reframes temple-centered religion around Jesus as the true fulfillment.",
+      "word_count": 32
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Holiness matters in gospel community; hypocrisy is not trivial. The apostles prioritize prayer and word while empowering others to serve, creating healthy ministry structure. Stephen models scriptural faithfulness and Christlike forgiveness at death. His martyrdom becomes a turning point that scatters believers for mission.",
+      "word_count": 44
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include holiness before God, honesty in community, obedience above human authority, shared leadership, Spirit-filled service, biblical theology of fulfillment in Christ, martyr witness, and forgiving enemies.",
+      "word_count": 28
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: Why did Ananias and Sapphira die in Acts 5? Answer: they lied to the Holy Spirit by keeping back part of the money from a land sale while pretending to give the full amount.",
+      "correct_answer": "they lied to the Holy Spirit by claiming to give all while secretly keeping part",
+      "acceptable_variants": [
+        "they deceived the holy spirit about the proceeds of their land",
+        "ananias and sapphira kept part of the sale price but pretended to give all — they lied to god",
+        "acts 5 — deceit before god about the offering amount"
+      ],
+      "word_count": 36
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "God purifies and strengthens His church through testing. Next, the gospel moves beyond Jerusalem through persecution and conversion.",
+      "word_count": 18
+    }
   ],
   "metadata": {
     "difficulty": "intermediate",
     "testament": "new",
     "book": "acts",
     "chapter_range": "5-7",
-    "theological_themes": ["holiness", "church_discipline", "leadership", "service", "martyrdom", "forgiveness", "obedience"],
+    "theological_themes": [
+      "holiness",
+      "church_discipline",
+      "leadership",
+      "service",
+      "martyrdom",
+      "forgiveness",
+      "obedience"
+    ],
     "time_period": "circa_31_ad",
     "canonical_order": 44
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Ananias and Sapphira",
+      "definition": "The couple in Acts 5 who died for lying to the Holy Spirit about their offering; their story follows the generosity of Barnabas and establishes the seriousness of hypocrisy in the community"
+    },
+    {
+      "term": "Stephen",
+      "definition": "The first Christian martyr in Acts 7 whose speech before the Sanhedrin traced Israel's history of rejecting God's messengers; his stoning introduced Saul of Tarsus and scattered the Jerusalem church outward"
+    }
+  ]
 }

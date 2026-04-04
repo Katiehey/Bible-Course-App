@@ -6,15 +6,85 @@
   "objective": "Finish with Paul's final charge to preach Scripture faithfully and endure to the end.",
   "duration": "8 minutes",
   "prerequisite": "ntf06_lesson_24",
-  "required_passages": [{"passage_id":"2ti_3_1_4_22","reference":"2 Timothy 3:1-4:22","text":"All Scripture is breathed out by God... Preach the word... I have fought the good fight, I have finished the race, I have kept the faith."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul's final words call every minister and disciple to Scripture-rooted endurance."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Timothy 3-4. Paul warns of difficult times and deceptive teachers, then highlights Scripture's divine authority and usefulness for teaching and training. He solemnly charges Timothy: preach the word in season and out of season. Paul closes with testimony of endurance and confidence in the Lord's righteous crown."},
-    {"segment_id":"context","type":"context","audio_script":"As apostolic era leadership transitions, Scripture-centered preaching becomes the enduring anchor for the church."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Faithful ministry resists novelty by remaining tethered to God's breathed-out word. Finishing well requires steadfast doctrine, courage, and hope in Christ's appearing."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Scripture authority, preaching, discernment, perseverance, and finishing the race."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you ordering your life around God's word in a way that will help you finish well?"},
-    {"segment_id":"close","type":"close","audio_script":"Preach the word and endure to the end. Next, Titus applies gospel doctrine to church order and public witness."}
+  "required_passages": [
+    {
+      "passage_id": "2ti_3_1_4_22",
+      "reference": "2 Timothy 3:1-4:22",
+      "text": "All Scripture is breathed out by God... Preach the word... I have fought the good fight, I have finished the race, I have kept the faith."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_timothy","chapter_range":"3-4","theological_themes":["scripture","preaching","perseverance","finishing_well"],"time_period":"circa_66_ad","canonical_order":55}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul's final words call every minister and disciple to Scripture-rooted endurance.",
+      "word_count": 11
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 2 Timothy 3-4. Paul warns of difficult times and deceptive teachers, then highlights Scripture's divine authority and usefulness for teaching and training. He solemnly charges Timothy: preach the word in season and out of season. Paul closes with testimony of endurance and confidence in the Lord's righteous crown.",
+      "word_count": 50
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "As apostolic era leadership transitions, Scripture-centered preaching becomes the enduring anchor for the church.",
+      "word_count": 14
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Faithful ministry resists novelty by remaining tethered to God's breathed-out word. Finishing well requires steadfast doctrine, courage, and hope in Christ's appearing.",
+      "word_count": 22
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Scripture authority, preaching, discernment, perseverance, and finishing the race.",
+      "word_count": 12
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say all Scripture is in 2 Timothy 3:16-17? Answer: God-breathed and useful for teaching, rebuking, correcting, and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.",
+      "correct_answer": "God-breathed and useful for teaching, rebuking, correcting, and training in righteousness",
+      "acceptable_variants": [
+        "all scripture is inspired by god — useful for doctrine reproof correction and training",
+        "2 timothy 3:16 — theopneustos — god-breathed scripture equips for all good works",
+        "given by god's breath — profitable for four purposes so god's servant is complete"
+      ],
+      "word_count": 39
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Preach the word and endure to the end. Next, Titus applies gospel doctrine to church order and public witness.",
+      "word_count": 19
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "2_timothy",
+    "chapter_range": "3-4",
+    "theological_themes": [
+      "scripture",
+      "preaching",
+      "perseverance",
+      "finishing_well"
+    ],
+    "time_period": "circa_66_ad",
+    "canonical_order": 55
+  },
+  "vocabulary": [
+    {
+      "term": "theopneustos",
+      "definition": "The Greek word in 2 Timothy 3:16 translated God-breathed or inspired; it means Scripture is the product of God's breath — originating in him rather than merely human thought"
+    },
+    {
+      "term": "preach the word",
+      "definition": "Paul's final charge to Timothy in 2 Timothy 4:2 — preach in season and out of season; it captures the urgency and the call to persistence that runs through all the Pastoral Epistles"
+    }
+  ]
 }

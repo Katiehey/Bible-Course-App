@@ -6,15 +6,86 @@
   "objective": "Understand God's final judgments and the collapse of rebellious world systems.",
   "duration": "9 minutes",
   "prerequisite": "ntf07_lesson_16",
-  "required_passages": [{"passage_id":"rev_15_1_19_21","reference":"Revelation 15:1-19:21","text":"The bowls of wrath were poured out... Fallen, fallen is Babylon the great... Hallelujah! For the Lord our God the Almighty reigns... the Rider on the white horse judges and makes war in righteousness."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Judgment reaches its climax as Babylon falls and heaven rejoices in God's justice."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 15-19. Seven bowl judgments complete God's wrath against persistent rebellion. Babylon, symbol of idolatrous and oppressive civilization, is exposed and destroyed. Heaven answers with hallelujah praise for God's righteous judgments. The vision culminates in the return of Christ as faithful warrior-king defeating evil powers."},
-    {"segment_id":"context","type":"context","audio_script":"Babylon imagery would resonate with believers facing imperial pressure and seductive wealth systems."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"God's justice is not arbitrary; it answers entrenched evil and vindicates saints. Believers are called to come out of Babylon's compromises and remain pure for Christ."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include divine justice, judgment completion, Babylon's seduction and fall, heavenly worship, and Christ's triumphant return."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What habits or loyalties in your life still mirror Babylon's values more than Christ's kingdom?"},
-    {"segment_id":"close","type":"close","audio_script":"Babylon falls, and Christ reigns in righteousness. Next, Revelation shows final defeat of evil and the great white throne."}
+  "required_passages": [
+    {
+      "passage_id": "rev_15_1_19_21",
+      "reference": "Revelation 15:1-19:21",
+      "text": "The bowls of wrath were poured out... Fallen, fallen is Babylon the great... Hallelujah! For the Lord our God the Almighty reigns... the Rider on the white horse judges and makes war in righteousness."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"15-19","theological_themes":["judgment","babylon","justice","christ_return","worship"],"time_period":"circa_95_ad","canonical_order":66}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Judgment reaches its climax as Babylon falls and heaven rejoices in God's justice.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Revelation 15-19. Seven bowl judgments complete God's wrath against persistent rebellion. Babylon, symbol of idolatrous and oppressive civilization, is exposed and destroyed. Heaven answers with hallelujah praise for God's righteous judgments. The vision culminates in the return of Christ as faithful warrior-king defeating evil powers.",
+      "word_count": 47
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Babylon imagery would resonate with believers facing imperial pressure and seductive wealth systems.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "God's justice is not arbitrary; it answers entrenched evil and vindicates saints. Believers are called to come out of Babylon's compromises and remain pure for Christ.",
+      "word_count": 26
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include divine justice, judgment completion, Babylon's seduction and fall, heavenly worship, and Christ's triumphant return.",
+      "word_count": 17
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What is Babylon in Revelation 17-18, and what is she called? Answer: the great prostitute who sits on many waters, drunk with the blood of saints — called Babylon the Great, mother of prostitutes.",
+      "correct_answer": "the great prostitute drunk with the blood of saints — Babylon the Great, mother of prostitutes",
+      "acceptable_variants": [
+        "babylon the great — a harlot symbolizing the seductive power of worldly empire against God's people",
+        "revelation 17 — the woman on the scarlet beast is babylon representing corrupt worldly power",
+        "mother of prostitutes — Babylon as the system opposing God who persecutes the saints"
+      ],
+      "word_count": 36
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Babylon falls, and Christ reigns in righteousness. Next, Revelation shows final defeat of evil and the great white throne.",
+      "word_count": 19
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "revelation",
+    "chapter_range": "15-19",
+    "theological_themes": [
+      "judgment",
+      "babylon",
+      "justice",
+      "christ_return",
+      "worship"
+    ],
+    "time_period": "circa_95_ad",
+    "canonical_order": 66
+  },
+  "vocabulary": [
+    {
+      "term": "Babylon",
+      "definition": "John's symbolic name in Revelation 17-18 for Rome and all corrupt worldly power that seduces people away from God and persecutes believers; the name evokes the OT exile"
+    },
+    {
+      "term": "merchants of the earth",
+      "definition": "Those who grew rich trading with Babylon in Revelation 18; their lament at Babylon's fall reveals the economic power that drives allegiance to corrupt empires"
+    }
+  ]
 }

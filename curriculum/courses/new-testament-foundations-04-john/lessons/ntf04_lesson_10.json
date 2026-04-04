@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "In the upper room, Jesus washes His disciples' feet and teaches profoundly. Today we explore His new commandment to love, His identity as the Way, Truth, and Life, and His promise of the Holy Spirit."
+      "sequence": 1,
+      "audio_script": "In the upper room, Jesus washes His disciples' feet and teaches profoundly. Today we explore His new commandment to love, His identity as the Way, Truth, and Life, and His promise of the Holy Spirit.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapters 13 and 14. Before the Feast of the Passover, Jesus knew that his hour had come. Having loved his own, he loved them to the end. During supper, Jesus rose, laid aside his outer garments, and taking a towel, tied it around his waist. Then he poured water into a basin and began to wash the disciples' feet. He came to Simon Peter, who said, 'Lord, do you wash my feet?' Jesus answered, 'What I am doing you do not understand now, but afterward you will understand.' Peter said, 'You shall never wash my feet.' Jesus answered, 'If I do not wash you, you have no share with me.' Peter said, 'Lord, not my feet only but also my hands and my head!' Jesus said, 'The one who has bathed does not need to wash, except for his feet. And you are clean, but not every one of you.' When he had washed their feet, he said, 'Do you understand what I have done? You call me Teacher and Lord, and you are right. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. For I have given you an example.' Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain. The disciple whom Jesus loved asked, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread.' So when he had dipped the morsel, he gave it to Judas. Then after he had taken the morsel, Satan entered into him. Jesus said to him, 'What you are going to do, do quickly.' He immediately went out. And it was night. When he had gone out, Jesus said, 'Now is the Son of Man glorified. A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another.' Peter said, 'Lord, where are you going?' Jesus answered, 'Where I am going you cannot follow me now, but you will follow afterward.' Peter said, 'I will lay down my life for you.' Jesus answered, 'Truly, truly, the rooster will not crow till you have denied me three times. Let not your hearts be troubled. Believe in God; believe also in me. In my Father's house are many rooms. I go to prepare a place for you. I will come again and will take you to myself. And you know the way to where I am going.' Thomas said, 'Lord, we do not know where you are going. How can we know the way?' Jesus said to him, 'I am the way, and the truth, and the life. No one comes to the Father except through me. If you had known me, you would have known my Father also. From now on you do know him and have seen him.' Philip said, 'Lord, show us the Father.' Jesus said, 'Have I been with you so long, and you still do not know me, Philip? Whoever has seen me has seen the Father. Do you not believe that I am in the Father and the Father is in me? Whoever believes in me will also do the works that I do; and greater works than these will he do. Whatever you ask in my name, this I will do. If you love me, you will keep my commandments. And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth. I will not leave you as orphans; I will come to you. Because I live, you also will live. Whoever has my commandments and keeps them loves me. And he who loves me will be loved by my Father. If anyone loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him. The Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things and bring to your remembrance all that I have said to you. Peace I leave with you; my peace I give to you. Let not your hearts be troubled, neither let them be afraid.'"
+      "sequence": 2,
+      "audio_script": "Listen to John chapters 13 and 14. Before the Feast of the Passover, Jesus knew that his hour had come. Having loved his own, he loved them to the end. During supper, Jesus rose, laid aside his outer garments, and taking a towel, tied it around his waist. Then he poured water into a basin and began to wash the disciples' feet. He came to Simon Peter, who said, 'Lord, do you wash my feet?' Jesus answered, 'What I am doing you do not understand now, but afterward you will understand.' Peter said, 'You shall never wash my feet.' Jesus answered, 'If I do not wash you, you have no share with me.' Peter said, 'Lord, not my feet only but also my hands and my head!' Jesus said, 'The one who has bathed does not need to wash, except for his feet. And you are clean, but not every one of you.' When he had washed their feet, he said, 'Do you understand what I have done? You call me Teacher and Lord, and you are right. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. For I have given you an example.' Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain. The disciple whom Jesus loved asked, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread.' So when he had dipped the morsel, he gave it to Judas. Then after he had taken the morsel, Satan entered into him. Jesus said to him, 'What you are going to do, do quickly.' He immediately went out. And it was night. When he had gone out, Jesus said, 'Now is the Son of Man glorified. A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another.' Peter said, 'Lord, where are you going?' Jesus answered, 'Where I am going you cannot follow me now, but you will follow afterward.' Peter said, 'I will lay down my life for you.' Jesus answered, 'Truly, truly, the rooster will not crow till you have denied me three times. Let not your hearts be troubled. Believe in God; believe also in me. In my Father's house are many rooms. I go to prepare a place for you. I will come again and will take you to myself. And you know the way to where I am going.' Thomas said, 'Lord, we do not know where you are going. How can we know the way?' Jesus said to him, 'I am the way, and the truth, and the life. No one comes to the Father except through me. If you had known me, you would have known my Father also. From now on you do know him and have seen him.' Philip said, 'Lord, show us the Father.' Jesus said, 'Have I been with you so long, and you still do not know me, Philip? Whoever has seen me has seen the Father. Do you not believe that I am in the Father and the Father is in me? Whoever believes in me will also do the works that I do; and greater works than these will he do. Whatever you ask in my name, this I will do. If you love me, you will keep my commandments. And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth. I will not leave you as orphans; I will come to you. Because I live, you also will live. Whoever has my commandments and keeps them loves me. And he who loves me will be loved by my Father. If anyone loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him. The Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things and bring to your remembrance all that I have said to you. Peace I leave with you; my peace I give to you. Let not your hearts be troubled, neither let them be afraid.'",
+      "word_count": 744
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "In the upper room before Passover, Jesus washes His disciples' feet, demonstrating servant leadership. He predicts Judas' betrayal and Peter's denial. After Judas departs, Jesus gives a new commandment: love one another as He has loved them. He promises to prepare a place in the Father's house. Thomas asks the way, and Jesus declares He is the Way, Truth, and Life—the only path to the Father. Philip asks to see the Father; Jesus reveals seeing Him is seeing the Father. He promises the Holy Spirit as Helper to teach and remind. He offers peace and commands them not to fear."
+      "sequence": 3,
+      "audio_script": "In the upper room before Passover, Jesus washes His disciples' feet, demonstrating servant leadership. He predicts Judas' betrayal and Peter's denial. After Judas departs, Jesus gives a new commandment: love one another as He has loved them. He promises to prepare a place in the Father's house. Thomas asks the way, and Jesus declares He is the Way, Truth, and Life—the only path to the Father. Philip asks to see the Father; Jesus reveals seeing Him is seeing the Father. He promises the Holy Spirit as Helper to teach and remind. He offers peace and commands them not to fear.",
+      "word_count": 100
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Footwashing illustrates humble service; Jesus models what disciples must do. Peter's resistance shows misunderstanding; without Jesus' cleansing, there is no share in Him. Judas' betrayal fulfills Scripture. The 'new commandment' is new in degree—love as Jesus loved, sacrificially. Love identifies true disciples. Peter's boast is met with prediction of denial, showing human weakness. Jesus comforts troubled hearts: He goes to prepare eternal dwelling. 'I am the way, truth, and life' is the sixth 'I AM' statement, claiming exclusive access to the Father. Seeing Jesus is seeing the Father—they are one in essence. Greater works will be done because Jesus goes to the Father and sends the Spirit. The Holy Spirit as 'another Helper' continues Jesus' presence, teaching and reminding. Jesus' peace differs from the world's—it's rooted in His presence and victory."
+      "sequence": 4,
+      "audio_script": "Footwashing illustrates humble service; Jesus models what disciples must do. Peter's resistance shows misunderstanding; without Jesus' cleansing, there is no share in Him. Judas' betrayal fulfills Scripture. The 'new commandment' is new in degree—love as Jesus loved, sacrificially. Love identifies true disciples. Peter's boast is met with prediction of denial, showing human weakness. Jesus comforts troubled hearts: He goes to prepare eternal dwelling. 'I am the way, truth, and life' is the sixth 'I AM' statement, claiming exclusive access to the Father. Seeing Jesus is seeing the Father—they are one in essence. Greater works will be done because Jesus goes to the Father and sends the Spirit. The Holy Spirit as 'another Helper' continues Jesus' presence, teaching and reminding. Jesus' peace differs from the world's—it's rooted in His presence and victory.",
+      "word_count": 131
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus' humble service through footwashing, the necessity of His cleansing, betrayal and denial, the new commandment to love sacrificially, love as the mark of discipleship, Jesus preparing a place in the Father's house, Jesus as the Way, Truth, and Life, exclusive access to the Father through Jesus, seeing Jesus is seeing the Father, the promise of the Holy Spirit as Helper, peace from Jesus, and not fearing. John emphasizes Jesus' love, His oneness with the Father, and the coming Spirit."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus' humble service through footwashing, the necessity of His cleansing, betrayal and denial, the new commandment to love sacrificially, love as the mark of discipleship, Jesus preparing a place in the Father's house, Jesus as the Way, Truth, and Life, exclusive access to the Father through Jesus, seeing Jesus is seeing the Father, the promise of the Holy Spirit as Helper, peace from Jesus, and not fearing. John emphasizes Jesus' love, His oneness with the Father, and the coming Spirit.",
+      "word_count": 83
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Have you been cleansed by Jesus and received your share with Him? Are you serving others in humble love? Do you love others as Jesus loved you? Do you know Jesus as the only way to the Father? Have you seen the Father in Jesus? Is the Holy Spirit your Helper, teaching and reminding you?"
+      "sequence": 6,
+      "audio_script": "Review question: What new commandment does Jesus give his disciples in John 13? Answer: love one another as I have loved you.",
+      "correct_answer": "love one another as I have loved you",
+      "acceptable_variants": [
+        "a new commandment — love one another the way I have loved you",
+        "john 13:34 — the new commandment of mutual love modeled on Christ's love",
+        "love as I have loved — the standard is Christ's self-giving love"
+      ],
+      "word_count": 22
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus washes feet and commands sacrificial love. He is the Way, Truth, and Life—the only path to the Father. He promises the Holy Spirit and His peace. Next, we'll hear Jesus teach about abiding in the vine. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus washes feet and commands sacrificial love. He is the Way, Truth, and Life—the only path to the Father. He promises the Holy Spirit and His peace. Next, we'll hear Jesus teach about abiding in the vine. Well done.",
+      "word_count": 39
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "13-14",
-    "theological_themes": ["footwashing", "servant_leadership", "new_commandment", "love", "way_truth_life", "i_am_statements", "exclusive_salvation", "holy_spirit", "peace"],
+    "theological_themes": [
+      "footwashing",
+      "servant_leadership",
+      "new_commandment",
+      "love",
+      "way_truth_life",
+      "i_am_statements",
+      "exclusive_salvation",
+      "holy_spirit",
+      "peace"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "foot washing",
+      "definition": "Jesus' act in John 13:1-17 of washing the disciples' feet before the Passover; it models servant love and illustrates the cleansing Jesus will accomplish through his death"
+    },
+    {
+      "term": "Paraclete",
+      "definition": "The Greek term meaning helper, advocate, or comforter used in John 14-16 for the Holy Spirit; Jesus promises the Spirit will come after his departure to teach, remind, convict, and guide the disciples"
+    }
+  ]
 }

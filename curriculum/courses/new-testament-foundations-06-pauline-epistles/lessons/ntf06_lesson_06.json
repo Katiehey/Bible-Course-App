@@ -6,15 +6,86 @@
   "objective": "Apply gospel holiness to sexuality, lawsuits, marriage, and liberty in everyday life.",
   "duration": "10 minutes",
   "prerequisite": "ntf06_lesson_05",
-  "required_passages": [{"passage_id":"1co_5_1_10_33","reference":"1 Corinthians 5:1-10:33","text":"Do you not know that a little leaven leavens the whole lump?... Flee from sexual immorality... you are not your own, for you were bought with a price... whether you eat or drink, do all to the glory of God."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul applies the gospel to messy church life: discipline, sexuality, relationships, and conscience."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 5-10. Paul commands church discipline for unrepentant immorality, warns against lawsuits among believers, teaches that bodies belong to the Lord, gives pastoral counsel on marriage and singleness, and addresses food offered to idols by balancing freedom with love. He concludes: 'Do all to the glory of God.'"},
-    {"segment_id":"context","type":"context","audio_script":"Corinth's permissive culture pressured believers to detach faith from bodily and relational ethics."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Grace does not minimize holiness; it empowers it. Christian freedom is governed by love and witness. The body is a temple of the Spirit and belongs to Christ."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include discipline, purity, sanctified sexuality, covenant faithfulness, conscience, liberty, and God's glory in ordinary life."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are your choices shaped more by rights or by love for God's people and mission?"},
-    {"segment_id":"close","type":"close","audio_script":"Holiness is embodied discipleship for God's glory. Next, Paul addresses worship order, spiritual gifts, and resurrection hope."}
+  "required_passages": [
+    {
+      "passage_id": "1co_5_1_10_33",
+      "reference": "1 Corinthians 5:1-10:33",
+      "text": "Do you not know that a little leaven leavens the whole lump?... Flee from sexual immorality... you are not your own, for you were bought with a price... whether you eat or drink, do all to the glory of God."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"5-10","theological_themes":["holiness","discipline","body","freedom","glory_of_god"],"time_period":"circa_55_ad","canonical_order":46}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul applies the gospel to messy church life: discipline, sexuality, relationships, and conscience.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 1 Corinthians 5-10. Paul commands church discipline for unrepentant immorality, warns against lawsuits among believers, teaches that bodies belong to the Lord, gives pastoral counsel on marriage and singleness, and addresses food offered to idols by balancing freedom with love. He concludes: 'Do all to the glory of God.'",
+      "word_count": 51
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Corinth's permissive culture pressured believers to detach faith from bodily and relational ethics.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Grace does not minimize holiness; it empowers it. Christian freedom is governed by love and witness. The body is a temple of the Spirit and belongs to Christ.",
+      "word_count": 28
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include discipline, purity, sanctified sexuality, covenant faithfulness, conscience, liberty, and God's glory in ordinary life.",
+      "word_count": 17
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say the body of a believer is in 1 Corinthians 6? Answer: a temple of the Holy Spirit who is in you, whom you have from God.",
+      "correct_answer": "a temple of the Holy Spirit who is in you — received from God",
+      "acceptable_variants": [
+        "your body is the holy spirit's temple — you were bought at a price",
+        "the body belongs to god because it is where the spirit dwells",
+        "1 corinthians 6:19 — the body as the holy spirit's temple"
+      ],
+      "word_count": 32
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Holiness is embodied discipleship for God's glory. Next, Paul addresses worship order, spiritual gifts, and resurrection hope.",
+      "word_count": 17
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "1_corinthians",
+    "chapter_range": "5-10",
+    "theological_themes": [
+      "holiness",
+      "discipline",
+      "body",
+      "freedom",
+      "glory_of_god"
+    ],
+    "time_period": "circa_55_ad",
+    "canonical_order": 46
+  },
+  "vocabulary": [
+    {
+      "term": "temple of the Holy Spirit",
+      "definition": "Paul's teaching in 1 Corinthians 6:19 that the believer's body is the dwelling place of the Spirit; it grounds Christian sexual ethics in theology rather than rules"
+    },
+    {
+      "term": "food sacrificed to idols",
+      "definition": "The issue in 1 Corinthians 8-10 about eating meat offered to pagan gods; Paul argues that knowledge must yield to love for the weak brother whose conscience might be damaged"
+    }
+  ]
 }

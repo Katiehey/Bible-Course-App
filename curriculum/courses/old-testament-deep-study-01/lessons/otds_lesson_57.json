@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study 1 kings: divided kingdom and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study 1 kings: divided kingdom and trace God's covenant faithfulness.",
+      "word_count": 12
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What sin did Jeroboam set up to prevent Israel from returning to Jerusalem for worship? Answer: two golden calves at Bethel and Dan, telling the people these were the gods who brought them out of Egypt.",
+      "correct_answer": "two golden calves at Bethel and Dan to serve as substitute worship centers",
+      "acceptable_variants": [
+        "golden calves at bethel and dan echoing Aaron's sin at Sinai",
+        "he set up two calves to keep the northern tribes from going to Jerusalem",
+        "the sin of jeroboam — golden calves at bethel and dan"
+      ],
+      "word_count": 38
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 57
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "sin of Jeroboam",
+      "definition": "The phrase used repeatedly in Kings for the golden calf worship Jeroboam established; it becomes the standard charge against every northern king and explains why the northern kingdom fell"
+    },
+    {
+      "term": "Elijah",
+      "definition": "The prophet who confronted King Ahab and the prophets of Baal on Mount Carmel in 1 Kings 18; his dramatic ministry demonstrated Yahweh's superiority over the Baal worship of Ahab's court"
+    }
+  ]
 }

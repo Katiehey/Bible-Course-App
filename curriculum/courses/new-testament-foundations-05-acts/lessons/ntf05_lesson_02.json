@@ -14,21 +14,79 @@
     }
   ],
   "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Pentecost is the decisive outpouring of the Spirit. Today we witness bold proclamation, mass conversion, and the church's foundational practices."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 2. On Pentecost, a sound like a mighty rushing wind filled the house, and divided tongues as of fire rested on each of them. They were filled with the Holy Spirit and spoke in other languages. Jews from many nations heard the mighty works of God in their own tongues. Peter stood and explained: this fulfills Joel's prophecy. He proclaimed Jesus' death by lawless men, His resurrection, and exaltation. Peter declared, 'God has made him both Lord and Christ, this Jesus whom you crucified.' The crowd was cut to the heart and asked, 'What shall we do?' Peter answered, 'Repent and be baptized... and you will receive the gift of the Holy Spirit.' About three thousand were added. The believers devoted themselves to apostolic teaching, fellowship, breaking bread, and prayers, sharing generously with glad hearts."},
-    {"segment_id":"context","type":"context","audio_script":"Pentecost was a Jewish pilgrimage feast, bringing nations to Jerusalem. God uses this moment to launch global witness. Peter, once fearful, now preaches boldly because the Spirit has come."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Pentecost reverses Babel's confusion by uniting people through the gospel. The Spirit empowers proclamation centered on Jesus' death, resurrection, and lordship. Repentance and baptism publicly mark allegiance to Christ. The church's pattern is theological depth, shared life, worship, and generous love."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Spirit baptism, fulfillment of prophecy, Christ-centered preaching, repentance and baptism, salvation by grace, church formation, devotion to teaching and prayer, and missional community life."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is your life marked by repentance and Spirit dependence? Are you devoted to apostolic truth, fellowship, prayer, and generosity?"},
-    {"segment_id":"close","type":"close","audio_script":"The Spirit has come, Christ is proclaimed, and the church is born. Next, we see bold witness under opposition in Jerusalem."}
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Pentecost is the decisive outpouring of the Spirit. Today we witness bold proclamation, mass conversion, and the church's foundational practices.",
+      "word_count": 20
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Acts 2. On Pentecost, a sound like a mighty rushing wind filled the house, and divided tongues as of fire rested on each of them. They were filled with the Holy Spirit and spoke in other languages. Jews from many nations heard the mighty works of God in their own tongues. Peter stood and explained: this fulfills Joel's prophecy. He proclaimed Jesus' death by lawless men, His resurrection, and exaltation. Peter declared, 'God has made him both Lord and Christ, this Jesus whom you crucified.' The crowd was cut to the heart and asked, 'What shall we do?' Peter answered, 'Repent and be baptized... and you will receive the gift of the Holy Spirit.' About three thousand were added. The believers devoted themselves to apostolic teaching, fellowship, breaking bread, and prayers, sharing generously with glad hearts.",
+      "word_count": 138
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Pentecost was a Jewish pilgrimage feast, bringing nations to Jerusalem. God uses this moment to launch global witness. Peter, once fearful, now preaches boldly because the Spirit has come.",
+      "word_count": 29
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Pentecost reverses Babel's confusion by uniting people through the gospel. The Spirit empowers proclamation centered on Jesus' death, resurrection, and lordship. Repentance and baptism publicly mark allegiance to Christ. The church's pattern is theological depth, shared life, worship, and generous love.",
+      "word_count": 41
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Spirit baptism, fulfillment of prophecy, Christ-centered preaching, repentance and baptism, salvation by grace, church formation, devotion to teaching and prayer, and missional community life.",
+      "word_count": 27
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What is Peter's answer when the crowd asks what they must do in Acts 2:38? Answer: repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.",
+      "correct_answer": "repent and be baptized in Jesus' name for forgiveness of sins, and receive the Holy Spirit",
+      "acceptable_variants": [
+        "repent, be baptized in Christ's name, receive forgiveness and the holy spirit",
+        "acts 2:38 — repentance, baptism, and the gift of the spirit",
+        "peter calls for repentance and baptism as response to pentecost"
+      ],
+      "word_count": 48
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "The Spirit has come, Christ is proclaimed, and the church is born. Next, we see bold witness under opposition in Jerusalem.",
+      "word_count": 21
+    }
   ],
   "metadata": {
     "difficulty": "intermediate",
     "testament": "new",
     "book": "acts",
     "chapter_range": "2",
-    "theological_themes": ["pentecost", "holy_spirit", "repentance", "baptism", "church", "apostolic_preaching"],
+    "theological_themes": [
+      "pentecost",
+      "holy_spirit",
+      "repentance",
+      "baptism",
+      "church",
+      "apostolic_preaching"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 44
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Pentecost",
+      "definition": "The Jewish harvest festival fifty days after Passover; Acts 2 records the outpouring of the Holy Spirit with wind, fire, and tongues, fulfilling Joel 2 and Jesus' promise in Acts 1:8"
+    },
+    {
+      "term": "speaking in tongues",
+      "definition": "The miraculous speech at Pentecost in Acts 2 where each person heard in their own language; it reverses Babel's confusion and signals the gospel going to all nations"
+    }
+  ]
 }

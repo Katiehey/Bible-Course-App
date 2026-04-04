@@ -6,15 +6,85 @@
   "objective": "Understand universal sin and God's provision of justification through Jesus Christ.",
   "duration": "10 minutes",
   "prerequisite": "ntf06_lesson_01",
-  "required_passages": [{"passage_id":"rom_1_18_4_25","reference":"Romans 1:18-4:25","text":"All have sinned and fall short of the glory of God, and are justified by his grace as a gift... For we hold that one is justified by faith apart from works of the law."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul diagnoses the human condition and announces God's gracious verdict: justified by faith."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Romans 1:18-4:25. Paul shows Gentiles and Jews alike are under sin. No one is righteous on their own. But now God's righteousness is manifested apart from the law through faith in Jesus Christ. Abraham himself was counted righteous by faith, not works."},
-    {"segment_id":"context","type":"context","audio_script":"Paul addresses boasting and division by placing all people at the same level before God: guilty without Christ, accepted in Christ."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Justification is God's legal declaration that sinners are righteous because of Christ's atoning work. It is received by faith alone, excluding boasting and uniting believers."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include universal sin, grace, atonement, justification, faith apart from works, and unity of Jew and Gentile."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you resting in Christ's righteousness or trying to establish your own?"},
-    {"segment_id":"close","type":"close","audio_script":"God justifies sinners by grace through faith. Next, Paul unfolds assurance, sanctification, and life in the Spirit."}
+  "required_passages": [
+    {
+      "passage_id": "rom_1_18_4_25",
+      "reference": "Romans 1:18-4:25",
+      "text": "All have sinned and fall short of the glory of God, and are justified by his grace as a gift... For we hold that one is justified by faith apart from works of the law."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"romans","chapter_range":"1-4","theological_themes":["sin","justification","grace","faith"],"time_period":"circa_57_ad","canonical_order":45}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul diagnoses the human condition and announces God's gracious verdict: justified by faith.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Romans 1:18-4:25. Paul shows Gentiles and Jews alike are under sin. No one is righteous on their own. But now God's righteousness is manifested apart from the law through faith in Jesus Christ. Abraham himself was counted righteous by faith, not works.",
+      "word_count": 44
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Paul addresses boasting and division by placing all people at the same level before God: guilty without Christ, accepted in Christ.",
+      "word_count": 21
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Justification is God's legal declaration that sinners are righteous because of Christ's atoning work. It is received by faith alone, excluding boasting and uniting believers.",
+      "word_count": 25
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include universal sin, grace, atonement, justification, faith apart from works, and unity of Jew and Gentile.",
+      "word_count": 18
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say Abraham's faith was counted as in Romans 4? Answer: righteousness — Abraham believed God and it was credited to him as righteousness.",
+      "correct_answer": "righteousness — Abraham believed God and it was counted to him as righteousness",
+      "acceptable_variants": [
+        "his faith was reckoned as righteousness before circumcision",
+        "romans 4 — faith counted as righteousness for abraham as model for all believers",
+        "genesis 15:6 — abraham believed and it was counted to him as righteousness"
+      ],
+      "word_count": 28
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "God justifies sinners by grace through faith. Next, Paul unfolds assurance, sanctification, and life in the Spirit.",
+      "word_count": 17
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "romans",
+    "chapter_range": "1-4",
+    "theological_themes": [
+      "sin",
+      "justification",
+      "grace",
+      "faith"
+    ],
+    "time_period": "circa_57_ad",
+    "canonical_order": 45
+  },
+  "vocabulary": [
+    {
+      "term": "justification",
+      "definition": "The act of God declaring a sinner righteous on the basis of Christ's righteousness received through faith; Paul develops this in Romans 3-5 as the answer to universal human guilt before a holy God"
+    },
+    {
+      "term": "imputation",
+      "definition": "The crediting of righteousness to the believer's account; Paul quotes Genesis 15:6 in Romans 4 — faith was counted as righteousness — as the model of justification apart from works"
+    }
+  ]
 }

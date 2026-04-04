@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Luke's Gospel culminates in Jesus' passion and resurrection. Today we witness the Last Supper, Gethsemane, trials, crucifixion where Jesus forgives and saves a criminal, His resurrection, Emmaus road appearance, and ascension—Jesus as Savior triumphant."
+      "sequence": 1,
+      "audio_script": "Luke's Gospel culminates in Jesus' passion and resurrection. Today we witness the Last Supper, Gethsemane, trials, crucifixion where Jesus forgives and saves a criminal, His resurrection, Emmaus road appearance, and ascension—Jesus as Savior triumphant.",
+      "word_count": 34
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Luke 22 through 24. Satan entered into Judas. Jesus sent Peter and John to prepare the Passover. When the hour came, he said, 'I have earnestly desired to eat this Passover with you before I suffer.' He took bread and said, 'This is my body, which is given for you. Do this in remembrance of me.' And the cup: 'This cup is the new covenant in my blood.' He went to the Mount of Olives and prayed, 'Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.' His sweat became like great drops of blood. Judas came with a crowd to kiss him. Peter followed at a distance. A servant girl said, 'This man also was with him.' But he denied it. And immediately the rooster crowed. And the Lord turned and looked at Peter. And Peter went out and wept bitterly. They led him to the council. They said, 'If you are the Christ, tell us.' He said, 'From now on the Son of Man shall be seated at the right hand of the power of God.' They brought him before Pilate. Pilate said, 'I find no guilt in this man.' But they cried, 'Crucify, crucify him!' Pilate delivered Jesus over to their will. They led him away. And when they came to The Skull, there they crucified him, and the criminals, one on his right and one on his left. And Jesus said, 'Father, forgive them, for they know not what they do.' One criminal said, 'Jesus, remember me when you come into your kingdom.' And he said, 'Truly, I say to you, today you will be with me in paradise.' There was darkness over the whole land. The curtain of the temple was torn in two. Then Jesus said, 'Father, into your hands I commit my spirit!' And he breathed his last. The centurion praised God, saying, 'Certainly this man was innocent!' On the first day of the week, at early dawn, they went to the tomb. They found the stone rolled away. Two men in dazzling apparel said, 'Why do you seek the living among the dead? He is not here, but has risen.' Two of them were going to Emmaus. Jesus himself drew near, but their eyes were kept from recognizing him. He said, 'Was it not necessary that the Christ should suffer these things and enter into his glory?' And beginning with Moses and all the Prophets, he interpreted the Scriptures. When he broke bread, their eyes were opened, and they recognized him. Jesus stood among them and said, 'Peace to you! See my hands and feet.' He opened their minds to understand the Scriptures: 'Thus it is written, that the Christ should suffer and on the third day rise, and that repentance for forgiveness of sins should be proclaimed in his name to all nations. You are witnesses. Stay in the city until you are clothed with power from on high.' He led them out to Bethany and was carried up into heaven. And they returned to Jerusalem with great joy."
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Luke 22 through 24. Satan entered into Judas. Jesus sent Peter and John to prepare the Passover. When the hour came, he said, 'I have earnestly desired to eat this Passover with you before I suffer.' He took bread and said, 'This is my body, which is given for you. Do this in remembrance of me.' And the cup: 'This cup is the new covenant in my blood.' He went to the Mount of Olives and prayed, 'Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.' His sweat became like great drops of blood. Judas came with a crowd to kiss him. Peter followed at a distance. A servant girl said, 'This man also was with him.' But he denied it. And immediately the rooster crowed. And the Lord turned and looked at Peter. And Peter went out and wept bitterly. They led him to the council. They said, 'If you are the Christ, tell us.' He said, 'From now on the Son of Man shall be seated at the right hand of the power of God.' They brought him before Pilate. Pilate said, 'I find no guilt in this man.' But they cried, 'Crucify, crucify him!' Pilate delivered Jesus over to their will. They led him away. And when they came to The Skull, there they crucified him, and the criminals, one on his right and one on his left. And Jesus said, 'Father, forgive them, for they know not what they do.' One criminal said, 'Jesus, remember me when you come into your kingdom.' And he said, 'Truly, I say to you, today you will be with me in paradise.' There was darkness over the whole land. The curtain of the temple was torn in two. Then Jesus said, 'Father, into your hands I commit my spirit!' And he breathed his last. The centurion praised God, saying, 'Certainly this man was innocent!' On the first day of the week, at early dawn, they went to the tomb. They found the stone rolled away. Two men in dazzling apparel said, 'Why do you seek the living among the dead? He is not here, but has risen.' Two of them were going to Emmaus. Jesus himself drew near, but their eyes were kept from recognizing him. He said, 'Was it not necessary that the Christ should suffer these things and enter into his glory?' And beginning with Moses and all the Prophets, he interpreted the Scriptures. When he broke bread, their eyes were opened, and they recognized him. Jesus stood among them and said, 'Peace to you! See my hands and feet.' He opened their minds to understand the Scriptures: 'Thus it is written, that the Christ should suffer and on the third day rise, and that repentance for forgiveness of sins should be proclaimed in his name to all nations. You are witnesses. Stay in the city until you are clothed with power from on high.' He led them out to Bethany and was carried up into heaven. And they returned to Jerusalem with great joy.",
+      "word_count": 521
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus institutes the Lord's Supper, symbolizing His body and blood. In Gethsemane He submits to the Father's will. Peter denies Him three times. Jewish and Roman trials find no guilt, but He's condemned. At the cross, Jesus forgives His executioners and promises paradise to a repentant criminal. He dies, darkness falls, the temple veil tears. He rises, appears to disciples, explains Scripture, and ascends."
+      "sequence": 3,
+      "audio_script": "Jesus institutes the Lord's Supper, symbolizing His body and blood. In Gethsemane He submits to the Father's will. Peter denies Him three times. Jewish and Roman trials find no guilt, but He's condemned. At the cross, Jesus forgives His executioners and promises paradise to a repentant criminal. He dies, darkness falls, the temple veil tears. He rises, appears to disciples, explains Scripture, and ascends.",
+      "word_count": 64
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The Passover meal becomes communion, commemorating His sacrifice. Jesus' prayer shows His humanity and obedience. Peter's denial and restoration reveal grace. Pilate and Herod find Him innocent, highlighting injustice. Jesus' seven words from the cross show forgiveness, compassion, suffering, trust. The thief's salvation demonstrates grace until the last breath. Resurrection validates everything. Emmaus disciples learn Christ's suffering was prophesied. The ascension completes His work; the Spirit will empower witnesses."
+      "sequence": 4,
+      "audio_script": "The Passover meal becomes communion, commemorating His sacrifice. Jesus' prayer shows His humanity and obedience. Peter's denial and restoration reveal grace. Pilate and Herod find Him innocent, highlighting injustice. Jesus' seven words from the cross show forgiveness, compassion, suffering, trust. The thief's salvation demonstrates grace until the last breath. Resurrection validates everything. Emmaus disciples learn Christ's suffering was prophesied. The ascension completes His work; the Spirit will empower witnesses.",
+      "word_count": 69
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include new covenant in Christ's blood, submission to God's will, betrayal and denial, Jesus' innocence, forgiveness from the cross, salvation for repentant sinners, sacrificial atonement, temple curtain torn granting access to God, bodily resurrection, scriptural fulfillment, Christ's suffering necessary for glory, commission to proclaim repentance and forgiveness to all nations, and promise of Spirit power. Luke emphasizes Jesus as Savior of all."
+      "sequence": 5,
+      "audio_script": "Key themes include new covenant in Christ's blood, submission to God's will, betrayal and denial, Jesus' innocence, forgiveness from the cross, salvation for repentant sinners, sacrificial atonement, temple curtain torn granting access to God, bodily resurrection, scriptural fulfillment, Christ's suffering necessary for glory, commission to proclaim repentance and forgiveness to all nations, and promise of Spirit power. Luke emphasizes Jesus as Savior of all.",
+      "word_count": 64
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: How does communion connect you to Christ's sacrifice? What does Jesus' forgiveness from the cross reveal about God? How does the criminal's salvation offer hope? What does the torn veil mean for your access to God? Are you a witness to Christ's resurrection?"
+      "sequence": 6,
+      "audio_script": "Review question: Where does Luke's Gospel end, and what does Jesus command the disciples to wait for? Answer: Jerusalem; Jesus commands them to wait there for the promise of the Father — power from on high.",
+      "correct_answer": "Jerusalem; they are to wait for the promise of the Father — power from on high",
+      "acceptable_variants": [
+        "they return to Jerusalem to wait for the holy spirit",
+        "jesus tells them to stay in jerusalem until clothed with power from on high",
+        "the disciples return to jerusalem in great joy awaiting the promise"
+      ],
+      "word_count": 36
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus suffers, dies, and rises as prophesied, bringing forgiveness and salvation to all who believe. He commissions witnesses to proclaim this good news to all nations, empowered by the Spirit. Luke's Gospel reveals Jesus as Savior of the world. Well done completing Luke!"
+      "sequence": 7,
+      "audio_script": "Jesus suffers, dies, and rises as prophesied, bringing forgiveness and salvation to all who believe. He commissions witnesses to proclaim this good news to all nations, empowered by the Spirit. Luke's Gospel reveals Jesus as Savior of the world. Well done completing Luke!",
+      "word_count": 43
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "22-24",
-    "theological_themes": ["last_supper", "new_covenant", "gethsemane", "crucifixion", "forgiveness", "atonement", "resurrection", "ascension", "great_commission"],
+    "theological_themes": [
+      "last_supper",
+      "new_covenant",
+      "gethsemane",
+      "crucifixion",
+      "forgiveness",
+      "atonement",
+      "resurrection",
+      "ascension",
+      "great_commission"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Emmaus road",
+      "definition": "The journey in Luke 24:13-35 where Jesus walked unrecognized with two disciples and explained the Scriptures before being revealed in the breaking of bread — a pattern of Word and table"
+    },
+    {
+      "term": "promise of the Father",
+      "definition": "Jesus' final command in Luke 24:49 to wait in Jerusalem for the Holy Spirit; this promise is fulfilled in Acts 2 and connects Luke's Gospel to his second volume"
+    }
+  ]
 }

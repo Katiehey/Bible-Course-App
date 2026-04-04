@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to our final lesson in Mark. We witness the Gospel's climax: Jesus' betrayal, trial, crucifixion, and resurrection. The Suffering Servant gives His life as a ransom, then rises victorious. Mark's abrupt ending leaves us breathless, called to follow the risen Lord."
+      "sequence": 1,
+      "audio_script": "Welcome to our final lesson in Mark. We witness the Gospel's climax: Jesus' betrayal, trial, crucifixion, and resurrection. The Suffering Servant gives His life as a ransom, then rises victorious. Mark's abrupt ending leaves us breathless, called to follow the risen Lord.",
+      "word_count": 42
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Mark chapters 14 through 16. It was now two days before the Passover. And the chief priests and the scribes were seeking how to arrest him by stealth and kill him. And while he was at Bethany, a woman came with an alabaster flask of ointment and poured it over his head. But Jesus said, 'She has anointed my body beforehand for burial.' Then Judas Iscariot went to the chief priests in order to betray him to them. And as they were eating, he took bread, and after blessing it broke it and gave it to them, and said, 'Take; this is my body.' And he took a cup and said, 'This is my blood of the covenant, which is poured out for many.' And they went to a place called Gethsemane. And he said, 'My soul is very sorrowful, even to death.' And he prayed, 'Abba, Father, all things are possible for you. Remove this cup from me. Yet not what I will, but what you will.' And immediately Judas came with a crowd with swords and clubs. And he kissed him. And they laid hands on him and seized him. And the high priest asked him, 'Are you the Christ, the Son of the Blessed?' And Jesus said, 'I am, and you will see the Son of Man seated at the right hand of Power.' And they all condemned him as deserving death. And Peter denied it three times. And immediately the rooster crowed a second time. And Peter remembered and broke down and wept. And Pilate asked him, 'Are you the King of the Jews?' And he answered him, 'You have said so.' But the chief priests stirred up the crowd to have him release Barabbas instead. And Pilate, wishing to satisfy the crowd, delivered Jesus to be crucified. And they brought him to Golgotha. And they crucified him. And when the sixth hour had come, there was darkness over the whole land until the ninth hour. And at the ninth hour Jesus cried with a loud voice, 'My God, my God, why have you forsaken me?' And Jesus uttered a loud cry and breathed his last. And the curtain of the temple was torn in two, from top to bottom. And when the centurion saw that in this way he breathed his last, he said, 'Truly this man was the Son of God!' And very early on the first day of the week, they went to the tomb. And entering the tomb, they saw a young man dressed in a white robe, and they were alarmed. And he said to them, 'Do not be alarmed. You seek Jesus of Nazareth, who was crucified. He has risen; he is not here. But go, tell his disciples and Peter that he is going before you to Galilee. There you will see him.' And they went out and fled from the tomb, for trembling and astonishment had seized them."
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Mark chapters 14 through 16. It was now two days before the Passover. And the chief priests and the scribes were seeking how to arrest him by stealth and kill him. And while he was at Bethany, a woman came with an alabaster flask of ointment and poured it over his head. But Jesus said, 'She has anointed my body beforehand for burial.' Then Judas Iscariot went to the chief priests in order to betray him to them. And as they were eating, he took bread, and after blessing it broke it and gave it to them, and said, 'Take; this is my body.' And he took a cup and said, 'This is my blood of the covenant, which is poured out for many.' And they went to a place called Gethsemane. And he said, 'My soul is very sorrowful, even to death.' And he prayed, 'Abba, Father, all things are possible for you. Remove this cup from me. Yet not what I will, but what you will.' And immediately Judas came with a crowd with swords and clubs. And he kissed him. And they laid hands on him and seized him. And the high priest asked him, 'Are you the Christ, the Son of the Blessed?' And Jesus said, 'I am, and you will see the Son of Man seated at the right hand of Power.' And they all condemned him as deserving death. And Peter denied it three times. And immediately the rooster crowed a second time. And Peter remembered and broke down and wept. And Pilate asked him, 'Are you the King of the Jews?' And he answered him, 'You have said so.' But the chief priests stirred up the crowd to have him release Barabbas instead. And Pilate, wishing to satisfy the crowd, delivered Jesus to be crucified. And they brought him to Golgotha. And they crucified him. And when the sixth hour had come, there was darkness over the whole land until the ninth hour. And at the ninth hour Jesus cried with a loud voice, 'My God, my God, why have you forsaken me?' And Jesus uttered a loud cry and breathed his last. And the curtain of the temple was torn in two, from top to bottom. And when the centurion saw that in this way he breathed his last, he said, 'Truly this man was the Son of God!' And very early on the first day of the week, they went to the tomb. And entering the tomb, they saw a young man dressed in a white robe, and they were alarmed. And he said to them, 'Do not be alarmed. You seek Jesus of Nazareth, who was crucified. He has risen; he is not here. But go, tell his disciples and Peter that he is going before you to Galilee. There you will see him.' And they went out and fled from the tomb, for trembling and astonishment had seized them.",
+      "word_count": 495
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Mark's passion narrative moves swiftly from anointing to betrayal to trial to crucifixion. Jesus institutes communion, agonizes in Gethsemane, endures trials, and suffers Roman execution. His cry of dereliction shows Him bearing sin's penalty. The torn curtain opens God's presence. The centurion's confession fulfills Mark's theme: this crucified man is God's Son."
+      "sequence": 3,
+      "audio_script": "Mark's passion narrative moves swiftly from anointing to betrayal to trial to crucifixion. Jesus institutes communion, agonizes in Gethsemane, endures trials, and suffers Roman execution. His cry of dereliction shows Him bearing sin's penalty. The torn curtain opens God's presence. The centurion's confession fulfills Mark's theme: this crucified man is God's Son.",
+      "word_count": 52
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The woman's anointing prepares Jesus for burial. Communion establishes the new covenant in His blood. Gethsemane reveals His humanity and obedience. Peter's denial contrasts Jesus' faithfulness. He confesses His identity before the Sanhedrin, sealing His fate. Crucified as King of the Jews, He dies forsaken, accomplishing atonement. The empty tomb vindicates everything. Mark's ending sends disciples to meet the risen Jesus."
+      "sequence": 4,
+      "audio_script": "The woman's anointing prepares Jesus for burial. Communion establishes the new covenant in His blood. Gethsemane reveals His humanity and obedience. Peter's denial contrasts Jesus' faithfulness. He confesses His identity before the Sanhedrin, sealing His fate. Crucified as King of the Jews, He dies forsaken, accomplishing atonement. The empty tomb vindicates everything. Mark's ending sends disciples to meet the risen Jesus.",
+      "word_count": 61
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Central themes include Jesus as the suffering Servant and Son of God, substitutionary atonement through His death, the new covenant in His blood, divine judgment on sin borne by Jesus, the torn curtain granting access to God, resurrection victory, and the call to follow Him. The centurion sees what Israel's leaders missed: this crucified man is God's Son."
+      "sequence": 5,
+      "audio_script": "Central themes include Jesus as the suffering Servant and Son of God, substitutionary atonement through His death, the new covenant in His blood, divine judgment on sin borne by Jesus, the torn curtain granting access to God, resurrection victory, and the call to follow Him. The centurion sees what Israel's leaders missed: this crucified man is God's Son.",
+      "word_count": 58
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: How does Jesus' Gethsemane prayer model surrendering your will to God's? What does the cry of dereliction reveal about the cost of your salvation? How should the empty tomb and risen Jesus change how you live today?"
+      "sequence": 6,
+      "audio_script": "Review question: What did the Roman centurion say when Jesus died on the cross in Mark 15? Answer: Truly this man was the Son of God.",
+      "correct_answer": "Truly this man was the Son of God",
+      "acceptable_variants": [
+        "surely this man was the son of god",
+        "the centurion confessed — this man was truly the son of god",
+        "a gentile soldier declared him son of god at his death"
+      ],
+      "word_count": 26
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Mark's Gospel climaxes with the Suffering Servant giving His life as a ransom, then rising victorious. The crucified Jesus is God's Son. The tomb is empty. He goes before you. Follow Him. Congratulations on completing the Gospel of Mark!"
+      "sequence": 7,
+      "audio_script": "Mark's Gospel climaxes with the Suffering Servant giving His life as a ransom, then rising victorious. The crucified Jesus is God's Son. The tomb is empty. He goes before you. Follow Him. Congratulations on completing the Gospel of Mark!",
+      "word_count": 39
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "14:1-16:8",
-    "theological_themes": ["passion", "crucifixion", "atonement", "resurrection", "suffering_servant", "covenant", "ransom"],
+    "theological_themes": [
+      "passion",
+      "crucifixion",
+      "atonement",
+      "resurrection",
+      "suffering_servant",
+      "covenant",
+      "ransom"
+    ],
     "time_period": "circa_30_33_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "centurion's confession",
+      "definition": "The statement of the Roman soldier in Mark 15:39 — Truly this man was the Son of God — the first human in Mark to confess Jesus' identity fully, and significantly a Gentile"
+    },
+    {
+      "term": "empty tomb",
+      "definition": "The ending of Mark in 16:1-8 where the women find the stone rolled away; the oldest manuscripts end abruptly with the women fleeing in fear, leaving the resurrection as something the reader must reckon with"
+    }
+  ]
 }

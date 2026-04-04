@@ -14,21 +14,80 @@
     }
   ],
   "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Persecution scatters believers, but the gospel spreads. Today we see mission in Samaria and the astonishing conversion of Saul."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Acts 8 and 9. After Stephen's death, great persecution scattered the church, and those scattered preached the word. Philip proclaimed Christ in Samaria with joy and signs. Peter confronted Simon's false heart. An angel then sent Philip to a desert road where an Ethiopian official read Isaiah. Beginning with that Scripture, Philip told him the good news about Jesus. The official believed and was baptized. Meanwhile Saul sought to destroy the church. On the road to Damascus, a light from heaven flashed and a voice said, 'Saul, Saul, why are you persecuting me?' Saul asked, 'Who are you, Lord?' The answer came, 'I am Jesus.' Blinded, Saul was led into the city. The Lord sent Ananias to him, saying Saul was a chosen instrument. Saul was filled with the Spirit, baptized, and immediately proclaimed Jesus as the Son of God."},
-    {"segment_id":"context","type":"context","audio_script":"Acts 1:8 unfolds: from Jerusalem to Samaria and beyond. The Ethiopian likely represents the gospel reaching the nations. Saul's conversion prepares the future apostle to the Gentiles."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Persecution cannot stop mission; God uses it to spread witness. Scripture-centered evangelism leads the Ethiopian to Christ. True conversion changes allegiance and life, unlike superficial belief. Saul's conversion shows grace is stronger than hostility; the church's greatest enemy becomes its greatest missionary theologian."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include providence in persecution, cross-cultural mission, Scripture and Christ-centered evangelism, authentic repentance, calling, and transforming grace."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where might God be using hardship to advance mission through you? Are you ready to explain Scripture as good news about Jesus?"},
-    {"segment_id":"close","type":"close","audio_script":"The gospel reaches new peoples and transforms Saul. Next, God opens the door to Gentiles through Peter and Cornelius."}
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Persecution scatters believers, but the gospel spreads. Today we see mission in Samaria and the astonishing conversion of Saul.",
+      "word_count": 19
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Acts 8 and 9. After Stephen's death, great persecution scattered the church, and those scattered preached the word. Philip proclaimed Christ in Samaria with joy and signs. Peter confronted Simon's false heart. An angel then sent Philip to a desert road where an Ethiopian official read Isaiah. Beginning with that Scripture, Philip told him the good news about Jesus. The official believed and was baptized. Meanwhile Saul sought to destroy the church. On the road to Damascus, a light from heaven flashed and a voice said, 'Saul, Saul, why are you persecuting me?' Saul asked, 'Who are you, Lord?' The answer came, 'I am Jesus.' Blinded, Saul was led into the city. The Lord sent Ananias to him, saying Saul was a chosen instrument. Saul was filled with the Spirit, baptized, and immediately proclaimed Jesus as the Son of God.",
+      "word_count": 142
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Acts 1:8 unfolds: from Jerusalem to Samaria and beyond. The Ethiopian likely represents the gospel reaching the nations. Saul's conversion prepares the future apostle to the Gentiles.",
+      "word_count": 27
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Persecution cannot stop mission; God uses it to spread witness. Scripture-centered evangelism leads the Ethiopian to Christ. True conversion changes allegiance and life, unlike superficial belief. Saul's conversion shows grace is stronger than hostility; the church's greatest enemy becomes its greatest missionary theologian.",
+      "word_count": 43
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include providence in persecution, cross-cultural mission, Scripture and Christ-centered evangelism, authentic repentance, calling, and transforming grace.",
+      "word_count": 18
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say to Saul on the Damascus road when Saul asked who was speaking? Answer: I am Jesus, whom you are persecuting.",
+      "correct_answer": "I am Jesus, whom you are persecuting",
+      "acceptable_variants": [
+        "I am Jesus whom you persecute",
+        "the voice said I am Jesus — confronting saul on the road to damascus",
+        "acts 9 — jesus identifies himself to the persecutor saul"
+      ],
+      "word_count": 26
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "The gospel reaches new peoples and transforms Saul. Next, God opens the door to Gentiles through Peter and Cornelius.",
+      "word_count": 19
+    }
   ],
   "metadata": {
     "difficulty": "intermediate",
     "testament": "new",
     "book": "acts",
     "chapter_range": "8-9",
-    "theological_themes": ["persecution", "samaria", "evangelism", "conversion", "calling", "grace", "missions"],
+    "theological_themes": [
+      "persecution",
+      "samaria",
+      "evangelism",
+      "conversion",
+      "calling",
+      "grace",
+      "missions"
+    ],
     "time_period": "circa_32_ad",
     "canonical_order": 44
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Damascus road",
+      "definition": "The location of Saul's conversion in Acts 9; blinded by a light from heaven, Saul fell and heard Jesus identify himself — transforming the chief persecutor into the apostle to the Gentiles"
+    },
+    {
+      "term": "Philip the evangelist",
+      "definition": "One of the seven deacons who preached in Samaria and explained Isaiah 53 to the Ethiopian eunuch in Acts 8; his ministry shows the gospel crossing ethnic and geographic boundaries"
+    }
+  ]
 }

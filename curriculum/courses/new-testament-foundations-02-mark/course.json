@@ -1,0 +1,96 @@
+{
+  "course_id": "new_testament_foundations_02_mark",
+  "title": "New Testament Foundations — Mark",
+  "subtitle": "The Gospel of the Urgent Servant",
+  "description": "A structured study of Mark's Gospel tracing Jesus as the authoritative Servant-Messiah whose identity is revealed through powerful action, confrontation, and the way of the cross.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 10,
+  "estimated_duration_weeks": 2,
+  "estimated_duration_hours": 1.5,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_01_matthew",
+  "learning_outcomes": [
+    "Explain Mark's distinctive literary style and urgency",
+    "Identify the Messianic Secret theme and its function in the narrative",
+    "Describe the structure of the second half of Mark as a passion narrative",
+    "Trace the theme of discipleship failure and restoration in Mark",
+    "Explain the significance of the centurion's confession at the cross"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Jesus as authoritative Servant whose power leads to the cross"
+  },
+  "units": [
+    {
+      "unit_id": "ntf02_unit_01",
+      "unit_number": 1,
+      "title": "Authority Revealed",
+      "description": "Jesus' identity demonstrated through word and deed (Lessons 1–4)",
+      "lessons": [1, 2, 3, 4]
+    },
+    {
+      "unit_id": "ntf02_unit_02",
+      "unit_number": 2,
+      "title": "Who Is Jesus?",
+      "description": "The great confession and the way of the cross (Lessons 5–8)",
+      "lessons": [5, 6, 7, 8]
+    },
+    {
+      "unit_id": "ntf02_unit_03",
+      "unit_number": 3,
+      "title": "Jerusalem and Triumph",
+      "description": "Confrontation, passion, and resurrection (Lessons 9–10)",
+      "lessons": [9, 10]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Gospel of Mark",
+    "primary_texts": "Mark 1–16",
+    "genre_coverage": ["historical narrative", "pronouncement stories", "miracle accounts"],
+    "theological_themes": [
+      "messianic_secret",
+      "servant_christology",
+      "discipleship",
+      "suffering",
+      "cross"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What word does Mark use most frequently to show urgency?",
+      "What is the Messianic Secret and where does it first appear?",
+      "What is the turning point of Mark's Gospel in chapter 8?",
+      "What does the centurion say at the cross in Mark 15:39?",
+      "How does Mark's Gospel end in the earliest manuscripts?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_03_luke",
+    "title": "New Testament Foundations — Luke",
+    "description": "Study Luke's orderly account of Jesus as Savior for all people"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

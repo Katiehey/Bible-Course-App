@@ -6,15 +6,85 @@
   "objective": "Exalt the supremacy of Christ over creation, redemption, and every competing philosophy.",
   "duration": "9 minutes",
   "prerequisite": "ntf06_lesson_16",
-  "required_passages": [{"passage_id":"col_1_1_2_23","reference":"Colossians 1:1-2:23","text":"He is the image of the invisible God... all things were created through him and for him... in him all the fullness of God was pleased to dwell... in Christ are hidden all the treasures of wisdom and knowledge."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Colossians centers everything on Christ's unmatched supremacy."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Colossians 1-2. Paul thanks God for gospel fruit and prays for spiritual wisdom. He presents Christ as Creator, Sustainer, Head of the church, and Reconciler by His cross. He warns against empty philosophy, legalism, and mystical additions, declaring believers complete in Christ."},
-    {"segment_id":"context","type":"context","audio_script":"Colossae faced syncretistic teaching that diminished Christ by adding spiritual formulas and regulations."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"If Christ is supreme and sufficient, believers need no supplemental spirituality. Growth comes by continuing in Christ, rooted and built up in Him."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Christology, reconciliation, gospel growth, discernment, fullness in Christ, and freedom from legalism."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What additions are tempting you to seek fullness outside of Christ?"},
-    {"segment_id":"close","type":"close","audio_script":"Christ is fully sufficient. Next, Paul applies this supremacy to holy living and witness."}
+  "required_passages": [
+    {
+      "passage_id": "col_1_1_2_23",
+      "reference": "Colossians 1:1-2:23",
+      "text": "He is the image of the invisible God... all things were created through him and for him... in him all the fullness of God was pleased to dwell... in Christ are hidden all the treasures of wisdom and knowledge."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"colossians","chapter_range":"1-2","theological_themes":["supremacy_of_christ","sufficiency","reconciliation","discernment"],"time_period":"circa_60_ad","canonical_order":51}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Colossians centers everything on Christ's unmatched supremacy.",
+      "word_count": 7
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Colossians 1-2. Paul thanks God for gospel fruit and prays for spiritual wisdom. He presents Christ as Creator, Sustainer, Head of the church, and Reconciler by His cross. He warns against empty philosophy, legalism, and mystical additions, declaring believers complete in Christ.",
+      "word_count": 44
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Colossae faced syncretistic teaching that diminished Christ by adding spiritual formulas and regulations.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "If Christ is supreme and sufficient, believers need no supplemental spirituality. Growth comes by continuing in Christ, rooted and built up in Him.",
+      "word_count": 23
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Christology, reconciliation, gospel growth, discernment, fullness in Christ, and freedom from legalism.",
+      "word_count": 15
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What is the Christ-hymn in Colossians 1:15-20 about? Answer: it describes Christ as the image of the invisible God, firstborn over all creation, through whom all things were created and in whom all things hold together.",
+      "correct_answer": "Christ is the image of God, firstborn over creation, creator and sustainer of all things",
+      "acceptable_variants": [
+        "colossians 1 — christ is the image of god and the agent of creation and redemption",
+        "he is before all things and in him all things hold together — the pre-eminent one",
+        "the colossian hymn: christ as creator, sustainer, and head of the church"
+      ],
+      "word_count": 38
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Christ is fully sufficient. Next, Paul applies this supremacy to holy living and witness.",
+      "word_count": 14
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "colossians",
+    "chapter_range": "1-2",
+    "theological_themes": [
+      "supremacy_of_christ",
+      "sufficiency",
+      "reconciliation",
+      "discernment"
+    ],
+    "time_period": "circa_60_ad",
+    "canonical_order": 51
+  },
+  "vocabulary": [
+    {
+      "term": "image of the invisible God",
+      "definition": "Paul's description of Christ in Colossians 1:15 — not a copy but the exact representation; to see Christ is to see what God is like"
+    },
+    {
+      "term": "head of the body",
+      "definition": "Paul's image in Colossians 1:18 for Christ's relationship to the church; Christ is the source of life and direction for the body — the church as organism depends on him for everything"
+    }
+  ]
 }

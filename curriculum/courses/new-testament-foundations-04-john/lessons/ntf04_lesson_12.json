@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "We conclude John with the climactic events of salvation: Jesus' arrest, crucifixion, resurrection, and post-resurrection restoration of Peter."
+      "sequence": 1,
+      "audio_script": "We conclude John with the climactic events of salvation: Jesus' arrest, crucifixion, resurrection, and post-resurrection restoration of Peter.",
+      "word_count": 18
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapters 18 through 21. Jesus was arrested in the garden. When the soldiers came, Jesus said, 'I am he,' and they fell to the ground. Peter struck the servant, but Jesus said, 'Put your sword away. Shall I not drink the cup the Father has given me?' Jesus stood before Pilate and said, 'My kingdom is not of this world... For this purpose I have come into the world—to bear witness to the truth.' The crowd demanded crucifixion. Jesus was crucified at Golgotha. Pilate's inscription read, 'Jesus of Nazareth, the King of the Jews.' On the cross Jesus said, 'It is finished,' and gave up his spirit. His side was pierced, and blood and water came out. Joseph of Arimathea and Nicodemus buried Him in a new tomb. On the first day of the week, Mary Magdalene found the tomb empty. Jesus appeared to her and said, 'Mary.' She recognized Him and announced, 'I have seen the Lord.' Jesus appeared to the disciples and said, 'Peace be with you.' Thomas doubted until Jesus invited him to touch His wounds. Thomas confessed, 'My Lord and my God!' Jesus said, 'Blessed are those who have not seen and yet have believed.' Later at the Sea of Tiberias, Jesus provided a miraculous catch and breakfast. He restored Peter three times: 'Do you love me?... Feed my lambs... Tend my sheep... Feed my sheep... Follow me.'"
+      "sequence": 2,
+      "audio_script": "Listen to John chapters 18 through 21. Jesus was arrested in the garden. When the soldiers came, Jesus said, 'I am he,' and they fell to the ground. Peter struck the servant, but Jesus said, 'Put your sword away. Shall I not drink the cup the Father has given me?' Jesus stood before Pilate and said, 'My kingdom is not of this world... For this purpose I have come into the world—to bear witness to the truth.' The crowd demanded crucifixion. Jesus was crucified at Golgotha. Pilate's inscription read, 'Jesus of Nazareth, the King of the Jews.' On the cross Jesus said, 'It is finished,' and gave up his spirit. His side was pierced, and blood and water came out. Joseph of Arimathea and Nicodemus buried Him in a new tomb. On the first day of the week, Mary Magdalene found the tomb empty. Jesus appeared to her and said, 'Mary.' She recognized Him and announced, 'I have seen the Lord.' Jesus appeared to the disciples and said, 'Peace be with you.' Thomas doubted until Jesus invited him to touch His wounds. Thomas confessed, 'My Lord and my God!' Jesus said, 'Blessed are those who have not seen and yet have believed.' Later at the Sea of Tiberias, Jesus provided a miraculous catch and breakfast. He restored Peter three times: 'Do you love me?... Feed my lambs... Tend my sheep... Feed my sheep... Follow me.'",
+      "word_count": 235
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "John uniquely highlights Jesus' sovereign control during arrest and trial, His declaration 'It is finished' on the cross, Mary Magdalene as first witness to the resurrection, Thomas's confession of Jesus as God, and Peter's restoration beside another charcoal fire. The Gospel closes by affirming the reliability of eyewitness testimony."
+      "sequence": 3,
+      "audio_script": "John uniquely highlights Jesus' sovereign control during arrest and trial, His declaration 'It is finished' on the cross, Mary Magdalene as first witness to the resurrection, Thomas's confession of Jesus as God, and Peter's restoration beside another charcoal fire. The Gospel closes by affirming the reliability of eyewitness testimony.",
+      "word_count": 49
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus is not a victim; He willingly drinks the Father's cup. His kingdom is true but not worldly. On the cross, 'It is finished' declares complete accomplishment of redemption. The empty tomb and appearances confirm bodily resurrection. Thomas's confession, 'My Lord and my God,' is John's highest explicit statement of Jesus' deity. The blessing on those who believe without seeing speaks directly to future generations. Peter, who denied Jesus three times, is restored three times and recommissioned to shepherd Christ's flock. Grace does not ignore failure; it transforms it into mission."
+      "sequence": 4,
+      "audio_script": "Jesus is not a victim; He willingly drinks the Father's cup. His kingdom is true but not worldly. On the cross, 'It is finished' declares complete accomplishment of redemption. The empty tomb and appearances confirm bodily resurrection. Thomas's confession, 'My Lord and my God,' is John's highest explicit statement of Jesus' deity. The blessing on those who believe without seeing speaks directly to future generations. Peter, who denied Jesus three times, is restored three times and recommissioned to shepherd Christ's flock. Grace does not ignore failure; it transforms it into mission.",
+      "word_count": 91
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus' sovereignty in suffering, fulfilled mission on the cross, substitutionary atonement, bodily resurrection, peace for fearful disciples, faith beyond sight, confession of Jesus as Lord and God, restoration after failure, pastoral calling, and trustworthy apostolic witness."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus' sovereignty in suffering, fulfilled mission on the cross, substitutionary atonement, bodily resurrection, peace for fearful disciples, faith beyond sight, confession of Jesus as Lord and God, restoration after failure, pastoral calling, and trustworthy apostolic witness.",
+      "word_count": 39
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Do you trust that Jesus truly finished the work needed for your salvation? Have you confessed Him as 'My Lord and my God'? Where do you need His restoring grace like Peter? How is Jesus calling you now to follow and serve?"
+      "sequence": 6,
+      "audio_script": "Review question: What does John state as his purpose for writing the Gospel in John 20:30-31? Answer: so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.",
+      "correct_answer": "that you may believe Jesus is the Christ the Son of God and have life in his name",
+      "acceptable_variants": [
+        "written so readers will believe jesus is the messiah and receive eternal life",
+        "john 20:31 — the stated purpose: belief in the son of god leading to life",
+        "that you may believe and have life — the gospel's own purpose statement"
+      ],
+      "word_count": 42
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus is crucified, risen, and reigning. His work is finished, and His call remains: believe and follow. John is complete—next we continue into Acts and the mission of the early church."
+      "sequence": 7,
+      "audio_script": "Jesus is crucified, risen, and reigning. His work is finished, and His call remains: believe and follow. John is complete—next we continue into Acts and the mission of the early church.",
+      "word_count": 31
     }
   ],
   "metadata": {
@@ -55,8 +68,27 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "18-21",
-    "theological_themes": ["passion", "it_is_finished", "resurrection", "my_lord_my_god", "faith_without_sight", "restoration_of_peter", "mission", "witness"],
+    "theological_themes": [
+      "passion",
+      "it_is_finished",
+      "resurrection",
+      "my_lord_my_god",
+      "faith_without_sight",
+      "restoration_of_peter",
+      "mission",
+      "witness"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "doubting Thomas",
+      "definition": "The account in John 20:24-29 where Thomas refuses to believe the resurrection until he sees Jesus; his confession My Lord and my God is the highest Christological statement in John's Gospel"
+    },
+    {
+      "term": "restoration of Peter",
+      "definition": "The scene in John 21 where Jesus asks Peter three times do you love me, corresponding to Peter's three denials; each affirmation is met with a commission to feed and tend Jesus' sheep"
+    }
+  ]
 }

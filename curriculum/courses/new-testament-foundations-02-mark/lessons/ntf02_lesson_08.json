@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson eight. As Jesus journeys toward Jerusalem and the cross, He repeatedly teaches that kingdom greatness comes through serving, not ruling. The disciples struggle to understand this upside-down kingdom where the last are first."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson eight. As Jesus journeys toward Jerusalem and the cross, He repeatedly teaches that kingdom greatness comes through serving, not ruling. The disciples struggle to understand this upside-down kingdom where the last are first.",
+      "word_count": 36
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Mark chapter 9 verse 14 through chapter 10 verse 52. And when they came to the disciples, they saw a great crowd around them. And someone from the crowd answered him, 'Teacher, I brought my son to you, for he has a spirit that makes him mute. I asked your disciples to cast it out, and they were not able.' And Jesus said to him, 'If you can! All things are possible for one who believes.' Immediately the father of the child cried out and said, 'I believe; help my unbelief!' And Jesus rebuked the unclean spirit, and the boy was like a corpse, so that most of them said, 'He is dead.' But Jesus took him by the hand and lifted him up, and he arose. And he was teaching his disciples, saying to them, 'The Son of Man is going to be delivered into the hands of men, and they will kill him. And when he is killed, after three days he will rise.' And when he was in the house he asked them, 'What were you discussing on the way?' But they kept silent, for on the way they had argued with one another about who was the greatest. And he sat down and called the twelve. And he said to them, 'If anyone would be first, he must be last of all and servant of all.' And he took a child and put him in the midst of them, and said, 'Whoever receives one such child in my name receives me.' And taking the twelve again, he began to tell them what was to happen to him, saying, 'See, we are going up to Jerusalem, and the Son of Man will be delivered over to the chief priests and the scribes, and they will condemn him to death. And they will mock him and spit on him, and flog him and kill him. And after three days he will rise.' And James and John, the sons of Zebedee, came up to him and said, 'Grant us to sit, one at your right hand and one at your left, in your glory.' And Jesus called them to him and said to them, 'You know that those who are considered rulers of the Gentiles lord it over them. But it shall not be so among you. But whoever would be great among you must be your servant, and whoever would be first among you must be slave of all. For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.' And they came to Jericho. And as he was leaving Jericho with his disciples, Bartimaeus, a blind beggar, was sitting by the roadside. And when he heard that it was Jesus of Nazareth, he began to cry out and say, 'Jesus, Son of David, have mercy on me!' And Jesus said to him, 'What do you want me to do for you?' And the blind man said to him, 'Rabbi, let me recover my sight.' And Jesus said to him, 'Go your way; your faith has made you well.' And immediately he recovered his sight and followed him on the way."
+      "sequence": 2,
+      "audio_script": "Listen to Mark chapter 9 verse 14 through chapter 10 verse 52. And when they came to the disciples, they saw a great crowd around them. And someone from the crowd answered him, 'Teacher, I brought my son to you, for he has a spirit that makes him mute. I asked your disciples to cast it out, and they were not able.' And Jesus said to him, 'If you can! All things are possible for one who believes.' Immediately the father of the child cried out and said, 'I believe; help my unbelief!' And Jesus rebuked the unclean spirit, and the boy was like a corpse, so that most of them said, 'He is dead.' But Jesus took him by the hand and lifted him up, and he arose. And he was teaching his disciples, saying to them, 'The Son of Man is going to be delivered into the hands of men, and they will kill him. And when he is killed, after three days he will rise.' And when he was in the house he asked them, 'What were you discussing on the way?' But they kept silent, for on the way they had argued with one another about who was the greatest. And he sat down and called the twelve. And he said to them, 'If anyone would be first, he must be last of all and servant of all.' And he took a child and put him in the midst of them, and said, 'Whoever receives one such child in my name receives me.' And taking the twelve again, he began to tell them what was to happen to him, saying, 'See, we are going up to Jerusalem, and the Son of Man will be delivered over to the chief priests and the scribes, and they will condemn him to death. And they will mock him and spit on him, and flog him and kill him. And after three days he will rise.' And James and John, the sons of Zebedee, came up to him and said, 'Grant us to sit, one at your right hand and one at your left, in your glory.' And Jesus called them to him and said to them, 'You know that those who are considered rulers of the Gentiles lord it over them. But it shall not be so among you. But whoever would be great among you must be your servant, and whoever would be first among you must be slave of all. For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.' And they came to Jericho. And as he was leaving Jericho with his disciples, Bartimaeus, a blind beggar, was sitting by the roadside. And when he heard that it was Jesus of Nazareth, he began to cry out and say, 'Jesus, Son of David, have mercy on me!' And Jesus said to him, 'What do you want me to do for you?' And the blind man said to him, 'Rabbi, let me recover my sight.' And Jesus said to him, 'Go your way; your faith has made you well.' And immediately he recovered his sight and followed him on the way.",
+      "word_count": 538
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Between three passion predictions, the disciples argue about greatness and seek positions of honor. Jesus counters with children as models of kingdom reception and servant leadership as the path to greatness. Blind Bartimaeus sees what the disciples miss: Jesus is the Son of David heading to His throne through suffering."
+      "sequence": 3,
+      "audio_script": "Between three passion predictions, the disciples argue about greatness and seek positions of honor. Jesus counters with children as models of kingdom reception and servant leadership as the path to greatness. Blind Bartimaeus sees what the disciples miss: Jesus is the Son of David heading to His throne through suffering.",
+      "word_count": 50
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The demon-possessed boy's deliverance requires prayer and faith. The father's cry, 'I believe; help my unbelief,' expresses honest faith struggling with doubt. Jesus' repeated teaching about His death falls on deaf ears as disciples pursue status. He overturns worldly power structures: greatness comes through serving. His ransom saying reveals the cross's purpose: substitutionary death for many."
+      "sequence": 4,
+      "audio_script": "The demon-possessed boy's deliverance requires prayer and faith. The father's cry, 'I believe; help my unbelief,' expresses honest faith struggling with doubt. Jesus' repeated teaching about His death falls on deaf ears as disciples pursue status. He overturns worldly power structures: greatness comes through serving. His ransom saying reveals the cross's purpose: substitutionary death for many.",
+      "word_count": 56
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include servant leadership versus worldly power, the necessity of Jesus' substitutionary death, faith combined with honest doubt, receiving the kingdom like a child, and the cost of following Jesus to Jerusalem. Bartimaeus models faithful following after receiving sight."
+      "sequence": 5,
+      "audio_script": "Key themes include servant leadership versus worldly power, the necessity of Jesus' substitutionary death, faith combined with honest doubt, receiving the kingdom like a child, and the cost of following Jesus to Jerusalem. Bartimaeus models faithful following after receiving sight.",
+      "word_count": 40
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Where do you seek status rather than serving? How does Jesus' model of giving His life as a ransom redefine greatness? What does receiving the kingdom 'like a child' mean in your life?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say was required of anyone who wished to be first among his disciples? Answer: to be servant of all.",
+      "correct_answer": "to be servant of all",
+      "acceptable_variants": [
+        "whoever wants to be first must be slave of all",
+        "greatness in the kingdom is measured by service",
+        "the greatest must become the servant of all"
+      ],
+      "word_count": 24
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus teaches that kingdom greatness flows from serving, not ruling. He came to give His life as a ransom for many, the ultimate act of service. Next, we'll enter Jerusalem with Him. Great work today."
+      "sequence": 7,
+      "audio_script": "Jesus teaches that kingdom greatness flows from serving, not ruling. He came to give His life as a ransom for many, the ultimate act of service. Next, we'll enter Jerusalem with Him. Great work today.",
+      "word_count": 35
     }
   ],
   "metadata": {
@@ -55,8 +68,25 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "9:14-10:52",
-    "theological_themes": ["servant_leadership", "ransom", "discipleship", "humility", "faith", "substitutionary_atonement"],
+    "theological_themes": [
+      "servant_leadership",
+      "ransom",
+      "discipleship",
+      "humility",
+      "faith",
+      "substitutionary_atonement"
+    ],
     "time_period": "circa_29_30_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "servant leadership",
+      "definition": "Jesus' countercultural model of greatness in Mark 9-10; the disciples argued about who was greatest while Jesus called them to be last and servant of all"
+    },
+    {
+      "term": "ransom",
+      "definition": "The term Jesus uses in Mark 10:45 — the Son of Man came not to be served but to serve and give his life as a ransom for many; a foundational atonement statement in Mark"
+    }
+  ]
 }

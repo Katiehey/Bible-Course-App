@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus commissions the Twelve, feeds five thousand, and reveals His identity as Messiah. Today we explore His mission, Peter's confession, transfiguration, and teaching on true greatness through humble service."
+      "sequence": 1,
+      "audio_script": "Jesus commissions the Twelve, feeds five thousand, and reveals His identity as Messiah. Today we explore His mission, Peter's confession, transfiguration, and teaching on true greatness through humble service.",
+      "word_count": 29
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke chapter 9. He called the twelve together and gave them power and authority over all demons and to cure diseases, and he sent them out to proclaim the kingdom of God and to heal. And he said to them, 'Take nothing for your journey.' And they departed, preaching the gospel and healing everywhere. On their return he took them and withdrew to Bethsaida. When the crowds followed, he welcomed them and spoke of the kingdom of God. The day began to wear away, and the twelve said, 'Send the crowd away to get provisions.' But he said to them, 'You give them something to eat.' They said, 'We have no more than five loaves and two fish.' For there were about five thousand men. And taking the loaves and fish, he looked up to heaven and said a blessing. Then he broke the loaves and gave them to the disciples. And they all ate and were satisfied. As he was praying, he asked them, 'Who do the crowds say that I am?' And they answered, 'John the Baptist, or Elijah, or a prophet.' Then he said, 'But who do you say that I am?' And Peter answered, 'The Christ of God.' And he said, 'The Son of Man must suffer many things and be rejected and be killed, and on the third day be raised. If anyone would come after me, let him deny himself and take up his cross daily and follow me.' About eight days later he took Peter and John and James up on the mountain to pray. And as he was praying, his appearance was altered, and his clothing became dazzling white. And behold, Moses and Elijah appeared in glory and spoke of his departure. And a voice came out of the cloud, saying, 'This is my Son, my Chosen One; listen to him!' A man from the crowd cried, 'Teacher, I beg you to look at my son, for he is my only child. I begged your disciples to cast out the spirit, but they could not.' Jesus rebuked the unclean spirit and healed the boy. An argument arose among them as to which was the greatest. But Jesus took a child and said, 'Whoever receives this child in my name receives me. For he who is least among you all is the one who is great.'"
+      "sequence": 2,
+      "audio_script": "Listen to Luke chapter 9. He called the twelve together and gave them power and authority over all demons and to cure diseases, and he sent them out to proclaim the kingdom of God and to heal. And he said to them, 'Take nothing for your journey.' And they departed, preaching the gospel and healing everywhere. On their return he took them and withdrew to Bethsaida. When the crowds followed, he welcomed them and spoke of the kingdom of God. The day began to wear away, and the twelve said, 'Send the crowd away to get provisions.' But he said to them, 'You give them something to eat.' They said, 'We have no more than five loaves and two fish.' For there were about five thousand men. And taking the loaves and fish, he looked up to heaven and said a blessing. Then he broke the loaves and gave them to the disciples. And they all ate and were satisfied. As he was praying, he asked them, 'Who do the crowds say that I am?' And they answered, 'John the Baptist, or Elijah, or a prophet.' Then he said, 'But who do you say that I am?' And Peter answered, 'The Christ of God.' And he said, 'The Son of Man must suffer many things and be rejected and be killed, and on the third day be raised. If anyone would come after me, let him deny himself and take up his cross daily and follow me.' About eight days later he took Peter and John and James up on the mountain to pray. And as he was praying, his appearance was altered, and his clothing became dazzling white. And behold, Moses and Elijah appeared in glory and spoke of his departure. And a voice came out of the cloud, saying, 'This is my Son, my Chosen One; listen to him!' A man from the crowd cried, 'Teacher, I beg you to look at my son, for he is my only child. I begged your disciples to cast out the spirit, but they could not.' Jesus rebuked the unclean spirit and healed the boy. An argument arose among them as to which was the greatest. But Jesus took a child and said, 'Whoever receives this child in my name receives me. For he who is least among you all is the one who is great.'",
+      "word_count": 395
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus sends the Twelve with His authority to proclaim and heal. He miraculously feeds thousands. Peter confesses Jesus as Messiah, but Jesus predicts suffering. The transfiguration reveals His glory and confirms His mission. Descending, He heals a boy the disciples couldn't help. The disciples argue about greatness, revealing their misunderstanding."
+      "sequence": 3,
+      "audio_script": "Jesus sends the Twelve with His authority to proclaim and heal. He miraculously feeds thousands. Peter confesses Jesus as Messiah, but Jesus predicts suffering. The transfiguration reveals His glory and confirms His mission. Descending, He heals a boy the disciples couldn't help. The disciples argue about greatness, revealing their misunderstanding.",
+      "word_count": 50
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The commissioning demonstrates Jesus sharing His authority. The feeding miracle shows divine provision and points to Jesus as the bread of life. Peter's confession is crucial, but immediately Jesus redefines messiahship through suffering. The transfiguration previews glory and links Jesus to Law and Prophets. True greatness comes through humble service, not status-seeking."
+      "sequence": 4,
+      "audio_script": "The commissioning demonstrates Jesus sharing His authority. The feeding miracle shows divine provision and points to Jesus as the bread of life. Peter's confession is crucial, but immediately Jesus redefines messiahship through suffering. The transfiguration previews glory and links Jesus to Law and Prophets. True greatness comes through humble service, not status-seeking.",
+      "word_count": 52
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include apostolic mission, Jesus' divine provision, messianic identity, the necessity of the cross, daily self-denial, transfiguration revealing glory, Moses and Elijah testifying to Jesus, failure through unbelief, and greatness through serving the least. Luke emphasizes prayer before major events."
+      "sequence": 5,
+      "audio_script": "Key themes include apostolic mission, Jesus' divine provision, messianic identity, the necessity of the cross, daily self-denial, transfiguration revealing glory, Moses and Elijah testifying to Jesus, failure through unbelief, and greatness through serving the least. Luke emphasizes prayer before major events.",
+      "word_count": 41
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: What does it mean to take up your cross daily? Why does Jesus predict suffering immediately after Peter's confession? What does the transfiguration reveal about Jesus' true identity? How does receiving a child demonstrate greatness?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Peter confess when Jesus asked who the disciples believed him to be? Answer: The Christ of God.",
+      "correct_answer": "The Christ of God",
+      "acceptable_variants": [
+        "peter said you are the christ of god",
+        "the Messiah — peter's confession in luke 9",
+        "you are God's chosen messiah"
+      ],
+      "word_count": 21
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus sends disciples with His authority, miraculously provides, and reveals His identity as suffering Messiah. True greatness comes through humble service. Next, we journey toward Jerusalem. Well done."
+      "sequence": 7,
+      "audio_script": "Jesus sends disciples with His authority, miraculously provides, and reveals His identity as suffering Messiah. True greatness comes through humble service. Next, we journey toward Jerusalem. Well done.",
+      "word_count": 28
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "9:1-50",
-    "theological_themes": ["mission", "provision", "messianic_identity", "suffering_messiah", "transfiguration", "humility", "servanthood"],
+    "theological_themes": [
+      "mission",
+      "provision",
+      "messianic_identity",
+      "suffering_messiah",
+      "transfiguration",
+      "humility",
+      "servanthood"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "transfiguration",
+      "definition": "The event in Luke 9:28-36 where Jesus' appearance changed and Moses and Elijah appeared with him; they spoke of his departure (literally exodus) he was about to accomplish in Jerusalem"
+    },
+    {
+      "term": "feeding of the five thousand",
+      "definition": "The miracle in Luke 9:10-17 where Jesus feeds the crowd with five loaves and two fish; Luke sets it near the time of the great confession, linking Jesus' provision with his messianic identity"
+    }
+  ]
 }

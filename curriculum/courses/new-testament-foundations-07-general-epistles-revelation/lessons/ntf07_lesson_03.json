@@ -6,15 +6,86 @@
   "objective": "Be strengthened by examples of faith and practical exhortations for steadfast discipleship.",
   "duration": "9 minutes",
   "prerequisite": "ntf07_lesson_02",
-  "required_passages": [{"passage_id":"heb_11_1_13_25","reference":"Hebrews 11:1-13:25","text":"Faith is the assurance of things hoped for... since we are surrounded by so great a cloud of witnesses... let us run with endurance... Jesus Christ is the same yesterday and today and forever."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Hebrews closes by calling believers to run the race with eyes fixed on Jesus."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Hebrews 11-13. The writer recounts faithful saints who lived by promise, not sight. Believers are urged to run with endurance, accepting God's loving discipline, pursuing holiness and peace, and offering worship that honors God. Practical instructions cover love, hospitality, marriage faithfulness, contentment, and obedience to faithful leaders."},
-    {"segment_id":"context","type":"context","audio_script":"The community needed both theological confidence and practical stability under pressure."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Faith is persevering trust in God's promises fulfilled in Christ. Endurance is sustained by disciplined hope, shared community life, and unchanging confidence in Jesus."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include faith, endurance, discipline, holiness, community ethics, worship, and Christ's unchanging nature."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What weight must you lay aside to run with endurance in your current season?"},
-    {"segment_id":"close","type":"close","audio_script":"Fix your eyes on Jesus and run faithfully. Next we turn to James and living faith in daily trials."}
+  "required_passages": [
+    {
+      "passage_id": "heb_11_1_13_25",
+      "reference": "Hebrews 11:1-13:25",
+      "text": "Faith is the assurance of things hoped for... since we are surrounded by so great a cloud of witnesses... let us run with endurance... Jesus Christ is the same yesterday and today and forever."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"hebrews","chapter_range":"11-13","theological_themes":["faith","endurance","holiness","discipline","worship"],"time_period":"circa_64_ad","canonical_order":58}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Hebrews closes by calling believers to run the race with eyes fixed on Jesus.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Hebrews 11-13. The writer recounts faithful saints who lived by promise, not sight. Believers are urged to run with endurance, accepting God's loving discipline, pursuing holiness and peace, and offering worship that honors God. Practical instructions cover love, hospitality, marriage faithfulness, contentment, and obedience to faithful leaders.",
+      "word_count": 49
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "The community needed both theological confidence and practical stability under pressure.",
+      "word_count": 11
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Faith is persevering trust in God's promises fulfilled in Christ. Endurance is sustained by disciplined hope, shared community life, and unchanging confidence in Jesus.",
+      "word_count": 24
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include faith, endurance, discipline, holiness, community ethics, worship, and Christ's unchanging nature.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: How does Hebrews 11 define faith? Answer: faith is the assurance of things hoped for, the conviction of things not seen.",
+      "correct_answer": "faith is the assurance of things hoped for, the conviction of things not seen",
+      "acceptable_variants": [
+        "hebrews 11:1 — the substance of hoped-for things and evidence of unseen realities",
+        "faith is being sure of what we hope for and certain of what we do not see",
+        "the definition of faith — confident trust in unseen realities"
+      ],
+      "word_count": 23
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Fix your eyes on Jesus and run faithfully. Next we turn to James and living faith in daily trials.",
+      "word_count": 19
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "hebrews",
+    "chapter_range": "11-13",
+    "theological_themes": [
+      "faith",
+      "endurance",
+      "holiness",
+      "discipline",
+      "worship"
+    ],
+    "time_period": "circa_64_ad",
+    "canonical_order": 58
+  },
+  "vocabulary": [
+    {
+      "term": "hall of faith",
+      "definition": "The survey of OT believers in Hebrews 11 who acted on faith before receiving what was promised; they lived as strangers looking for a heavenly city — commended despite not receiving the promise in their lifetime"
+    },
+    {
+      "term": "cloud of witnesses",
+      "definition": "The image in Hebrews 12:1 of the OT saints whose example surrounds believers as they run the race; their lives of faith are the testimony (witness) that emboldens those who follow"
+    }
+  ]
 }

@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus teaches about receiving God's word and demonstrates His authority over creation and evil. Today we explore the parable of the sower, the calming of the storm, deliverance from demons, and two healing miracles intertwined."
+      "sequence": 1,
+      "audio_script": "Jesus teaches about receiving God's word and demonstrates His authority over creation and evil. Today we explore the parable of the sower, the calming of the storm, deliverance from demons, and two healing miracles intertwined.",
+      "word_count": 35
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke chapter 8. Some women traveled with Jesus: Mary Magdalene, from whom seven demons had gone out, and Joanna, and Susanna, and many others, who provided for them. He said in a parable: 'A sower went out to sow his seed. Some fell along the path and was devoured. Some fell on rock and withered. Some fell among thorns and was choked. And some fell into good soil and yielded a hundredfold. He who has ears to hear, let him hear.' The seed is the word of God. The ones along the path are those who have heard; then the devil takes away the word. The ones on rock receive it with joy but have no root and fall away in testing. Those among thorns are choked by cares and riches and pleasures. As for the good soil, they hear the word, hold it fast, and bear fruit with patience. 'My mother and brothers are those who hear the word of God and do it.' One day he got into a boat and said, 'Let us go across the lake.' And a windstorm came down, and they were in danger. They woke him, saying, 'Master, we are perishing!' And he rebuked the wind and waves, and there was a calm. He said, 'Where is your faith?' And they marveled, saying, 'Who is this, that he commands even winds and water?' There met him a man who had demons. He cried out, 'What have you to do with me, Jesus, Son of the Most High God?' Jesus asked him, 'What is your name?' And he said, 'Legion,' for many demons had entered him. The demons came out and entered pigs, and the herd rushed into the lake. They found the man sitting at Jesus' feet, clothed and in his right mind. A ruler named Jairus implored him to come, for his only daughter was dying. And a woman who had a discharge of blood for twelve years touched his garment, and immediately was healed. And Jesus said, 'Daughter, your faith has made you well; go in peace.' Someone from Jairus's house said, 'Your daughter is dead.' But Jesus said, 'Do not fear; only believe.' Taking her by the hand he called, 'Child, arise.' And her spirit returned, and she got up at once."
+      "sequence": 2,
+      "audio_script": "Listen to Luke chapter 8. Some women traveled with Jesus: Mary Magdalene, from whom seven demons had gone out, and Joanna, and Susanna, and many others, who provided for them. He said in a parable: 'A sower went out to sow his seed. Some fell along the path and was devoured. Some fell on rock and withered. Some fell among thorns and was choked. And some fell into good soil and yielded a hundredfold. He who has ears to hear, let him hear.' The seed is the word of God. The ones along the path are those who have heard; then the devil takes away the word. The ones on rock receive it with joy but have no root and fall away in testing. Those among thorns are choked by cares and riches and pleasures. As for the good soil, they hear the word, hold it fast, and bear fruit with patience. 'My mother and brothers are those who hear the word of God and do it.' One day he got into a boat and said, 'Let us go across the lake.' And a windstorm came down, and they were in danger. They woke him, saying, 'Master, we are perishing!' And he rebuked the wind and waves, and there was a calm. He said, 'Where is your faith?' And they marveled, saying, 'Who is this, that he commands even winds and water?' There met him a man who had demons. He cried out, 'What have you to do with me, Jesus, Son of the Most High God?' Jesus asked him, 'What is your name?' And he said, 'Legion,' for many demons had entered him. The demons came out and entered pigs, and the herd rushed into the lake. They found the man sitting at Jesus' feet, clothed and in his right mind. A ruler named Jairus implored him to come, for his only daughter was dying. And a woman who had a discharge of blood for twelve years touched his garment, and immediately was healed. And Jesus said, 'Daughter, your faith has made you well; go in peace.' Someone from Jairus's house said, 'Your daughter is dead.' But Jesus said, 'Do not fear; only believe.' Taking her by the hand he called, 'Child, arise.' And her spirit returned, and she got up at once.",
+      "word_count": 384
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Luke mentions women disciples supporting Jesus' ministry, remarkable for that culture. The sower parable explains varied responses to God's word. Jesus calms a storm, showing authority over creation. He delivers a severely demonized man, whom locals reject. Two miracles intertwine: a woman's chronic bleeding and Jairus's dead daughter."
+      "sequence": 3,
+      "audio_script": "Luke mentions women disciples supporting Jesus' ministry, remarkable for that culture. The sower parable explains varied responses to God's word. Jesus calms a storm, showing authority over creation. He delivers a severely demonized man, whom locals reject. Two miracles intertwine: a woman's chronic bleeding and Jairus's dead daughter.",
+      "word_count": 48
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The parable reveals Satan stealing seed, shallow soil bringing temporary faith, thorns of worldly concerns choking fruit, and good soil persevering patiently. Jesus sleeps during the storm, testing disciples' faith. Legion shows demonic power and Jesus' greater authority. The woman's faith overcomes ritual uncleanness. Jesus' delay doesn't prevent resurrection—death itself cannot stop Him."
+      "sequence": 4,
+      "audio_script": "The parable reveals Satan stealing seed, shallow soil bringing temporary faith, thorns of worldly concerns choking fruit, and good soil persevering patiently. Jesus sleeps during the storm, testing disciples' faith. Legion shows demonic power and Jesus' greater authority. The woman's faith overcomes ritual uncleanness. Jesus' delay doesn't prevent resurrection—death itself cannot stop Him.",
+      "word_count": 53
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include receptivity to God's word, perseverance through testing, Jesus' authority over nature and demons, faith overcoming fear, ritual purity subordinate to faith, Jesus' power over death, and women as valued disciples. True family is defined by hearing and doing God's word."
+      "sequence": 5,
+      "audio_script": "Key themes include receptivity to God's word, perseverance through testing, Jesus' authority over nature and demons, faith overcoming fear, ritual purity subordinate to faith, Jesus' power over death, and women as valued disciples. True family is defined by hearing and doing God's word.",
+      "word_count": 43
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: What soil type describes your response to God's word? What thorns threaten to choke your spiritual fruit? Why does Jesus question the disciples' faith during the storm? How does faith move Jesus to heal?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the Parable of the Sower teaching in Luke 8 about the different responses to God's word? Answer: the seed is God's word; the soils represent different hearers — those on the path, rocks, thorns, and good soil who hear and retain it with patience.",
+      "correct_answer": "the soils represent different hearers of the word — only those who hear and hold fast to it in patience bear fruit",
+      "acceptable_variants": [
+        "four soils — path, rock, thorns, and good ground — four responses to God's word",
+        "the seed of God's word produces fruit only in those who receive and keep it",
+        "luke 8 parable — good soil hears holds and patiently bears fruit"
+      ],
+      "word_count": 48
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus teaches about truly hearing God's word and demonstrates supreme authority over nature, demons, and death. Faith perseveres and brings healing. Next, we see Him send out the Twelve. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus teaches about truly hearing God's word and demonstrates supreme authority over nature, demons, and death. Faith perseveres and brings healing. Next, we see Him send out the Twelve. Well done today.",
+      "word_count": 32
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "8",
-    "theological_themes": ["word_of_god", "faith", "perseverance", "authority", "spiritual_warfare", "healing", "resurrection"],
+    "theological_themes": [
+      "word_of_god",
+      "faith",
+      "perseverance",
+      "authority",
+      "spiritual_warfare",
+      "healing",
+      "resurrection"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "lamp under a basket",
+      "definition": "The teaching in Luke 8:16 following the parable of the sower; what is hidden will be revealed — the disciples receive the mystery of the kingdom to illuminate others"
+    },
+    {
+      "term": "calming of the storm",
+      "definition": "The miracle in Luke 8:22-25 where Jesus rebukes the wind and waves; the disciples ask who this is that even wind and water obey — a question pointing to Jesus' divine identity"
+    }
+  ]
 }

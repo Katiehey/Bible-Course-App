@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus teaches about persistent prayer and humility before entering Jerusalem. Today we witness His parables, encounters with the rich ruler and Zacchaeus, the triumphal entry, and cleansing of the temple."
+      "sequence": 1,
+      "audio_script": "Jesus teaches about persistent prayer and humility before entering Jerusalem. Today we witness His parables, encounters with the rich ruler and Zacchaeus, the triumphal entry, and cleansing of the temple.",
+      "word_count": 30
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke 18 and 19. He told them a parable that they ought always to pray and not lose heart. 'In a city there was a judge who neither feared God nor respected man. And there was a widow who kept coming to him saying, Give me justice. For a while he refused, but afterward he said, Because this widow keeps bothering me, I will give her justice.' And the Lord said, 'Will not God give justice to his elect, who cry to him day and night?' He told a parable to some who trusted in themselves that they were righteous: 'Two men went up into the temple to pray, one a Pharisee and the other a tax collector. The Pharisee prayed, God, I thank you that I am not like other men, or even like this tax collector. But the tax collector beat his breast, saying, God, be merciful to me, a sinner! I tell you, this man went down justified, rather than the other. For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted.' A ruler asked, 'Good Teacher, what must I do to inherit eternal life?' Jesus said, 'You know the commandments.' He said, 'All these I have kept from my youth.' Jesus said, 'One thing you still lack. Sell all that you have and distribute to the poor, and come, follow me.' But he became very sad, for he was extremely rich. Jesus said, 'How difficult it is for those who have wealth to enter the kingdom of God! For it is easier for a camel to go through the eye of a needle.' Taking the twelve, he said, 'We are going up to Jerusalem, and everything written about the Son of Man will be accomplished. He will be delivered over to the Gentiles and mocked and killed, and on the third day he will rise.' But they understood none of these things. A blind man cried out, 'Jesus, Son of David, have mercy on me!' And Jesus said, 'Recover your sight; your faith has made you well.' There was a man named Zacchaeus, a chief tax collector who was rich. He climbed into a sycamore tree to see Jesus. And Jesus looked up and said, 'Zacchaeus, I must stay at your house today.' And Zacchaeus said, 'Lord, the half of my goods I give to the poor. And if I have defrauded anyone, I restore it fourfold.' And Jesus said, 'Today salvation has come to this house. For the Son of Man came to seek and to save the lost.' When he drew near to Jerusalem, he sent disciples, saying, 'Go find a colt and bring it. The Lord has need of it.' And they set Jesus on it. The whole multitude began to praise God, saying, 'Blessed is the King who comes in the name of the Lord!' When he saw the city, he wept over it. And he entered the temple and began to drive out those who sold, saying, 'My house shall be a house of prayer, but you have made it a den of robbers.'"
+      "sequence": 2,
+      "audio_script": "Listen to Luke 18 and 19. He told them a parable that they ought always to pray and not lose heart. 'In a city there was a judge who neither feared God nor respected man. And there was a widow who kept coming to him saying, Give me justice. For a while he refused, but afterward he said, Because this widow keeps bothering me, I will give her justice.' And the Lord said, 'Will not God give justice to his elect, who cry to him day and night?' He told a parable to some who trusted in themselves that they were righteous: 'Two men went up into the temple to pray, one a Pharisee and the other a tax collector. The Pharisee prayed, God, I thank you that I am not like other men, or even like this tax collector. But the tax collector beat his breast, saying, God, be merciful to me, a sinner! I tell you, this man went down justified, rather than the other. For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted.' A ruler asked, 'Good Teacher, what must I do to inherit eternal life?' Jesus said, 'You know the commandments.' He said, 'All these I have kept from my youth.' Jesus said, 'One thing you still lack. Sell all that you have and distribute to the poor, and come, follow me.' But he became very sad, for he was extremely rich. Jesus said, 'How difficult it is for those who have wealth to enter the kingdom of God! For it is easier for a camel to go through the eye of a needle.' Taking the twelve, he said, 'We are going up to Jerusalem, and everything written about the Son of Man will be accomplished. He will be delivered over to the Gentiles and mocked and killed, and on the third day he will rise.' But they understood none of these things. A blind man cried out, 'Jesus, Son of David, have mercy on me!' And Jesus said, 'Recover your sight; your faith has made you well.' There was a man named Zacchaeus, a chief tax collector who was rich. He climbed into a sycamore tree to see Jesus. And Jesus looked up and said, 'Zacchaeus, I must stay at your house today.' And Zacchaeus said, 'Lord, the half of my goods I give to the poor. And if I have defrauded anyone, I restore it fourfold.' And Jesus said, 'Today salvation has come to this house. For the Son of Man came to seek and to save the lost.' When he drew near to Jerusalem, he sent disciples, saying, 'Go find a colt and bring it. The Lord has need of it.' And they set Jesus on it. The whole multitude began to praise God, saying, 'Blessed is the King who comes in the name of the Lord!' When he saw the city, he wept over it. And he entered the temple and began to drive out those who sold, saying, 'My house shall be a house of prayer, but you have made it a den of robbers.'",
+      "word_count": 522
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus teaches persistent prayer through the persistent widow. The Pharisee's self-righteousness contrasts the tax collector's humility. The rich ruler cannot part with wealth. Jesus predicts His passion. Blind Bartimaeus receives sight through faith. Zacchaeus climbs a tree and receives salvation. Jesus enters Jerusalem as King, weeps over the city, and cleanses the temple."
+      "sequence": 3,
+      "audio_script": "Jesus teaches persistent prayer through the persistent widow. The Pharisee's self-righteousness contrasts the tax collector's humility. The rich ruler cannot part with wealth. Jesus predicts His passion. Blind Bartimaeus receives sight through faith. Zacchaeus climbs a tree and receives salvation. Jesus enters Jerusalem as King, weeps over the city, and cleanses the temple.",
+      "word_count": 53
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The persistent widow models praying without losing heart. God gives justice to His elect. The tax collector's humble plea is justified over Pharisaic pride. Wealth ensnares the rich ruler, showing salvation's impossibility apart from God. Blind Bartimaeus persists despite rebuke. Zacchaeus's joy produces generous restitution. Jesus enters as Davidic king but weeps over Jerusalem's blindness. The temple must be reclaimed for prayer."
+      "sequence": 4,
+      "audio_script": "The persistent widow models praying without losing heart. God gives justice to His elect. The tax collector's humble plea is justified over Pharisaic pride. Wealth ensnares the rich ruler, showing salvation's impossibility apart from God. Blind Bartimaeus persists despite rebuke. Zacchaeus's joy produces generous restitution. Jesus enters as Davidic king but weeps over Jerusalem's blindness. The temple must be reclaimed for prayer.",
+      "word_count": 62
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include persistent prayer, God's justice for the elect, humility before God justified over self-righteousness, wealth as obstacle to salvation, God making the impossible possible, faith bringing healing, salvation coming to the lost, Jesus as Davidic Messiah, Jerusalem's rejection bringing judgment, and temple as house of prayer. Luke emphasizes Jesus' compassion for outcasts."
+      "sequence": 5,
+      "audio_script": "Key themes include persistent prayer, God's justice for the elect, humility before God justified over self-righteousness, wealth as obstacle to salvation, God making the impossible possible, faith bringing healing, salvation coming to the lost, Jesus as Davidic Messiah, Jerusalem's rejection bringing judgment, and temple as house of prayer. Luke emphasizes Jesus' compassion for outcasts.",
+      "word_count": 54
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: Do you pray persistently without losing heart? Is your prayer self-righteous or humbly acknowledging sin? What wealth keeps you from full surrender? How does Zacchaeus's response model genuine repentance? What does Jesus' weeping over Jerusalem reveal?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say about the Pharisee and the tax collector who went to the temple to pray? Answer: the tax collector — not the Pharisee — went home justified, because everyone who exalts himself will be humbled.",
+      "correct_answer": "the tax collector went home justified, not the Pharisee — because God humbles the proud and exalts the humble",
+      "acceptable_variants": [
+        "the pharisee boasted and was not justified; the tax collector cried for mercy and was",
+        "god is near the broken not the self-righteous — the tax collector was accepted",
+        "the humble prayer of the tax collector was heard; the pharisee's was not"
+      ],
+      "word_count": 40
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus teaches persistent prayer and humility, confronts wealth's danger, seeks the lost, and enters Jerusalem as King. He weeps over the city's blindness and cleanses the temple. Next, temple teaching. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus teaches persistent prayer and humility, confronts wealth's danger, seeks the lost, and enters Jerusalem as King. He weeps over the city's blindness and cleanses the temple. Next, temple teaching. Well done today.",
+      "word_count": 33
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "18-19",
-    "theological_themes": ["prayer", "humility", "wealth", "salvation", "faith", "repentance", "messianic_king", "judgment", "temple"],
+    "theological_themes": [
+      "prayer",
+      "humility",
+      "wealth",
+      "salvation",
+      "faith",
+      "repentance",
+      "messianic_king",
+      "judgment",
+      "temple"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "parable of the Pharisee and tax collector",
+      "definition": "The parable in Luke 18:9-14 addressed to those who trusted in their righteousness; the tax collector's cry for mercy — God have mercy on me a sinner — becomes a model of humble prayer"
+    },
+    {
+      "term": "Zacchaeus",
+      "definition": "The chief tax collector in Jericho in Luke 19 who climbed a tree to see Jesus; Jesus' visit to his home and his subsequent pledge of restitution illustrate that the Son of Man came to seek and save the lost"
+    }
+  ]
 }

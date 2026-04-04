@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study exodus: tabernacle presence and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study exodus: tabernacle presence and trace God's covenant faithfulness.",
+      "word_count": 11
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What was the primary theological purpose of the tabernacle God commanded Israel to build in Exodus 25-31? Answer: to be a dwelling place where God's presence could dwell among his people.",
+      "correct_answer": "for God to dwell among his people — a sanctuary for his presence",
+      "acceptable_variants": [
+        "so God could live in the midst of Israel",
+        "a portable sanctuary for God's presence among Israel",
+        "a dwelling place for Yahweh to tabernacle with Israel"
+      ],
+      "word_count": 33
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 21
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "tabernacle",
+      "definition": "The portable sanctuary God commanded Israel to build so his glory could dwell among them; its design reflected Eden and anticipated the temple and ultimately Christ"
+    },
+    {
+      "term": "Most Holy Place",
+      "definition": "The innermost room of the tabernacle, separated by a veil, containing the ark of the covenant; only the high priest could enter it once a year on the Day of Atonement"
+    }
+  ]
 }

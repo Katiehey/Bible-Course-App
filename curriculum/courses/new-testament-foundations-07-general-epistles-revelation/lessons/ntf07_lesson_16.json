@@ -6,15 +6,86 @@
   "objective": "Discern spiritual conflict through the trumpets, witnesses, and war imagery of Revelation.",
   "duration": "10 minutes",
   "prerequisite": "ntf07_lesson_15",
-  "required_passages": [{"passage_id":"rev_9_1_14_20","reference":"Revelation 9:1-14:20","text":"The trumpet judgments continued... the two witnesses testified... the dragon made war... the Lamb stood on Mount Zion... Here is a call for the endurance of the saints."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Revelation now unveils intensified conflict between the kingdom of God and powers of evil."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Revelation 9-14. Trumpet judgments warn rebellious humanity. John sees the scroll and the two witnesses who prophesy faithfully amid opposition. A heavenly war vision reveals the dragon's rage against God's people. Beasts represent deceptive and oppressive powers. Yet the Lamb stands victorious with His people, and final harvest imagery signals coming judgment and vindication."},
-    {"segment_id":"context","type":"context","audio_script":"Symbolic visions communicate recurring patterns of persecution, deception, and witness across church history."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Revelation calls believers to discern idolatrous systems, refuse compromise, and endure in faithful witness. Victory belongs to the Lamb, even when suffering is severe."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include spiritual warfare, prophetic witness, deception, endurance, allegiance, and Lamb-centered victory."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Where are you pressured to compromise allegiance to Christ for security or acceptance?"},
-    {"segment_id":"close","type":"close","audio_script":"Endure faithfully; the Lamb's victory is sure. Next, final bowl judgments and Babylon's fall are revealed."}
+  "required_passages": [
+    {
+      "passage_id": "rev_9_1_14_20",
+      "reference": "Revelation 9:1-14:20",
+      "text": "The trumpet judgments continued... the two witnesses testified... the dragon made war... the Lamb stood on Mount Zion... Here is a call for the endurance of the saints."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"revelation","chapter_range":"9-14","theological_themes":["spiritual_warfare","witness","endurance","allegiance","victory"],"time_period":"circa_95_ad","canonical_order":66}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Revelation now unveils intensified conflict between the kingdom of God and powers of evil.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Revelation 9-14. Trumpet judgments warn rebellious humanity. John sees the scroll and the two witnesses who prophesy faithfully amid opposition. A heavenly war vision reveals the dragon's rage against God's people. Beasts represent deceptive and oppressive powers. Yet the Lamb stands victorious with His people, and final harvest imagery signals coming judgment and vindication.",
+      "word_count": 56
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Symbolic visions communicate recurring patterns of persecution, deception, and witness across church history.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Revelation calls believers to discern idolatrous systems, refuse compromise, and endure in faithful witness. Victory belongs to the Lamb, even when suffering is severe.",
+      "word_count": 24
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include spiritual warfare, prophetic witness, deception, endurance, allegiance, and Lamb-centered victory.",
+      "word_count": 13
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What are the 144,000 in Revelation 7 described as, and what are they sealed for? Answer: servants of God sealed on their foreheads for God's protection through the coming tribulation.",
+      "correct_answer": "servants of God sealed on their foreheads for protection through the coming tribulation",
+      "acceptable_variants": [
+        "god's servants sealed for his protection — from every tribe of israel",
+        "the 144,000 are marked on their foreheads as belonging to God before judgment falls",
+        "sealed servants of God — twelve thousand from each tribe, protected in tribulation"
+      ],
+      "word_count": 32
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Endure faithfully; the Lamb's victory is sure. Next, final bowl judgments and Babylon's fall are revealed.",
+      "word_count": 16
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "revelation",
+    "chapter_range": "9-14",
+    "theological_themes": [
+      "spiritual_warfare",
+      "witness",
+      "endurance",
+      "allegiance",
+      "victory"
+    ],
+    "time_period": "circa_95_ad",
+    "canonical_order": 66
+  },
+  "vocabulary": [
+    {
+      "term": "144,000",
+      "definition": "The number sealed in Revelation 7 drawn from twelve tribes times twelve thousand; most interpreters understand it symbolically as the complete people of God — perfection and completeness in numerical form"
+    },
+    {
+      "term": "great tribulation",
+      "definition": "The period of intense trial described in Revelation 7:14 through which the martyrs have come; they stand before the throne in white robes having washed them in the Lamb's blood"
+    }
+  ]
 }

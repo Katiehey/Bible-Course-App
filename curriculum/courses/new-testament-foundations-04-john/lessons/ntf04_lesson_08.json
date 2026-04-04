@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Lazarus, Jesus' friend, dies. Today we witness the seventh and greatest sign: Jesus raising Lazarus from the dead after four days, and His claim to be the Resurrection and the Life."
+      "sequence": 1,
+      "audio_script": "Lazarus, Jesus' friend, dies. Today we witness the seventh and greatest sign: Jesus raising Lazarus from the dead after four days, and His claim to be the Resurrection and the Life.",
+      "word_count": 31
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapter 11. A certain man was ill, Lazarus of Bethany, the village of Mary and her sister Martha. So the sisters sent to Jesus, saying, 'Lord, he whom you love is ill.' But when Jesus heard it he said, 'This illness does not lead to death. It is for the glory of God.' Now Jesus loved Martha and her sister and Lazarus. So when he heard that Lazarus was ill, he stayed two days longer. Then he said to the disciples, 'Our friend Lazarus has fallen asleep, but I go to awaken him.' Jesus told them plainly, 'Lazarus has died, and for your sake I am glad that I was not there, so that you may believe.' When Jesus came, he found that Lazarus had already been in the tomb four days. Martha heard that Jesus was coming, she went and met him and said, 'Lord, if you had been here, my brother would not have died. But even now I know that whatever you ask from God, God will give you.' Jesus said to her, 'Your brother will rise again.' Martha said, 'I know that he will rise again in the resurrection on the last day.' Jesus said to her, 'I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?' She said, 'Yes, Lord; I believe that you are the Christ, the Son of God.' Mary came to where Jesus was and fell at his feet, saying, 'Lord, if you had been here, my brother would not have died.' When Jesus saw her weeping, he was deeply moved and greatly troubled. And he said, 'Where have you laid him?' They said, 'Lord, come and see.' Jesus wept. Then Jesus came to the tomb. It was a cave, and a stone lay against it. Jesus said, 'Take away the stone.' Martha said, 'Lord, by this time there will be an odor, for he has been dead four days.' Jesus said to her, 'Did I not tell you that if you believed you would see the glory of God?' And Jesus lifted up his eyes and said, 'Father, I thank you that you have heard me. I said this on account of the people standing around, that they may believe that you sent me.' He cried out with a loud voice, 'Lazarus, come out.' The man who had died came out, his hands and feet bound with linen strips, and his face wrapped with a cloth. Jesus said to them, 'Unbind him, and let him go.' Many believed in him, but some went to the Pharisees and told them. The chief priests and the Pharisees gathered the council and said, 'This man performs many signs. If we let him go on, everyone will believe in him.' Caiaphas, who was high priest that year, said, 'It is better that one man should die for the people, not that the whole nation should perish.' He prophesied that Jesus would die for the nation. So from that day on they made plans to put him to death."
+      "sequence": 2,
+      "audio_script": "Listen to John chapter 11. A certain man was ill, Lazarus of Bethany, the village of Mary and her sister Martha. So the sisters sent to Jesus, saying, 'Lord, he whom you love is ill.' But when Jesus heard it he said, 'This illness does not lead to death. It is for the glory of God.' Now Jesus loved Martha and her sister and Lazarus. So when he heard that Lazarus was ill, he stayed two days longer. Then he said to the disciples, 'Our friend Lazarus has fallen asleep, but I go to awaken him.' Jesus told them plainly, 'Lazarus has died, and for your sake I am glad that I was not there, so that you may believe.' When Jesus came, he found that Lazarus had already been in the tomb four days. Martha heard that Jesus was coming, she went and met him and said, 'Lord, if you had been here, my brother would not have died. But even now I know that whatever you ask from God, God will give you.' Jesus said to her, 'Your brother will rise again.' Martha said, 'I know that he will rise again in the resurrection on the last day.' Jesus said to her, 'I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?' She said, 'Yes, Lord; I believe that you are the Christ, the Son of God.' Mary came to where Jesus was and fell at his feet, saying, 'Lord, if you had been here, my brother would not have died.' When Jesus saw her weeping, he was deeply moved and greatly troubled. And he said, 'Where have you laid him?' They said, 'Lord, come and see.' Jesus wept. Then Jesus came to the tomb. It was a cave, and a stone lay against it. Jesus said, 'Take away the stone.' Martha said, 'Lord, by this time there will be an odor, for he has been dead four days.' Jesus said to her, 'Did I not tell you that if you believed you would see the glory of God?' And Jesus lifted up his eyes and said, 'Father, I thank you that you have heard me. I said this on account of the people standing around, that they may believe that you sent me.' He cried out with a loud voice, 'Lazarus, come out.' The man who had died came out, his hands and feet bound with linen strips, and his face wrapped with a cloth. Jesus said to them, 'Unbind him, and let him go.' Many believed in him, but some went to the Pharisees and told them. The chief priests and the Pharisees gathered the council and said, 'This man performs many signs. If we let him go on, everyone will believe in him.' Caiaphas, who was high priest that year, said, 'It is better that one man should die for the people, not that the whole nation should perish.' He prophesied that Jesus would die for the nation. So from that day on they made plans to put him to death.",
+      "word_count": 529
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus deliberately delays two days after hearing Lazarus is ill. By the time He arrives, Lazarus has been dead four days. Martha meets Jesus and expresses faith that He could have prevented death. Jesus declares Himself the Resurrection and the Life. Both Martha and Mary lament His absence. Jesus is deeply moved and weeps. At the tomb, after prayer to the Father, He commands Lazarus to come out. Lazarus walks out alive. Many believe, but religious leaders plot to kill Jesus. Caiaphas unwittingly prophesies Jesus' atoning death."
+      "sequence": 3,
+      "audio_script": "Jesus deliberately delays two days after hearing Lazarus is ill. By the time He arrives, Lazarus has been dead four days. Martha meets Jesus and expresses faith that He could have prevented death. Jesus declares Himself the Resurrection and the Life. Both Martha and Mary lament His absence. Jesus is deeply moved and weeps. At the tomb, after prayer to the Father, He commands Lazarus to come out. Lazarus walks out alive. Many believe, but religious leaders plot to kill Jesus. Caiaphas unwittingly prophesies Jesus' atoning death.",
+      "word_count": 87
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus delays intentionally so Lazarus is unmistakably dead—four days eliminates any doubt. This sets the stage for the greatest sign revealing God's glory. 'I am the resurrection and the life' is the fifth 'I AM' statement, claiming authority over death itself. Believers die physically but live eternally; believers will never die spiritually. Martha's confession mirrors Peter's: Jesus is the Christ, the Son of God. Jesus weeps, showing His humanity and compassion. His public prayer emphasizes the Father sent Him. Commanding Lazarus to rise demonstrates His power over death, foreshadowing His own resurrection. Many believe, but leaders fear losing power. Caiaphas unknowingly prophesies Jesus' substitutionary death for the nation and all God's scattered children. The miracle seals Jesus' fate—He will die so others may live."
+      "sequence": 4,
+      "audio_script": "Jesus delays intentionally so Lazarus is unmistakably dead—four days eliminates any doubt. This sets the stage for the greatest sign revealing God's glory. 'I am the resurrection and the life' is the fifth 'I AM' statement, claiming authority over death itself. Believers die physically but live eternally; believers will never die spiritually. Martha's confession mirrors Peter's: Jesus is the Christ, the Son of God. Jesus weeps, showing His humanity and compassion. His public prayer emphasizes the Father sent Him. Commanding Lazarus to rise demonstrates His power over death, foreshadowing His own resurrection. Many believe, but leaders fear losing power. Caiaphas unknowingly prophesies Jesus' substitutionary death for the nation and all God's scattered children. The miracle seals Jesus' fate—He will die so others may live.",
+      "word_count": 124
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include Jesus as the Resurrection and the Life, power over death, believing despite delay, the glory of God displayed, Jesus' humanity and compassion, prayer to the Father, Jesus as sent by the Father, faith leading to sight, many believing, religious leaders plotting death, Caiaphas' unwitting prophecy of substitutionary atonement, and Jesus dying for scattered children of God. John emphasizes Jesus' supreme authority and sacrificial mission."
+      "sequence": 5,
+      "audio_script": "Key themes include Jesus as the Resurrection and the Life, power over death, believing despite delay, the glory of God displayed, Jesus' humanity and compassion, prayer to the Father, Jesus as sent by the Father, faith leading to sight, many believing, religious leaders plotting death, Caiaphas' unwitting prophecy of substitutionary atonement, and Jesus dying for scattered children of God. John emphasizes Jesus' supreme authority and sacrificial mission.",
+      "word_count": 67
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: Do you believe Jesus is the Resurrection and the Life? Can you trust Him when He delays? Have you witnessed His power over death—spiritual or physical? Does Jesus' weeping reveal His compassion for you? Will you believe and see the glory of God?"
+      "sequence": 6,
+      "audio_script": "Review question: What does Jesus say to Martha before raising Lazarus? Answer: I am the resurrection and the life; whoever believes in me, though he die, yet shall he live.",
+      "correct_answer": "I am the resurrection and the life — whoever believes in me, though he die, yet shall he live",
+      "acceptable_variants": [
+        "I am the resurrection and the life — john 11:25",
+        "he who believes in me will live even though he dies",
+        "the fifth I AM — jesus is the resurrection itself not merely a means to it"
+      ],
+      "word_count": 30
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus is the Resurrection and the Life with power over death. Lazarus rises as a preview of resurrection to come. Jesus will die so that many may live. Next, we'll see Jesus' final week begin. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus is the Resurrection and the Life with power over death. Lazarus rises as a preview of resurrection to come. Jesus will die so that many may live. Next, we'll see Jesus' final week begin. Well done today.",
+      "word_count": 38
     }
   ],
   "metadata": {
@@ -55,8 +68,27 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "11",
-    "theological_themes": ["resurrection_and_life", "i_am_statements", "power_over_death", "glory_of_god", "lazarus_raised", "jesus_weeps", "substitutionary_death", "prophecy"],
+    "theological_themes": [
+      "resurrection_and_life",
+      "i_am_statements",
+      "power_over_death",
+      "glory_of_god",
+      "lazarus_raised",
+      "jesus_weeps",
+      "substitutionary_death",
+      "prophecy"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "resurrection and the life",
+      "definition": "Jesus' declaration in John 11:25 — the fifth I AM statement; Jesus claims not merely to give resurrection but to be the source of resurrection and life itself"
+    },
+    {
+      "term": "Jesus wept",
+      "definition": "John 11:35 — the shortest verse in Scripture; Jesus' tears at Lazarus's tomb reveal genuine grief alongside divine power, confirming his full humanity in the face of death"
+    }
+  ]
 }

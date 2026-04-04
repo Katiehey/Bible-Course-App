@@ -6,15 +6,86 @@
   "objective": "Understand ordered worship, love as the supreme gift, and the centrality of bodily resurrection.",
   "duration": "10 minutes",
   "prerequisite": "ntf06_lesson_06",
-  "required_passages": [{"passage_id":"1co_11_1_16_24","reference":"1 Corinthians 11:1-16:24","text":"As often as you eat this bread and drink the cup, you proclaim the Lord's death... Now you are the body of Christ... If I... have not love, I am nothing... Christ has been raised from the dead... be steadfast... your labor is not in vain."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul brings correction to gathered worship and anchors everything in resurrection certainty."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 11-16. Paul corrects abuse at the Lord's Supper and calls for discernment and unity. He teaches diverse spiritual gifts within one body, placing love above all gifts. He urges orderly worship that edifies all. Finally, he defends Christ's resurrection and the future resurrection of believers, declaring death defeated in Christ."},
-    {"segment_id":"context","type":"context","audio_script":"Corinth prized spiritual display; Paul redirects them toward mutual edification and gospel substance."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Love is not optional sentiment but the operating principle of spiritual gifts. Resurrection is non-negotiable: without it, faith collapses; with it, labor has eternal meaning."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Lord's Supper integrity, body unity, spiritual gifts, love, ordered worship, resurrection victory, and steadfast service."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Is love shaping your gifts and worship? Does resurrection hope strengthen your endurance?"},
-    {"segment_id":"close","type":"close","audio_script":"Love governs gifts, and resurrection secures hope. Next we move into 2 Corinthians and ministry through weakness."}
+  "required_passages": [
+    {
+      "passage_id": "1co_11_1_16_24",
+      "reference": "1 Corinthians 11:1-16:24",
+      "text": "As often as you eat this bread and drink the cup, you proclaim the Lord's death... Now you are the body of Christ... If I... have not love, I am nothing... Christ has been raised from the dead... be steadfast... your labor is not in vain."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"11-16","theological_themes":["worship","spiritual_gifts","love","resurrection","hope"],"time_period":"circa_55_ad","canonical_order":46}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul brings correction to gathered worship and anchors everything in resurrection certainty.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 1 Corinthians 11-16. Paul corrects abuse at the Lord's Supper and calls for discernment and unity. He teaches diverse spiritual gifts within one body, placing love above all gifts. He urges orderly worship that edifies all. Finally, he defends Christ's resurrection and the future resurrection of believers, declaring death defeated in Christ.",
+      "word_count": 54
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Corinth prized spiritual display; Paul redirects them toward mutual edification and gospel substance.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Love is not optional sentiment but the operating principle of spiritual gifts. Resurrection is non-negotiable: without it, faith collapses; with it, labor has eternal meaning.",
+      "word_count": 25
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Lord's Supper integrity, body unity, spiritual gifts, love, ordered worship, resurrection victory, and steadfast service.",
+      "word_count": 18
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say in 1 Corinthians 15:17 about what would be true if Christ had not been raised? Answer: your faith is futile and you are still in your sins.",
+      "correct_answer": "if Christ is not raised your faith is futile and you are still in your sins",
+      "acceptable_variants": [
+        "faith is empty and sins unforgiven if there is no resurrection",
+        "1 corinthians 15 — without resurrection faith is vain and sin remains",
+        "paul says the resurrection is essential — without it faith is worthless"
+      ],
+      "word_count": 33
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Love governs gifts, and resurrection secures hope. Next we move into 2 Corinthians and ministry through weakness.",
+      "word_count": 17
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "1_corinthians",
+    "chapter_range": "11-16",
+    "theological_themes": [
+      "worship",
+      "spiritual_gifts",
+      "love",
+      "resurrection",
+      "hope"
+    ],
+    "time_period": "circa_55_ad",
+    "canonical_order": 46
+  },
+  "vocabulary": [
+    {
+      "term": "resurrection in 1 Corinthians 15",
+      "definition": "Paul's extended defense of the bodily resurrection in 1 Corinthians 15; he grounds it in eyewitness testimony, explains the future resurrection body, and declares death defeated through Christ"
+    },
+    {
+      "term": "Lord's Supper in Corinthians",
+      "definition": "Paul's correction of the Corinthian practice in 1 Corinthians 11:17-34; some ate and drank to excess while others went hungry — a violation of the body's unity that Paul ties to eating and drinking judgment on oneself"
+    }
+  ]
 }

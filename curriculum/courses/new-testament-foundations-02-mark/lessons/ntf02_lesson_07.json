@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson seven, the turning point of Mark's Gospel. Peter confesses Jesus as the Christ, but then rejects the path of suffering. Jesus reveals that true discipleship requires taking up the cross and following Him to glory through death."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson seven, the turning point of Mark's Gospel. Peter confesses Jesus as the Christ, but then rejects the path of suffering. Jesus reveals that true discipleship requires taking up the cross and following Him to glory through death.",
+      "word_count": 40
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Mark chapter 8 verse 22 through chapter 9 verse 13. And they came to Bethsaida. And some people brought to him a blind man. And he took the blind man by the hand and led him out of the village. And when he had spit on his eyes and laid his hands on him, he asked him, 'Do you see anything?' And he looked up and said, 'I see people, but they look like trees, walking.' Then Jesus laid his hands on his eyes again; and he opened his eyes, his sight was restored, and he saw everything clearly. And Jesus went on with his disciples to the villages of Caesarea Philippi. And on the way he asked his disciples, 'Who do people say that I am?' And they told him, 'John the Baptist; and others say, Elijah; and others, one of the prophets.' And he asked them, 'But who do you say that I am?' Peter answered him, 'You are the Christ.' And he strictly charged them to tell no one about him. And he began to teach them that the Son of Man must suffer many things and be rejected by the elders and the chief priests and the scribes and be killed, and after three days rise again. And Peter took him aside and began to rebuke him. But turning and seeing his disciples, he rebuked Peter and said, 'Get behind me, Satan! For you are not setting your mind on the things of God, but on the things of man.' And calling the crowd to him with his disciples, he said to them, 'If anyone would come after me, let him deny himself and take up his cross and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake and the gospel's will save it. For what does it profit a man to gain the whole world and forfeit his soul?' And after six days Jesus took with him Peter and James and John, and led them up a high mountain by themselves. And he was transfigured before them, and his clothes became radiant, intensely white. And there appeared to them Elijah with Moses, and they were talking with Jesus. And a voice came out of the cloud, 'This is my beloved Son; listen to him.' And suddenly, looking around, they no longer saw anyone with them but Jesus only. And as they were coming down the mountain, he charged them to tell no one what they had seen, until the Son of Man had risen from the dead."
+      "sequence": 2,
+      "audio_script": "Listen to Mark chapter 8 verse 22 through chapter 9 verse 13. And they came to Bethsaida. And some people brought to him a blind man. And he took the blind man by the hand and led him out of the village. And when he had spit on his eyes and laid his hands on him, he asked him, 'Do you see anything?' And he looked up and said, 'I see people, but they look like trees, walking.' Then Jesus laid his hands on his eyes again; and he opened his eyes, his sight was restored, and he saw everything clearly. And Jesus went on with his disciples to the villages of Caesarea Philippi. And on the way he asked his disciples, 'Who do people say that I am?' And they told him, 'John the Baptist; and others say, Elijah; and others, one of the prophets.' And he asked them, 'But who do you say that I am?' Peter answered him, 'You are the Christ.' And he strictly charged them to tell no one about him. And he began to teach them that the Son of Man must suffer many things and be rejected by the elders and the chief priests and the scribes and be killed, and after three days rise again. And Peter took him aside and began to rebuke him. But turning and seeing his disciples, he rebuked Peter and said, 'Get behind me, Satan! For you are not setting your mind on the things of God, but on the things of man.' And calling the crowd to him with his disciples, he said to them, 'If anyone would come after me, let him deny himself and take up his cross and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake and the gospel's will save it. For what does it profit a man to gain the whole world and forfeit his soul?' And after six days Jesus took with him Peter and James and John, and led them up a high mountain by themselves. And he was transfigured before them, and his clothes became radiant, intensely white. And there appeared to them Elijah with Moses, and they were talking with Jesus. And a voice came out of the cloud, 'This is my beloved Son; listen to him.' And suddenly, looking around, they no longer saw anyone with them but Jesus only. And as they were coming down the mountain, he charged them to tell no one what they had seen, until the Son of Man had risen from the dead.",
+      "word_count": 434
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "The two-stage healing of the blind man symbolizes gradual spiritual sight. Peter's confession marks the Gospel's hinge; from here Jesus focuses on teaching about His death. The Transfiguration confirms Jesus' identity and mission, with Moses and Elijah representing Law and Prophets pointing to Him."
+      "sequence": 3,
+      "audio_script": "The two-stage healing of the blind man symbolizes gradual spiritual sight. Peter's confession marks the Gospel's hinge; from here Jesus focuses on teaching about His death. The Transfiguration confirms Jesus' identity and mission, with Moses and Elijah representing Law and Prophets pointing to Him.",
+      "word_count": 44
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Peter rightly identifies Jesus as Messiah but wrongly rejects suffering. Jesus calls this satanic thinking. True discipleship means cross-bearing and self-denial. Saving life means losing it; losing life for Christ means saving it. The Transfiguration shows His glory and the Father's command: 'Listen to Him.' Peter, James, and John witness divine confirmation before the suffering."
+      "sequence": 4,
+      "audio_script": "Peter rightly identifies Jesus as Messiah but wrongly rejects suffering. Jesus calls this satanic thinking. True discipleship means cross-bearing and self-denial. Saving life means losing it; losing life for Christ means saving it. The Transfiguration shows His glory and the Father's command: 'Listen to Him.' Peter, James, and John witness divine confirmation before the suffering.",
+      "word_count": 55
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Central themes include Jesus as the suffering Messiah, the necessity of the cross for both Jesus and disciples, the cost of following Christ, the glory that comes through suffering, divine confirmation of Jesus' identity, and the call to listen to Him above all voices."
+      "sequence": 5,
+      "audio_script": "Central themes include Jesus as the suffering Messiah, the necessity of the cross for both Jesus and disciples, the cost of following Christ, the glory that comes through suffering, divine confirmation of Jesus' identity, and the call to listen to Him above all voices.",
+      "word_count": 44
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: How do you, like Peter, sometimes want glory without suffering? What cross is Jesus calling you to take up? How does the Transfiguration's glimpse of glory encourage endurance through hardship?"
+      "sequence": 6,
+      "audio_script": "Review question: What answer did Peter give when Jesus asked who the disciples believed him to be? Answer: You are the Christ — the Messiah.",
+      "correct_answer": "You are the Christ — the Messiah",
+      "acceptable_variants": [
+        "peter said you are the christ",
+        "you are the messiah — Peter's confession at caesarea philippi",
+        "peter confessed jesus as the christ the son of God"
+      ],
+      "word_count": 25
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Peter confesses Jesus as Christ, but must learn that Messiahship means suffering. The Transfiguration reveals the glory awaiting beyond the cross. True discipleship follows Jesus through death to life. Next, we'll see His teaching on servanthood. Well done today."
+      "sequence": 7,
+      "audio_script": "Peter confesses Jesus as Christ, but must learn that Messiahship means suffering. The Transfiguration reveals the glory awaiting beyond the cross. True discipleship follows Jesus through death to life. Next, we'll see His teaching on servanthood. Well done today.",
+      "word_count": 39
     }
   ],
   "metadata": {
@@ -55,8 +68,25 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "8:22-9:13",
-    "theological_themes": ["christology", "suffering_messiah", "discipleship", "cross_bearing", "transfiguration", "glory"],
+    "theological_themes": [
+      "christology",
+      "suffering_messiah",
+      "discipleship",
+      "cross_bearing",
+      "transfiguration",
+      "glory"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Caesarea Philippi",
+      "definition": "The location of Peter's great confession in Mark 8:27-30; the northernmost point of Jesus' ministry and the turning point where Jesus begins predicting his death"
+    },
+    {
+      "term": "transfiguration",
+      "definition": "The event in Mark 9 where Jesus' appearance was transformed on the mountain with Moses and Elijah present; a preview of his resurrection glory and confirmation of his divine identity"
+    }
+  ]
 }

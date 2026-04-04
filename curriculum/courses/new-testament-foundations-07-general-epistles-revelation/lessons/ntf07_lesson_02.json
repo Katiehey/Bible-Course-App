@@ -6,15 +6,86 @@
   "objective": "Understand Jesus' once-for-all sacrifice and the call to endure in faith.",
   "duration": "10 minutes",
   "prerequisite": "ntf07_lesson_01",
-  "required_passages": [{"passage_id":"heb_5_1_10_39","reference":"Hebrews 5:1-10:39","text":"You are a priest forever... We have this as a sure and steadfast anchor of the soul... Christ entered once for all... by means of his own blood... Let us hold fast the confession of our hope without wavering."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Hebrews now contrasts repeated sacrifices with Christ's once-for-all atonement."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Hebrews 5-10. Jesus is the eternal priest in the order of Melchizedek. The writer warns against spiritual immaturity and urges diligence in hope. Christ mediates a better covenant with better promises. His sacrifice is final and sufficient, cleansing conscience and opening true access to God. Believers are urged not to shrink back but to endure in faith."},
-    {"segment_id":"context","type":"context","audio_script":"The audience was weary and vulnerable to returning to temple-centered security."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"If Christ's sacrifice is complete, no further offering is needed. Confidence before God rests on Jesus, not repeated rituals. Perseverance flows from certainty in His finished work."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include better covenant, once-for-all sacrifice, cleansed conscience, assurance, perseverance, and warning against apostasy."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you living from Christ's finished work, or returning to self-made spiritual efforts?"},
-    {"segment_id":"close","type":"close","audio_script":"Jesus secures full access to God forever. Next, Hebrews celebrates faith's endurance and practical holiness."}
+  "required_passages": [
+    {
+      "passage_id": "heb_5_1_10_39",
+      "reference": "Hebrews 5:1-10:39",
+      "text": "You are a priest forever... We have this as a sure and steadfast anchor of the soul... Christ entered once for all... by means of his own blood... Let us hold fast the confession of our hope without wavering."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"hebrews","chapter_range":"5-10","theological_themes":["covenant","atonement","priesthood","assurance","perseverance"],"time_period":"circa_64_ad","canonical_order":58}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Hebrews now contrasts repeated sacrifices with Christ's once-for-all atonement.",
+      "word_count": 9
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Hebrews 5-10. Jesus is the eternal priest in the order of Melchizedek. The writer warns against spiritual immaturity and urges diligence in hope. Christ mediates a better covenant with better promises. His sacrifice is final and sufficient, cleansing conscience and opening true access to God. Believers are urged not to shrink back but to endure in faith.",
+      "word_count": 59
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "The audience was weary and vulnerable to returning to temple-centered security.",
+      "word_count": 11
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "If Christ's sacrifice is complete, no further offering is needed. Confidence before God rests on Jesus, not repeated rituals. Perseverance flows from certainty in His finished work.",
+      "word_count": 27
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include better covenant, once-for-all sacrifice, cleansed conscience, assurance, perseverance, and warning against apostasy.",
+      "word_count": 15
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Hebrews 9:22 say about forgiveness? Answer: without the shedding of blood there is no forgiveness of sins.",
+      "correct_answer": "without the shedding of blood there is no forgiveness of sins",
+      "acceptable_variants": [
+        "hebrews 9:22 — no remission without blood",
+        "blood must be shed for forgiveness — there is no other way",
+        "the atonement principle: forgiveness requires blood"
+      ],
+      "word_count": 21
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Jesus secures full access to God forever. Next, Hebrews celebrates faith's endurance and practical holiness.",
+      "word_count": 15
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "hebrews",
+    "chapter_range": "5-10",
+    "theological_themes": [
+      "covenant",
+      "atonement",
+      "priesthood",
+      "assurance",
+      "perseverance"
+    ],
+    "time_period": "circa_64_ad",
+    "canonical_order": 58
+  },
+  "vocabulary": [
+    {
+      "term": "once for all",
+      "definition": "The phrase in Hebrews 7:27, 9:12, and 10:10 describing Christ's sacrifice; unlike the repeated OT sacrifices, Christ's death was a single definitive act that permanently secured atonement"
+    },
+    {
+      "term": "new covenant",
+      "definition": "Hebrews 8-9 develops Jeremiah 31:31-34 as the better covenant Christ mediates; laws written on the heart, God as their God, and sins remembered no more — established by Christ's blood"
+    }
+  ]
 }

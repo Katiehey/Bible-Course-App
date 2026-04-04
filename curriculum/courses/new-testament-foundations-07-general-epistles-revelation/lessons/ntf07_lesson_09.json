@@ -6,15 +6,86 @@
   "objective": "Live holy, watchful lives in light of Christ's promised return and coming new creation.",
   "duration": "8 minutes",
   "prerequisite": "ntf07_lesson_08",
-  "required_passages": [{"passage_id":"2pe_3_1_18","reference":"2 Peter 3:1-18","text":"The Lord is not slow to fulfill his promise... but is patient... the day of the Lord will come... according to his promise we are waiting for new heavens and a new earth... grow in the grace and knowledge of our Lord and Savior Jesus Christ."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Peter answers mockery about Christ's return with hope, urgency, and holy living."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Peter 3. Scoffers question the promise of Christ's coming, but Peter reminds believers of God's word in creation and judgment. God's delay is mercy, giving time for repentance. The day of the Lord will come suddenly, leading to cosmic renewal. Believers are called to holiness, stability, and growth in grace."},
-    {"segment_id":"context","type":"context","audio_script":"Doubt about future judgment weakened moral seriousness in the churches."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Eschatological hope is ethical fuel. God's patience is evangelistic opportunity, not permission for complacency. Future new creation shapes present purity."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include Christ's return, divine patience, repentance, new creation, holiness, and spiritual growth."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: If Christ returned soon, what priorities would you immediately reorder?"},
-    {"segment_id":"close","type":"close","audio_script":"Wait actively in holiness and mission. Next, Jude calls believers to contend for the faith."}
+  "required_passages": [
+    {
+      "passage_id": "2pe_3_1_18",
+      "reference": "2 Peter 3:1-18",
+      "text": "The Lord is not slow to fulfill his promise... but is patient... the day of the Lord will come... according to his promise we are waiting for new heavens and a new earth... grow in the grace and knowledge of our Lord and Savior Jesus Christ."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_peter","chapter_range":"3","theological_themes":["second_coming","new_creation","holiness","repentance","perseverance"],"time_period":"circa_65_ad","canonical_order":61}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Peter answers mockery about Christ's return with hope, urgency, and holy living.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 2 Peter 3. Scoffers question the promise of Christ's coming, but Peter reminds believers of God's word in creation and judgment. God's delay is mercy, giving time for repentance. The day of the Lord will come suddenly, leading to cosmic renewal. Believers are called to holiness, stability, and growth in grace.",
+      "word_count": 53
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Doubt about future judgment weakened moral seriousness in the churches.",
+      "word_count": 10
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Eschatological hope is ethical fuel. God's patience is evangelistic opportunity, not permission for complacency. Future new creation shapes present purity.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include Christ's return, divine patience, repentance, new creation, holiness, and spiritual growth.",
+      "word_count": 14
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Peter say in 2 Peter 3:9 about why the Lord has not yet returned? Answer: he is patient, not wanting anyone to perish, but everyone to come to repentance.",
+      "correct_answer": "God is patient, not wanting anyone to perish but all to come to repentance",
+      "acceptable_variants": [
+        "the lord is not slow but patient — wanting all to reach repentance",
+        "2 peter 3:9 — delay is divine patience not failure",
+        "god delays to allow all to repent — his apparent slowness is mercy"
+      ],
+      "word_count": 33
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Wait actively in holiness and mission. Next, Jude calls believers to contend for the faith.",
+      "word_count": 15
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "2_peter",
+    "chapter_range": "3",
+    "theological_themes": [
+      "second_coming",
+      "new_creation",
+      "holiness",
+      "repentance",
+      "perseverance"
+    ],
+    "time_period": "circa_65_ad",
+    "canonical_order": 61
+  },
+  "vocabulary": [
+    {
+      "term": "day of the Lord in 2 Peter",
+      "definition": "The coming day in 2 Peter 3 when the heavens will pass away with a roar and the elements dissolve; Peter uses it to motivate holy living in light of the coming new creation"
+    },
+    {
+      "term": "new heavens and new earth",
+      "definition": "Peter's description in 2 Peter 3:13 of what God promises — a new creation in which righteousness dwells; it echoes Isaiah 65-66 and anticipates Revelation 21-22"
+    }
+  ]
 }

@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study joshua: covenant renewal and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study joshua: covenant renewal and trace God's covenant faithfulness.",
+      "word_count": 11
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What choice did Joshua present to Israel in the covenant renewal at Shechem in Joshua 24? Answer: choose whom you will serve — either the gods your fathers served or the LORD — and Joshua declared that he and his house would serve the LORD.",
+      "correct_answer": "choose whom you will serve — the ancestral gods or the LORD",
+      "acceptable_variants": [
+        "choose this day whom you will serve",
+        "serve the gods your fathers served or the LORD — joshua said he would serve the LORD",
+        "the choice between false gods and Yahweh at Shechem"
+      ],
+      "word_count": 47
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 46
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "covenant renewal",
+      "definition": "Joshua 24's covenant ceremony at Shechem where all Israel pledged loyalty to the LORD after the conquest; the people's repeated declarations foreshadow their later failure to keep the commitment"
+    },
+    {
+      "term": "Shechem",
+      "definition": "The site of Joshua's covenant assembly and Israel's covenant renewal; Abraham built his first altar there in Canaan (Genesis 12:6) and Jacob purchased land there"
+    }
+  ]
 }

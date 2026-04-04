@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study 2 samuel: kingdom and covenant and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study 2 samuel: kingdom and covenant and trace God's covenant faithfulness.",
+      "word_count": 13
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What did God promise David in the Davidic covenant of 2 Samuel 7? Answer: that David's son would build the temple, God would be a father to him, and David's throne and kingdom would be established forever.",
+      "correct_answer": "David's throne and kingdom would be established forever, and God would be father to his son",
+      "acceptable_variants": [
+        "an everlasting dynasty — God would be father to david's son and establish his throne forever",
+        "the davidic covenant — eternal throne and father-son relationship with david's line",
+        "2 Samuel 7 — god promises david an eternal dynasty"
+      ],
+      "word_count": 39
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 54
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Davidic covenant",
+      "definition": "God's unconditional promise to David in 2 Samuel 7 that his dynasty would be established forever and God would be father to his son; the foundation for the messianic expectation of a coming king from David's line"
+    },
+    {
+      "term": "Nathan the prophet",
+      "definition": "The prophet who delivered God's covenant promise to David in 2 Samuel 7 and later confronted David after the sin with Bathsheba"
+    }
+  ]
 }

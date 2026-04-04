@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study numbers: worship and departure and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study numbers: worship and departure and trace God's covenant faithfulness.",
+      "word_count": 12
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What guided Israel's movement through the wilderness — when to stop and when to march? Answer: the cloud over the tabernacle: when it lifted, Israel marched; when it settled, Israel camped.",
+      "correct_answer": "the cloud over the tabernacle — when it lifted Israel marched, when it settled they camped",
+      "acceptable_variants": [
+        "a cloud by day and fire by night over the tabernacle",
+        "when the cloud lifted they moved, when it rested they stopped",
+        "the pillar of cloud and fire directed all movement"
+      ],
+      "word_count": 33
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 31
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "pillar of cloud and fire",
+      "definition": "The visible manifestation of God's presence guiding Israel through the wilderness; by day a cloud and by night a fire, it directed every march and rest"
+    },
+    {
+      "term": "silver trumpets",
+      "definition": "Two silver trumpets in Numbers 10 used to signal Israel's movements and assemblies; they established order for the march and called leaders to meet Moses"
+    }
+  ]
 }

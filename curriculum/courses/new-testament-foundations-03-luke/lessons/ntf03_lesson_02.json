@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "John the Baptist appears in the wilderness, calling Israel to repentance. Today we witness his powerful ministry and Jesus' baptism, which launches His public work. Luke also traces Jesus' genealogy back to Adam, showing He is Savior of all humanity."
+      "sequence": 1,
+      "audio_script": "John the Baptist appears in the wilderness, calling Israel to repentance. Today we witness his powerful ministry and Jesus' baptism, which launches His public work. Luke also traces Jesus' genealogy back to Adam, showing He is Savior of all humanity.",
+      "word_count": 40
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke chapter 3. In the fifteenth year of the reign of Tiberius Caesar, the word of God came to John the son of Zechariah in the wilderness. And he went into all the region around the Jordan, proclaiming a baptism of repentance for the forgiveness of sins. As it is written in the book of Isaiah, 'The voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight. Every valley shall be filled, and every mountain and hill shall be made low, and the crooked shall become straight, and the rough places shall become level ways, and all flesh shall see the salvation of God.' He said therefore to the crowds, 'You brood of vipers! Who warned you to flee from the wrath to come? Bear fruits in keeping with repentance. And do not begin to say to yourselves, We have Abraham as our father. For I tell you, God is able from these stones to raise up children for Abraham. Even now the axe is laid to the root of the trees. Every tree therefore that does not bear good fruit is cut down and thrown into the fire.' And the crowds asked him, 'What then shall we do?' And he answered them, 'Whoever has two tunics is to share with him who has none, and whoever has food is to do likewise.' As the people were in expectation, and all were questioning in their hearts concerning John, whether he might be the Christ, John answered them all, saying, 'I baptize you with water, but he who is mightier than I is coming, the strap of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire.' Now when all the people were baptized, and when Jesus also had been baptized and was praying, the heavens were opened, and the Holy Spirit descended on him in bodily form, like a dove; and a voice came from heaven, 'You are my beloved Son; with you I am well pleased.' Jesus, when he began his ministry, was about thirty years of age, being the son as was supposed of Joseph, the son of Heli, going back through David, Abraham, Noah, Seth, and Adam, the son of God."
+      "sequence": 2,
+      "audio_script": "Listen to Luke chapter 3. In the fifteenth year of the reign of Tiberius Caesar, the word of God came to John the son of Zechariah in the wilderness. And he went into all the region around the Jordan, proclaiming a baptism of repentance for the forgiveness of sins. As it is written in the book of Isaiah, 'The voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight. Every valley shall be filled, and every mountain and hill shall be made low, and the crooked shall become straight, and the rough places shall become level ways, and all flesh shall see the salvation of God.' He said therefore to the crowds, 'You brood of vipers! Who warned you to flee from the wrath to come? Bear fruits in keeping with repentance. And do not begin to say to yourselves, We have Abraham as our father. For I tell you, God is able from these stones to raise up children for Abraham. Even now the axe is laid to the root of the trees. Every tree therefore that does not bear good fruit is cut down and thrown into the fire.' And the crowds asked him, 'What then shall we do?' And he answered them, 'Whoever has two tunics is to share with him who has none, and whoever has food is to do likewise.' As the people were in expectation, and all were questioning in their hearts concerning John, whether he might be the Christ, John answered them all, saying, 'I baptize you with water, but he who is mightier than I is coming, the strap of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire.' Now when all the people were baptized, and when Jesus also had been baptized and was praying, the heavens were opened, and the Holy Spirit descended on him in bodily form, like a dove; and a voice came from heaven, 'You are my beloved Son; with you I am well pleased.' Jesus, when he began his ministry, was about thirty years of age, being the son as was supposed of Joseph, the son of Heli, going back through David, Abraham, Noah, Seth, and Adam, the son of God.",
+      "word_count": 381
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Luke carefully dates John's ministry to real rulers and events. John fulfills Isaiah's prophecy, preparing hearts for Messiah. His message challenges religious presumption, demanding genuine repentance shown by transformed behavior. The baptism of Jesus marks His public identification with sinners and the Father's affirmation."
+      "sequence": 3,
+      "audio_script": "Luke carefully dates John's ministry to real rulers and events. John fulfills Isaiah's prophecy, preparing hearts for Messiah. His message challenges religious presumption, demanding genuine repentance shown by transformed behavior. The baptism of Jesus marks His public identification with sinners and the Father's affirmation.",
+      "word_count": 44
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "John's harsh words target false confidence in heritage. True repentance produces fruit: generosity, justice, contentment. He points beyond himself to the Coming One who will baptize with Spirit and fire, bringing both salvation and judgment. At Jesus' baptism, the Trinity is revealed: Father's voice, Spirit's descent, Son's obedience."
+      "sequence": 4,
+      "audio_script": "John's harsh words target false confidence in heritage. True repentance produces fruit: generosity, justice, contentment. He points beyond himself to the Coming One who will baptize with Spirit and fire, bringing both salvation and judgment. At Jesus' baptism, the Trinity is revealed: Father's voice, Spirit's descent, Son's obedience.",
+      "word_count": 48
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include repentance bearing fruit, preparation for Messiah, Spirit baptism, divine affirmation of Jesus, universal salvation extending to all nations through Adam's descendant, and prayer as Jesus' consistent practice. Luke emphasizes Jesus' humanity while affirming His divine sonship."
+      "sequence": 5,
+      "audio_script": "Key themes include repentance bearing fruit, preparation for Messiah, Spirit baptism, divine affirmation of Jesus, universal salvation extending to all nations through Adam's descendant, and prayer as Jesus' consistent practice. Luke emphasizes Jesus' humanity while affirming His divine sonship.",
+      "word_count": 39
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: What does John mean by fruit worthy of repentance? Why is Abraham's lineage insufficient? How does Jesus' genealogy back to Adam shape Luke's message? Why does Jesus pray at His baptism?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the content of John the Baptist's call to repentance in Luke 3? Answer: bear fruits in keeping with repentance; do not rely on Abrahamic descent but demonstrate changed conduct in sharing, honesty, and fairness.",
+      "correct_answer": "bear fruits of repentance — share, be honest, and do not rely on being Abraham's descendants",
+      "acceptable_variants": [
+        "repentance shown in practical ethics — sharing clothing and food, not extorting",
+        "john called for concrete ethical change as evidence of true repentance",
+        "fruits worthy of repentance — practical justice not just religious claim"
+      ],
+      "word_count": 38
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "John prepares the way through repentance; Jesus is affirmed as beloved Son. His genealogy to Adam reveals His mission to all humanity. Next, we'll see Him tested in the wilderness. Well done."
+      "sequence": 7,
+      "audio_script": "John prepares the way through repentance; Jesus is affirmed as beloved Son. His genealogy to Adam reveals His mission to all humanity. Next, we'll see Him tested in the wilderness. Well done.",
+      "word_count": 32
     }
   ],
   "metadata": {
@@ -55,8 +68,25 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "3",
-    "theological_themes": ["repentance", "baptism", "holy_spirit", "trinity", "universal_salvation", "genealogy"],
+    "theological_themes": [
+      "repentance",
+      "baptism",
+      "holy_spirit",
+      "trinity",
+      "universal_salvation",
+      "genealogy"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "repentance",
+      "definition": "A turning from sin to God; in Luke 3, John's call to repentance requires concrete ethical change, not merely emotional regret or religious heritage"
+    },
+    {
+      "term": "Benedictus",
+      "definition": "Zechariah's prophetic hymn in Luke 1:67-79 at John's birth; it blesses God for raising up a horn of salvation from David's house and John's role as the prophet going before the Lord"
+    }
+  ]
 }

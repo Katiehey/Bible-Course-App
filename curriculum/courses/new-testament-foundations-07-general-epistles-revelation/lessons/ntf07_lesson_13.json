@@ -19,13 +19,78 @@
     }
   ],
   "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"John's shortest letters show truth and love worked out in church life."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 John and 3 John. In 2 John, believers are urged to walk in truth and love while refusing partnership with false teachers who deny Christ. In 3 John, John commends Gaius for faithful hospitality toward gospel workers and rebukes Diotrephes for prideful control. He encourages imitation of good and joyful commitment to truth."},
-    {"segment_id":"context","type":"context","audio_script":"House-church networks depended on itinerant teachers and relational trust, making discernment and hospitality crucial."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Christian love is not indiscriminate approval; it is truth-shaped faithfulness. Healthy leadership serves mission and welcomes faithful workers rather than seeking status."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include truth-love integration, discernment, hospitality, leadership integrity, and shared mission."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you supporting truth faithfully while resisting harmful teaching and toxic leadership patterns?"},
-    {"segment_id":"close","type":"close","audio_script":"Truth and love must govern every relationship. Next, Revelation reveals the risen Christ among His churches."}
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "John's shortest letters show truth and love worked out in church life.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 2 John and 3 John. In 2 John, believers are urged to walk in truth and love while refusing partnership with false teachers who deny Christ. In 3 John, John commends Gaius for faithful hospitality toward gospel workers and rebukes Diotrephes for prideful control. He encourages imitation of good and joyful commitment to truth.",
+      "word_count": 56
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "House-church networks depended on itinerant teachers and relational trust, making discernment and hospitality crucial.",
+      "word_count": 14
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Christian love is not indiscriminate approval; it is truth-shaped faithfulness. Healthy leadership serves mission and welcomes faithful workers rather than seeking status.",
+      "word_count": 22
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include truth-love integration, discernment, hospitality, leadership integrity, and shared mission.",
+      "word_count": 12
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What warning does 2 John give about receiving teachers into your house? Answer: do not receive into your house or give greeting to anyone who does not bring the teaching of Christ, because you share in his evil works.",
+      "correct_answer": "do not receive or greet those who do not bring the teaching of Christ — you share in their evil works",
+      "acceptable_variants": [
+        "do not welcome teachers who deny the doctrine of christ",
+        "2 john — hospitality must not extend to those bringing false teaching about christ",
+        "greeting false teachers makes you share in their wrong"
+      ],
+      "word_count": 41
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Truth and love must govern every relationship. Next, Revelation reveals the risen Christ among His churches.",
+      "word_count": 16
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_3_john","chapter_range":"2_john_1_3_john_1","theological_themes":["truth","hospitality","discernment","leadership","mission"],"time_period":"circa_90_ad","canonical_order":63}
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "2_3_john",
+    "chapter_range": "2_john_1_3_john_1",
+    "theological_themes": [
+      "truth",
+      "hospitality",
+      "discernment",
+      "leadership",
+      "mission"
+    ],
+    "time_period": "circa_90_ad",
+    "canonical_order": 63
+  },
+  "vocabulary": [
+    {
+      "term": "the chosen lady",
+      "definition": "The address of 2 John to the elect lady and her children; most scholars understand this as a local church and its members rather than a literal woman"
+    },
+    {
+      "term": "Diotrephes",
+      "definition": "The church leader in 3 John who rejected John's authority and refused to welcome traveling missionaries; a warning example of pride and power-seeking in church leadership"
+    }
+  ]
 }

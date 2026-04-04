@@ -6,15 +6,85 @@
   "objective": "Address church factions and re-center identity, wisdom, and leadership in Christ crucified.",
   "duration": "9 minutes",
   "prerequisite": "ntf06_lesson_04",
-  "required_passages": [{"passage_id":"1co_1_1_4_21","reference":"1 Corinthians 1:1-4:21","text":"Is Christ divided? ... We preach Christ crucified... Let no one boast in men... servants through whom you believed... The kingdom of God does not consist in talk but in power."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Corinth's gifted church was fractured by pride. Paul calls them back to the cross."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Corinthians 1-4. Paul confronts party spirit: 'I follow Paul,' 'I follow Apollos.' He asks, 'Is Christ divided?' He insists the center is Christ crucified, which appears foolish to the world but is God's wisdom and power. Leaders are servants and stewards, not celebrities."},
-    {"segment_id":"context","type":"context","audio_script":"Corinth valued status, rhetoric, and power. These cultural values leaked into church identity."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"When churches orbit personalities, the cross is displaced. Gospel maturity rejects boasting and embraces humble service. True leadership builds on Christ, not brand."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include unity in Christ, folly of worldly wisdom, centrality of the cross, servant leadership, and spiritual maturity."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you forming identity around Christ, or around preferred leaders and styles?"},
-    {"segment_id":"close","type":"close","audio_script":"The cross heals division by humbling all. Next, Paul confronts holiness, discipline, and embodied witness."}
+  "required_passages": [
+    {
+      "passage_id": "1co_1_1_4_21",
+      "reference": "1 Corinthians 1:1-4:21",
+      "text": "Is Christ divided? ... We preach Christ crucified... Let no one boast in men... servants through whom you believed... The kingdom of God does not consist in talk but in power."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_corinthians","chapter_range":"1-4","theological_themes":["unity","cross","wisdom","leadership"],"time_period":"circa_55_ad","canonical_order":46}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Corinth's gifted church was fractured by pride. Paul calls them back to the cross.",
+      "word_count": 14
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 1 Corinthians 1-4. Paul confronts party spirit: 'I follow Paul,' 'I follow Apollos.' He asks, 'Is Christ divided?' He insists the center is Christ crucified, which appears foolish to the world but is God's wisdom and power. Leaders are servants and stewards, not celebrities.",
+      "word_count": 46
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Corinth valued status, rhetoric, and power. These cultural values leaked into church identity.",
+      "word_count": 13
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "When churches orbit personalities, the cross is displaced. Gospel maturity rejects boasting and embraces humble service. True leadership builds on Christ, not brand.",
+      "word_count": 23
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include unity in Christ, folly of worldly wisdom, centrality of the cross, servant leadership, and spiritual maturity.",
+      "word_count": 19
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say is foolish to God in 1 Corinthians 1? Answer: the wisdom of the world — God chose the foolish things to shame the wise and the weak things to shame the strong.",
+      "correct_answer": "the wisdom of the world is foolishness to God — he chose what is weak and foolish to shame the strong",
+      "acceptable_variants": [
+        "worldly wisdom is foolishness — god's foolishness is wiser than human wisdom",
+        "the cross appears foolish to those perishing but is God's power to those being saved",
+        "1 corinthians 1 — god chose the weak and foolish to nullify the wise and powerful"
+      ],
+      "word_count": 38
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "The cross heals division by humbling all. Next, Paul confronts holiness, discipline, and embodied witness.",
+      "word_count": 15
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "1_corinthians",
+    "chapter_range": "1-4",
+    "theological_themes": [
+      "unity",
+      "cross",
+      "wisdom",
+      "leadership"
+    ],
+    "time_period": "circa_55_ad",
+    "canonical_order": 46
+  },
+  "vocabulary": [
+    {
+      "term": "word of the cross",
+      "definition": "Paul's term in 1 Corinthians 1:18 for the gospel message about Christ crucified; it is foolishness to those perishing but the power of God to those being saved"
+    },
+    {
+      "term": "divisions at Corinth",
+      "definition": "The factional allegiances in the Corinthian church (Paul, Apollos, Cephas, Christ) addressed in 1 Corinthians 1-4; Paul argues that boasting in human leaders contradicts the cross"
+    }
+  ]
 }

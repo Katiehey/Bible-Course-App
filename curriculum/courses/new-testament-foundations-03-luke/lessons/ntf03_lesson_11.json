@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus teaches about using wealth wisely, the danger of loving money, and the eternal consequences of how we treat others. Today we explore shrewd stewardship, the rich man and Lazarus, forgiveness, gratitude, and the kingdom's coming."
+      "sequence": 1,
+      "audio_script": "Jesus teaches about using wealth wisely, the danger of loving money, and the eternal consequences of how we treat others. Today we explore shrewd stewardship, the rich man and Lazarus, forgiveness, gratitude, and the kingdom's coming.",
+      "word_count": 36
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke 16 and 17. He said to the disciples, 'There was a rich man who had a manager wasting his possessions. The manager said, I have decided what to do, so that people may receive me into their houses. So he reduced his master's debtors. The master commended the dishonest manager for his shrewdness. Make friends for yourselves by means of unrighteous wealth, so that when it fails they may receive you into eternal dwellings. One who is faithful in very little is also faithful in much. No servant can serve two masters. You cannot serve God and money.' The Pharisees, who were lovers of money, ridiculed him. He said, 'What is exalted among men is an abomination in the sight of God.' 'There was a rich man who was clothed in purple and feasted sumptuously every day. And at his gate was laid a poor man named Lazarus, covered with sores. The poor man died and was carried by the angels to Abraham's side. The rich man also died and in Hades, being in torment, he called out, Father Abraham, have mercy on me, and send Lazarus to dip his finger in water and cool my tongue. But Abraham said, Child, remember that you received your good things, and Lazarus bad things; but now he is comforted, and you are in anguish. And besides, a great chasm has been fixed. He said, If they do not hear Moses and the Prophets, neither will they be convinced if someone should rise from the dead.' He said, 'If your brother sins, rebuke him, and if he repents, forgive him. And if he sins against you seven times in the day, you must forgive him.' 'Increase our faith!' they said. He said, 'If you had faith like a grain of mustard seed, you could say to this mulberry tree, Be uprooted and planted in the sea, and it would obey you.' As he entered a village, he was met by ten lepers, who said, 'Jesus, Master, have mercy on us.' He said, 'Go show yourselves to the priests.' And as they went they were cleansed. Then one of them, a Samaritan, turned back, praising God. Jesus said, 'Were not ten cleansed? Where are the nine?' The kingdom of God is not coming in ways that can be observed. The kingdom of God is in the midst of you. Just as it was in the days of Noah, so will it be in the days of the Son of Man.'"
+      "sequence": 2,
+      "audio_script": "Listen to Luke 16 and 17. He said to the disciples, 'There was a rich man who had a manager wasting his possessions. The manager said, I have decided what to do, so that people may receive me into their houses. So he reduced his master's debtors. The master commended the dishonest manager for his shrewdness. Make friends for yourselves by means of unrighteous wealth, so that when it fails they may receive you into eternal dwellings. One who is faithful in very little is also faithful in much. No servant can serve two masters. You cannot serve God and money.' The Pharisees, who were lovers of money, ridiculed him. He said, 'What is exalted among men is an abomination in the sight of God.' 'There was a rich man who was clothed in purple and feasted sumptuously every day. And at his gate was laid a poor man named Lazarus, covered with sores. The poor man died and was carried by the angels to Abraham's side. The rich man also died and in Hades, being in torment, he called out, Father Abraham, have mercy on me, and send Lazarus to dip his finger in water and cool my tongue. But Abraham said, Child, remember that you received your good things, and Lazarus bad things; but now he is comforted, and you are in anguish. And besides, a great chasm has been fixed. He said, If they do not hear Moses and the Prophets, neither will they be convinced if someone should rise from the dead.' He said, 'If your brother sins, rebuke him, and if he repents, forgive him. And if he sins against you seven times in the day, you must forgive him.' 'Increase our faith!' they said. He said, 'If you had faith like a grain of mustard seed, you could say to this mulberry tree, Be uprooted and planted in the sea, and it would obey you.' As he entered a village, he was met by ten lepers, who said, 'Jesus, Master, have mercy on us.' He said, 'Go show yourselves to the priests.' And as they went they were cleansed. Then one of them, a Samaritan, turned back, praising God. Jesus said, 'Were not ten cleansed? Where are the nine?' The kingdom of God is not coming in ways that can be observed. The kingdom of God is in the midst of you. Just as it was in the days of Noah, so will it be in the days of the Son of Man.'",
+      "word_count": 419
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "The shrewd manager uses resources to secure his future. Jesus teaches using wealth for eternal purposes. The rich man ignores Lazarus at his gate and faces eternal consequences. Disciples must forgive repeatedly. Ten lepers are healed, but only one Samaritan returns to thank Jesus. Jesus warns the kingdom will come suddenly like Noah's flood."
+      "sequence": 3,
+      "audio_script": "The shrewd manager uses resources to secure his future. Jesus teaches using wealth for eternal purposes. The rich man ignores Lazarus at his gate and faces eternal consequences. Disciples must forgive repeatedly. Ten lepers are healed, but only one Samaritan returns to thank Jesus. Jesus warns the kingdom will come suddenly like Noah's flood.",
+      "word_count": 54
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The manager shows worldly shrewdness; believers should use wealth more wisely for eternal good. Serving God and money are incompatible. The rich man's luxury blinds him to Lazarus, with eternal reversal in the afterlife. Scripture is sufficient; resurrection won't convince the hard-hearted. Forgiveness must be unlimited. Faith the size of a mustard seed accomplishes much. Only the Samaritan outsider shows gratitude. The kingdom comes suddenly; be ready."
+      "sequence": 4,
+      "audio_script": "The manager shows worldly shrewdness; believers should use wealth more wisely for eternal good. Serving God and money are incompatible. The rich man's luxury blinds him to Lazarus, with eternal reversal in the afterlife. Scripture is sufficient; resurrection won't convince the hard-hearted. Forgiveness must be unlimited. Faith the size of a mustard seed accomplishes much. Only the Samaritan outsider shows gratitude. The kingdom comes suddenly; be ready.",
+      "word_count": 67
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include faithful stewardship of wealth, impossibility of serving God and money, earthly values reversed eternally, responsibility to the poor, sufficiency of Scripture, unlimited forgiveness, small faith's great power, gratitude to God, the kingdom's hidden presence, and sudden return of the Son of Man. Luke emphasizes wealth's danger and compassion's urgency."
+      "sequence": 5,
+      "audio_script": "Key themes include faithful stewardship of wealth, impossibility of serving God and money, earthly values reversed eternally, responsibility to the poor, sufficiency of Scripture, unlimited forgiveness, small faith's great power, gratitude to God, the kingdom's hidden presence, and sudden return of the Son of Man. Luke emphasizes wealth's danger and compassion's urgency.",
+      "word_count": 52
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: Are you using wealth for eternal purposes? Do you serve God or money? Who is the Lazarus at your gate? Are you quick to forgive? Is your heart grateful like the Samaritan? Are you ready for the kingdom's sudden arrival?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say about the one who is faithful in very little in Luke 16? Answer: whoever is faithful in very little is also faithful in much, and whoever is dishonest in very little is also dishonest in much.",
+      "correct_answer": "whoever is faithful in little is faithful in much; dishonesty in small things reveals dishonesty in large ones",
+      "acceptable_variants": [
+        "faithfulness in small things proves faithfulness in large ones",
+        "you cannot serve God and money — the one who is faithful in little is trusted with much",
+        "luke 16 — small faithfulness is the test for greater responsibility"
+      ],
+      "word_count": 42
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus teaches using wealth wisely for eternity, warns of judgment on neglecting the poor, calls for unlimited forgiveness and gratitude, and alerts us to His sudden return. Next, approaching Jerusalem. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus teaches using wealth wisely for eternity, warns of judgment on neglecting the poor, calls for unlimited forgiveness and gratitude, and alerts us to His sudden return. Next, approaching Jerusalem. Well done today.",
+      "word_count": 33
     }
   ],
   "metadata": {
@@ -55,8 +68,27 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "16-17",
-    "theological_themes": ["stewardship", "wealth", "judgment", "forgiveness", "faith", "gratitude", "kingdom", "second_coming"],
+    "theological_themes": [
+      "stewardship",
+      "wealth",
+      "judgment",
+      "forgiveness",
+      "faith",
+      "gratitude",
+      "kingdom",
+      "second_coming"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Lazarus and the rich man",
+      "definition": "The account in Luke 16:19-31 of the rich man who ignored the beggar at his gate; after death, roles are permanently reversed and the rich man is told even a resurrection would not persuade those who reject Moses and the Prophets"
+    },
+    {
+      "term": "mammon",
+      "definition": "An Aramaic word for wealth used in Luke 16:13; Jesus' statement that no servant can serve both God and mammon establishes the radical claim of God's ownership over all of life"
+    }
+  ]
 }

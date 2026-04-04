@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus teaches urgently as He approaches Jerusalem. Today we hear warnings against hypocrisy, greed, and complacency, calls to trust God, readiness for His return, urgent repentance, and lament over Jerusalem's rejection."
+      "sequence": 1,
+      "audio_script": "Jesus teaches urgently as He approaches Jerusalem. Today we hear warnings against hypocrisy, greed, and complacency, calls to trust God, readiness for His return, urgent repentance, and lament over Jerusalem's rejection.",
+      "word_count": 31
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to key passages from Luke 12 and 13. He said to his disciples, 'Beware of the leaven of the Pharisees, which is hypocrisy. Nothing is covered up that will not be revealed. I tell you, do not fear those who kill the body. But fear him who has authority to cast into hell. Are not five sparrows sold for two pennies? And not one is forgotten before God. Fear not; you are of more value than many sparrows.' He said, 'Take care against all covetousness, for one's life does not consist in the abundance of possessions.' A rich man said, 'Soul, you have ample goods laid up for many years; relax, eat, drink, be merry.' But God said, 'Fool! This night your soul is required of you.' So is the one who lays up treasure for himself and is not rich toward God. 'Do not be anxious about your life. Consider the ravens: God feeds them. Consider the lilies: even Solomon was not arrayed like one of these. Seek his kingdom, and these things will be added. Fear not, little flock. Sell your possessions, and give to the needy. For where your treasure is, there will your heart be also. Stay dressed for action and keep your lamps burning. Blessed are those servants whom the master finds awake. You also must be ready, for the Son of Man is coming at an hour you do not expect. Everyone to whom much was given, of him much will be required.' There were some who told him about the Galileans whose blood Pilate had mingled with their sacrifices. And he answered, 'Unless you repent, you will all likewise perish.' A man had a fig tree planted in his vineyard. He came seeking fruit and found none. 'Cut it down,' he said. But the vinedresser answered, 'Sir, let it alone this year also, until I dig around it and put on manure.' Someone said, 'Lord, will those who are saved be few?' And he said, 'Strive to enter through the narrow door. For many will seek to enter and will not be able. Depart from me, all you workers of evil! O Jerusalem, Jerusalem, the city that kills the prophets! How often would I have gathered your children together, and you were not willing! Behold, your house is forsaken.'"
+      "sequence": 2,
+      "audio_script": "Listen to key passages from Luke 12 and 13. He said to his disciples, 'Beware of the leaven of the Pharisees, which is hypocrisy. Nothing is covered up that will not be revealed. I tell you, do not fear those who kill the body. But fear him who has authority to cast into hell. Are not five sparrows sold for two pennies? And not one is forgotten before God. Fear not; you are of more value than many sparrows.' He said, 'Take care against all covetousness, for one's life does not consist in the abundance of possessions.' A rich man said, 'Soul, you have ample goods laid up for many years; relax, eat, drink, be merry.' But God said, 'Fool! This night your soul is required of you.' So is the one who lays up treasure for himself and is not rich toward God. 'Do not be anxious about your life. Consider the ravens: God feeds them. Consider the lilies: even Solomon was not arrayed like one of these. Seek his kingdom, and these things will be added. Fear not, little flock. Sell your possessions, and give to the needy. For where your treasure is, there will your heart be also. Stay dressed for action and keep your lamps burning. Blessed are those servants whom the master finds awake. You also must be ready, for the Son of Man is coming at an hour you do not expect. Everyone to whom much was given, of him much will be required.' There were some who told him about the Galileans whose blood Pilate had mingled with their sacrifices. And he answered, 'Unless you repent, you will all likewise perish.' A man had a fig tree planted in his vineyard. He came seeking fruit and found none. 'Cut it down,' he said. But the vinedresser answered, 'Sir, let it alone this year also, until I dig around it and put on manure.' Someone said, 'Lord, will those who are saved be few?' And he said, 'Strive to enter through the narrow door. For many will seek to enter and will not be able. Depart from me, all you workers of evil! O Jerusalem, Jerusalem, the city that kills the prophets! How often would I have gathered your children together, and you were not willing! Behold, your house is forsaken.'",
+      "word_count": 387
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus warns against Pharisaic hypocrisy that will be exposed. He addresses greed with the parable of the rich fool who trusts possessions instead of God. He calls disciples to trust the Father's provision, not anxiety. He warns servants to stay ready for the master's return. Tragedy prompts urgent call to repentance. Jerusalem's rejection brings lamentation."
+      "sequence": 3,
+      "audio_script": "Jesus warns against Pharisaic hypocrisy that will be exposed. He addresses greed with the parable of the rich fool who trusts possessions instead of God. He calls disciples to trust the Father's provision, not anxiety. He warns servants to stay ready for the master's return. Tragedy prompts urgent call to repentance. Jerusalem's rejection brings lamentation.",
+      "word_count": 55
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Hypocrisy will be revealed; fear God, not people. The rich fool's self-sufficiency ignores mortality and God. Anxiety reveals little faith; God provides for His children. Treasure reflects heart priorities. Servants must stay ready for uncertain return. Much given requires much. Israel's patience runs out like the fig tree. The narrow door requires striving. Jerusalem's house is forsaken for rejecting God's messengers."
+      "sequence": 4,
+      "audio_script": "Hypocrisy will be revealed; fear God, not people. The rich fool's self-sufficiency ignores mortality and God. Anxiety reveals little faith; God provides for His children. Treasure reflects heart priorities. Servants must stay ready for uncertain return. Much given requires much. Israel's patience runs out like the fig tree. The narrow door requires striving. Jerusalem's house is forsaken for rejecting God's messengers.",
+      "word_count": 61
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include hypocrisy being exposed, proper fear of God, danger of greed and materialism, trust replacing anxiety, generosity and heavenly treasure, readiness for Jesus' return, faithful stewardship, urgent repentance, God's patience with limits, narrow way to salvation, and Jesus' grief over Jerusalem's rejection. Luke emphasizes warnings alongside compassion."
+      "sequence": 5,
+      "audio_script": "Key themes include hypocrisy being exposed, proper fear of God, danger of greed and materialism, trust replacing anxiety, generosity and heavenly treasure, readiness for Jesus' return, faithful stewardship, urgent repentance, God's patience with limits, narrow way to salvation, and Jesus' grief over Jerusalem's rejection. Luke emphasizes warnings alongside compassion.",
+      "word_count": 49
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: What hypocrisy needs exposing in your life? Where is your treasure—does it reflect your heart? Are you ready for Jesus' return? What fruit is your life bearing? Are you striving to enter the narrow door?"
+      "sequence": 6,
+      "audio_script": "Review question: What does Jesus say in Luke 12 is the thing not to fear — and the thing to fear? Answer: do not fear those who can kill the body; fear him who has authority to cast into hell.",
+      "correct_answer": "fear God who can cast into hell, not those who can only kill the body",
+      "acceptable_variants": [
+        "do not fear those who kill the body — fear him who has authority over body and soul",
+        "jesus says real fear belongs to God not human persecutors",
+        "fear the one who has authority over your eternal destiny — not physical threats"
+      ],
+      "word_count": 40
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus urgently warns against greed, anxiety, and complacency. He calls for readiness, repentance, and striving to enter the kingdom. Jerusalem's rejection brings sorrow. Next, more parables of grace. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus urgently warns against greed, anxiety, and complacency. He calls for readiness, repentance, and striving to enter the kingdom. Jerusalem's rejection brings sorrow. Next, more parables of grace. Well done today.",
+      "word_count": 31
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "12-13",
-    "theological_themes": ["hypocrisy", "greed", "anxiety", "trust", "readiness", "stewardship", "repentance", "judgment", "jerusalem"],
+    "theological_themes": [
+      "hypocrisy",
+      "greed",
+      "anxiety",
+      "trust",
+      "readiness",
+      "stewardship",
+      "repentance",
+      "judgment",
+      "jerusalem"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "parable of the rich fool",
+      "definition": "The parable in Luke 12:13-21 about the man who planned bigger barns but died suddenly; it warns against storing up earthly treasure while not being rich toward God"
+    },
+    {
+      "term": "watchfulness",
+      "definition": "The call in Luke 12:35-48 to be like servants ready for their master's return; it introduces themes of judgment and faithful stewardship that continue through Luke's journey narrative"
+    }
+  ]
 }

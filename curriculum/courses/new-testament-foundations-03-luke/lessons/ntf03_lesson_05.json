@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus demonstrates extraordinary compassion across social boundaries. Today we see Him honor a Gentile's faith, raise a widow's son, affirm John the Baptist, and forgive a sinful woman whose love reflects deep gratitude."
+      "sequence": 1,
+      "audio_script": "Jesus demonstrates extraordinary compassion across social boundaries. Today we see Him honor a Gentile's faith, raise a widow's son, affirm John the Baptist, and forgive a sinful woman whose love reflects deep gratitude.",
+      "word_count": 33
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Luke chapter 7. A centurion had a servant who was sick. When the centurion heard about Jesus, he sent elders of the Jews to him. The centurion sent friends, saying, 'Lord, I am not worthy to have you come under my roof. But say the word, and let my servant be healed. For I too am a man set under authority.' When Jesus heard these things, he marveled and said, 'I tell you, not even in Israel have I found such faith.' And they found the servant well. Soon afterward he went to a town called Nain, and a man who had died was being carried out, the only son of his mother, and she was a widow. And when the Lord saw her, he had compassion on her and said, 'Do not weep.' Then he touched the bier and said, 'Young man, I say to you, arise.' And the dead man sat up and began to speak, and Jesus gave him to his mother. They glorified God, saying, 'A great prophet has arisen among us!' John sent disciples to Jesus, saying, 'Are you the one who is to come?' And Jesus answered, 'Go and tell John what you have seen: the blind receive their sight, the lame walk, lepers are cleansed, the deaf hear, the dead are raised up, the poor have good news preached to them.' A woman of the city, who was a sinner, brought an alabaster flask of ointment, and weeping, she began to wet his feet with her tears and wiped them with her hair and anointed them. The Pharisee said, 'If this man were a prophet, he would have known she is a sinner.' And Jesus said to him, 'A certain moneylender had two debtors. One owed five hundred denarii, and the other fifty. He canceled the debt of both. Now which will love him more?' Simon answered, 'The one for whom he canceled the larger debt.' And Jesus said, 'Do you see this woman? She has wet my feet with her tears. Therefore I tell you, her sins, which are many, are forgiven—for she loved much. Your faith has saved you; go in peace.'"
+      "sequence": 2,
+      "audio_script": "Listen to Luke chapter 7. A centurion had a servant who was sick. When the centurion heard about Jesus, he sent elders of the Jews to him. The centurion sent friends, saying, 'Lord, I am not worthy to have you come under my roof. But say the word, and let my servant be healed. For I too am a man set under authority.' When Jesus heard these things, he marveled and said, 'I tell you, not even in Israel have I found such faith.' And they found the servant well. Soon afterward he went to a town called Nain, and a man who had died was being carried out, the only son of his mother, and she was a widow. And when the Lord saw her, he had compassion on her and said, 'Do not weep.' Then he touched the bier and said, 'Young man, I say to you, arise.' And the dead man sat up and began to speak, and Jesus gave him to his mother. They glorified God, saying, 'A great prophet has arisen among us!' John sent disciples to Jesus, saying, 'Are you the one who is to come?' And Jesus answered, 'Go and tell John what you have seen: the blind receive their sight, the lame walk, lepers are cleansed, the deaf hear, the dead are raised up, the poor have good news preached to them.' A woman of the city, who was a sinner, brought an alabaster flask of ointment, and weeping, she began to wet his feet with her tears and wiped them with her hair and anointed them. The Pharisee said, 'If this man were a prophet, he would have known she is a sinner.' And Jesus said to him, 'A certain moneylender had two debtors. One owed five hundred denarii, and the other fifty. He canceled the debt of both. Now which will love him more?' Simon answered, 'The one for whom he canceled the larger debt.' And Jesus said, 'Do you see this woman? She has wet my feet with her tears. Therefore I tell you, her sins, which are many, are forgiven—for she loved much. Your faith has saved you; go in peace.'",
+      "word_count": 363
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "A Roman centurion shows remarkable faith, trusting Jesus' word alone. At Nain, Jesus encounters a funeral procession for a widow's only son. John questions from prison whether Jesus is Messiah. A notorious sinner worships Jesus extravagantly while a Pharisee judges coldly."
+      "sequence": 3,
+      "audio_script": "A Roman centurion shows remarkable faith, trusting Jesus' word alone. At Nain, Jesus encounters a funeral procession for a widow's only son. John questions from prison whether Jesus is Messiah. A notorious sinner worships Jesus extravagantly while a Pharisee judges coldly.",
+      "word_count": 41
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The centurion grasps Jesus' authority, amazingly rare faith for a Gentile. Jesus initiates the Nain miracle, moved by compassion for the widow's loss. To John's doubt, He points to messianic signs from Isaiah. The sinful woman's tears, hair, and ointment express repentant love, contrasting Simon's self-righteousness. Great forgiveness produces great love."
+      "sequence": 4,
+      "audio_script": "The centurion grasps Jesus' authority, amazingly rare faith for a Gentile. Jesus initiates the Nain miracle, moved by compassion for the widow's loss. To John's doubt, He points to messianic signs from Isaiah. The sinful woman's tears, hair, and ointment express repentant love, contrasting Simon's self-righteousness. Great forgiveness produces great love.",
+      "word_count": 51
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include faith transcending ethnic boundaries, Jesus' authority over death, compassion for the vulnerable, messianic fulfillment, forgiveness for notorious sinners, worship flowing from gratitude, self-righteousness versus broken humility, and salvation through faith. Luke emphasizes Jesus welcoming outcasts others despise."
+      "sequence": 5,
+      "audio_script": "Key themes include faith transcending ethnic boundaries, Jesus' authority over death, compassion for the vulnerable, messianic fulfillment, forgiveness for notorious sinners, worship flowing from gratitude, self-righteousness versus broken humility, and salvation through faith. Luke emphasizes Jesus welcoming outcasts others despise.",
+      "word_count": 40
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: What makes the centurion's faith remarkable? How does raising the widow's son reveal Jesus' identity? Why does forgiveness produce love rather than the reverse? How does your love reflect your sense of forgiveness?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Jesus say about the faith of the Roman centurion who asked him to heal his servant? Answer: I have not found such great faith even in Israel.",
+      "correct_answer": "I have not found such great faith even in Israel",
+      "acceptable_variants": [
+        "not even in israel have i found such faith",
+        "Jesus marveled and said no one in israel had faith like this centurion",
+        "even in Israel I have not found faith this great"
+      ],
+      "word_count": 31
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus shows compassion that crosses boundaries of ethnicity, ritual purity, and moral reputation. Those who know their need love Him most. Next, we explore parables of the kingdom. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus shows compassion that crosses boundaries of ethnicity, ritual purity, and moral reputation. Those who know their need love Him most. Next, we explore parables of the kingdom. Well done today.",
+      "word_count": 31
     }
   ],
   "metadata": {
@@ -55,8 +68,26 @@
     "testament": "new",
     "book": "luke",
     "chapter_range": "7",
-    "theological_themes": ["faith", "compassion", "resurrection", "forgiveness", "worship", "gratitude", "outcasts"],
+    "theological_themes": [
+      "faith",
+      "compassion",
+      "resurrection",
+      "forgiveness",
+      "worship",
+      "gratitude",
+      "outcasts"
+    ],
     "time_period": "circa_29_ad",
     "canonical_order": 42
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "centurion's faith",
+      "definition": "The Roman officer's trust in Luke 7 that Jesus need only speak a word and his servant would be healed; Jesus commends it as greater than any he found in Israel, foreshadowing Gentile inclusion"
+    },
+    {
+      "term": "raising of the widow's son",
+      "definition": "The miracle in Luke 7:11-17 where Jesus raises a widow's only son at Nain; it echoes Elijah's miracle and confirms Jesus as the great prophet who has come"
+    }
+  ]
 }

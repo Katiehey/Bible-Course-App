@@ -6,15 +6,86 @@
   "objective": "Understand Paul's defense of true ministry and Christ's power perfected in weakness.",
   "duration": "9 minutes",
   "prerequisite": "ntf06_lesson_09",
-  "required_passages": [{"passage_id":"2co_10_1_13_14","reference":"2 Corinthians 10:1-13:14","text":"The weapons of our warfare are not of the flesh... My grace is sufficient for you, for my power is made perfect in weakness... Examine yourselves, to see whether you are in the faith."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Paul counters false apostles by redefining authority around cross-shaped weakness and truth."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 2 Corinthians 10-13. Paul rejects worldly boasting and insists ministry warfare is spiritual. He exposes deceptive teachers and recounts hardships, visions, and his thorn in the flesh. The Lord answers, 'My grace is sufficient for you.' Paul therefore boasts in weaknesses so Christ's power may rest on him. He closes by calling the church to self-examination and restoration."},
-    {"segment_id":"context","type":"context","audio_script":"In Corinth, charismatic self-promotion threatened gospel integrity and church discernment."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"True apostolic ministry is cruciform: marked by truth, sacrifice, and dependence. Weakness keeps servants near grace and highlights Christ's sufficiency."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include spiritual warfare, discernment, false teachers, sufficiency of grace, power in weakness, and self-examination."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What weakness might God be using to keep you dependent on His grace?"},
-    {"segment_id":"close","type":"close","audio_script":"Christ's power is perfected in weakness. Next we turn to Galatians and the defense of grace against legalism."}
+  "required_passages": [
+    {
+      "passage_id": "2co_10_1_13_14",
+      "reference": "2 Corinthians 10:1-13:14",
+      "text": "The weapons of our warfare are not of the flesh... My grace is sufficient for you, for my power is made perfect in weakness... Examine yourselves, to see whether you are in the faith."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"2_corinthians","chapter_range":"10-13","theological_themes":["weakness","grace","authority","discernment","perseverance"],"time_period":"circa_56_ad","canonical_order":47}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Paul counters false apostles by redefining authority around cross-shaped weakness and truth.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 2 Corinthians 10-13. Paul rejects worldly boasting and insists ministry warfare is spiritual. He exposes deceptive teachers and recounts hardships, visions, and his thorn in the flesh. The Lord answers, 'My grace is sufficient for you.' Paul therefore boasts in weaknesses so Christ's power may rest on him. He closes by calling the church to self-examination and restoration.",
+      "word_count": 60
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "In Corinth, charismatic self-promotion threatened gospel integrity and church discernment.",
+      "word_count": 10
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "True apostolic ministry is cruciform: marked by truth, sacrifice, and dependence. Weakness keeps servants near grace and highlights Christ's sufficiency.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include spiritual warfare, discernment, false teachers, sufficiency of grace, power in weakness, and self-examination.",
+      "word_count": 16
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul say about himself in 2 Corinthians 12:9-10 about boasting in weaknesses? Answer: he will boast in his weaknesses so that Christ's power may rest on him; when he is weak, then he is strong.",
+      "correct_answer": "he boasts in weaknesses so Christ's power rests on him — when weak, then strong",
+      "acceptable_variants": [
+        "I will boast in weakness because power is made perfect in weakness",
+        "Paul's paradox — strength through weakness when christ's power is the source",
+        "2 corinthians 12 — weakness is the condition for christ's power"
+      ],
+      "word_count": 39
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Christ's power is perfected in weakness. Next we turn to Galatians and the defense of grace against legalism.",
+      "word_count": 18
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "2_corinthians",
+    "chapter_range": "10-13",
+    "theological_themes": [
+      "weakness",
+      "grace",
+      "authority",
+      "discernment",
+      "perseverance"
+    ],
+    "time_period": "circa_56_ad",
+    "canonical_order": 47
+  },
+  "vocabulary": [
+    {
+      "term": "super-apostles",
+      "definition": "Paul's sarcastic label in 2 Corinthians 11 for the rival preachers who boasted in status, eloquence, and signs; Paul counters by boasting in his sufferings rather than achievements"
+    },
+    {
+      "term": "power made perfect in weakness",
+      "definition": "God's response to Paul's prayer about the thorn in 2 Corinthians 12:9 — divine strength operates through human limitation, making God's glory undeniable"
+    }
+  ]
 }

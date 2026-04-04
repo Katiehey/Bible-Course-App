@@ -1,0 +1,89 @@
+{
+  "course_id": "new_testament_foundations_04_john",
+  "title": "New Testament Foundations — John",
+  "subtitle": "The Gospel of the Incarnate Word",
+  "description": "A structured study of John's Gospel tracing Jesus as the eternal Word made flesh, whose seven signs and I AM declarations reveal his divine identity and call for faith that leads to eternal life.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 12,
+  "estimated_duration_weeks": 2,
+  "estimated_duration_hours": 2,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_03_luke",
+  "learning_outcomes": [
+    "Identify John's seven signs and explain their theological function",
+    "Explain the I AM declarations and their connection to Exodus",
+    "Describe the structure of John's Gospel as Book of Signs and Book of Glory",
+    "Trace the light-darkness and belief-unbelief contrasts throughout the Gospel",
+    "Explain John's stated purpose in John 20:30-31"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Incarnation and belief as the path to eternal life"
+  },
+  "units": [
+    {
+      "unit_id": "ntf04_unit_01",
+      "unit_number": 1,
+      "title": "The Book of Signs",
+      "description": "Signs that reveal Jesus' glory (Lessons 1–9)",
+      "lessons": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "unit_id": "ntf04_unit_02",
+      "unit_number": 2,
+      "title": "The Book of Glory",
+      "description": "Farewell discourse, passion, and resurrection (Lessons 10–12)",
+      "lessons": [10, 11, 12]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Gospel of John",
+    "primary_texts": "John 1–21",
+    "genre_coverage": ["theological narrative", "discourse", "sign account", "farewell discourse"],
+    "theological_themes": [
+      "incarnation",
+      "belief",
+      "eternal_life",
+      "glory",
+      "i_am_declarations"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What is the Prologue of John and what does it claim about the Word?",
+      "What are the seven signs in John's Gospel?",
+      "How many I AM declarations does Jesus make in John?",
+      "What is Jesus' prayer in John 17 about?",
+      "What does John state as his reason for writing in John 20:30-31?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_05_acts",
+    "title": "New Testament Foundations — Acts",
+    "description": "Study the Spirit-empowered advance of the gospel from Jerusalem to Rome"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

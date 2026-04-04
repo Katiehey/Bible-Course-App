@@ -6,15 +6,86 @@
   "objective": "Defend apostolic truth against corruption while persevering in mercy and hope.",
   "duration": "8 minutes",
   "prerequisite": "ntf07_lesson_09",
-  "required_passages": [{"passage_id":"jud_1_1_25","reference":"Jude 1:1-25","text":"Contend for the faith that was once for all delivered to the saints... keep yourselves in the love of God... have mercy on those who doubt... to him who is able to keep you from stumbling... be glory."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Jude gives a short but urgent call to doctrinal courage and pastoral mercy."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Jude. Certain people have crept in, twisting grace into license and denying Christ's lordship. Jude recalls biblical examples of judgment to warn against rebellion. He commands believers to build themselves up in faith, pray in the Spirit, keep in God's love, and show mercy to those in doubt while resisting corruption. He closes with a doxology of God's keeping power."},
-    {"segment_id":"context","type":"context","audio_script":"Jude writes in a context of internal threat from deceptive teachers."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Contending is not quarrelsome pride but faithful defense of the once-delivered gospel. Discernment must be paired with compassion for those wavering."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include doctrinal fidelity, judgment, mercy, prayer, perseverance, and God's preserving grace."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: How can you defend truth firmly while helping doubters gently?"},
-    {"segment_id":"close","type":"close","audio_script":"Stand firm in truth and mercy. Next, Revelation unveils Jesus' authority over His church and history."}
+  "required_passages": [
+    {
+      "passage_id": "jud_1_1_25",
+      "reference": "Jude 1:1-25",
+      "text": "Contend for the faith that was once for all delivered to the saints... keep yourselves in the love of God... have mercy on those who doubt... to him who is able to keep you from stumbling... be glory."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"jude","chapter_range":"1","theological_themes":["contend_for_faith","discernment","mercy","perseverance","doxology"],"time_period":"circa_65_ad","canonical_order":65}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Jude gives a short but urgent call to doctrinal courage and pastoral mercy.",
+      "word_count": 13
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Jude. Certain people have crept in, twisting grace into license and denying Christ's lordship. Jude recalls biblical examples of judgment to warn against rebellion. He commands believers to build themselves up in faith, pray in the Spirit, keep in God's love, and show mercy to those in doubt while resisting corruption. He closes with a doxology of God's keeping power.",
+      "word_count": 62
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Jude writes in a context of internal threat from deceptive teachers.",
+      "word_count": 11
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Contending is not quarrelsome pride but faithful defense of the once-delivered gospel. Discernment must be paired with compassion for those wavering.",
+      "word_count": 21
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include doctrinal fidelity, judgment, mercy, prayer, perseverance, and God's preserving grace.",
+      "word_count": 13
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Jude say believers are to do regarding the faith in verse 3? Answer: contend earnestly for the faith that was once for all delivered to the saints.",
+      "correct_answer": "contend earnestly for the faith once for all delivered to the saints",
+      "acceptable_variants": [
+        "fight for the faith that was given once to god's people",
+        "jude 3 — the charge to defend the faith delivered once and for all to the saints",
+        "earnestly contend for the faith — jude urges vigorous defense of the gospel"
+      ],
+      "word_count": 31
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Stand firm in truth and mercy. Next, Revelation unveils Jesus' authority over His church and history.",
+      "word_count": 16
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "jude",
+    "chapter_range": "1",
+    "theological_themes": [
+      "contend_for_faith",
+      "discernment",
+      "mercy",
+      "perseverance",
+      "doxology"
+    ],
+    "time_period": "circa_65_ad",
+    "canonical_order": 65
+  },
+  "vocabulary": [
+    {
+      "term": "once for all delivered",
+      "definition": "Jude 3's description of the faith as a fixed deposit entrusted to the saints; the faith is not evolving or open to revision — it was given once and is to be guarded"
+    },
+    {
+      "term": "apostasy",
+      "definition": "The falling away from true faith condemned in Jude; those who crept into the community deny Christ while using grace as an excuse for immorality — Jude draws on Sodom, the angels, and Cain as warnings"
+    }
+  ]
 }

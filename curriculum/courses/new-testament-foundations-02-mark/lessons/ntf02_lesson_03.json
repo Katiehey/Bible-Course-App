@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson three. Jesus teaches through parables, stories that reveal kingdom mysteries to those with receptive hearts. Today we explore parables of sowing, growth, and the kingdom's surprising advance."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson three. Jesus teaches through parables, stories that reveal kingdom mysteries to those with receptive hearts. Today we explore parables of sowing, growth, and the kingdom's surprising advance.",
+      "word_count": 30
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Mark chapter 4, verses 1 through 34. Again he began to teach beside the sea. And a very large crowd gathered about him. And he was teaching them many things in parables, and in his teaching he said to them: 'Listen! A sower went out to sow. And as he sowed, some seed fell along the path, and the birds came and devoured it. Other seed fell on rocky ground, where it did not have much soil, and immediately it sprang up, since it had no depth of soil. And when the sun rose, it was scorched, and since it had no root, it withered away. Other seed fell among thorns, and the thorns grew up and choked it, and it yielded no grain. And other seeds fell into good soil and produced grain, growing up and increasing and yielding thirtyfold and sixtyfold and a hundredfold.' And he said to them, 'To you has been given the secret of the kingdom of God, but for those outside everything is in parables, so that they may indeed see but not perceive, and may indeed hear but not understand, lest they should turn and be forgiven.' And he said to them, 'Do you not understand this parable? How then will you understand all the parables? The sower sows the word. And these are the ones along the path, where the word is sown: when they hear, Satan immediately comes and takes away the word that is sown in them. And these are the ones sown on rocky ground: the ones who, when they hear the word, immediately receive it with joy. And they have no root in themselves, but endure for a while; then, when tribulation or persecution arises on account of the word, immediately they fall away. And others are the ones sown among thorns. They are those who hear the word, but the cares of the world and the deceitfulness of riches and the desires for other things enter in and choke the word, and it proves unfruitful. But those that were sown on the good soil are the ones who hear the word and accept it and bear fruit, thirtyfold and sixtyfold and a hundredfold.' And he said, 'The kingdom of God is as if a man should scatter seed on the ground. He sleeps and rises night and day, and the seed sprouts and grows; he knows not how. The earth produces by itself, first the blade, then the ear, then the full grain in the ear. But when the grain is ripe, at once he puts in the sickle, because the harvest has come.' And he said, 'With what can we compare the kingdom of God? It is like a grain of mustard seed, which, when sown on the ground, is the smallest of all the seeds on earth, yet when it is sown it grows up and becomes larger than all the garden plants.' With many such parables he spoke the word to them. He did not speak to them without a parable, but privately to his own disciples he explained everything."
+      "sequence": 2,
+      "audio_script": "Listen to Mark chapter 4, verses 1 through 34. Again he began to teach beside the sea. And a very large crowd gathered about him. And he was teaching them many things in parables, and in his teaching he said to them: 'Listen! A sower went out to sow. And as he sowed, some seed fell along the path, and the birds came and devoured it. Other seed fell on rocky ground, where it did not have much soil, and immediately it sprang up, since it had no depth of soil. And when the sun rose, it was scorched, and since it had no root, it withered away. Other seed fell among thorns, and the thorns grew up and choked it, and it yielded no grain. And other seeds fell into good soil and produced grain, growing up and increasing and yielding thirtyfold and sixtyfold and a hundredfold.' And he said to them, 'To you has been given the secret of the kingdom of God, but for those outside everything is in parables, so that they may indeed see but not perceive, and may indeed hear but not understand, lest they should turn and be forgiven.' And he said to them, 'Do you not understand this parable? How then will you understand all the parables? The sower sows the word. And these are the ones along the path, where the word is sown: when they hear, Satan immediately comes and takes away the word that is sown in them. And these are the ones sown on rocky ground: the ones who, when they hear the word, immediately receive it with joy. And they have no root in themselves, but endure for a while; then, when tribulation or persecution arises on account of the word, immediately they fall away. And others are the ones sown among thorns. They are those who hear the word, but the cares of the world and the deceitfulness of riches and the desires for other things enter in and choke the word, and it proves unfruitful. But those that were sown on the good soil are the ones who hear the word and accept it and bear fruit, thirtyfold and sixtyfold and a hundredfold.' And he said, 'The kingdom of God is as if a man should scatter seed on the ground. He sleeps and rises night and day, and the seed sprouts and grows; he knows not how. The earth produces by itself, first the blade, then the ear, then the full grain in the ear. But when the grain is ripe, at once he puts in the sickle, because the harvest has come.' And he said, 'With what can we compare the kingdom of God? It is like a grain of mustard seed, which, when sown on the ground, is the smallest of all the seeds on earth, yet when it is sown it grows up and becomes larger than all the garden plants.' With many such parables he spoke the word to them. He did not speak to them without a parable, but privately to his own disciples he explained everything.",
+      "word_count": 518
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Mark places parables at the center of Jesus' teaching. The sower parable explains varied responses to the gospel. The growing seed shows mysterious, unstoppable kingdom growth. The mustard seed reveals how God's reign starts small but expands dramatically."
+      "sequence": 3,
+      "audio_script": "Mark places parables at the center of Jesus' teaching. The sower parable explains varied responses to the gospel. The growing seed shows mysterious, unstoppable kingdom growth. The mustard seed reveals how God's reign starts small but expands dramatically.",
+      "word_count": 38
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus explains that parables reveal truth to disciples while judging hard hearts. The sower identifies four soil types: path, rocky, thorny, and good. Only good soil bears lasting fruit. The growing seed emphasizes God's sovereignty in kingdom advance. The mustard seed encourages despite humble beginnings."
+      "sequence": 4,
+      "audio_script": "Jesus explains that parables reveal truth to disciples while judging hard hearts. The sower identifies four soil types: path, rocky, thorny, and good. Only good soil bears lasting fruit. The growing seed emphasizes God's sovereignty in kingdom advance. The mustard seed encourages despite humble beginnings.",
+      "word_count": 45
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include varied responses to God's word, spiritual receptivity, Satan's opposition, worldly distractions choking faith, mysterious kingdom growth through God's power, and surprising expansion from small seeds. Parables both reveal and conceal based on heart condition."
+      "sequence": 5,
+      "audio_script": "Key themes include varied responses to God's word, spiritual receptivity, Satan's opposition, worldly distractions choking faith, mysterious kingdom growth through God's power, and surprising expansion from small seeds. Parables both reveal and conceal based on heart condition.",
+      "word_count": 37
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Which soil type currently describes your heart's receptivity to God's word? What thorns or rocky places need addressing? How does the mustard seed encourage patience in kingdom work that seems insignificant?"
+      "sequence": 6,
+      "audio_script": "Review question: What is the main teaching of the Parable of the Sower in Mark 4? Answer: the different soils represent different responses to the word — some hear and bear fruit, others are choked by worries or hardened by opposition.",
+      "correct_answer": "different soils represent different responses to God's word — only the good soil bears lasting fruit",
+      "acceptable_variants": [
+        "the parable shows why some people respond to the word and others do not",
+        "the four soils describe four types of hearers of the kingdom message",
+        "some hear the word but trials and riches choke it — only receptive hearts bear fruit"
+      ],
+      "word_count": 41
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus' parables reveal kingdom mysteries through everyday images. Good soil produces abundant fruit, while God mysteriously grows His kingdom. Next, we'll witness His power over nature and demons. Well done today."
+      "sequence": 7,
+      "audio_script": "Jesus' parables reveal kingdom mysteries through everyday images. Good soil produces abundant fruit, while God mysteriously grows His kingdom. Next, we'll witness His power over nature and demons. Well done today.",
+      "word_count": 31
     }
   ],
   "metadata": {
@@ -55,8 +68,24 @@
     "testament": "new",
     "book": "mark",
     "chapter_range": "4:1-34",
-    "theological_themes": ["parables", "kingdom_of_god", "sower", "spiritual_receptivity", "kingdom_growth"],
+    "theological_themes": [
+      "parables",
+      "kingdom_of_god",
+      "sower",
+      "spiritual_receptivity",
+      "kingdom_growth"
+    ],
     "time_period": "circa_28_ad",
     "canonical_order": 41
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "parable",
+      "definition": "A short story using earthly images to reveal truths about the kingdom of God; Jesus used parables to reveal truth to insiders and conceal it from those who refused to hear"
+    },
+    {
+      "term": "Messianic Secret",
+      "definition": "Mark's pattern of Jesus commanding silence about his identity after miracles and exorcisms; it prevents premature misunderstanding of his messiahship before the cross"
+    }
+  ]
 }

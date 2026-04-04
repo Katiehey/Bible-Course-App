@@ -6,15 +6,85 @@
   "objective": "See how the gospel transforms social relationships through forgiveness, honor, and restored fellowship.",
   "duration": "8 minutes",
   "prerequisite": "ntf06_lesson_26",
-  "required_passages": [{"passage_id":"phm_1_1_25","reference":"Philemon 1:1-25","text":"I appeal to you for my child, Onesimus... receive him no longer as a bondservant but more than a bondservant, as a beloved brother... refresh my heart in Christ."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Philemon is short but profound: gospel theology embodied in relational reconciliation."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to Philemon. Paul writes from prison on behalf of Onesimus, once useless but now useful, asking Philemon to receive him as a beloved brother. Paul offers to cover any debt and appeals on the basis of love rather than command, modeling Christlike mediation and reconciliation."},
-    {"segment_id":"context","type":"context","audio_script":"In a world shaped by status and coercion, Paul reframes relationship in terms of family in Christ."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"The gospel does not remain abstract; it rewires power, debt, and identity. Forgiveness and mutual honor become tangible signs of new creation community."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include reconciliation, forgiveness, mediation, brotherhood in Christ, and transformed relationships."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Who might God be calling you to receive, forgive, or advocate for in gospel love?"},
-    {"segment_id":"close","type":"close","audio_script":"Pauline Epistles conclude with reconciliation lived out. Next we can begin General Epistles and Revelation."}
+  "required_passages": [
+    {
+      "passage_id": "phm_1_1_25",
+      "reference": "Philemon 1:1-25",
+      "text": "I appeal to you for my child, Onesimus... receive him no longer as a bondservant but more than a bondservant, as a beloved brother... refresh my heart in Christ."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"philemon","chapter_range":"1","theological_themes":["reconciliation","forgiveness","mediation","church_family"],"time_period":"circa_60_ad","canonical_order":57}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Philemon is short but profound: gospel theology embodied in relational reconciliation.",
+      "word_count": 11
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to Philemon. Paul writes from prison on behalf of Onesimus, once useless but now useful, asking Philemon to receive him as a beloved brother. Paul offers to cover any debt and appeals on the basis of love rather than command, modeling Christlike mediation and reconciliation.",
+      "word_count": 46
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "In a world shaped by status and coercion, Paul reframes relationship in terms of family in Christ.",
+      "word_count": 17
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "The gospel does not remain abstract; it rewires power, debt, and identity. Forgiveness and mutual honor become tangible signs of new creation community.",
+      "word_count": 23
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include reconciliation, forgiveness, mediation, brotherhood in Christ, and transformed relationships.",
+      "word_count": 12
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Paul ask Philemon to do for Onesimus in the letter to Philemon? Answer: to receive Onesimus back no longer as a slave but as a dear brother in the Lord — and to charge any debt he owes to Paul.",
+      "correct_answer": "receive Onesimus as a dear brother, no longer just as a slave — and charge his debt to Paul",
+      "acceptable_variants": [
+        "paul asks philemon to welcome onesimus as a brother and credit any debt to paul",
+        "receive him as you would me — and charge anything he owes to my account",
+        "philemon is asked to see onesimus through the lens of the gospel as a beloved brother"
+      ],
+      "word_count": 44
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Pauline Epistles conclude with reconciliation lived out. Next we can begin General Epistles and Revelation.",
+      "word_count": 15
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "philemon",
+    "chapter_range": "1",
+    "theological_themes": [
+      "reconciliation",
+      "forgiveness",
+      "mediation",
+      "church_family"
+    ],
+    "time_period": "circa_60_ad",
+    "canonical_order": 57
+  },
+  "vocabulary": [
+    {
+      "term": "Onesimus",
+      "definition": "The slave whose return to Philemon is the subject of Paul's letter; his name means useful in Greek — Paul puns on this: formerly useless but now useful, as a brother in Christ"
+    },
+    {
+      "term": "gospel and social structures",
+      "definition": "Philemon's central question: does the gospel change how we relate across social divides? Paul does not abolish slavery institutionally but reframes the Philemon-Onesimus relationship around brotherhood in Christ"
+    }
+  ]
 }

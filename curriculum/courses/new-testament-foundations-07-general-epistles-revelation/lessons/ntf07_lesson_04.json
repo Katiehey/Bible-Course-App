@@ -6,15 +6,86 @@
   "objective": "Practice steadfast obedience where true faith is visible in speech, humility, and action.",
   "duration": "9 minutes",
   "prerequisite": "ntf07_lesson_03",
-  "required_passages": [{"passage_id":"jas_1_1_3_18","reference":"James 1:1-3:18","text":"Be doers of the word, and not hearers only... faith by itself, if it does not have works, is dead... the wisdom from above is first pure, then peaceable."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"James confronts passive religion and calls for active, integrated obedience."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to James 1-3. Trials produce steadfastness when met with faith and wisdom from God. True religion cares for the vulnerable and keeps unstained from worldliness. James warns against favoritism and insists genuine faith is demonstrated by works. He stresses control of the tongue and pursuit of wisdom from above."},
-    {"segment_id":"context","type":"context","audio_script":"James writes to scattered believers navigating pressure, inequality, and inconsistent discipleship."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"James does not oppose faith; he opposes empty profession. Saving faith bears practical fruit in mercy, impartiality, and disciplined speech."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include testing, wisdom, obedience, works as fruit of faith, speech ethics, and practical righteousness."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: What area of your life most exposes the gap between hearing and doing?"},
-    {"segment_id":"close","type":"close","audio_script":"Living faith is visible faith. Next, James addresses pride, wealth, prayer, and patient endurance."}
+  "required_passages": [
+    {
+      "passage_id": "jas_1_1_3_18",
+      "reference": "James 1:1-3:18",
+      "text": "Be doers of the word, and not hearers only... faith by itself, if it does not have works, is dead... the wisdom from above is first pure, then peaceable."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"james","chapter_range":"1-3","theological_themes":["wisdom","obedience","works","speech","integrity"],"time_period":"circa_45_ad","canonical_order":59}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "James confronts passive religion and calls for active, integrated obedience.",
+      "word_count": 10
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to James 1-3. Trials produce steadfastness when met with faith and wisdom from God. True religion cares for the vulnerable and keeps unstained from worldliness. James warns against favoritism and insists genuine faith is demonstrated by works. He stresses control of the tongue and pursuit of wisdom from above.",
+      "word_count": 50
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "James writes to scattered believers navigating pressure, inequality, and inconsistent discipleship.",
+      "word_count": 11
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "James does not oppose faith; he opposes empty profession. Saving faith bears practical fruit in mercy, impartiality, and disciplined speech.",
+      "word_count": 20
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include testing, wisdom, obedience, works as fruit of faith, speech ethics, and practical righteousness.",
+      "word_count": 16
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does James say faith without works is? Answer: dead.",
+      "correct_answer": "dead",
+      "acceptable_variants": [
+        "faith without works is dead",
+        "james 2 — faith alone without deeds is dead faith",
+        "faith that produces no works is useless and dead"
+      ],
+      "word_count": 12
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Living faith is visible faith. Next, James addresses pride, wealth, prayer, and patient endurance.",
+      "word_count": 14
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "james",
+    "chapter_range": "1-3",
+    "theological_themes": [
+      "wisdom",
+      "obedience",
+      "works",
+      "speech",
+      "integrity"
+    ],
+    "time_period": "circa_45_ad",
+    "canonical_order": 59
+  },
+  "vocabulary": [
+    {
+      "term": "faith and works in James",
+      "definition": "James 2:14-26's argument that genuine faith produces visible works; James does not contradict Paul but addresses different problems — Paul combats earning salvation by works, James combats claiming faith without evidence"
+    },
+    {
+      "term": "taming the tongue",
+      "definition": "James 3's extended metaphor comparing the tongue to a ship's rudder and a spark; the tongue's power to bless and curse from the same mouth reveals the need for wisdom from above"
+    }
+  ]
 }

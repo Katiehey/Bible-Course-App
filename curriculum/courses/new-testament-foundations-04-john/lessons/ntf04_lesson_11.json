@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Jesus continues His final teaching before the cross. Today we study abiding in Him as the true vine, the Spirit's ministry, and Jesus' high priestly prayer for unity and mission."
+      "sequence": 1,
+      "audio_script": "Jesus continues His final teaching before the cross. Today we study abiding in Him as the true vine, the Spirit's ministry, and Jesus' high priestly prayer for unity and mission.",
+      "word_count": 30
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to John chapters 15 through 17. Jesus said, 'I am the true vine, and my Father is the vinedresser. Abide in me, and I in you... for apart from me you can do nothing... By this my Father is glorified, that you bear much fruit and so prove to be my disciples.' He commanded, 'Love one another as I have loved you. Greater love has no one than this, that someone lay down his life for his friends.' Jesus warned, 'If the world hates you, know that it has hated me before it hated you... If they persecuted me, they will also persecute you.' He promised, 'When the Helper comes... the Spirit of truth... he will bear witness about me... he will guide you into all the truth... he will glorify me.' Jesus said, 'In the world you will have tribulation. But take heart; I have overcome the world.' Then Jesus prayed: 'Father, the hour has come; glorify your Son... This is eternal life, that they know you, the only true God, and Jesus Christ whom you have sent... Holy Father, keep them in your name... Sanctify them in the truth; your word is truth... I do not ask for these only, but also for those who will believe in me through their word, that they may all be one... Father, I desire that they also may be with me where I am, to see my glory.'"
+      "sequence": 2,
+      "audio_script": "Listen to John chapters 15 through 17. Jesus said, 'I am the true vine, and my Father is the vinedresser. Abide in me, and I in you... for apart from me you can do nothing... By this my Father is glorified, that you bear much fruit and so prove to be my disciples.' He commanded, 'Love one another as I have loved you. Greater love has no one than this, that someone lay down his life for his friends.' Jesus warned, 'If the world hates you, know that it has hated me before it hated you... If they persecuted me, they will also persecute you.' He promised, 'When the Helper comes... the Spirit of truth... he will bear witness about me... he will guide you into all the truth... he will glorify me.' Jesus said, 'In the world you will have tribulation. But take heart; I have overcome the world.' Then Jesus prayed: 'Father, the hour has come; glorify your Son... This is eternal life, that they know you, the only true God, and Jesus Christ whom you have sent... Holy Father, keep them in your name... Sanctify them in the truth; your word is truth... I do not ask for these only, but also for those who will believe in me through their word, that they may all be one... Father, I desire that they also may be with me where I am, to see my glory.'",
+      "word_count": 238
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "After the upper room meal, Jesus teaches His disciples on the way to Gethsemane. He uses the vine-and-branches image to explain spiritual dependence and fruitfulness. He warns of persecution but promises the Holy Spirit's help. He then prays to the Father for Himself, the eleven disciples, and all future believers."
+      "sequence": 3,
+      "audio_script": "After the upper room meal, Jesus teaches His disciples on the way to Gethsemane. He uses the vine-and-branches image to explain spiritual dependence and fruitfulness. He warns of persecution but promises the Holy Spirit's help. He then prays to the Father for Himself, the eleven disciples, and all future believers.",
+      "word_count": 50
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "'I am the true vine' is Jesus' seventh I AM statement. Life, fruit, and perseverance flow from union with Him. Pruning is loving discipline for greater fruitfulness. Obedience and love are inseparable. The world's hatred confirms disciples belong to Jesus, not the world. The Spirit testifies to Christ, empowers witness, and guides the church in truth. Jesus' prayer reveals His heart: glorify the Father, guard disciples from the evil one, sanctify them in truth, send them in mission, and unite believers across generations. Eternal life is relational knowledge of the Father and the Son."
+      "sequence": 4,
+      "audio_script": "'I am the true vine' is Jesus' seventh I AM statement. Life, fruit, and perseverance flow from union with Him. Pruning is loving discipline for greater fruitfulness. Obedience and love are inseparable. The world's hatred confirms disciples belong to Jesus, not the world. The Spirit testifies to Christ, empowers witness, and guides the church in truth. Jesus' prayer reveals His heart: glorify the Father, guard disciples from the evil one, sanctify them in truth, send them in mission, and unite believers across generations. Eternal life is relational knowledge of the Father and the Son.",
+      "word_count": 94
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include abiding in Christ, fruit-bearing through dependence, pruning for growth, sacrificial love, persecution, Spirit-empowered witness, Christ's victory over tribulation, sanctification by God's word, mission into the world, unity of believers, and eternal life as knowing God through Jesus Christ."
+      "sequence": 5,
+      "audio_script": "Key themes include abiding in Christ, fruit-bearing through dependence, pruning for growth, sacrificial love, persecution, Spirit-empowered witness, Christ's victory over tribulation, sanctification by God's word, mission into the world, unity of believers, and eternal life as knowing God through Jesus Christ.",
+      "word_count": 41
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Are you abiding in Jesus daily, or trying to bear fruit on your own? How are love and obedience shaping your discipleship? Are you ready for opposition while trusting Christ has overcome the world? Are you living as one sent and sanctified by truth?"
+      "sequence": 6,
+      "audio_script": "Review question: What does Jesus say is the condition for bearing fruit in John 15? Answer: abiding in him — remaining in him as a branch in a vine.",
+      "correct_answer": "abiding in him — remaining in him as a branch remains in the vine",
+      "acceptable_variants": [
+        "remaining in Christ like a branch in the vine — the condition for bearing fruit",
+        "john 15 — abide in me and I in you; apart from me you can do nothing",
+        "the vine and branches — fruit requires remaining connected to Christ"
+      ],
+      "word_count": 29
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus is the True Vine who gives life and fruit. He prays for your holiness, unity, and mission. Next, we conclude John with the passion, resurrection, and restoration of Peter."
+      "sequence": 7,
+      "audio_script": "Jesus is the True Vine who gives life and fruit. He prays for your holiness, unity, and mission. Next, we conclude John with the passion, resurrection, and restoration of Peter.",
+      "word_count": 30
     }
   ],
   "metadata": {
@@ -55,8 +68,28 @@
     "testament": "new",
     "book": "john",
     "chapter_range": "15-17",
-    "theological_themes": ["true_vine", "abiding", "fruitfulness", "holy_spirit", "persecution", "high_priestly_prayer", "sanctification", "unity", "mission"],
+    "theological_themes": [
+      "true_vine",
+      "abiding",
+      "fruitfulness",
+      "holy_spirit",
+      "persecution",
+      "high_priestly_prayer",
+      "sanctification",
+      "unity",
+      "mission"
+    ],
     "time_period": "circa_30_ad",
     "canonical_order": 43
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "vine and branches",
+      "definition": "The I AM statement in John 15:1 — I am the true vine; abiding in Jesus is the only source of spiritual fruitfulness — branches that do not abide are cut off"
+    },
+    {
+      "term": "High Priestly Prayer",
+      "definition": "Jesus' prayer in John 17 for himself, his disciples, and all future believers; he prays for their unity, protection from evil, and sanctification in the truth — the longest recorded prayer of Jesus"
+    }
+  ]
 }

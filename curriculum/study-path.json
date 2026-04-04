@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "description": "Recommended sequential study path through all courses. Each course lists prerequisite and next course. Students may begin OT Deep Study after Hermeneutics I without completing all NT courses first.",
+  "primary_path": [
+    {
+      "order": 1,
+      "course_id": "biblical_foundations_01",
+      "title": "Biblical Foundations I",
+      "prerequisite": null,
+      "rationale": "Entry point. Establishes the covenant framework and genre categories required for all subsequent study."
+    },
+    {
+      "order": 2,
+      "course_id": "hermeneutics_i",
+      "title": "Hermeneutics I",
+      "prerequisite": "biblical_foundations_01",
+      "rationale": "Builds the historical-grammatical method skills applied in all NT and OT text-based courses."
+    },
+    {
+      "order": 3,
+      "course_id": "new_testament_foundations_01_matthew",
+      "title": "NT Foundations — Matthew",
+      "prerequisite": "hermeneutics_i",
+      "rationale": "First NT text-based course. Matthew's fulfillment structure rewards students who understand the OT covenant framework from BF01."
+    },
+    {
+      "order": 4,
+      "course_id": "new_testament_foundations_02_mark",
+      "title": "NT Foundations — Mark",
+      "prerequisite": "new_testament_foundations_01_matthew",
+      "rationale": "Mark's urgency and Messianic Secret are understood better after Matthew's fulfillment framework."
+    },
+    {
+      "order": 5,
+      "course_id": "new_testament_foundations_03_luke",
+      "title": "NT Foundations — Luke",
+      "prerequisite": "new_testament_foundations_02_mark",
+      "rationale": "Luke's orderly account and social themes build on synoptic familiarity."
+    },
+    {
+      "order": 6,
+      "course_id": "new_testament_foundations_04_john",
+      "title": "NT Foundations — John",
+      "prerequisite": "new_testament_foundations_03_luke",
+      "rationale": "John's theological depth is best approached after the three synoptics have established the narrative."
+    },
+    {
+      "order": 7,
+      "course_id": "new_testament_foundations_05_acts",
+      "title": "NT Foundations — Acts",
+      "prerequisite": "new_testament_foundations_04_john",
+      "rationale": "Acts follows directly from Luke and provides historical context for all the Pauline letters."
+    },
+    {
+      "order": 8,
+      "course_id": "new_testament_foundations_06_pauline_epistles",
+      "title": "NT Foundations — Pauline Epistles",
+      "prerequisite": "new_testament_foundations_05_acts",
+      "rationale": "Paul's letters are situated historically by Acts. Romans through Philemon in canonical order."
+    },
+    {
+      "order": 9,
+      "course_id": "new_testament_foundations_07_general_epistles_revelation",
+      "title": "NT Foundations — General Epistles and Revelation",
+      "prerequisite": "new_testament_foundations_06_pauline_epistles",
+      "rationale": "Completes the NT canon. Revelation is best understood after familiarity with the full NT theological framework."
+    },
+    {
+      "order": 10,
+      "course_id": "old_testament_deep_study_01",
+      "title": "Old Testament Deep Study",
+      "prerequisite": "hermeneutics_i",
+      "rationale": "Can be taken after Hermeneutics I at any point. Covering the full OT in canonical order is best done with the hermeneutical tools established in BF01 and Hermeneutics I."
+    }
+  ],
+  "alternate_path": {
+    "description": "Students wishing to study the OT before completing all NT courses may take OT Deep Study after Hermeneutics I, then return to NT Matthew.",
+    "sequence": [1, 2, 10, 3, 4, 5, 6, 7, 8, 9]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "course_id": "old_testament_deep_study_01",
+  "title": "Old Testament Deep Study",
+  "subtitle": "Genesis Through Chronicles — Redemptive History in the Hebrew Scriptures",
+  "description": "A systematic sixty-lesson study of the Old Testament from Genesis through Chronicles, tracing God's covenant faithfulness through creation, fall, exodus, law, kingship, and exile. Each lesson covers a specific book and chapter range with emphasis on canonical context and theological meaning.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 60,
+  "estimated_duration_weeks": 10,
+  "estimated_duration_hours": 9,
+  "difficulty_level": "intermediate",
+  "recommended_after": "hermeneutics_i",
+  "learning_outcomes": [
+    "Trace the covenant narrative from creation through the exile",
+    "Identify the major theological themes of each OT book studied",
+    "Explain the function of law, sacrifice, and priesthood in Israel's worship",
+    "Describe the Davidic covenant and its significance for OT and NT theology",
+    "Identify canonical connections between OT books and NT fulfillment"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Biblical-theological, tracing redemptive history",
+    "emphasis": "God's covenant faithfulness across the Hebrew canon"
+  },
+  "units": [
+    {
+      "unit_id": "otds_unit_01",
+      "unit_number": 1,
+      "title": "Torah — Genesis",
+      "description": "Creation, fall, flood, patriarchs, and Joseph (Lessons 1–12)",
+      "lessons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "unit_id": "otds_unit_02",
+      "unit_number": 2,
+      "title": "Torah — Exodus and Leviticus",
+      "description": "Deliverance, Sinai covenant, tabernacle, and holiness law (Lessons 13–28)",
+      "lessons": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+    },
+    {
+      "unit_id": "otds_unit_03",
+      "unit_number": 3,
+      "title": "Torah — Numbers and Deuteronomy",
+      "description": "Wilderness, rebellion, and covenant renewal (Lessons 29–42)",
+      "lessons": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+    },
+    {
+      "unit_id": "otds_unit_04",
+      "unit_number": 4,
+      "title": "Former Prophets — Joshua and Judges",
+      "description": "Conquest, settlement, and the judge cycle (Lessons 43–50)",
+      "lessons": [43, 44, 45, 46, 47, 48, 49, 50]
+    },
+    {
+      "unit_id": "otds_unit_05",
+      "unit_number": 5,
+      "title": "Historical Books — Ruth Through 2 Kings",
+      "description": "Ruth, Samuel, and Kings — covenant faithfulness, kingship, and exile (Lessons 51–59)",
+      "lessons": [51, 52, 53, 54, 55, 56, 57, 58, 59]
+    },
+    {
+      "unit_id": "otds_unit_06",
+      "unit_number": 6,
+      "title": "Chronicles",
+      "description": "Temple, worship, and Davidic hope in exile perspective (Lesson 60)",
+      "lessons": [60]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Old Testament Historical Books",
+    "primary_texts": "Genesis through 2 Chronicles",
+    "genre_coverage": ["historical narrative", "law", "poetry", "genealogy", "covenant text"],
+    "theological_themes": [
+      "covenant",
+      "election",
+      "exodus_and_redemption",
+      "holiness",
+      "kingship_and_davidic_promise"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What three elements did God promise Abram in Genesis 12:1-3?",
+      "What is the name of the high priest's annual entry into the Most Holy Place?",
+      "What was the consequence of Israel's rebellion at Kadesh-Barnea?",
+      "What covenant did God make with David in 2 Samuel 7?",
+      "What is the primary concern of Chronicles compared to Samuel and Kings?"
+    ]
+  },
+  "next_course": null,
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

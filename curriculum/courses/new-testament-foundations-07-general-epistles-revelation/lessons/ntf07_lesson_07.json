@@ -6,15 +6,86 @@
   "objective": "Persevere in suffering through Christlike conduct, shepherding care, and firm resistance to the enemy.",
   "duration": "9 minutes",
   "prerequisite": "ntf07_lesson_06",
-  "required_passages": [{"passage_id":"1pe_3_1_5_14","reference":"1 Peter 3:1-5:14","text":"Always being prepared to make a defense... Christ also suffered once for sins... do not be surprised at the fiery trial... cast all your anxieties on him... resist the devil, firm in your faith."}],
-  "segments": [
-    {"segment_id":"orientation","type":"orientation","audio_script":"Peter teaches believers how to suffer faithfully without losing joy or mission."},
-    {"segment_id":"reading","type":"reading","audio_script":"Listen to 1 Peter 3-5. Peter gives relational guidance for households and community life, calling believers to bless when reviled and be ready to explain their hope. He frames suffering through Christ's once-for-all sacrifice and resurrection victory. Elders are charged to shepherd willingly, and all are urged to humble themselves, cast anxieties on God, and resist the devil."},
-    {"segment_id":"context","type":"context","audio_script":"Believers needed pastoral direction for public hostility and internal church stability."},
-    {"segment_id":"analysis","type":"analysis","audio_script":"Christian suffering is not meaningless; it becomes witness when joined to Christlike gentleness and holy endurance. Leadership integrity strengthens whole-community resilience."},
-    {"segment_id":"themes","type":"themes","audio_script":"Key themes include apologetic hope, suffering for righteousness, shepherding, humility, vigilance, spiritual warfare, and grace."},
-    {"segment_id":"question","type":"question","audio_script":"Reflect on this: Are you responding to pressure with fear, or with gentle confidence rooted in Christ?"},
-    {"segment_id":"close","type":"close","audio_script":"Stand firm in true grace under trial. Next, 2 Peter warns against false teachers and calls for holy readiness."}
+  "required_passages": [
+    {
+      "passage_id": "1pe_3_1_5_14",
+      "reference": "1 Peter 3:1-5:14",
+      "text": "Always being prepared to make a defense... Christ also suffered once for sins... do not be surprised at the fiery trial... cast all your anxieties on him... resist the devil, firm in your faith."
+    }
   ],
-  "metadata": {"difficulty":"intermediate","testament":"new","book":"1_peter","chapter_range":"3-5","theological_themes":["suffering","apologetics","leadership","humility","spiritual_warfare"],"time_period":"circa_62_ad","canonical_order":60}
+  "segments": [
+    {
+      "type": "orientation",
+      "sequence": 1,
+      "audio_script": "Peter teaches believers how to suffer faithfully without losing joy or mission.",
+      "word_count": 12
+    },
+    {
+      "type": "reading",
+      "sequence": 2,
+      "audio_script": "Listen to 1 Peter 3-5. Peter gives relational guidance for households and community life, calling believers to bless when reviled and be ready to explain their hope. He frames suffering through Christ's once-for-all sacrifice and resurrection victory. Elders are charged to shepherd willingly, and all are urged to humble themselves, cast anxieties on God, and resist the devil.",
+      "word_count": 58
+    },
+    {
+      "type": "context",
+      "sequence": 3,
+      "audio_script": "Believers needed pastoral direction for public hostility and internal church stability.",
+      "word_count": 11
+    },
+    {
+      "type": "analysis",
+      "sequence": 4,
+      "audio_script": "Christian suffering is not meaningless; it becomes witness when joined to Christlike gentleness and holy endurance. Leadership integrity strengthens whole-community resilience.",
+      "word_count": 21
+    },
+    {
+      "type": "themes",
+      "sequence": 5,
+      "audio_script": "Key themes include apologetic hope, suffering for righteousness, shepherding, humility, vigilance, spiritual warfare, and grace.",
+      "word_count": 15
+    },
+    {
+      "type": "question",
+      "sequence": 6,
+      "audio_script": "Review question: What does Peter say Christ's suffering left for believers in 1 Peter 2:21? Answer: an example, so that they should follow in his steps.",
+      "correct_answer": "an example for believers to follow in his steps",
+      "acceptable_variants": [
+        "christ left an example of suffering for us to imitate",
+        "1 peter 2:21 — his suffering was an example to follow",
+        "he suffered leaving us a pattern to walk in his footsteps"
+      ],
+      "word_count": 26
+    },
+    {
+      "type": "close",
+      "sequence": 7,
+      "audio_script": "Stand firm in true grace under trial. Next, 2 Peter warns against false teachers and calls for holy readiness.",
+      "word_count": 19
+    }
+  ],
+  "metadata": {
+    "difficulty": "intermediate",
+    "testament": "new",
+    "book": "1_peter",
+    "chapter_range": "3-5",
+    "theological_themes": [
+      "suffering",
+      "apologetics",
+      "leadership",
+      "humility",
+      "spiritual_warfare"
+    ],
+    "time_period": "circa_62_ad",
+    "canonical_order": 60
+  },
+  "vocabulary": [
+    {
+      "term": "suffering servant in Peter",
+      "definition": "Peter applies Isaiah 53 to Christ's suffering in 1 Peter 2:22-25; Christ bore sins in his body on the tree and his wounds bring healing — the foundation for enduring unjust suffering"
+    },
+    {
+      "term": "1 Peter 3:15",
+      "definition": "The command to always be prepared to give a reason for the hope that is in you; it grounds apologetics (defense of the faith) in a posture of gentleness and respect"
+    }
+  ]
 }

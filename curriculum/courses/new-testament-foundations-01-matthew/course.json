@@ -1,0 +1,103 @@
+{
+  "course_id": "new_testament_foundations_01_matthew",
+  "title": "New Testament Foundations — Matthew",
+  "subtitle": "The Gospel of the Promised King",
+  "description": "A structured study of Matthew's Gospel tracing Jesus as the promised Messiah who fulfills Israel's Scripture, establishes the kingdom of heaven, and commissions his disciples to all nations.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 12,
+  "estimated_duration_weeks": 2,
+  "estimated_duration_hours": 2,
+  "difficulty_level": "intermediate",
+  "recommended_after": "hermeneutics_i",
+  "learning_outcomes": [
+    "Identify Matthew's major fulfillment citations and their OT sources",
+    "Explain the structure and theology of the Sermon on the Mount",
+    "Describe the five major discourse blocks in Matthew",
+    "Trace the kingdom-of-heaven theme across the Gospel",
+    "Explain the significance of Jesus' death and resurrection in Matthew's narrative"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Jesus as fulfillment of Israel's covenant history"
+  },
+  "units": [
+    {
+      "unit_id": "ntf01_unit_01",
+      "unit_number": 1,
+      "title": "Origins and Preparation",
+      "description": "Genealogy, birth, baptism, and temptation (Lessons 1–3)",
+      "lessons": [1, 2, 3]
+    },
+    {
+      "unit_id": "ntf01_unit_02",
+      "unit_number": 2,
+      "title": "The Kingdom Proclaimed",
+      "description": "Sermon on the Mount and early ministry (Lessons 4–7)",
+      "lessons": [4, 5, 6, 7]
+    },
+    {
+      "unit_id": "ntf01_unit_03",
+      "unit_number": 3,
+      "title": "Authority and Teaching",
+      "description": "Miracles, parables, and growing opposition (Lessons 8–11)",
+      "lessons": [8, 9, 10, 11]
+    },
+    {
+      "unit_id": "ntf01_unit_04",
+      "unit_number": 4,
+      "title": "Passion and Commission",
+      "description": "Final week, death, and resurrection (Lesson 12)",
+      "lessons": [12]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Gospel of Matthew",
+    "primary_texts": "Matthew 1–28",
+    "genre_coverage": ["historical narrative", "discourse", "parable", "apocalyptic"],
+    "theological_themes": [
+      "messianic_fulfillment",
+      "kingdom_of_heaven",
+      "new_exodus",
+      "discipleship",
+      "great_commission"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What two titles open Matthew's genealogy in 1:1?",
+      "Which OT prophet does Matthew cite for the virgin birth?",
+      "What is the first beatitude in the Sermon on the Mount?",
+      "What is the primary theme of Matthew's parables in chapter 13?",
+      "What commission does Jesus give his disciples in Matthew 28:19-20?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_02_mark",
+    "title": "New Testament Foundations — Mark",
+    "description": "Study the Gospel of Mark's portrait of Jesus as the urgent, authoritative Servant"
+  },
+  "created_date": "2026-02-22",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

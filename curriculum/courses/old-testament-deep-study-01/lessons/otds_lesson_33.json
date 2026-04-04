@@ -15,39 +15,52 @@
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Today we study numbers: wilderness lessons and trace God's covenant faithfulness."
+      "sequence": 1,
+      "audio_script": "Today we study numbers: wilderness lessons and trace God's covenant faithfulness.",
+      "word_count": 11
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response."
+      "sequence": 2,
+      "audio_script": "Listen to the assigned passage and note covenant themes, divine actions, and human response.",
+      "word_count": 14
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "We place this text in its historical setting, canonical location, and literary flow."
+      "sequence": 3,
+      "audio_script": "We place this text in its historical setting, canonical location, and literary flow.",
+      "word_count": 13
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story."
+      "sequence": 4,
+      "audio_script": "We analyze theological meaning, covenant development, and connections to the wider biblical story.",
+      "word_count": 13
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose."
+      "sequence": 5,
+      "audio_script": "Key themes include God's holiness, covenant faithfulness, judgment and mercy, and redemptive purpose.",
+      "word_count": 13
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect: what does this text reveal about God, humanity, and faithful obedience today?"
+      "sequence": 6,
+      "audio_script": "Review question: What did Moses do at Meribah that disqualified him from entering the promised land? Answer: God told Moses to speak to the rock, but Moses struck it twice in anger instead.",
+      "correct_answer": "Moses struck the rock twice instead of speaking to it as God commanded",
+      "acceptable_variants": [
+        "he hit the rock instead of speaking to it",
+        "moses struck the rock in anger disobeying god's command",
+        "he dishonored god before the people by striking rather than speaking to the rock"
+      ],
+      "word_count": 33
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course."
+      "sequence": 7,
+      "audio_script": "Carry this lesson into prayer, worship, and careful Scripture reading as we continue the course.",
+      "word_count": 15
     }
   ],
   "metadata": {
@@ -63,5 +76,15 @@
     ],
     "time_period": "old_testament_era",
     "canonical_order": 33
-  }
+  },
+  "vocabulary": [
+    {
+      "term": "Meribah",
+      "definition": "The place of strife where Moses struck the rock in disobedience; the event that cost Moses the right to enter Canaan and illustrates that even God's servants face consequences for dishonoring him"
+    },
+    {
+      "term": "bronze serpent",
+      "definition": "The bronze image Moses made and raised on a pole in Numbers 21 so that those bitten by serpents could look at it and live; Jesus references this in John 3:14 as a type of his crucifixion"
+    }
+  ]
 }

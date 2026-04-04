@@ -1,0 +1,103 @@
+{
+  "course_id": "new_testament_foundations_03_luke",
+  "title": "New Testament Foundations — Luke",
+  "subtitle": "The Gospel of the Universal Savior",
+  "description": "A structured study of Luke's Gospel tracing Jesus as Savior for all people — including the poor, women, Samaritans, and Gentiles — whose journey to Jerusalem fulfills God's redemptive purpose for the world.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 14,
+  "estimated_duration_weeks": 2,
+  "estimated_duration_hours": 2,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_02_mark",
+  "learning_outcomes": [
+    "Identify Luke's stated purpose and his intended audience",
+    "Explain the significance of Luke's travel narrative and its theological function",
+    "Describe Luke's distinctive concern for the marginalized and the outsider",
+    "Trace the role of the Holy Spirit throughout Luke's Gospel",
+    "Explain the connection between Luke and Acts as a two-volume work"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "Salvation history and the universal scope of the gospel"
+  },
+  "units": [
+    {
+      "unit_id": "ntf03_unit_01",
+      "unit_number": 1,
+      "title": "Beginnings and Preparation",
+      "description": "Birth, baptism, and early ministry (Lessons 1–3)",
+      "lessons": [1, 2, 3]
+    },
+    {
+      "unit_id": "ntf03_unit_02",
+      "unit_number": 2,
+      "title": "Ministry in Galilee",
+      "description": "Calling, parables, and compassion (Lessons 4–8)",
+      "lessons": [4, 5, 6, 7, 8]
+    },
+    {
+      "unit_id": "ntf03_unit_03",
+      "unit_number": 3,
+      "title": "The Journey to Jerusalem",
+      "description": "Teaching on the road and approach to the city (Lessons 9–13)",
+      "lessons": [9, 10, 11, 12, 13]
+    },
+    {
+      "unit_id": "ntf03_unit_04",
+      "unit_number": 4,
+      "title": "Passion and Resurrection",
+      "description": "Death, resurrection, and commissioning (Lesson 14)",
+      "lessons": [14]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Gospel of Luke",
+    "primary_texts": "Luke 1–24",
+    "genre_coverage": ["historical narrative", "parable", "hymn", "travel narrative"],
+    "theological_themes": [
+      "salvation_for_all_people",
+      "holy_spirit",
+      "prayer",
+      "reversal_of_social_order",
+      "joy"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What does Luke state as his purpose in Luke 1:1-4?",
+      "What is the Magnificat and who speaks it?",
+      "Where does the long central section of Luke begin and end?",
+      "Name two parables unique to Luke that illustrate God's grace to the lost.",
+      "Where does Luke's Gospel end geographically?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_04_john",
+    "title": "New Testament Foundations — John",
+    "description": "Study John's theological Gospel of signs and belief"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}

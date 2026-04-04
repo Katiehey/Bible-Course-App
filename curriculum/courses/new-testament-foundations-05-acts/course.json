@@ -1,0 +1,96 @@
+{
+  "course_id": "new_testament_foundations_05_acts",
+  "title": "New Testament Foundations — Acts",
+  "subtitle": "The Spirit-Empowered Advance of the Gospel",
+  "description": "A structured study of Acts tracing the proclamation of the gospel from Jerusalem to Rome through the power of the Holy Spirit, the leadership of Peter and Paul, and the breaking of ethnic and geographic barriers.",
+  "version": "1.0",
+  "language": "en",
+  "total_lessons": 12,
+  "estimated_duration_weeks": 2,
+  "estimated_duration_hours": 2,
+  "difficulty_level": "intermediate",
+  "recommended_after": "new_testament_foundations_04_john",
+  "learning_outcomes": [
+    "Identify the geographic outline of Acts 1:8 and trace its fulfillment",
+    "Explain the role of the Holy Spirit in Acts' narrative",
+    "Describe the function and content of the speeches in Acts",
+    "Trace Paul's three missionary journeys and their theological significance",
+    "Explain how Acts connects to Luke as a two-volume work"
+  ],
+  "theological_framework": {
+    "tradition": "Evangelical Reformed",
+    "hermeneutic": "Historical-grammatical",
+    "approach": "Canonical-theological",
+    "emphasis": "The Holy Spirit advancing the gospel to all nations"
+  },
+  "units": [
+    {
+      "unit_id": "ntf05_unit_01",
+      "unit_number": 1,
+      "title": "Jerusalem",
+      "description": "Pentecost and the church in Jerusalem (Lessons 1–4)",
+      "lessons": [1, 2, 3, 4]
+    },
+    {
+      "unit_id": "ntf05_unit_02",
+      "unit_number": 2,
+      "title": "Judea and Samaria",
+      "description": "Persecution, expansion, and Cornelius (Lessons 5–6)",
+      "lessons": [5, 6]
+    },
+    {
+      "unit_id": "ntf05_unit_03",
+      "unit_number": 3,
+      "title": "To the Ends of the Earth",
+      "description": "Paul's missions and journey to Rome (Lessons 7–12)",
+      "lessons": [7, 8, 9, 10, 11, 12]
+    }
+  ],
+  "instructional_approach": {
+    "primary_modality": "audio-first",
+    "session_structure": "7-segment lesson flow (orientation, reading, context, analysis, themes, question, close)",
+    "typical_session_duration_minutes": "8-9",
+    "maximum_session_duration_minutes": 10,
+    "knowledge_assessment": "factual recall questions at lesson end",
+    "interaction_model": "voice commands only",
+    "personalization_level": "none - curriculum-bound"
+  },
+  "content_scope": {
+    "subject": "Acts of the Apostles",
+    "primary_texts": "Acts 1–28",
+    "genre_coverage": ["historical narrative", "speech", "travel narrative", "miracle account"],
+    "theological_themes": [
+      "holy_spirit",
+      "witness",
+      "mission_to_gentiles",
+      "persecution_and_advance",
+      "resurrection_proclamation"
+    ]
+  },
+  "completion_assessment": {
+    "type": "factual knowledge check",
+    "questions": [
+      "What geographical outline does Acts 1:8 provide for the whole book?",
+      "What happened at Pentecost in Acts 2?",
+      "Who was Saul of Tarsus before his conversion?",
+      "What was the Jerusalem Council's decision about Gentile believers?",
+      "How does Acts end and where is Paul?"
+    ]
+  },
+  "next_course": {
+    "course_id": "new_testament_foundations_06_pauline_epistles",
+    "title": "New Testament Foundations — Pauline Epistles",
+    "description": "Study Paul's letters from Romans through Philemon across five letter groups"
+  },
+  "created_date": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "content_status": {
+    "scripts_complete": false,
+    "audio_recorded": false,
+    "content_reviewed": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "review_status": "pending"
+  }
+}
