@@ -13,15 +13,42 @@
             <p>Interactive Voice-Guided Bible Study</p>
         </div>
 
-        <!-- #9: Debug panel hidden by default, toggled via button -->
         <div id="debugPanel" class="debug-panel hidden">
             <div class="debug-header">Debug Log <button id="debugCloseBtn" class="btn-debug-close">close</button></div>
             <pre id="debugLog"></pre>
         </div>
 
+        <!-- NET Bible reader panel -->
+        <div id="biblePanel" class="bible-panel hidden">
+            <div class="bible-panel-header">
+                <div class="bible-panel-title-row">
+                    <span class="bible-panel-title">Bible</span>
+                    <span class="bible-net-badge" title="New English Translation — a free, scholarly translation with extensive study notes">NET</span>
+                </div>
+                <button id="closeBibleBtn" class="btn-bible-close" aria-label="Close Bible reader">✕</button>
+            </div>
+            <p class="bible-net-description">New English Translation — designed for clarity and accuracy in modern English.</p>
+            <div class="bible-search-row">
+                <input id="bibleSearchInput" type="text"
+                    placeholder="e.g. John 3:16  or  Romans 8:1-4  or  Psalm 23"
+                    class="bible-search-input"
+                    aria-label="Enter a Bible passage reference" />
+                <button id="bibleSearchBtn" class="btn-bible-search">Look up</button>
+            </div>
+            <div id="bibleResult" class="bible-result">
+                <p class="bible-hint">Enter a book, chapter, and verse above — for example, <strong>Matthew 5:1-12</strong> — then tap Look up.</p>
+            </div>
+        </div>
+
         <div id="splash" class="splash">
+            <!-- #6: Resume context — shown when a lesson is in progress -->
+            <div id="resumeContext" class="resume-context hidden">
+                <div class="resume-label">Resume where you left off</div>
+                <div id="resumeDetail" class="resume-detail"></div>
+            </div>
             <button id="startBtn" class="btn-primary">Begin Learning</button>
             <button id="openIndexBtn" class="btn-secondary" style="margin-top: 12px;">Open Lesson Index</button>
+            <button id="openBibleFromSplashBtn" class="btn-bible-splash" style="margin-top: 12px;">Open NET Bible</button>
             <button id="resetBtn" class="btn-secondary" style="margin-top: 20px; font-size: 0.9em;">Reset Progress</button>
         </div>
 
@@ -38,10 +65,12 @@
         <div id="lesson" class="lesson hidden">
             <div class="lesson-header">
                 <h2 id="lessonTitle">Lesson Title</h2>
+                <!-- #10: Lesson objective -->
+                <p id="lessonObjective" class="lesson-objective hidden"></p>
                 <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
             </div>
 
-            <!-- #7: 7-dot step indicator -->
+            <!-- 7-dot step indicator -->
             <div class="segment-steps" id="segmentSteps">
                 <div class="step-item" data-segment="orientation">
                     <div class="step-dot"></div>
@@ -80,10 +109,27 @@
             </div>
 
             <div class="lesson-content">
-                <div class="audio-display">
+                <div class="audio-display" id="audioDisplay">
+                    <!-- #8: Passage reference badge — tap to open in NET Bible -->
+                    <button id="passageBadge" class="passage-badge hidden" title="Tap to read this passage in the NET Bible"></button>
                     <div id="audioScript" class="audio-script">
-                        Click the microphone to start speaking, or click "Start Lesson" below.
+                        Click the microphone to start speaking, or click "Begin Learning" below.
                     </div>
+                    <!-- #1: Answer feedback banner -->
+                    <div id="answerFeedback" class="answer-feedback hidden"></div>
+                </div>
+
+                <!-- #5: Vocabulary panel (shown on close segment) -->
+                <div id="vocabularyPanel" class="vocabulary-panel hidden">
+                    <div class="vocab-header">Key Terms</div>
+                    <div id="vocabularyList" class="vocabulary-list"></div>
+                </div>
+
+                <!-- #4: Cross-course next course prompt -->
+                <div id="nextCoursePrompt" class="next-course-prompt hidden">
+                    <div class="next-course-label">Course complete!</div>
+                    <div id="nextCourseDetail" class="next-course-detail"></div>
+                    <button id="startNextCourseBtn" class="btn-primary next-course-btn">Start Next Course</button>
                 </div>
 
                 <div class="controls">
@@ -93,7 +139,6 @@
                     <div id="micStatus" class="mic-status">Ready</div>
                 </div>
 
-                <!-- #10: TTS settings collapsed behind a toggle -->
                 <details class="tts-settings" id="ttsSettings">
                     <summary>Audio Settings</summary>
                     <div class="tts-row">
@@ -107,7 +152,6 @@
                     </div>
                 </details>
 
-                <!-- #5: Contextual command buttons (JS controls active/done/future states) -->
                 <div class="quick-commands">
                     <h3>Commands:</h3>
                     <div class="command-buttons">
@@ -120,20 +164,20 @@
                         <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
                     </div>
                     <div class="manual-command">
-                        <input id="commandInput" type="text" placeholder="Type a command (optional)" aria-label="Type a command" />
+                        <input id="commandInput" type="text" placeholder="Type a command or answer..." aria-label="Type a command or answer" />
                         <button id="sendBtn" class="btn-secondary">Send</button>
                     </div>
                 </div>
-
-                <!-- #6: Removed duplicate Available Commands list -->
 
                 <div class="status-info">
                     <div id="status" class="status"></div>
                 </div>
 
-                <!-- #8: Grouped bottom buttons -->
+                <!-- #7: Stop button alongside Play Audio -->
                 <div class="btn-group-utility">
                     <button id="playBtn" class="btn-secondary">Play Audio</button>
+                    <button id="stopBtn" class="btn-stop">Stop</button>
+                    <button id="openBibleFromLessonBtn" class="btn-bible-lesson">NET Bible</button>
                     <button id="openIndexFromLessonBtn" class="btn-secondary">Index</button>
                 </div>
 
@@ -144,7 +188,6 @@
 
                 <div class="btn-exit-row">
                     <button id="exitBtn" class="btn-danger">Exit Lesson</button>
-                    <!-- #9: Debug toggle -->
                     <button id="debugToggleBtn" class="btn-debug-toggle">debug</button>
                 </div>
             </div>
@@ -162,27 +205,16 @@
             const panel = document.getElementById('debugPanel');
             function log(msg){ if(logEl){ logEl.textContent += msg + '\n'; } }
             window.__debugLog = log;
-            window.addEventListener('error', (e) => {
-                log('error: ' + (e.message || e.error));
-            });
+            window.addEventListener('error', (e) => { log('error: ' + (e.message || e.error)); });
             window.addEventListener('unhandledrejection', (e) => {
                 log('rejection: ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason)));
             });
             log('boot: inline logger ready');
 
-            // Debug toggle
             const toggleBtn = document.getElementById('debugToggleBtn');
             const closeBtn = document.getElementById('debugCloseBtn');
-            if (toggleBtn) {
-                toggleBtn.addEventListener('click', () => {
-                    if (panel) panel.classList.toggle('hidden');
-                });
-            }
-            if (closeBtn) {
-                closeBtn.addEventListener('click', () => {
-                    if (panel) panel.classList.add('hidden');
-                });
-            }
+            if (toggleBtn) toggleBtn.addEventListener('click', () => { if (panel) panel.classList.toggle('hidden'); });
+            if (closeBtn) closeBtn.addEventListener('click', () => { if (panel) panel.classList.add('hidden'); });
 
             const btn = document.getElementById('startBtn');
             if(btn){
@@ -195,17 +227,11 @@
                         log('warn: initializeSession not available');
                     }
                 });
-            } else {
-                log('warn: startBtn not found');
             }
 
-            setTimeout(() => {
-                if(!window.__appLoaded){
-                    log('warn: app.js did not load');
-                }
-            }, 2000);
+            setTimeout(() => { if(!window.__appLoaded){ log('warn: app.js did not load'); } }, 2000);
         })();
     </script>
-    <script src="app.js?v=6"></script>
+    <script src="app.js?v=7"></script>
 </body>
 </html>

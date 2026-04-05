@@ -3,51 +3,77 @@
   "course_id": "new_testament_foundations_01_matthew",
   "sequence": 5,
   "title": "Beginning of Galilean Ministry",
-  "objective": "Explore Jesus' move to Galilee, His calling of disciples, and the launch of His preaching and healing ministry.",
-  "duration": "8 minutes",
+  "objective": "Understand how Jesus launched his public ministry in Galilee, called his first disciples, and began healing the sick",
+  "duration_estimate": "8 minutes",
   "prerequisite": "ntf01_lesson_04",
   "required_passages": [
     {
       "passage_id": "mat_4_12_25",
       "reference": "Matthew 4:12-25",
-      "text": "Now when he heard that John had been arrested, he withdrew into Galilee. And leaving Nazareth he went and lived in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what was spoken by the prophet Isaiah might be fulfilled: 'The land of Zebulun and the land of Naphtali, the way of the sea, beyond the Jordan, Galilee of the Gentiles—the people dwelling in darkness have seen a great light, and for those dwelling in the region and shadow of death, on them a light has dawned.' From that time Jesus began to preach, saying, 'Repent, for the kingdom of heaven is at hand.' While walking by the Sea of Galilee, he saw two brothers, Simon (who is called Peter) and Andrew his brother, casting a net into the sea, for they were fishermen. And he said to them, 'Follow me, and I will make you fishers of men.' Immediately they left their nets and followed him. And going on from there he saw two other brothers, James the son of Zebedee and John his brother, in the boat with Zebedee their father, mending their nets, and he called them. Immediately they left the boat and their father and followed him. And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people. So his fame spread throughout all Syria, and they brought him all the sick, those afflicted with various diseases and pains, those oppressed by demons, those having seizures, and paralytics, and he healed them. And great crowds followed him from Galilee and the Decapolis, and from Jerusalem and Judea, and from beyond the Jordan."
+      "translation": "ESV",
+      "text": "Now when he heard that John had been arrested, he withdrew into Galilee. And leaving Nazareth he went and lived in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what was spoken by the prophet Isaiah might be fulfilled: 'The land of Zebulun and the land of Naphtali, the way of the sea, beyond the Jordan, Galilee of the Gentiles — the people dwelling in darkness have seen a great light, and for those sitting in the region and shadow of death, on them a light has dawned.' From that time Jesus began to preach, saying, 'Repent, for the kingdom of heaven is at hand.' While walking by the Sea of Galilee, he saw two brothers, Simon (who is called Peter) and Andrew his brother, casting a net into the sea, for they were fishermen. And he said to them, 'Follow me, and I will make you fishers of men.' Immediately they left their nets and followed him. And going on from there he saw two other brothers, James the son of Zebedee and John his brother, in the boat with Zebedee their father, mending their nets, and he called them. Immediately they left the boat and their father and followed him. And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people. So his fame spread throughout all Syria, and they brought him all the sick, those afflicted with various diseases and pains, those oppressed by demons, those having seizures, and paralytics, and he healed them. And great crowds followed him from Galilee and the Decapolis, and from Jerusalem and Judea, and from beyond the Jordan."
     }
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson five. Jesus now launches His public ministry in Galilee, calling disciples and demonstrating the kingdom's arrival through teaching and healing. This marks a new era in salvation history."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson five. In lesson four Jesus defeated the devil in the wilderness through obedience and the word of God. Now the testing is over and the ministry begins. Today we follow Jesus as he arrives in Galilee, preaches his first public message, calls his first disciples, and starts healing people across the region. These opening movements reveal both how Jesus works and what his mission is about.",
+      "word_count": 72
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Matthew chapter 4, verses 12 through 25. Now when he heard that John had been arrested, he withdrew into Galilee. And leaving Nazareth he went and lived in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what was spoken by the prophet Isaiah might be fulfilled: 'The land of Zebulun and the land of Naphtali, the way of the sea, beyond the Jordan, Galilee of the Gentiles—the people dwelling in darkness have seen a great light, and for those dwelling in the region and shadow of death, on them a light has dawned.' From that time Jesus began to preach, saying, 'Repent, for the kingdom of heaven is at hand.' While walking by the Sea of Galilee, he saw two brothers, Simon (who is called Peter) and Andrew his brother, casting a net into the sea, for they were fishermen. And he said to them, 'Follow me, and I will make you fishers of men.' Immediately they left their nets and followed him. And going on from there he saw two other brothers, James the son of Zebedee and John his brother, in the boat with Zebedee their father, mending their nets, and he called them. Immediately they left the boat and their father and followed him. And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people. So his fame spread throughout all Syria, and they brought him all the sick, those afflicted with various diseases and pains, those oppressed by demons, those having seizures, and paralytics, and he healed them. And great crowds followed him from Galilee and the Decapolis, and from Jerusalem and Judea, and from beyond the Jordan."
+      "sequence": 2,
+      "passage_id": "mat_4_12_25",
+      "audio_script": "Matthew chapter 4, verses 12 through 25. Now when he heard that John had been arrested, he withdrew into Galilee. And leaving Nazareth he went and lived in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what was spoken by the prophet Isaiah might be fulfilled: The land of Zebulun and the land of Naphtali, the way of the sea, beyond the Jordan, Galilee of the Gentiles — the people dwelling in darkness have seen a great light, and for those sitting in the region and shadow of death, on them a light has dawned. From that time Jesus began to preach, saying, Repent, for the kingdom of heaven is at hand. While walking by the Sea of Galilee, he saw two brothers, Simon who is called Peter and Andrew his brother, casting a net into the sea, for they were fishermen. And he said to them, Follow me, and I will make you fishers of men. Immediately they left their nets and followed him. And going on from there he saw two other brothers, James the son of Zebedee and John his brother, in the boat with Zebedee their father, mending their nets, and he called them. Immediately they left the boat and their father and followed him. And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people. So his fame spread throughout all Syria, and they brought him all the sick, those afflicted with various diseases and pains, those oppressed by demons, those having seizures, and paralytics, and he healed them. And great crowds followed him from Galilee and the Decapolis, and from Jerusalem and Judea, and from beyond the Jordan.",
+      "word_count": 270
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Jesus moved to Capernaum after John's arrest, fulfilling Isaiah's prophecy about light coming to Galilee. This region, looked down upon by Jerusalem elites, becomes the center of Jesus' ministry. He chose despised Galilee to show God's heart for the marginalized."
+      "sequence": 3,
+      "audio_script": "Galilee was regarded as a backwater by the religious establishment in Jerusalem. Isaiah had already called it Galilee of the Gentiles — a land of mixed population with reduced Jewish prestige. For Jesus to begin his ministry there rather than in Jerusalem carried a deliberate theological message: the light of the kingdom would first reach those considered peripheral. Capernaum became his base of operations throughout the Galilean period. The four fishermen he called — Peter, Andrew, James, and John — were working men without rabbinic credentials. Jewish teachers of the day chose their own students. Jesus reverses the convention entirely by going to them and issuing the invitation himself.",
+      "word_count": 114
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus' message mirrored John's: repent, the kingdom is near. But Jesus demonstrated kingdom power through healings and exorcisms. His calling of disciples was immediate and authoritative. They left everything to follow Him, showing discipleship's radical nature and Jesus' compelling presence."
+      "sequence": 4,
+      "audio_script": "Three things are worth noting carefully. First, Jesus' core message echoes John's: repent, for the kingdom of heaven is at hand. But where John pointed forward to someone coming, Jesus announces that the kingdom has arrived with his own presence. Second, Matthew uses the word immediately twice when describing the disciples' response. They leave nets, boats, and in James and John's case their father. The urgency and totality of their response mirrors the authority Jesus carries. Third, verse 23 gives Matthew's summary of Jesus' ministry in three verbs: teaching, proclaiming, and healing. These are not separate programs. Together they form one integrated announcement that the reign of God has broken into human experience and can be seen, heard, and felt.",
+      "word_count": 127
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Key themes include prophetic fulfillment, light overcoming darkness, the kingdom's arrival, radical discipleship, and Jesus' compassion for the suffering. His ministry validates His message; words and works confirm His identity as Messiah."
+      "sequence": 5,
+      "audio_script": "Two themes dominate this passage. The first is light breaking into darkness. Matthew cites Isaiah 9 to establish that Jesus' presence in Galilee is not an accident of geography but a fulfillment of ancient prophecy. Wherever Jesus goes, darkness does not simply retreat — light actively dawns. The second theme is the radical cost of discipleship. Those who follow Jesus leave what they have without negotiation or delay. Their immediate response is not merely biographical detail. It is Matthew's portrait of what genuine response to the kingdom looks like: complete reorientation of life around the one calling.",
+      "word_count": 100
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: What does the disciples' immediate response teach us about following Jesus? How do Jesus' healings demonstrate that the kingdom is not just future but breaking into the present?"
+      "sequence": 6,
+      "audio_script": "Review question: What three activities does Matthew use in verse 23 to summarize Jesus' ministry throughout Galilee? Answer: Teaching in the synagogues, proclaiming the gospel of the kingdom, and healing every disease and affliction among the people.",
+      "correct_answer": "teaching, proclaiming the gospel of the kingdom, and healing",
+      "acceptable_variants": [
+        "teaching proclaiming and healing",
+        "teaching in synagogues preaching the kingdom and healing diseases",
+        "he taught preached and healed the people",
+        "proclaiming the kingdom teaching and healing every affliction"
+      ],
+      "word_count": 43
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus launched His ministry with power and purpose, calling followers to join His mission. His works authenticated His words. Next, we'll hear His greatest sermon on the mountain. Great progress today."
+      "sequence": 7,
+      "audio_script": "You have completed lesson five. Jesus has arrived in Galilee, called his first disciples, and begun the ministry that will define the rest of Matthew's gospel. In lesson six we enter the Sermon on the Mount, one of the most significant blocks of teaching in all of Scripture. We begin with the Beatitudes.",
+      "word_count": 54
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "Capernaum",
+      "definition": "A fishing town on the northern shore of the Sea of Galilee that became Jesus' base of operations during his Galilean ministry"
+    },
+    {
+      "term": "kingdom of heaven",
+      "definition": "Matthew's preferred phrase for the reign of God — the same concept other gospels call the kingdom of God — which Jesus announced as having arrived with his ministry"
     }
   ],
   "metadata": {
@@ -55,8 +81,9 @@
     "testament": "new",
     "book": "matthew",
     "chapter_range": "4:12-25",
-    "theological_themes": ["prophetic_fulfillment", "kingdom_of_god", "discipleship", "healing", "gospel_proclamation"],
-    "time_period": "circa_27_28_ad",
-    "canonical_order": 40
+    "theological_themes": ["kingdom_of_heaven", "discipleship", "prophetic_fulfillment", "healing", "light_and_darkness"],
+    "target_audience": "adults",
+    "created_date": "2026-04-05",
+    "version": "1.0"
   }
 }

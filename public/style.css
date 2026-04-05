@@ -25,15 +25,10 @@ body {
     margin-bottom: 30px;
 }
 
-.header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
+.header h1 { font-size: 2.5em; margin-bottom: 10px; }
+.header p { font-size: 1.1em; opacity: 0.9; }
 
-.header p {
-    font-size: 1.1em;
-    opacity: 0.9;
-}
+/* ─── Splash ─────────────────────────────────────────────────────────────── */
 
 .splash {
     background: white;
@@ -43,24 +38,32 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
-.splash h2 {
-    font-size: 2em;
+/* #6: Resume context */
+.resume-context {
+    background: #f0f4ff;
+    border: 1px solid #d0d9f7;
+    border-radius: 8px;
+    padding: 12px 16px;
     margin-bottom: 20px;
+    text-align: left;
+}
+
+.resume-label {
+    font-size: 0.8em;
+    color: #667eea;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+}
+
+.resume-detail {
+    font-size: 0.95em;
     color: #333;
+    font-weight: 500;
 }
 
-.splash p {
-    color: #666;
-    margin-bottom: 30px;
-    font-size: 1.1em;
-}
-
-.lesson {
-    background: white;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-}
+/* ─── Index ──────────────────────────────────────────────────────────────── */
 
 .index-window {
     background: white;
@@ -77,15 +80,8 @@ body {
     margin-bottom: 8px;
 }
 
-.index-header h2 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-.index-subtitle {
-    color: #666;
-    margin-bottom: 12px;
-}
+.index-header h2 { font-size: 1.5em; color: #333; }
+.index-subtitle { color: #666; margin-bottom: 12px; }
 
 #indexSearch {
     width: 100%;
@@ -96,11 +92,7 @@ body {
     margin-bottom: 14px;
 }
 
-.index-content {
-    max-height: 65vh;
-    overflow: auto;
-    padding-right: 4px;
-}
+.index-content { max-height: 65vh; overflow: auto; padding-right: 4px; }
 
 .index-course {
     border: 1px solid #ececec;
@@ -109,18 +101,8 @@ body {
     margin-bottom: 12px;
 }
 
-/* #3: Course-level progress header */
-.index-course-title {
-    font-weight: 700;
-    color: #2f3a7e;
-    margin-bottom: 4px;
-}
-
-.index-course-progress {
-    font-size: 0.8em;
-    color: #888;
-    margin-bottom: 8px;
-}
+.index-course-title { font-weight: 700; color: #2f3a7e; margin-bottom: 4px; }
+.index-course-progress { font-size: 0.8em; color: #888; margin-bottom: 8px; }
 
 .index-course-progress-bar {
     height: 4px;
@@ -137,10 +119,7 @@ body {
     transition: width 0.3s ease;
 }
 
-.index-lesson-list {
-    display: grid;
-    gap: 8px;
-}
+.index-lesson-list { display: grid; gap: 8px; }
 
 .index-lesson-item {
     display: flex;
@@ -152,21 +131,9 @@ body {
     padding: 8px 10px;
 }
 
-/* #3: Completed lesson styling in index */
-.index-lesson-item.index-lesson-done {
-    background: #f0fff4;
-}
-
-.index-lesson-meta {
-    color: #444;
-    font-size: 0.9em;
-}
-
-.lesson-done-badge {
-    color: #4CAF50;
-    font-weight: bold;
-    margin-right: 2px;
-}
+.index-lesson-item.index-lesson-done { background: #f0fff4; }
+.index-lesson-meta { color: #444; font-size: 0.9em; }
+.lesson-done-badge { color: #4CAF50; font-weight: bold; margin-right: 2px; }
 
 .index-open-btn {
     background: #667eea;
@@ -179,18 +146,17 @@ body {
     white-space: nowrap;
 }
 
-.index-open-btn:hover {
-    background: #566fe0;
-}
+.index-open-btn:hover { background: #566fe0; }
 
-/* #9: Debug panel - always hidden until toggled */
+/* ─── Debug ──────────────────────────────────────────────────────────────── */
+
 .debug-panel {
     background: #111;
     color: #d1f7c4;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 15px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 12px;
     max-height: 180px;
     overflow: auto;
@@ -215,8 +181,15 @@ body {
     border-radius: 3px;
 }
 
-.hidden {
-    display: none !important;
+.hidden { display: none !important; }
+
+/* ─── Lesson screen ──────────────────────────────────────────────────────── */
+
+.lesson {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .lesson-header {
@@ -226,18 +199,21 @@ body {
     padding-bottom: 16px;
 }
 
-.lesson-header h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 10px;
+.lesson-header h2 { font-size: 1.8em; color: #333; margin-bottom: 8px; }
+
+/* #10: Objective line */
+.lesson-objective {
+    font-size: 0.88em;
+    color: #667eea;
+    font-style: italic;
+    margin-bottom: 6px;
+    line-height: 1.4;
 }
 
-.lesson-id {
-    color: #999;
-    font-size: 0.9em;
-}
+.lesson-id { color: #999; font-size: 0.9em; }
 
-/* #7: 7-dot step indicator */
+/* ─── Step indicator ─────────────────────────────────────────────────────── */
+
 .segment-steps {
     display: flex;
     align-items: center;
@@ -266,12 +242,7 @@ body {
     transition: all 0.25s ease;
 }
 
-.step-label {
-    font-size: 0.6em;
-    color: #bbb;
-    text-align: center;
-    white-space: nowrap;
-}
+.step-label { font-size: 0.6em; color: #bbb; text-align: center; white-space: nowrap; }
 
 .step-divider {
     flex: 1;
@@ -282,18 +253,9 @@ body {
     transition: background 0.25s ease;
 }
 
-.step-item.step-done .step-dot {
-    background: #4CAF50;
-    border-color: #4CAF50;
-}
-
-.step-item.step-done .step-label {
-    color: #4CAF50;
-}
-
-.step-item.step-done + .step-divider {
-    background: #4CAF50;
-}
+.step-item.step-done .step-dot { background: #4CAF50; border-color: #4CAF50; }
+.step-item.step-done .step-label { color: #4CAF50; }
+.step-item.step-done + .step-divider { background: #4CAF50; }
 
 .step-item.step-current .step-dot {
     background: #667eea;
@@ -302,10 +264,9 @@ body {
     transform: scale(1.25);
 }
 
-.step-item.step-current .step-label {
-    color: #667eea;
-    font-weight: 700;
-}
+.step-item.step-current .step-label { color: #667eea; font-weight: 700; }
+
+/* ─── Audio display ──────────────────────────────────────────────────────── */
 
 .audio-display {
     background: #f5f7fa;
@@ -316,18 +277,153 @@ body {
     min-height: 80px;
 }
 
-.audio-script {
-    color: #555;
-    line-height: 1.6;
-    font-size: 1em;
+/* #8: Passage reference badge */
+.passage-badge {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    font-size: 0.75em;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+    letter-spacing: 0.02em;
 }
 
-.controls {
+.audio-script { color: #555; line-height: 1.6; font-size: 1em; }
+
+/* #1: Answer feedback banner */
+.answer-feedback {
+    margin-top: 12px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.answer-correct {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.answer-incorrect {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffcc80;
+}
+
+/* ─── Vocabulary panel ───────────────────────────────────────────────────── */
+
+/* #5 */
+.vocabulary-panel {
+    background: #f9f9ff;
+    border: 1px solid #e0e4ff;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 0 0 16px;
+}
+
+.vocab-header {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.vocabulary-list { display: grid; gap: 10px; }
+
+.vocab-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.vocab-term {
+    font-weight: 700;
+    color: #2f3a7e;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.vocab-term::after { content: ':'; }
+
+.vocab-def { color: #555; font-size: 0.88em; line-height: 1.4; }
+
+/* ─── Next course prompt ─────────────────────────────────────────────────── */
+
+/* #4 */
+.next-course-prompt {
+    background: linear-gradient(135deg, #f0f4ff 0%, #faf0ff 100%);
+    border: 1px solid #d0d9f7;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 0 0 16px;
     text-align: center;
-    margin: 20px 0;
 }
 
-/* #10: TTS settings as collapsible details */
+.next-course-label {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #667eea;
+    margin-bottom: 6px;
+}
+
+.next-course-detail {
+    font-size: 0.95em;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.next-course-btn {
+    margin: 0 !important;
+    padding: 10px 24px !important;
+}
+
+/* ─── Controls ───────────────────────────────────────────────────────────── */
+
+.controls { text-align: center; margin: 20px 0; }
+
+/* #9: Mic pulse animation */
+.btn-mic {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.btn-mic:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6); }
+.btn-mic:active { transform: translateY(0); background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); }
+
+.btn-mic.mic-listening {
+    animation: micPulse 1.4s ease-in-out infinite;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.5);
+}
+
+@keyframes micPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.55); }
+    60%  { box-shadow: 0 0 0 14px rgba(76, 175, 80, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+}
+
+.mic-status { font-size: 0.9em; color: #999; margin-top: 10px; }
+
+/* ─── TTS settings ───────────────────────────────────────────────────────── */
+
 .tts-settings {
     background: #f9f9ff;
     padding: 10px 12px;
@@ -347,50 +443,18 @@ body {
     gap: 4px;
 }
 
-.tts-settings summary::-webkit-details-marker {
-    display: none;
-}
+.tts-settings summary::-webkit-details-marker { display: none; }
+.tts-settings summary::after { content: ' ▸'; font-size: 0.8em; color: #999; }
+.tts-settings[open] summary { margin-bottom: 10px; }
+.tts-settings[open] summary::after { content: ' ▾'; }
 
-.tts-settings summary::after {
-    content: ' ▸';
-    font-size: 0.8em;
-    color: #999;
-}
+.tts-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.tts-row label { width: 60px; font-size: 0.9em; color: #555; }
+.tts-row select, .tts-row input[type="range"] { flex: 1; }
+#rateValue { width: 48px; text-align: right; font-size: 0.85em; color: #555; }
 
-.tts-settings[open] summary {
-    margin-bottom: 10px;
-}
+/* ─── Command buttons ────────────────────────────────────────────────────── */
 
-.tts-settings[open] summary::after {
-    content: ' ▾';
-}
-
-.tts-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-}
-
-.tts-row label {
-    width: 60px;
-    font-size: 0.9em;
-    color: #555;
-}
-
-.tts-row select,
-.tts-row input[type="range"] {
-    flex: 1;
-}
-
-#rateValue {
-    width: 48px;
-    text-align: right;
-    font-size: 0.85em;
-    color: #555;
-}
-
-/* #5 + #6: Command buttons with contextual states */
 .quick-commands {
     background: #f7f8ff;
     padding: 15px;
@@ -398,18 +462,9 @@ body {
     margin: 0 0 16px;
 }
 
-.quick-commands h3 {
-    color: #667eea;
-    margin-bottom: 10px;
-    font-size: 0.95em;
-}
+.quick-commands h3 { color: #667eea; margin-bottom: 10px; font-size: 0.95em; }
 
-.command-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 12px;
-}
+.command-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 
 .btn-chip {
     border: 1px solid #dfe3ff;
@@ -423,7 +478,6 @@ body {
     opacity: 0.4;
 }
 
-/* next action to take */
 .btn-chip.btn-chip-next {
     background: #667eea;
     color: white;
@@ -433,11 +487,8 @@ body {
     box-shadow: 0 2px 8px rgba(102, 126, 234, 0.35);
 }
 
-.btn-chip.btn-chip-next:hover {
-    background: #566fe0;
-}
+.btn-chip.btn-chip-next:hover { background: #566fe0; }
 
-/* already completed segment */
 .btn-chip.btn-chip-done {
     opacity: 0.45;
     color: #888;
@@ -446,22 +497,10 @@ body {
     cursor: default;
 }
 
-/* current/replay */
-.btn-chip.btn-chip-current {
-    opacity: 0.8;
-    border-color: #667eea;
-    color: #667eea;
-}
+.btn-chip.btn-chip-current { opacity: 0.8; border-color: #667eea; color: #667eea; }
+.btn-chip.btn-chip-current:hover { background: #eef0ff; }
 
-.btn-chip.btn-chip-current:hover {
-    background: #eef0ff;
-}
-
-.manual-command {
-    display: flex;
-    gap: 8px;
-}
-
+.manual-command { display: flex; gap: 8px; }
 .manual-command input {
     flex: 1;
     padding: 10px 12px;
@@ -470,34 +509,7 @@ body {
     font-size: 0.9em;
 }
 
-.btn-mic {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border: none;
-    padding: 20px 40px;
-    font-size: 1.2em;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    transition: all 0.3s ease;
-    margin-bottom: 15px;
-}
-
-.btn-mic:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
-}
-
-.btn-mic:active {
-    transform: translateY(0);
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-}
-
-.mic-status {
-    font-size: 0.9em;
-    color: #999;
-    margin-top: 10px;
-}
+/* ─── Status ─────────────────────────────────────────────────────────────── */
 
 .status-info {
     margin: 0 0 16px;
@@ -507,31 +519,33 @@ body {
     min-height: 30px;
 }
 
-.status {
-    color: #666;
-    font-size: 0.95em;
-}
+.status { color: #666; font-size: 0.95em; }
 
-/* #8: Grouped bottom buttons */
+/* ─── Bottom button groups ───────────────────────────────────────────────── */
+
 .btn-group-utility {
     display: flex;
     gap: 8px;
     margin-bottom: 10px;
 }
 
-.btn-group-utility button {
-    flex: 1;
+/* #7: Stop button */
+.btn-stop {
+    background: #e8eaed;
+    color: #444;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    white-space: nowrap;
 }
 
-.btn-group-nav {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 10px;
-}
+.btn-stop:hover { background: #d0d4da; }
 
-.btn-group-nav button {
-    flex: 1;
-}
+.btn-group-nav { display: flex; gap: 8px; margin-bottom: 10px; }
+.btn-group-nav button { flex: 1; }
 
 .btn-exit-row {
     display: flex;
@@ -553,20 +567,15 @@ body {
     transition: background 0.2s ease;
 }
 
-.btn-nav:hover {
-    background: #d8dce0;
-}
+.btn-nav:hover { background: #d8dce0; }
 
 .btn-nav-next {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
 }
 
-.btn-nav-next:hover {
-    background: linear-gradient(135deg, #566fe0 0%, #6a3d92 100%);
-}
+.btn-nav-next:hover { background: linear-gradient(135deg, #566fe0 0%, #6a3d92 100%); }
 
-/* #9: Debug toggle */
 .btn-debug-toggle {
     background: none;
     border: none;
@@ -578,9 +587,9 @@ body {
     text-decoration: underline;
 }
 
-.btn-debug-toggle:hover {
-    color: #999;
-}
+.btn-debug-toggle:hover { color: #999; }
+
+/* ─── Global buttons ─────────────────────────────────────────────────────── */
 
 .btn-primary, .btn-secondary, .btn-danger {
     border: none;
@@ -593,33 +602,242 @@ body {
     margin-bottom: 10px;
 }
 
-.btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); }
+
+.btn-secondary { background: #4CAF50; color: white; }
+.btn-secondary:hover { background: #45a049; }
+
+.btn-danger { background: #f44336; color: white; }
+.btn-danger:hover { background: #da190b; }
+
+/* ─── NET Bible reader panel ─────────────────────────────────────────────── */
+
+.bible-panel {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.bible-panel-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.bible-panel-title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bible-panel-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333;
+}
+
+.bible-net-badge {
+    background: linear-gradient(135deg, #6a3d92 0%, #764ba2 100%);
     color: white;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    cursor: default;
 }
 
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+.bible-net-description {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
 }
 
-.btn-secondary {
-    background: #4CAF50;
+.btn-bible-close {
+    background: none;
+    border: 1px solid #ddd;
+    color: #888;
+    font-size: 1em;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.btn-bible-close:hover { background: #f5f5f5; color: #333; border-color: #bbb; }
+
+.bible-search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.bible-search-input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95em;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.bible-search-input:focus { border-color: #764ba2; box-shadow: 0 0 0 2px rgba(118, 75, 162, 0.12); }
+
+.btn-bible-search {
+    background: linear-gradient(135deg, #6a3d92 0%, #764ba2 100%);
     color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
 }
 
-.btn-secondary:hover {
-    background: #45a049;
+.btn-bible-search:hover { opacity: 0.88; }
+
+.bible-result {
+    max-height: 55vh;
+    overflow-y: auto;
+    padding-right: 4px;
 }
 
-.btn-danger {
-    background: #f44336;
+.bible-hint {
+    color: #aaa;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 24px 0;
+    line-height: 1.5;
+}
+
+.bible-loading {
+    color: #999;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bible-error {
+    background: #fff3f3;
+    border: 1px solid #ffd0d0;
+    color: #c0392b;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.bible-passage-ref {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #2f3a7e;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.bible-chapter-head {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #764ba2;
+    margin: 16px 0 8px;
+}
+
+.bible-verses { display: grid; gap: 10px; }
+
+.bible-verse-line {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    line-height: 1.65;
+}
+
+.bible-verse-num {
+    font-size: 0.72em;
+    font-weight: 700;
+    color: #764ba2;
+    min-width: 22px;
+    text-align: right;
+    flex-shrink: 0;
+    padding-top: 2px;
+}
+
+.bible-verse-text {
+    font-size: 0.97em;
+    color: #333;
+}
+
+.bible-attribution {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+    font-size: 0.75em;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Passage badge — clickable button style */
+.passage-badge {
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.passage-badge:hover { opacity: 0.82; transform: translateY(-1px); }
+
+/* Splash-screen Bible button */
+.btn-bible-splash {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #6a3d92 0%, #764ba2 100%);
     color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    margin-bottom: 10px;
 }
 
-.btn-danger:hover {
-    background: #da190b;
+.btn-bible-splash:hover { opacity: 0.88; }
+
+/* Lesson utility row Bible button */
+.btn-bible-lesson {
+    background: linear-gradient(135deg, #6a3d92 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
 }
+
+.btn-bible-lesson:hover { opacity: 0.88; }
+
+/* ─── Error ──────────────────────────────────────────────────────────────── */
 
 .error {
     background: white;
@@ -629,29 +847,17 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
-.error p {
-    color: #f44336;
-    font-size: 1.1em;
-    margin-bottom: 20px;
-}
+.error p { color: #f44336; font-size: 1.1em; margin-bottom: 20px; }
+
+/* ─── Responsive ─────────────────────────────────────────────────────────── */
 
 @media (max-width: 600px) {
-    .header h1 {
-        font-size: 1.8em;
-    }
+    .header h1 { font-size: 1.8em; }
 
-    .tts-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+    .tts-row { flex-direction: column; align-items: flex-start; }
+    .tts-row label { width: auto; }
 
-    .tts-row label {
-        width: auto;
-    }
-
-    .manual-command {
-        flex-direction: column;
-    }
+    .manual-command { flex-direction: column; }
 
     .btn-primary, .btn-secondary, .btn-danger {
         width: 100%;
@@ -659,7 +865,16 @@ body {
         margin-bottom: 10px;
     }
 
-    .step-label {
-        font-size: 0.55em;
-    }
+    .btn-group-utility { flex-wrap: wrap; }
+
+    .step-label { font-size: 0.55em; }
+
+    .vocab-item { grid-template-columns: 1fr; gap: 3px; }
+    .vocab-term::after { content: ''; }
+    .vocab-term { display: block; }
+
+    .bible-search-row { flex-direction: column; }
+    .btn-bible-search { width: 100%; }
+    .bible-result { max-height: 60vh; }
+    .btn-bible-lesson { padding: 12px 10px; font-size: 0.85em; }
 }

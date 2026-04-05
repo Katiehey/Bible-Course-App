@@ -3,51 +3,77 @@
   "course_id": "new_testament_foundations_01_matthew",
   "sequence": 11,
   "title": "Parables of the Kingdom",
-  "objective": "Understand Jesus' use of parables to reveal kingdom mysteries, showing how God's reign grows and transforms despite opposition.",
-  "duration": "9 minutes",
+  "objective": "Understand how Jesus uses parables in Matthew 13 to reveal and conceal the mysteries of the kingdom, and what each parable teaches about how God's reign works in the world",
+  "duration_estimate": "10 minutes",
   "prerequisite": "ntf01_lesson_10",
   "required_passages": [
     {
       "passage_id": "mat_13_1_52",
       "reference": "Matthew 13:1-52",
-      "text": "That same day Jesus went out of the house and sat beside the sea. And great crowds gathered about him, so that he got into a boat and sat down. And the whole crowd stood on the beach. And he told them many things in parables, saying: 'A sower went out to sow. And as he sowed, some seeds fell along the path, and the birds came and devoured them. Other seeds fell on rocky ground, where they did not have much soil, and immediately they sprang up, since they had no depth of soil, but when the sun rose they were scorched. And since they had no root, they withered away. Other seeds fell among thorns, and the thorns grew up and choked them. Other seeds fell on good soil and produced grain, some a hundredfold, some sixty, some thirty. He who has ears, let him hear.' Then the disciples came and said to him, 'Why do you speak to them in parables?' And he answered them, 'To you it has been given to know the secrets of the kingdom of heaven, but to them it has not been given. For to the one who has, more will be given, and he will have an abundance, but from the one who has not, even what he has will be taken away. This is why I speak to them in parables, because seeing they do not see, and hearing they do not hear, nor do they understand.' The kingdom of heaven may be compared to a man who sowed good seed in his field, but while his men were sleeping, his enemy came and sowed weeds among the wheat and went away. So when the plants came up and bore grain, then the weeds appeared also. And the servants of the master of the house came and said to him, 'Master, did you not sow good seed in your field? How then does it have weeds?' He said to them, 'An enemy has done this.' So the servants said to him, 'Then do you want us to go and gather them?' But he said, 'No, lest in gathering the weeds you root up the wheat along with them. Let both grow together until the harvest, and at harvest time I will tell the reapers, Gather the weeds first and bind them in bundles to be burned, but gather the wheat into my barn.' He put another parable before them, saying, 'The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants and becomes a tree, so that the birds of the air come and make nests in its branches.' He told them another parable. 'The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.' The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field. Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it. Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind. When it was full, men drew it ashore and sat down and sorted the good into containers but threw away the bad. So it will be at the end of the age. The angels will come out and separate the evil from the righteous and throw them into the fiery furnace. In that place there will be weeping and gnashing of teeth. Have you understood all these things? They said to him, 'Yes.' And he said to them, 'Therefore every scribe who has been trained for the kingdom of heaven is like a master of a house, who brings out of his treasure what is new and what is old.'"
+      "translation": "ESV",
+      "text": "That same day Jesus went out of the house and sat beside the sea. And great crowds gathered about him, so that he got into a boat and sat down. And the whole crowd stood on the beach. And he told them many things in parables, saying: 'A sower went out to sow. And as he sowed, some seeds fell along the path, and the birds came and devoured them. Other seeds fell on rocky ground, where they did not have much soil, and immediately they sprang up, since they had no depth of soil, but when the sun rose they were scorched. And since they had no root, they withered away. Other seeds fell among thorns, and the thorns grew up and choked them. Other seeds fell on good soil and produced grain, some a hundredfold, some sixty, some thirty. He who has ears, let him hear.' Then the disciples came and said to him, 'Why do you speak to them in parables?' And he answered them, 'To you it has been given to know the secrets of the kingdom of heaven, but to them it has not been given. For to the one who has, more will be given, and he will have an abundance, but from the one who has not, even what he has will be taken away. This is why I speak to them in parables, because seeing they do not see, and hearing they do not hear, nor do they understand.' He put another parable before them, saying, 'The kingdom of heaven may be compared to a man who sowed good seed in his field, but while his men were sleeping, his enemy came and sowed weeds among the wheat and went away. So when the plants came up and bore grain, then the weeds appeared also. But he said, Let both grow together until the harvest, and at harvest time I will tell the reapers, Gather the weeds first and bind them in bundles to be burned, but gather the wheat into my barn.' He put another parable before them, saying, 'The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants and becomes a tree, so that the birds of the air come and make nests in its branches.' He told them another parable. 'The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.' The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field. Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it. Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind. When it was full, men drew it ashore and sat down and sorted the good into containers but threw away the bad. So it will be at the end of the age. The angels will come out and separate the evil from the righteous and throw them into the fiery furnace. Have you understood all these things? They said to him, Yes. And he said to them, Therefore every scribe who has been trained for the kingdom of heaven is like a master of a house, who brings out of his treasure what is new and what is old.'"
     }
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson eleven. Jesus now teaches through parables, revealing kingdom mysteries. These stories use everyday images to convey profound truths about how God's reign works in the world."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson eleven. In lesson ten we watched Jesus heal the sick, calm a storm, and drive out demons, demonstrating authority over every domain that afflicts human beings. Now Matthew takes us to a day by the sea where Jesus sits in a boat and begins teaching the crowds through parables. Chapter 13 contains seven parables about the kingdom of heaven. Today we work through the major ones and ask what they tell us about how God's reign operates in the world — and what it demands of those who encounter it.",
+      "word_count": 90
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Matthew chapter 13, verses 1 through 52. That same day Jesus went out of the house and sat beside the sea. And great crowds gathered about him, so that he got into a boat and sat down. And he told them many things in parables, saying: 'A sower went out to sow. And as he sowed, some seeds fell along the path, and the birds came and devoured them. Other seeds fell on rocky ground, where they did not have much soil, and immediately they sprang up, since they had no depth of soil, but when the sun rose they were scorched. Other seeds fell among thorns, and the thorns grew up and choked them. Other seeds fell on good soil and produced grain, some a hundredfold, some sixty, some thirty.' Then the disciples came and said to him, 'Why do you speak to them in parables?' And he answered them, 'To you it has been given to know the secrets of the kingdom of heaven, but to them it has not been given.' The kingdom of heaven may be compared to a man who sowed good seed in his field, but while his men were sleeping, his enemy came and sowed weeds among the wheat. Let both grow together until the harvest. The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants. The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened. The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field. Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it. Have you understood all these things? They said to him, 'Yes.'"
+      "sequence": 2,
+      "passage_id": "mat_13_1_52",
+      "audio_script": "Matthew chapter 13, verses 1 through 52. That same day Jesus went out of the house and sat beside the sea. And great crowds gathered about him, so that he got into a boat and sat down. And he told them many things in parables, saying: A sower went out to sow. And as he sowed, some seeds fell along the path, and the birds came and devoured them. Other seeds fell on rocky ground, where they did not have much soil, and immediately they sprang up, but when the sun rose they were scorched. Other seeds fell among thorns, and the thorns grew up and choked them. Other seeds fell on good soil and produced grain, some a hundredfold, some sixty, some thirty. He who has ears, let him hear. Then the disciples came and said to him, Why do you speak to them in parables? And he answered them, To you it has been given to know the secrets of the kingdom of heaven, but to them it has not been given. This is why I speak to them in parables, because seeing they do not see, and hearing they do not hear, nor do they understand. He put another parable before them, saying, The kingdom of heaven may be compared to a man who sowed good seed in his field, but while his men were sleeping, his enemy came and sowed weeds among the wheat. Let both grow together until the harvest. The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants and becomes a tree, so that the birds of the air come and make nests in its branches. The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened. The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field. Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it. Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind, and at harvest time the angels will separate the evil from the righteous. Have you understood all these things? They said to him, Yes. And he said to them, Therefore every scribe trained for the kingdom of heaven is like a master of a house, who brings out of his treasure what is new and what is old.",
+      "word_count": 390
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Matthew 13 contains seven parables about the kingdom. Jesus explains that parables both reveal and conceal truth. To those with receptive hearts, they illuminate mysteries. To hard hearts, they remain opaque. This chapter marks a shift in His teaching method as opposition grows."
+      "sequence": 3,
+      "audio_script": "By the time we reach Matthew 13, opposition to Jesus has been building among the religious leaders. The chapter opens with Jesus sitting outside the house — a spatial detail that some scholars read as symbolic of a shift in his relationship to official Judaism. He now teaches the crowds in parables, and when the disciples ask why, his answer is striking: the parables both reveal and conceal. To those who have already received what God is giving, understanding deepens. To those who have hardened themselves to it, even what they have is lost. A parable is not a simple story with a moral. It is a story that forces the hearer to take a side. You either see or you do not. The parables of Matthew 13 put the crowd in the position of choosing.",
+      "word_count": 136
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "The sower parable shows varied responses to the gospel. Weeds among wheat explain evil's coexistence with good until judgment. Mustard seed and leaven depict the kingdom's surprising growth from small beginnings. Hidden treasure and pearl emphasize the kingdom's supreme value, worth sacrificing everything. The net speaks of final separation."
+      "sequence": 4,
+      "audio_script": "The parable of the sower is the key that unlocks the rest. Jesus himself explains it: the seed is the word of the kingdom. The four soils represent four different postures toward that word. The path — no penetration, the word is taken away immediately. The rocky ground — initial enthusiasm without root, it falls away under pressure. The thorny ground — the word is received but choked by the anxiety of wealth and the cares of life. The good soil — the word takes root and produces fruit in varying measure. Notice that three out of four soils fail. The kingdom's advance is not triumphant in every encounter. The wheat and weeds parable extends this — evil and good coexist until God's final harvest. The mustard seed and leaven parables counter discouragement: the kingdom begins invisibly small and works invisibly from within, but its end result is larger than anything that could be predicted from its beginning. The hidden treasure and pearl parables address the response the kingdom demands: when you find it, it is worth everything.",
+      "word_count": 178
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Central themes include kingdom growth despite opposition, the mystery of varied responses to the gospel, patience until final judgment, and the kingdom's infinite worth. These parables reveal that God's reign advances through humble, hidden means before its glorious revelation."
+      "sequence": 5,
+      "audio_script": "Three themes run through all seven parables. The first is the paradox of growth: the kingdom begins in obscurity, faces opposition, and spreads through hidden means — yet its final scope is magnificent. The second theme is the co-existence of good and evil until the end. Jesus does not promise a world purified before his return. Weeds grow alongside wheat. The net gathers every kind. Separation happens at the harvest. The third theme is the surpassing worth of the kingdom. The merchant and the farmer both discover something of such value that it reorders every other priority. Neither buys the treasure and then the pearl on the side. They sell everything. The kingdom, when truly found, is not one item among many.",
+      "word_count": 128
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Reflect on this: Which soil type describes your heart's condition? How does the mustard seed's growth encourage patience when kingdom work seems small? What would you sacrifice to possess the kingdom's treasure?"
+      "sequence": 6,
+      "audio_script": "Review question: In the parable of the sower, what do the four different types of soil represent? Answer: They represent four different responses to the word of the kingdom — those who never receive it, those who receive it temporarily without root, those who receive it but are choked by worldly cares, and those who receive it and bear fruit.",
+      "correct_answer": "Four different responses to the word of the kingdom: no reception, temporary reception without root, reception choked by worldly cares, and fruitful reception",
+      "acceptable_variants": [
+        "different kinds of hearts that receive the gospel in different ways",
+        "people who hear but reject, hear and fall away, hear but are choked by worry, and hear and bear fruit",
+        "the path rocky ground thorns and good soil represent four responses to god's word",
+        "four types of soil showing how people receive and respond to the word"
+      ],
+      "word_count": 62
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "The parables reveal the kingdom's hidden yet irresistible advance. God's reign grows through humble means, demanding wholehearted commitment. Next, we'll witness Jesus' passion and resurrection. Excellent work today."
+      "sequence": 7,
+      "audio_script": "You have completed lesson eleven. The parables have shown us a kingdom that operates differently from every human empire: it begins small, grows hidden, faces resistance, and yet cannot ultimately be stopped. In our final lesson we come to Matthew 26 through 28 — the passion and resurrection, the event toward which the entire gospel has been moving.",
+      "word_count": 58
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "parable",
+      "definition": "A short story drawn from everyday life that carries a deeper meaning about the kingdom of God; Jesus uses parables both to illuminate truth for receptive hearers and to expose the hardness of resistant ones"
+    },
+    {
+      "term": "mysteries of the kingdom",
+      "definition": "Truths about God's reign that were hidden in the Old Testament but are now being disclosed through Jesus; the Greek word mysterion refers not to something puzzling but to something previously concealed that is now being revealed"
     }
   ],
   "metadata": {
@@ -55,8 +81,9 @@
     "testament": "new",
     "book": "matthew",
     "chapter_range": "13:1-52",
-    "theological_themes": ["parables", "kingdom_of_god", "sower", "mustard_seed", "hidden_treasure", "judgment"],
-    "time_period": "circa_28_29_ad",
-    "canonical_order": 40
+    "theological_themes": ["parables", "kingdom_growth", "varied_response_to_gospel", "judgment", "surpassing_worth_of_kingdom"],
+    "target_audience": "adults",
+    "created_date": "2026-04-05",
+    "version": "1.0"
   }
 }

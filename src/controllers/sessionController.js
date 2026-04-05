@@ -15,8 +15,7 @@ class SessionController {
     this.progress = new ProgressTracker(logger);
     this.progress.setCurrentLesson(userId, lesson.course_id, lesson.lesson_id);
     this.progress.updateSessionState(userId, 'idle');
-    
-    // wire audio to progress
+
     this.audio.on('ended', () => {
       if(this.audio.currentSegment){
         this.progress.recordSegmentCompletion(userId, lesson.course_id, lesson.lesson_id, this.fsm.segmentIdx);
@@ -25,18 +24,25 @@ class SessionController {
   }
 
   handleCommand(input){
+    // If we're in the question segment and the input isn't a navigation command,
+    // treat it as an answer attempt rather than an unrecognised command.
+    if(this.fsm.current === 'question'){
+      const parsed = this.parser.parse(input);
+      if(!parsed || !parsed.recognized){
+        return this.evaluateAnswer(input);
+      }
+    }
+
     const parsed = this.parser.parse(input);
     if(!parsed || !parsed.recognized){
       return { status: 'error', message: 'Command not recognized: ' + input };
     }
-    
-    // route FSM command
+
     const routed = this.parser.route(parsed, this.fsm);
     if(routed.status === 'error') return routed;
-    
-    // update progress
+
     this.progress.updateSessionState(this.userId, this.fsm.current);
-    
+
     return {
       status: 'ok',
       command: routed.command,
@@ -46,41 +52,100 @@ class SessionController {
     };
   }
 
-  playCurrentSegment(){
+  // ─── Answer evaluation ──────────────────────────────────────────────────────
+
+  evaluateAnswer(input){
     const seg = this.lesson.segments[this.fsm.segmentIdx];
-    if(!seg) return { status: 'error', message: 'No segment to play' };
-    return this.audio.play(seg) ? { status: 'ok' } : { status: 'error' };
+    if(!seg || seg.type !== 'question'){
+      return { status: 'error', message: 'Not in question segment' };
+    }
+
+    const normalize = (s) =>
+      (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+
+    const userAnswer = normalize(input);
+    const correctAnswer = normalize(seg.correct_answer || '');
+    const variants = (seg.acceptable_variants || []).map(normalize).filter(Boolean);
+    const allAnswers = [correctAnswer, ...variants].filter(Boolean);
+
+    const isMatch = (candidate) => {
+      if(!candidate) return false;
+      // Direct containment in either direction
+      if(userAnswer.includes(candidate) || candidate.includes(userAnswer)) return true;
+      // Key-word overlap: ≥50% of significant words (length > 3) in candidate appear in input
+      const inputWords = new Set(userAnswer.split(' ').filter(w => w.length > 3));
+      const candidateWords = candidate.split(' ').filter(w => w.length > 3);
+      if(candidateWords.length === 0) return false;
+      const overlap = candidateWords.filter(w => inputWords.has(w)).length;
+      return overlap / candidateWords.length >= 0.5;
+    };
+
+    const isCorrect = allAnswers.some(isMatch);
+
+    if(isCorrect){
+      return {
+        status: 'ok',
+        command: 'answer',
+        answerResult: 'correct',
+        script: `Correct! ${seg.correct_answer}`,
+        segment: 'question',
+        segmentIdx: this.fsm.segmentIdx,
+        state: this.fsm.current,
+        message: 'Correct answer'
+      };
+    } else {
+      return {
+        status: 'ok',
+        command: 'answer',
+        answerResult: 'incorrect',
+        script: `Not quite. Try again, or tap "End the lesson" to continue.`,
+        segment: 'question',
+        segmentIdx: this.fsm.segmentIdx,
+        state: this.fsm.current,
+        message: 'Incorrect answer — try again'
+      };
+    }
   }
 
-  pauseAudio(){
-    return this.audio.pause() ? { status: 'ok' } : { status: 'error', message: 'Not playing' };
-  }
-
-  resumeAudio(){
-    return this.audio.resume() ? { status: 'ok' } : { status: 'error', message: 'Not paused' };
-  }
-
-  stopAudio(){
-    return this.audio.stop() ? { status: 'ok' } : { status: 'error', message: 'Already stopped' };
-  }
-
-  setPlaybackRate(rate){
-    return this.audio.setPlaybackRate(rate) ? { status: 'ok' } : { status: 'error', message: 'Invalid rate' };
-  }
+  // ─── Session state ──────────────────────────────────────────────────────────
 
   getSessionState(){
     const seg = this.lesson.segments[this.fsm.segmentIdx] || {};
     const resolvedAudioScript = this.resolveAudioScript(seg);
+
+    // Include passage reference when in reading segment
+    let passageRef = null;
+    if(seg.type === 'reading' && seg.passage_id){
+      const passage = (this.lesson.required_passages || []).find(
+        p => p.passage_id === seg.passage_id
+      );
+      if(passage){
+        passageRef = passage.translation
+          ? `${passage.reference} — ${passage.translation}`
+          : passage.reference;
+      }
+    }
+
+    // Include vocabulary when in close segment
+    const vocabulary = (seg.type === 'close' && Array.isArray(this.lesson.vocabulary))
+      ? this.lesson.vocabulary
+      : null;
+
     return {
       fsmState: this.fsm.current,
       audioState: this.audio.state,
       segmentIdx: this.fsm.segmentIdx,
       segmentType: seg.type,
       audioScript: resolvedAudioScript,
+      passageRef,
+      vocabulary,
+      objective: this.lesson.objective || null,
       lesson: this.lesson,
       session: this.progress.getSession(this.userId)
     };
   }
+
+  // ─── Audio script resolution ────────────────────────────────────────────────
 
   resolveAudioScript(seg){
     if(!seg || !seg.audio_script) return '';
@@ -176,13 +241,20 @@ class SessionController {
     return reference.replace(/\s+\d.*$/, '').trim();
   }
 
-  getProgress(){
-    return this.progress.getCourseStats(this.userId, this.lesson.course_id, this.lesson.segments.length);
+  // ─── Other ──────────────────────────────────────────────────────────────────
+
+  playCurrentSegment(){
+    const seg = this.lesson.segments[this.fsm.segmentIdx];
+    if(!seg) return { status: 'error', message: 'No segment to play' };
+    return this.audio.play(seg) ? { status: 'ok' } : { status: 'error' };
   }
 
-  exportData(){
-    return this.progress.exportSessionData(this.userId);
-  }
+  pauseAudio(){ return this.audio.pause() ? { status: 'ok' } : { status: 'error', message: 'Not playing' }; }
+  resumeAudio(){ return this.audio.resume() ? { status: 'ok' } : { status: 'error', message: 'Not paused' }; }
+  stopAudio(){ return this.audio.stop() ? { status: 'ok' } : { status: 'error', message: 'Already stopped' }; }
+  setPlaybackRate(rate){ return this.audio.setPlaybackRate(rate) ? { status: 'ok' } : { status: 'error', message: 'Invalid rate' }; }
+  getProgress(){ return this.progress.getCourseStats(this.userId, this.lesson.course_id, this.lesson.segments.length); }
+  exportData(){ return this.progress.exportSessionData(this.userId); }
 }
 
 module.exports = SessionController;

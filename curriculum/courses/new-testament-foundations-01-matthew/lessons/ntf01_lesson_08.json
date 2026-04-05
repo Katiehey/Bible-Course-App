@@ -3,51 +3,77 @@
   "course_id": "new_testament_foundations_01_matthew",
   "sequence": 8,
   "title": "Prayer, Fasting, and Trusting God",
-  "objective": "Learn Jesus' teaching on authentic spiritual practices and trust in God's provision rather than worry about material needs.",
-  "duration": "9 minutes",
+  "objective": "Understand Jesus' teaching on authentic private devotion and freedom from anxiety through trust in the Father's provision",
+  "duration_estimate": "9 minutes",
   "prerequisite": "ntf01_lesson_07",
   "required_passages": [
     {
       "passage_id": "mat_6_1_34",
       "reference": "Matthew 6:1-34",
-      "text": "Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do in the synagogues and in the streets, that they may be praised by others. Truly, I say to you, they have received their reward. But when you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret. And your Father who sees in secret will reward you. And when you pray, you must not be like the hypocrites. For they love to stand and pray in the synagogues and at the street corners, that they may be seen by others. Truly, I say to you, they have received their reward. But when you pray, go into your room and shut the door and pray to your Father who is in secret. And your Father who sees in secret will reward you. And when you pray, do not heap up empty phrases as the Gentiles do, for they think that they will be heard for their many words. Do not be like them, for your Father knows what you need before you ask him. Pray then like this: Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evil. For if you forgive others their trespasses, your heavenly Father will also forgive you, but if you do not forgive others their trespasses, neither will your Father forgive your trespasses. And when you fast, do not look gloomy like the hypocrites, for they disfigure their faces that their fasting may be seen by others. Truly, I say to you, they have received their reward. But when you fast, anoint your head and wash your face, that your fasting may not be seen by others but by your Father who is in secret. And your Father who sees in secret will reward you. Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also. The eye is the lamp of the body. So, if your eye is healthy, your whole body will be full of light, but if your eye is bad, your whole body will be full of darkness. If then the light in you is darkness, how great is the darkness! No one can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money. Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing? Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? And which of you by being anxious can add a single hour to his span of life? And why are you anxious about clothing? Consider the lilies of the field, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these. But if God so clothes the grass of the field, which today is alive and tomorrow is thrown into the oven, will he not much more clothe you, O you of little faith? Therefore do not be anxious, saying, 'What shall we eat?' or 'What shall we drink?' or 'What shall we wear?' For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. But seek first the kingdom of God and his righteousness, and all these things will be added to you. Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble."
+      "translation": "ESV",
+      "text": "Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do in the synagogues and in the streets, that they may be praised by others. Truly, I say to you, they have received their reward. But when you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret. And your Father who sees in secret will reward you. And when you pray, you must not be like the hypocrites. For they love to stand and pray in the synagogues and at the street corners, that they may be seen by others. Truly, I say to you, they have received their reward. But when you pray, go into your room and shut the door and pray to your Father who is in secret. And your Father who sees in secret will reward you. And when you pray, do not heap up empty phrases as the Gentiles do, for they think that they will be heard for their many words. Do not be like them, for your Father knows what you need before you ask him. Pray then like this: Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evil. For if you forgive others their trespasses, your heavenly Father will also forgive you, but if you do not forgive others their trespasses, neither will your Father forgive your trespasses. And when you fast, do not look gloomy like the hypocrites, for they disfigure their faces that their fasting may be seen by others. Truly, I say to you, they have received their reward. But when you fast, anoint your head and wash your face, that your fasting may not be seen by others but by your Father who is in secret. And your Father who sees in secret will reward you. Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also. No one can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money. Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing? Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? And which of you by being anxious can add a single hour to his span of life? And why are you anxious about clothing? Consider the lilies of the field, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these. But if God so clothes the grass of the field, which today is alive and tomorrow is thrown into the oven, will he not much more clothe you, O you of little faith? Therefore do not be anxious, saying, What shall we eat? or What shall we drink? or What shall we wear? For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. But seek first the kingdom of God and his righteousness, and all these things will be added to you. Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble."
     }
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson eight. Jesus continues the Sermon on the Mount by teaching about spiritual practices done for God's eyes alone, and trusting Him for daily needs. True righteousness flows from a heart oriented toward the Father."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson eight. In lesson seven Jesus pressed beneath the surface of the Law to expose its demands on the heart. Now he turns to the practices that sustain a life with God: giving, praying, and fasting. Then the chapter expands outward to the question of where we place our trust for daily provision. Today's lesson covers the whole of Matthew 6, from the Lord's Prayer to the lilies of the field.",
+      "word_count": 72
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Matthew chapter 6, verses 1 through 34. Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do. But when you give to the needy, do not let your left hand know what your right hand is doing. And when you pray, you must not be like the hypocrites. But when you pray, go into your room and shut the door and pray to your Father who is in secret. Pray then like this: Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evil. And when you fast, do not look gloomy like the hypocrites. But when you fast, anoint your head and wash your face, that your fasting may not be seen by others but by your Father who is in secret. Do not lay up for yourselves treasures on earth, but lay up for yourselves treasures in heaven. For where your treasure is, there your heart will be also. No one can serve two masters. You cannot serve God and money. Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? Consider the lilies of the field, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these. But seek first the kingdom of God and his righteousness, and all these things will be added to you. Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself."
+      "sequence": 2,
+      "passage_id": "mat_6_1_34",
+      "audio_script": "Matthew chapter 6, verses 1 through 34. Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. When you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret. And your Father who sees in secret will reward you. And when you pray, you must not be like the hypocrites. But when you pray, go into your room and shut the door and pray to your Father who is in secret. And your Father who sees in secret will reward you. Do not heap up empty phrases as the Gentiles do, for they think that they will be heard for their many words. Your Father knows what you need before you ask him. Pray then like this: Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evil. For if you forgive others their trespasses, your heavenly Father will also forgive you, but if you do not forgive others their trespasses, neither will your Father forgive your trespasses. And when you fast, anoint your head and wash your face, that your fasting may not be seen by others but by your Father who is in secret. Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven. For where your treasure is, there your heart will be also. No one can serve two masters. You cannot serve God and money. Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? Consider the lilies of the field, how they grow: they neither toil nor spin, yet even Solomon in all his glory was not arrayed like one of these. But seek first the kingdom of God and his righteousness, and all these things will be added to you. Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself.",
+      "word_count": 368
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "Religious leaders in Jesus' day performed acts of piety publicly to gain human praise. Jesus exposes this hypocrisy and calls for secret devotion before God. He then gives the Lord's Prayer as a model, emphasizing intimacy with the Father and kingdom priorities."
+      "sequence": 3,
+      "audio_script": "Public religious performance was a recognised feature of first-century Jewish piety. Certain forms of prayer and giving were done visibly in synagogues and streets, partly as acts of communal witness and partly as signals of social status. Jesus does not object to prayer, giving, or fasting. He objects to doing these things in order to be seen by other people. The Pharisees had made an audience of other humans their primary reference point. Jesus shifts the reference point entirely: every act of devotion is to be directed toward the Father alone, who sees in secret. The repeated phrase your Father who sees in secret will reward you is one of the most intimate descriptions of God in the entire sermon.",
+      "word_count": 125
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Jesus addresses giving, praying, and fasting, all done secretly for God's reward. The Lord's Prayer moves from God's glory to human need, from the kingdom to daily bread. The chapter's second half contrasts earthly and heavenly treasures, and worry versus trust. Kingdom seekers trust God's provision and focus on eternal priorities."
+      "sequence": 4,
+      "audio_script": "The Lord's Prayer is structured in two movements. The first three petitions are directed toward God: his name hallowed, his kingdom come, his will done on earth as in heaven. The second three petitions are directed toward human need: daily bread, forgiveness of debts as we forgive others, and deliverance from evil. The prayer begins with God's glory and only then moves to human necessity. This sequence is itself a theological statement about what kingdom life looks like: God's purposes first, our needs held within them. The second half of the chapter addresses anxiety. Jesus offers three arguments against it. First, the birds and flowers survive without anxious striving because the Father provides. Second, anxiety cannot add a single hour to life. Third, the Father already knows what you need before you ask. The solution is not to stop caring about food and clothing but to reorder what you seek first: the kingdom and its righteousness.",
+      "word_count": 158
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Major themes include authentic versus hypocritical righteousness, prayer as intimate communion, forgiveness as essential to relationship with God, trust over anxiety, and kingdom priorities over material concerns. God sees in secret and rewards accordingly."
+      "sequence": 5,
+      "audio_script": "Two major themes shape the chapter. The first is secrecy before God. Three times the pattern repeats: do the act in secret, and the Father who sees in secret will reward. Authentic devotion does not need a human audience. It is oriented entirely toward the Father's knowledge and approval. The second theme is undivided loyalty. You cannot serve two masters. The chapter makes clear that anxiety about material provision is a form of divided loyalty — part of the heart reaches toward God while another part grips the insurance of earthly security. Jesus calls for single-hearted trust: seek first the kingdom, and the rest will follow.",
+      "word_count": 111
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: How does seeking human approval undermine authentic spiritual practice? What worry in your life needs to be surrendered through trusting God's character as a providing Father?"
+      "sequence": 6,
+      "audio_script": "Review question: In the Lord's Prayer, what are the first three petitions concerned with, before any human needs are mentioned? Answer: The first three petitions are concerned with God — his name being hallowed, his kingdom coming, and his will being done on earth as in heaven.",
+      "correct_answer": "God's name, God's kingdom, and God's will being done on earth as in heaven",
+      "acceptable_variants": [
+        "hallowing god's name, the kingdom coming, and his will done on earth",
+        "god's glory: his name his kingdom and his will",
+        "the first three petitions are about god not human needs",
+        "hallowed be your name your kingdom come your will be done"
+      ],
+      "word_count": 51
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus calls us to practice righteousness before God alone and trust His provision. Kingdom seekers prioritize eternal treasures over temporary ones. Next, we'll conclude the Sermon. Well done today."
+      "sequence": 7,
+      "audio_script": "You have completed lesson eight. Jesus has called his disciples to secret devotion, structured prayer that begins with God's glory, and undivided trust in the Father's provision. In lesson nine we come to the final movement of the Sermon on the Mount, where Jesus presses his hearers toward a decision about what they will actually do with what they have heard.",
+      "word_count": 61
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "hypocrite",
+      "definition": "From the Greek word for a stage actor; in this passage it refers to someone who performs religious acts in order to be seen and approved by other people rather than by God"
+    },
+    {
+      "term": "daily bread",
+      "definition": "The petition in the Lord's Prayer for sufficient provision for the present day — a posture of dependence on God rather than anxious self-provision"
     }
   ],
   "metadata": {
@@ -55,8 +81,9 @@
     "testament": "new",
     "book": "matthew",
     "chapter_range": "6:1-34",
-    "theological_themes": ["prayer", "fasting", "trust", "anxiety", "lords_prayer", "hypocrisy"],
-    "time_period": "circa_28_ad",
-    "canonical_order": 40
+    "theological_themes": ["prayer", "fasting", "anxiety", "lords_prayer", "trust_in_god", "treasure_in_heaven"],
+    "target_audience": "adults",
+    "created_date": "2026-04-05",
+    "version": "1.0"
   }
 }

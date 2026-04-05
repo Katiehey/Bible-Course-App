@@ -3,51 +3,77 @@
   "course_id": "new_testament_foundations_01_matthew",
   "sequence": 4,
   "title": "The Temptation of Jesus",
-  "objective": "Examine how Jesus overcame Satan's temptations, demonstrating His obedience and qualifying as the perfect sacrifice.",
-  "duration": "8 minutes",
+  "objective": "Understand how Jesus defeated Satan's three temptations through Scripture and obedience, securing victory where Israel and Adam failed",
+  "duration_estimate": "8 minutes",
   "prerequisite": "ntf01_lesson_03",
   "required_passages": [
     {
       "passage_id": "mat_4_1_11",
       "reference": "Matthew 4:1-11",
-      "text": "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, 'If you are the Son of God, command these stones to become loaves of bread.' But he answered, 'It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God.' Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, 'If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and On their hands they will bear you up, lest you strike your foot against a stone.' Jesus said to him, 'Again it is written, You shall not put the Lord your God to the test.' Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, 'All these I will give you, if you will fall down and worship me.' Then Jesus said to him, 'Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve.' Then the devil left him, and behold, angels came and were ministering to him."
+      "translation": "ESV",
+      "text": "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, 'If you are the Son of God, command these stones to become loaves of bread.' But he answered, 'It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God.' Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, 'If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and on their hands they will bear you up, lest you strike your foot against a stone.' Jesus said to him, 'Again it is written, You shall not put the Lord your God to the test.' Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, 'All these I will give you, if you will fall down and worship me.' Then Jesus said to him, 'Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve.' Then the devil left him, and behold, angels came and were ministering to him."
     }
   ],
   "segments": [
     {
-      "segment_id": "orientation",
       "type": "orientation",
-      "audio_script": "Welcome to lesson four. After His baptism, Jesus faces temptation in the wilderness. This testing reveals His character and qualifies Him as our Savior who understands our struggles."
+      "sequence": 1,
+      "audio_script": "Welcome to lesson four. In lesson three the Father's voice declared Jesus his beloved Son at the Jordan. Immediately the Spirit drives him into the desert. Before one sermon is preached or one person healed, Jesus must face the devil directly. Today we watch what that confrontation looks like and what it means for everyone who follows him.",
+      "word_count": 62
     },
     {
-      "segment_id": "reading",
       "type": "reading",
-      "audio_script": "Listen to Matthew chapter 4, verses 1 through 11. Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, 'If you are the Son of God, command these stones to become loaves of bread.' But he answered, 'It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God.' Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, 'If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and On their hands they will bear you up, lest you strike your foot against a stone.' Jesus said to him, 'Again it is written, You shall not put the Lord your God to the test.' Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, 'All these I will give you, if you will fall down and worship me.' Then Jesus said to him, 'Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve.' Then the devil left him, and behold, angels came and were ministering to him."
+      "sequence": 2,
+      "passage_id": "mat_4_1_11",
+      "audio_script": "Matthew chapter 4, verses 1 through 11. Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, If you are the Son of God, command these stones to become loaves of bread. But he answered, It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God. Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, If you are the Son of God, throw yourself down, for it is written, He will command his angels concerning you, and on their hands they will bear you up, lest you strike your foot against a stone. Jesus said to him, Again it is written, You shall not put the Lord your God to the test. Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, All these I will give you, if you will fall down and worship me. Then Jesus said to him, Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve. Then the devil left him, and behold, angels came and were ministering to him.",
+      "word_count": 228
     },
     {
-      "segment_id": "context",
       "type": "context",
-      "audio_script": "The Spirit led Jesus into wilderness testing, echoing Israel's 40 years in the desert. Unlike Israel who failed repeatedly, Jesus would prove faithful. Satan's temptations targeted Jesus' identity, mission, and methods."
+      "sequence": 3,
+      "audio_script": "The forty days deliberately echo Israel's forty years in the wilderness. Where Israel grumbled for bread and God provided manna, where Israel worshipped the golden calf and where Israel tested God at Massah, Jesus is now invited to do the same three things. Each temptation involves a genuine need or legitimate desire: physical hunger, public vindication, and authority over nations. Matthew's reader is meant to see Jesus as the faithful Israel that the nation never managed to be. Every answer Jesus gives comes from Deuteronomy, the book Moses gave Israel as they were about to enter the promised land. Jesus succeeds where the covenant people failed.",
+      "word_count": 112
     },
     {
-      "segment_id": "analysis",
       "type": "analysis",
-      "audio_script": "Each temptation attacked a different area. Physical needs challenged Him to use divine power for self-preservation. The pinnacle test urged presumption on God's protection. The mountain offer proposed shortcuts to His kingdom without the cross. Jesus answered each with Scripture from Deuteronomy."
+      "sequence": 4,
+      "audio_script": "Look at each exchange carefully. The first temptation — turn stones into bread — is not simply about hunger. The devil is saying: use your divine power for self-provision rather than waiting on the Father. Jesus answers from Deuteronomy 8:3, the verse God gave Israel after he fed them manna. Dependence on God's word, not self-sufficiency, is the right posture. The second temptation is subtler: Satan quotes scripture himself, suggesting Jesus should stage a dramatic rescue to prove his identity. Jesus refuses to manufacture a crisis to force God's hand. He answers from Deuteronomy 6:16. The third temptation cuts to the core: worship Satan and receive the kingdoms now, without the cross. Jesus refuses a crown bought with idolatry. In all three exchanges, Jesus does not perform miracles or argue philosophy. He cites the written word and holds his ground.",
+      "word_count": 145
     },
     {
-      "segment_id": "themes",
       "type": "themes",
-      "audio_script": "Major themes include the power of God's Word, obedience through suffering, trust in God's timing, and proper worship. Jesus succeeds where Israel and Adam failed, qualifying as the obedient Son who can represent humanity."
+      "sequence": 5,
+      "audio_script": "Two themes stand out. The first is obedient sonship. At his baptism the Father called Jesus his Son. Now that identity is tested. True sonship means trusting the Father's timing, refusing to test his faithfulness, and worshipping him alone. The second theme is the sufficiency of Scripture. Jesus defeats the most powerful adversary in creation not with spectacular power but with the word of God applied with precision. This sets a pattern his followers will need to learn.",
+      "word_count": 82
     },
     {
-      "segment_id": "question",
       "type": "question",
-      "audio_script": "Consider this: How does Jesus' use of Scripture in temptation teach us about spiritual warfare? What does His resistance to shortcuts reveal about God's ways versus worldly methods?"
+      "sequence": 6,
+      "audio_script": "Review question: From which Old Testament book did Jesus quote in all three of his responses to Satan? Answer: Jesus quoted from the book of Deuteronomy in every response.",
+      "correct_answer": "Deuteronomy",
+      "acceptable_variants": [
+        "the book of deuteronomy",
+        "deuteronomy chapters 6 and 8",
+        "he quoted from deuteronomy each time",
+        "moses's writings; deuteronomy"
+      ],
+      "word_count": 36
     },
     {
-      "segment_id": "close",
       "type": "close",
-      "audio_script": "Jesus emerged from testing victorious, proven as the faithful Son. His obedience qualifies Him to save us. Next, we'll see Him begin His Galilean ministry. Excellent work today."
+      "sequence": 7,
+      "audio_script": "You have completed lesson four. Jesus has passed every test in the wilderness and angels minister to him. In our next lesson he leaves the desert and begins calling disciples and healing the sick across Galilee. The victorious Son is ready to proclaim the kingdom.",
+      "word_count": 47
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "temptation",
+      "definition": "An enticement to act independently of God's will; in this passage the devil presents Jesus with three invitations to distrust or dishonour the Father"
+    },
+    {
+      "term": "pinnacle of the temple",
+      "definition": "The highest point of the Jerusalem temple complex, likely the southeastern corner overlooking a steep drop into the Kidron Valley"
     }
   ],
   "metadata": {
@@ -55,8 +81,9 @@
     "testament": "new",
     "book": "matthew",
     "chapter_range": "4:1-11",
-    "theological_themes": ["temptation", "obedience", "scripture_authority", "spiritual_warfare", "christology"],
-    "time_period": "circa_27_ad",
-    "canonical_order": 40
+    "theological_themes": ["obedient_sonship", "scripture_as_weapon", "recapitulation_of_israel", "spiritual_warfare", "the_cross_foreshadowed"],
+    "target_audience": "adults",
+    "created_date": "2026-04-05",
+    "version": "1.0"
   }
 }
