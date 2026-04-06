@@ -479,7 +479,7 @@ body {
 .quick-commands[open] summary { margin-bottom: 10px; }
 .quick-commands[open] summary::after { content: ' ▾'; }
 
-.command-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.command-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 
 .btn-chip {
     border: 1px solid #dfe3ff;

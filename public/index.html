@@ -119,16 +119,19 @@
                     <div id="answerFeedback" class="answer-feedback hidden"></div>
                 </div>
 
-                <!-- Command chips — always visible directly below the text -->
-                <div class="command-buttons" id="commandButtons">
-                    <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
-                    <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
-                    <button class="btn-chip" data-command="explain the context" data-segment="context">Explain the context</button>
-                    <button class="btn-chip" data-command="analyze the structure" data-segment="analysis">Analyze the structure</button>
-                    <button class="btn-chip" data-command="summarize the key themes" data-segment="themes">Summarize the key themes</button>
-                    <button class="btn-chip" data-command="ask the review question" data-segment="question">Ask the review question</button>
-                    <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
-                </div>
+                <!-- Command chips — collapsible, directly below the text -->
+                <details class="quick-commands" id="quickCommandsDetails" open>
+                    <summary>Commands</summary>
+                    <div class="command-buttons" id="commandButtons">
+                        <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
+                        <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
+                        <button class="btn-chip" data-command="explain the context" data-segment="context">Explain the context</button>
+                        <button class="btn-chip" data-command="analyze the structure" data-segment="analysis">Analyze the structure</button>
+                        <button class="btn-chip" data-command="summarize the key themes" data-segment="themes">Summarize the key themes</button>
+                        <button class="btn-chip" data-command="ask the review question" data-segment="question">Ask the review question</button>
+                        <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
+                    </div>
+                </details>
 
                 <!-- #5: Vocabulary panel (shown on close segment) -->
                 <div id="vocabularyPanel" class="vocabulary-panel hidden">
