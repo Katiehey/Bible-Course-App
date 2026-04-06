@@ -139,6 +139,18 @@
                     <div id="micStatus" class="mic-status">Ready</div>
                 </div>
 
+                <!-- Utility buttons directly below mic -->
+                <div class="btn-group-utility">
+                    <button id="playBtn" class="btn-primary" style="margin:0;">Play Audio</button>
+                    <button id="stopBtn" class="btn-stop">Stop</button>
+                    <button id="openBibleFromLessonBtn" class="btn-bible-lesson">NET Bible</button>
+                    <button id="openIndexFromLessonBtn" class="btn-secondary">Index</button>
+                </div>
+
+                <div class="status-info">
+                    <div id="status" class="status"></div>
+                </div>
+
                 <details class="tts-settings" id="ttsSettings">
                     <summary>Audio Settings</summary>
                     <div class="tts-row">
@@ -152,8 +164,8 @@
                     </div>
                 </details>
 
-                <div class="quick-commands">
-                    <h3>Commands:</h3>
+                <details class="quick-commands" id="quickCommandsDetails">
+                    <summary>Commands</summary>
                     <div class="command-buttons">
                         <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
                         <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
@@ -165,21 +177,9 @@
                     </div>
                     <div class="manual-command">
                         <input id="commandInput" type="text" placeholder="Type a command or answer..." aria-label="Type a command or answer" />
-                        <button id="sendBtn" class="btn-secondary">Send</button>
+                        <button id="sendBtn" class="btn-primary" style="margin:0;padding:10px 18px;">Send</button>
                     </div>
-                </div>
-
-                <div class="status-info">
-                    <div id="status" class="status"></div>
-                </div>
-
-                <!-- #7: Stop button alongside Play Audio -->
-                <div class="btn-group-utility">
-                    <button id="playBtn" class="btn-secondary">Play Audio</button>
-                    <button id="stopBtn" class="btn-stop">Stop</button>
-                    <button id="openBibleFromLessonBtn" class="btn-bible-lesson">NET Bible</button>
-                    <button id="openIndexFromLessonBtn" class="btn-secondary">Index</button>
-                </div>
+                </details>
 
                 <div class="btn-group-nav">
                     <button id="prevLessonBtn" class="btn-nav">Previous Lesson</button>

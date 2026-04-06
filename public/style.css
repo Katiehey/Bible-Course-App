@@ -136,7 +136,7 @@ body {
 .lesson-done-badge { color: #4CAF50; font-weight: bold; margin-right: 2px; }
 
 .index-open-btn {
-    background: #667eea;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -146,7 +146,7 @@ body {
     white-space: nowrap;
 }
 
-.index-open-btn:hover { background: #566fe0; }
+.index-open-btn:hover { opacity: 0.88; }
 
 /* ─── Debug ──────────────────────────────────────────────────────────────── */
 
@@ -457,12 +457,27 @@ body {
 
 .quick-commands {
     background: #f7f8ff;
-    padding: 15px;
+    padding: 10px 12px;
     border-radius: 10px;
     margin: 0 0 16px;
 }
 
-.quick-commands h3 { color: #667eea; margin-bottom: 10px; font-size: 0.95em; }
+.quick-commands summary {
+    color: #667eea;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.quick-commands summary::-webkit-details-marker { display: none; }
+.quick-commands summary::after { content: ' ▸'; font-size: 0.8em; color: #999; }
+.quick-commands[open] summary { margin-bottom: 10px; }
+.quick-commands[open] summary::after { content: ' ▾'; }
 
 .command-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 
@@ -574,7 +589,7 @@ body {
     color: white;
 }
 
-.btn-nav-next:hover { background: linear-gradient(135deg, #566fe0 0%, #6a3d92 100%); }
+.btn-nav-next:hover { opacity: 0.88; }
 
 .btn-debug-toggle {
     background: none;
@@ -605,11 +620,13 @@ body {
 .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); }
 
-.btn-secondary { background: #4CAF50; color: white; }
-.btn-secondary:hover { background: #45a049; }
+/* Secondary = neutral utility — no third colour */
+.btn-secondary { background: #e8eaed; color: #374151; }
+.btn-secondary:hover { background: #d0d4da; }
 
-.btn-danger { background: #f44336; color: white; }
-.btn-danger:hover { background: #da190b; }
+/* Danger = destructive only (Exit) */
+.btn-danger { background: #e53935; color: white; }
+.btn-danger:hover { background: #c62828; }
 
 /* ─── NET Bible reader panel ─────────────────────────────────────────────── */
 
@@ -736,7 +753,7 @@ body {
 .bible-error {
     background: #fff3f3;
     border: 1px solid #ffd0d0;
-    color: #c0392b;
+    color: #e53935;
     border-radius: 8px;
     padding: 12px 14px;
     font-size: 0.9em;
@@ -804,22 +821,22 @@ body {
 
 .passage-badge:hover { opacity: 0.82; transform: translateY(-1px); }
 
-/* Splash-screen Bible button */
+/* Splash-screen Bible button — neutral so Begin Learning remains the sole CTA */
 .btn-bible-splash {
     display: block;
     width: 100%;
-    background: linear-gradient(135deg, #6a3d92 0%, #764ba2 100%);
-    color: white;
+    background: #e8eaed;
+    color: #374151;
     border: none;
     padding: 12px 30px;
     border-radius: 8px;
     font-size: 1em;
     cursor: pointer;
-    transition: opacity 0.2s ease;
+    transition: background 0.2s ease;
     margin-bottom: 10px;
 }
 
-.btn-bible-splash:hover { opacity: 0.88; }
+.btn-bible-splash:hover { background: #d0d4da; }
 
 /* Lesson utility row Bible button */
 .btn-bible-lesson {
@@ -847,7 +864,7 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
-.error p { color: #f44336; font-size: 1.1em; margin-bottom: 20px; }
+.error p { color: #e53935; font-size: 1.1em; margin-bottom: 20px; }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
 

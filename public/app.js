@@ -584,10 +584,11 @@ function showObjective(objective) {
 function updatePassageBadge(passageRef, segment) {
     if (!passageBadge) return;
     if (passageRef && segment === 'reading') {
-        passageBadge.textContent = passageRef + ' ↗';
+        // Strip any "— ESV" / "— NET" suffix from both display and lookup
+        const cleanRef = passageRef.split('—')[0].trim();
+        passageBadge.textContent = cleanRef + ' · NET ↗';
         passageBadge.classList.remove('hidden');
-        // Strip " — ESV" or " — NET" suffix so lookup gets just the reference
-        currentPassageRef = passageRef.split('—')[0].trim();
+        currentPassageRef = cleanRef;
     } else {
         passageBadge.classList.add('hidden');
         // Keep currentPassageRef set for the rest of the lesson (not cleared on segment change)
