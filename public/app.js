@@ -191,9 +191,20 @@ if (SpeechRecognition) {
     };
 
     recognition.onerror = (event) => {
-        updateMicStatus(`Error: ${event.error}`, '#f44336');
         if (micBtn) micBtn.classList.remove('mic-listening');
         debugLog('speech error: ' + event.error);
+
+        if (event.error === 'not-allowed') {
+            continuousMode = false;
+            isListening = false;
+            updateMicStatus('Microphone access denied. Please allow microphone access in your browser and try again.', '#e53935');
+        } else if (event.error === 'no-speech') {
+            updateMicStatus('No speech detected — tap Speak and try again.', '#999');
+        } else if (event.error === 'aborted') {
+            updateMicStatus('Ready', '#999');
+        } else {
+            updateMicStatus('Microphone error. Try tapping the command buttons below.', '#e53935');
+        }
     };
 
     recognition.onresult = async (event) => {

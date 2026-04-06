@@ -113,10 +113,21 @@
                     <!-- #8: Passage reference badge — tap to open in NET Bible -->
                     <button id="passageBadge" class="passage-badge hidden" title="Tap to read this passage in the NET Bible"></button>
                     <div id="audioScript" class="audio-script">
-                        Click the microphone to start speaking, or click "Begin Learning" below.
+                        Click the microphone to start speaking, or tap a command below to begin.
                     </div>
                     <!-- #1: Answer feedback banner -->
                     <div id="answerFeedback" class="answer-feedback hidden"></div>
+                </div>
+
+                <!-- Command chips — always visible directly below the text -->
+                <div class="command-buttons" id="commandButtons">
+                    <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
+                    <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
+                    <button class="btn-chip" data-command="explain the context" data-segment="context">Explain the context</button>
+                    <button class="btn-chip" data-command="analyze the structure" data-segment="analysis">Analyze the structure</button>
+                    <button class="btn-chip" data-command="summarize the key themes" data-segment="themes">Summarize the key themes</button>
+                    <button class="btn-chip" data-command="ask the review question" data-segment="question">Ask the review question</button>
+                    <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
                 </div>
 
                 <!-- #5: Vocabulary panel (shown on close segment) -->
@@ -165,18 +176,9 @@
                 </details>
 
                 <details class="quick-commands" id="quickCommandsDetails">
-                    <summary>Commands</summary>
-                    <div class="command-buttons">
-                        <button class="btn-chip" data-command="begin the lesson" data-segment="orientation">Begin the lesson</button>
-                        <button class="btn-chip" data-command="read the passage" data-segment="reading">Read the passage</button>
-                        <button class="btn-chip" data-command="explain the context" data-segment="context">Explain the context</button>
-                        <button class="btn-chip" data-command="analyze the structure" data-segment="analysis">Analyze the structure</button>
-                        <button class="btn-chip" data-command="summarize the key themes" data-segment="themes">Summarize the key themes</button>
-                        <button class="btn-chip" data-command="ask the review question" data-segment="question">Ask the review question</button>
-                        <button class="btn-chip" data-command="end the lesson" data-segment="close">End the lesson</button>
-                    </div>
+                    <summary>Type a command or answer</summary>
                     <div class="manual-command">
-                        <input id="commandInput" type="text" placeholder="Type a command or answer..." aria-label="Type a command or answer" />
+                        <input id="commandInput" type="text" placeholder="e.g. begin the lesson, or type your answer..." aria-label="Type a command or answer" />
                         <button id="sendBtn" class="btn-primary" style="margin:0;padding:10px 18px;">Send</button>
                     </div>
                 </details>
