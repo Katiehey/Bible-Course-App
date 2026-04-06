@@ -2,75 +2,76 @@
   "lesson_id": "bf01_lesson_02",
   "course_id": "biblical_foundations_01",
   "sequence": 2,
-  "title": "Introduction to Biblical Study",
-  "objective": "Understand the Bible as a library of texts requiring method",
-  "duration_estimate": "6 minutes",
-  "prerequisite": null,
+  "title": "The Historical-Grammatical Method",
+  "objective": "Understand how to read Scripture by recovering the author's original intended meaning",
+  "duration_estimate": "7 minutes",
+  "prerequisite": "bf01_lesson_01",
   "required_passages": [],
   "segments": [
     {
       "type": "orientation",
       "sequence": 1,
-      "audio_script": "This is lesson two in Biblical Foundations. You are studying the Bible as a library of texts requiring careful methodological approach.",
-      "word_count": 21
+      "audio_script": "This is lesson two in Biblical Foundations. In lesson one you learned that the Bible is a library of 66 books spanning multiple genres. Today you will learn the foundational method used to read any of those texts accurately: the historical-grammatical method.",
+      "word_count": 44
     },
     {
       "type": "reading",
       "sequence": 2,
       "passage_id": null,
-      "audio_script": "This lesson introduces foundational concepts. No passage reading is required for this session.",
-      "word_count": 15
+      "audio_script": "No passage reading is assigned for this lesson. We are establishing the interpretive method before applying it to specific texts in the lessons ahead.",
+      "word_count": 28
     },
     {
       "type": "context",
       "sequence": 3,
-      "audio_script": "The Bible is a collection of 66 books written across 1500 years. These texts include historical narrative, poetry, law, prophecy, and letters. Each book was written in a specific historical context. Authors wrote to particular audiences with distinct purposes.",
-      "word_count": 45
+      "audio_script": "Every biblical text was written by a real person, in a real place, at a real point in history, for a specific audience. The author had a purpose and communicated that purpose using the language, grammar, and conventions available in their time and culture. The historical-grammatical method takes that seriously. It asks two foundational questions. First: what was the historical situation in which this text was written and received? Second: what do the words and grammar of this text mean in their original language and context?",
+      "word_count": 91
     },
     {
       "type": "analysis",
       "sequence": 4,
-      "audio_script": "Each genre requires different reading strategies. Historical narrative describes events and their theological significance. Poetry uses symbolic language and parallelism. Law establishes covenant terms and community standards. Prophecy addresses covenant faithfulness and future hope. Letters provide doctrinal instruction and practical guidance.",
-      "word_count": 45
+      "audio_script": "The historical dimension requires asking: who wrote this, to whom, when, and why? A letter from Paul to a church in Rome in the first century carries the assumptions of that world. Understanding Roman culture, Jewish background, and the early church situation clarifies meaning. The grammatical dimension requires reading carefully: what do the specific words mean, how are sentences structured, what literary devices are in use? Together these two lenses locate the author's intended meaning. This is called exegesis — drawing the meaning out of the text. The opposite error is eisegesis — reading your own meaning into the text. Good Bible study is always exegesis, never eisegesis.",
+      "word_count": 114
     },
     {
       "type": "themes",
       "sequence": 5,
-      "audio_script": "Key concept: canon. Canon means the authoritative collection of texts recognized as Scripture. The Protestant canon contains 39 Old Testament books and 27 New Testament books. This defines the boundaries of biblical theology.",
-      "word_count": 38
+      "audio_script": "The governing principle of the historical-grammatical method is authorial intent. The text means what the author intended it to mean when writing for the original audience. This does not make Scripture irrelevant to us today. It anchors our interpretation to something objective before we ask what it means for us. Meaning is determined first. Application follows. This sequence — determine meaning, then apply — protects against reading personal preference or cultural assumptions back into Scripture.",
+      "word_count": 76
     },
     {
       "type": "question",
       "sequence": 6,
-      "audio_script": "How many books are in the Protestant biblical canon?",
-      "correct_answer": "66",
+      "audio_script": "Review question: What term describes the error of reading your own meaning into a biblical text rather than drawing the author's meaning out of it?",
+      "correct_answer": "eisegesis",
       "acceptable_variants": [
-        "sixty-six",
-        "66 books",
-        "sixty six"
+        "eisegesis",
+        "reading into the text",
+        "reading meaning into the text",
+        "imposing meaning"
       ],
-      "word_count": 9
+      "word_count": 31
     },
     {
       "type": "close",
       "sequence": 7,
-      "audio_script": "This completes lesson one. You learned basic canon structure and genre categories. Next lesson introduces the historical-grammatical method.",
-      "word_count": 21
+      "audio_script": "This completes lesson two. You learned that the historical-grammatical method recovers the author's intended meaning through historical context and careful reading of grammar and language. You also learned the distinction between exegesis and eisegesis. In lesson three you will apply this foundation to reading strategy across the major biblical genres.",
+      "word_count": 55
     }
   ],
   "vocabulary": [
     {
-      "term": "canon",
-      "definition": "The authoritative collection of texts recognized as Scripture"
+      "term": "exegesis",
+      "definition": "The practice of drawing the meaning out of a text by following the author's intended meaning in its historical and grammatical context"
     },
     {
-      "term": "genre",
-      "definition": "Literary category with distinct conventions such as narrative, poetry, law, prophecy, or epistle"
+      "term": "eisegesis",
+      "definition": "The error of reading one's own meaning into a text rather than deriving meaning from the text itself"
     }
   ],
-  "study_notes": "Understanding genre is essential for proper interpretation. Reading poetry as historical narrative or law as poetry leads to misinterpretation. Each genre communicates differently.",
+  "study_notes": "The historical-grammatical method is the foundation of evangelical biblical interpretation. It guards against two common errors: spiritualising texts beyond their grammatical sense, and imposing contemporary assumptions onto ancient documents. Authorial intent is the anchor.",
   "metadata": {
-    "created": "2026-02-07",
+    "created": "2026-04-06",
     "version": "1.0",
     "content_reviewed": false,
     "audio_recorded": false
