@@ -943,6 +943,275 @@ body {
 
 .error p { color: #e53935; font-size: 1.1em; margin-bottom: 20px; }
 
+/* ─── Font size variants ─────────────────────────────────────────────────── */
+
+.font-sm .audio-script { font-size: 0.92em; }
+.font-md .audio-script { font-size: 1.08em; }
+.font-lg .audio-script { font-size: 1.25em; line-height: 1.85; }
+
+.font-size-btns { display: flex; gap: 6px; }
+
+.btn-font-size {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 4px 10px;
+    color: #555;
+    transition: all 0.15s ease;
+}
+
+.btn-font-size:nth-child(1) { font-size: 0.78em; }
+.btn-font-size:nth-child(2) { font-size: 0.95em; }
+.btn-font-size:nth-child(3) { font-size: 1.15em; }
+
+.btn-font-size-active { background: #667eea; color: white; border-color: #667eea; }
+
+/* ─── Dark mode ──────────────────────────────────────────────────────────── */
+
+body.dark-mode {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+body.dark-mode .splash,
+body.dark-mode .lesson,
+body.dark-mode .index-window,
+body.dark-mode .bible-panel,
+body.dark-mode .error,
+body.dark-mode .completion-screen {
+    background: #1e1e2e;
+    color: #e0e0e0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .lesson-header { border-bottom-color: #333; }
+body.dark-mode .lesson-header h2 { color: #e0e0e0; }
+body.dark-mode .lesson-id { color: #888; }
+body.dark-mode .audio-display { background: #252538; border-left-color: #764ba2; }
+body.dark-mode .audio-script { color: #ccc; }
+body.dark-mode .segment-steps { background: #252538; }
+body.dark-mode .step-dot { background: #444; border-color: #555; }
+body.dark-mode .step-label { color: #666; }
+body.dark-mode .step-divider { background: #444; }
+body.dark-mode .tts-settings,
+body.dark-mode .quick-commands { background: #252538; }
+body.dark-mode .tts-settings summary,
+body.dark-mode .quick-commands summary { color: #a78bfa; }
+body.dark-mode .tts-row label { color: #aaa; }
+body.dark-mode .status-info { background: #252538; }
+body.dark-mode .status { color: #aaa; }
+body.dark-mode .btn-nav { background: #2a2a3e; color: #ccc; }
+body.dark-mode .btn-nav:hover { background: #333350; }
+body.dark-mode .btn-stop { background: #2a2a3e; color: #ccc; }
+body.dark-mode .btn-stop:hover { background: #333350; }
+body.dark-mode .btn-secondary { background: #2a2a3e; color: #ccc; }
+body.dark-mode .btn-secondary:hover { background: #333350; }
+body.dark-mode .btn-chip { background: #252538; color: #a78bfa; border-color: #3d3560; }
+body.dark-mode .manual-command input { background: #252538; color: #ddd; border-color: #3d3560; }
+body.dark-mode .index-course { border-color: #333; }
+body.dark-mode .index-course-title { color: #a78bfa; }
+body.dark-mode .index-lesson-item { background: #252538; }
+body.dark-mode .index-lesson-item.index-lesson-done { background: #1a2e20; }
+body.dark-mode .index-lesson-meta { color: #ccc; }
+body.dark-mode #indexSearch { background: #252538; color: #ddd; border-color: #3d3560; }
+body.dark-mode .index-subtitle { color: #888; }
+body.dark-mode .vocabulary-panel { background: #252538; border-color: #3d3560; }
+body.dark-mode .vocab-term { color: #a78bfa; }
+body.dark-mode .vocab-def { color: #aaa; }
+body.dark-mode .next-course-prompt { background: linear-gradient(135deg, #1e1e3a 0%, #1e1a2e 100%); border-color: #3d3560; }
+body.dark-mode .resume-context { background: #1e1e3a; border-color: #3d3560; }
+body.dark-mode .resume-detail { color: #ccc; }
+body.dark-mode .notes-panel { background: #252538; border-color: #3d3560; }
+body.dark-mode .notes-input { background: #1e1e2e; color: #ddd; border-color: #3d3560; }
+body.dark-mode .bible-panel-title { color: #e0e0e0; }
+body.dark-mode .bible-net-description { color: #888; }
+body.dark-mode .bible-search-input { background: #252538; color: #ddd; border-color: #3d3560; }
+body.dark-mode .bible-passage-ref { color: #a78bfa; }
+body.dark-mode .bible-verse-text { color: #ccc; }
+body.dark-mode .bible-attribution { color: #666; }
+body.dark-mode .btn-font-size { background: #2a2a3e; border-color: #3d3560; color: #aaa; }
+body.dark-mode .splash-tagline { color: #666; }
+body.dark-mode .header { color: #e0e0e0; }
+
+.btn-dark-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn-dark-toggle:hover { background: rgba(255,255,255,0.25); }
+
+.header { position: relative; }
+
+/* ─── Streak ─────────────────────────────────────────────────────────────── */
+
+.streak-display {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    color: #f57f17;
+    font-size: 0.85em;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+
+.streak-fire { font-size: 1.1em; }
+
+body.dark-mode .streak-display { background: #2a2000; border-color: #5a4000; color: #ffc107; }
+
+/* ─── Notes panel ────────────────────────────────────────────────────────── */
+
+.notes-panel {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 0 0 16px;
+}
+
+.notes-header {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #667eea;
+    margin-bottom: 8px;
+}
+
+.notes-input {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 0.9em;
+    font-family: inherit;
+    line-height: 1.5;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s ease;
+    margin-bottom: 10px;
+}
+
+.notes-input:focus { border-color: #667eea; }
+
+.notes-actions { display: flex; gap: 8px; }
+
+/* ─── Course completion screen ───────────────────────────────────────────── */
+
+.completion-screen {
+    background: white;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.completion-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 16px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+}
+
+.completion-title {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.completion-subtitle {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.completion-stats {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.completion-stat {
+    font-size: 1em;
+    color: #667eea;
+    font-weight: 600;
+}
+
+.completion-action {
+    display: block;
+    width: 100%;
+    margin-right: 0 !important;
+}
+
+/* ─── Bible chapter nav + copy ───────────────────────────────────────────── */
+
+.bible-chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.btn-bible-chapter {
+    background: #f0eeff;
+    border: 1px solid #d5cef7;
+    color: #5a4a9e;
+    font-size: 0.82em;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.btn-bible-chapter:hover { background: #e2d9ff; }
+
+body.dark-mode .bible-chapter-nav { border-top-color: #333; }
+body.dark-mode .btn-bible-chapter { background: #2a2040; border-color: #4a3a70; color: #c4b5fd; }
+
+.bible-copy-btn {
+    background: none;
+    border: 1px solid #e0e0e0;
+    color: #aaa;
+    font-size: 0.7em;
+    padding: 2px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0;
+    align-self: center;
+    transition: all 0.15s ease;
+    margin-left: 4px;
+    white-space: nowrap;
+}
+
+.bible-copy-btn:hover { border-color: #764ba2; color: #764ba2; }
+
+body.dark-mode .bible-copy-btn { border-color: #3d3560; color: #666; }
+
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
 
 @media (max-width: 600px) {

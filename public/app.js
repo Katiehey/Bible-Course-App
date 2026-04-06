@@ -109,6 +109,20 @@ const resumeDetail       = document.getElementById('resumeDetail');
 const lessonObjective    = document.getElementById('lessonObjective');
 const answerPrompt       = document.getElementById('answerPrompt');
 const bibleHistoryEl     = document.getElementById('bibleHistory');
+const pauseBtn           = document.getElementById('pauseBtn');
+const replayBtn          = document.getElementById('replayBtn');
+const notesBtn           = document.getElementById('notesBtn');
+const notesPanel         = document.getElementById('notesPanel');
+const notesInput         = document.getElementById('notesInput');
+const saveNotesBtn       = document.getElementById('saveNotesBtn');
+const clearNotesBtn      = document.getElementById('clearNotesBtn');
+const completionScreen   = document.getElementById('completionScreen');
+const completionNextBtn  = document.getElementById('completionNextBtn');
+const completionIndexBtn = document.getElementById('completionIndexBtn');
+const completionHomeBtn  = document.getElementById('completionHomeBtn');
+const darkModeToggle     = document.getElementById('darkModeToggle');
+const streakDisplay      = document.getElementById('streakDisplay');
+const streakCountEl      = document.getElementById('streakCount');
 
 // Bible reader
 const biblePanel         = document.getElementById('biblePanel');
@@ -120,8 +134,12 @@ const openBibleFromSplashBtn  = document.getElementById('openBibleFromSplashBtn'
 const openBibleFromLessonBtn  = document.getElementById('openBibleFromLessonBtn');
 
 let lessonIndexCache = [];
-let pendingNextCourse = null; // { id, title, firstLessonId, ... }
-let bibleHistory = []; // last 5 looked-up references
+let pendingNextCourse = null;
+let bibleHistory = [];
+let isPaused = false;
+let currentBibleBook = null;
+let currentBibleChapter = null;
+let isLastLessonInCourse = false;
 
 const SEGMENT_ORDER = ['orientation', 'reading', 'context', 'analysis', 'themes', 'question', 'close'];
 
@@ -269,9 +287,91 @@ safeAddListener(startBtn, 'click', initializeSession);
 safeAddListener(openIndexBtn, 'click', openIndexWindow);
 safeAddListener(micBtn, 'click', toggleListening);
 safeAddListener(playBtn, 'click', playAudio);
-// #7: Stop audio button
+// Stop audio
 safeAddListener(stopBtn, 'click', () => {
-    if (synth && synth.speaking) { synth.cancel(); updateStatus('Audio stopped.'); }
+    if (synth && (synth.speaking || synth.paused)) {
+        synth.cancel();
+        isPaused = false;
+        if (pauseBtn) pauseBtn.classList.add('hidden');
+        updateStatus('Audio stopped.');
+    }
+});
+
+// Pause / resume
+safeAddListener(pauseBtn, 'click', () => {
+    if (!synth) return;
+    if (isPaused) {
+        synth.resume();
+        isPaused = false;
+        if (pauseBtn) pauseBtn.textContent = 'Pause';
+        updateStatus('Resumed.');
+    } else {
+        synth.pause();
+        isPaused = true;
+        if (pauseBtn) pauseBtn.textContent = 'Resume';
+        updateStatus('Paused.');
+    }
+});
+
+// Replay current segment
+safeAddListener(replayBtn, 'click', () => {
+    const text = document.getElementById('audioScript').textContent.trim();
+    if (text) { speakText(text); updateStatus('Replaying...'); }
+});
+
+// Notes toggle
+safeAddListener(notesBtn, 'click', () => {
+    if (!notesPanel) return;
+    notesPanel.classList.toggle('hidden');
+    if (!notesPanel.classList.contains('hidden') && currentLessonId && notesInput) {
+        notesInput.value = loadNotes(currentLessonId);
+    }
+});
+
+// Save / clear notes
+safeAddListener(saveNotesBtn, 'click', () => {
+    if (currentLessonId && notesInput) {
+        saveNotes(currentLessonId, notesInput.value);
+        updateStatus('Notes saved.');
+    }
+});
+safeAddListener(clearNotesBtn, 'click', () => {
+    if (notesInput) notesInput.value = '';
+    if (currentLessonId) saveNotes(currentLessonId, '');
+    updateStatus('Notes cleared.');
+});
+
+// Dark mode toggle
+safeAddListener(darkModeToggle, 'click', () => {
+    const isDark = document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+    if (darkModeToggle) darkModeToggle.title = isDark ? 'Switch to light mode' : 'Toggle dark mode';
+});
+
+// Font size buttons
+document.querySelectorAll('.btn-font-size').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const size = btn.getAttribute('data-size');
+        applyFontSize(size);
+        localStorage.setItem('fontSize', size);
+    });
+});
+
+// Completion screen buttons
+safeAddListener(completionNextBtn, 'click', () => {
+    hideCompletionScreen();
+    if (pendingNextCourse && pendingNextCourse.firstLessonId) {
+        initializeSession(pendingNextCourse.firstLessonId);
+    }
+});
+safeAddListener(completionIndexBtn, 'click', () => {
+    hideCompletionScreen();
+    openIndexWindow();
+});
+safeAddListener(completionHomeBtn, 'click', () => {
+    hideCompletionScreen();
+    splashScreen.classList.remove('hidden');
+    showResumeContext();
 });
 safeAddListener(exitBtn, 'click', endLesson);
 safeAddListener(openIndexFromLessonBtn, 'click', openIndexWindow);
@@ -306,12 +406,31 @@ safeAddListener(passageBadge, 'click', () => {
     if (currentPassageRef) openBiblePanel(currentPassageRef);
 });
 
+// Bible chapter navigation (event delegation on result container)
+safeAddListener(bibleResult, 'click', (e) => {
+    if (e.target.id === 'bibleChapterPrev') navigateBibleChapter(-1);
+    if (e.target.id === 'bibleChapterNext') navigateBibleChapter(1);
+    if (e.target.classList.contains('bible-copy-btn')) {
+        const text = e.target.getAttribute('data-verse');
+        if (text) navigator.clipboard.writeText(text).then(() => {
+            e.target.textContent = '✓';
+            setTimeout(() => { e.target.textContent = 'Copy'; }, 1500);
+        }).catch(() => {});
+    }
+});
+
 safeAddListener(document.getElementById('resetBtn'), 'click', () => {
     localStorage.removeItem('currentLessonId');
     localStorage.removeItem('completedLessons');
     localStorage.removeItem('segmentProgress');
     localStorage.removeItem('resumeContext');
+    localStorage.removeItem('streak');
+    localStorage.removeItem('lessonNotes');
     hideResumeContext();
+    if (streakDisplay) streakDisplay.classList.add('hidden');
+    if (startBtn) startBtn.textContent = 'Begin Learning';
+    const progressEl = document.getElementById('splashProgress');
+    if (progressEl) progressEl.classList.add('hidden');
     updateStatus('Progress reset. Tap "Begin Learning" to start from lesson 1.');
     debugLog('reset: cleared all progress');
 });
@@ -332,7 +451,9 @@ commandButtons.forEach(btn => {
 
 safeAddListener(commandInput, 'keydown', (e) => { if (e.key === 'Enter') sendManualCommand(); });
 safeAddListener(rateRange, 'input', () => {
-    if (rateValue) rateValue.textContent = `${parseFloat(rateRange.value).toFixed(2)}x`;
+    const rate = parseFloat(rateRange.value).toFixed(2);
+    if (rateValue) rateValue.textContent = `${rate}x`;
+    localStorage.setItem('speechRate', rateRange.value);
 });
 safeAddListener(voiceSelect, 'change', () => {
     const idx = parseInt(voiceSelect.value, 10);
@@ -353,6 +474,7 @@ async function openIndexWindow() {
         splashScreen.classList.add('hidden');
         lessonScreen.classList.add('hidden');
         errorScreen.classList.add('hidden');
+        if (completionScreen) completionScreen.classList.add('hidden');
         indexWindow.classList.remove('hidden');
         if (indexSearch) indexSearch.value = '';
         renderIndexWindow('');
@@ -376,7 +498,9 @@ function renderIndexWindow(searchTerm) {
                 return (
                     (course.title || '').toLowerCase().includes(query) ||
                     (lesson.title || '').toLowerCase().includes(query) ||
-                    (lesson.id || '').toLowerCase().includes(query)
+                    (lesson.id || '').toLowerCase().includes(query) ||
+                    (lesson.objective || '').toLowerCase().includes(query) ||
+                    (lesson.studyNotes || '').toLowerCase().includes(query)
                 );
             });
             return { ...course, lessons };
@@ -468,6 +592,8 @@ async function initializeSession(overrideLessonId = null) {
         hideNextCoursePrompt();
         hideAnswerFeedback();
         hideVocabulary();
+        hideCompletionScreen();
+        if (notesPanel) notesPanel.classList.add('hidden');
 
         const savedLessonId = overrideLessonId || localStorage.getItem('currentLessonId');
         const url = savedLessonId
@@ -508,7 +634,8 @@ async function initializeSession(overrideLessonId = null) {
         updateContextualCommands(null);
         debugLog('init: session ready');
 
-        if (isMobile) {
+        // Apply mobile default only if user hasn't set their own speed preference
+        if (isMobile && !localStorage.getItem('speechRate')) {
             if (rateRange) rateRange.value = '1.1';
             if (rateValue) rateValue.textContent = '1.10x';
         }
@@ -563,7 +690,10 @@ async function sendCommand(command) {
                 const title = document.getElementById('lessonTitle').textContent;
                 saveResumeContext(currentLessonId, title, data.segment);
             }
-            if (data.segment === 'close' && currentLessonId) markLessonComplete(currentLessonId);
+            if (data.segment === 'close' && currentLessonId) {
+                markLessonComplete(currentLessonId);
+                recordStreak();
+            }
         }
 
         updateSegmentSteps(data.segment);
@@ -826,15 +956,30 @@ function renderBiblePassage(data) {
                 chapterHead = `<div class="bible-chapter-head">Chapter ${v.chapter}</div>`;
             }
         }
+        const verseText = `${v.bookname} ${v.chapter}:${v.verse} — ${v.text}`;
         return `${chapterHead}<div class="bible-verse-line">
             <span class="bible-verse-num">${v.verse}</span>
             <span class="bible-verse-text">${v.text}</span>
+            <button class="bible-copy-btn" data-verse="${verseText.replace(/"/g, '&quot;')}" title="Copy verse">Copy</button>
         </div>`;
     }).join('');
+
+    // Track for chapter navigation
+    currentBibleBook = first.bookname;
+    currentBibleChapter = parseInt(first.chapter, 10);
+
+    const prevChap = currentBibleChapter > 1
+        ? `<button class="btn-bible-chapter" id="bibleChapterPrev">← Ch ${currentBibleChapter - 1}</button>`
+        : '<span></span>';
+    const nextChap = `<button class="btn-bible-chapter" id="bibleChapterNext">Ch ${currentBibleChapter + 1} →</button>`;
 
     return `
         <div class="bible-passage-ref">${ref}</div>
         <div class="bible-verses">${verseLines}</div>
+        <div class="bible-chapter-nav">
+            ${prevChap}
+            ${nextChap}
+        </div>
         <div class="bible-attribution">
             NET Bible® &copy;1996–2017 Biblical Studies Press, L.L.C.
             All rights reserved. <a href="http://netbible.com" target="_blank" rel="noopener">netbible.com</a>
@@ -848,6 +993,8 @@ function speakText(text) {
     if (!synth) { updateStatus('Speech not supported on this browser.'); return; }
     if (synth.speaking) { synth.cancel(); }
     if (!voicesReady) loadVoices();
+    isPaused = false;
+    if (pauseBtn) { pauseBtn.textContent = 'Pause'; pauseBtn.classList.remove('hidden'); }
 
     const utterance = new SpeechSynthesisUtterance(text);
     if (selectedVoice) utterance.voice = selectedVoice;
@@ -856,8 +1003,15 @@ function speakText(text) {
     utterance.pitch = 1;
     utterance.volume = 1;
     utterance.onstart = () => { debugLog('speech: started'); };
-    utterance.onend = () => { debugLog('speech: ended'); };
-    utterance.onerror = (e) => { debugLog('speech error: ' + e.error); };
+    utterance.onend = () => {
+        debugLog('speech: ended');
+        isPaused = false;
+        if (pauseBtn) pauseBtn.classList.add('hidden');
+    };
+    utterance.onerror = (e) => {
+        debugLog('speech error: ' + e.error);
+        if (pauseBtn) pauseBtn.classList.add('hidden');
+    };
     debugLog('speech: speaking (' + text.substring(0, 50) + '...)');
     synth.speak(utterance);
 }
@@ -892,12 +1046,15 @@ async function playAudio() {
 
 function endLesson() {
     updateStatus('Exiting lesson...');
-    if (synth.speaking) synth.cancel();
+    if (synth && (synth.speaking || synth.paused)) { synth.cancel(); }
+    isPaused = false;
+    if (pauseBtn) pauseBtn.classList.add('hidden');
     if (continuousMode && recognition) { continuousMode = false; recognition.stop(); }
+    if (notesPanel) notesPanel.classList.add('hidden');
+    hideCompletionScreen();
     lessonScreen.classList.add('hidden');
     indexWindow.classList.add('hidden');
     splashScreen.classList.remove('hidden');
-    // #6: Show resume context after exiting
     showResumeContext();
     currentUserId = null;
     updateStatus('Lesson exited. Ready to start a new lesson.');
@@ -917,13 +1074,15 @@ async function loadNextLesson() {
             hideNextCoursePrompt();
             reloadSessionWithNewLesson(data.next.id);
         } else if (data.nextCourse) {
-            // #4: End of course — offer next course
-            showNextCoursePrompt(data.nextCourse);
-            updateStatus(`You've finished this course! Start "${data.nextCourse.title}" next.`);
+            const courseTitle = document.getElementById('lessonId').textContent.split('·')[1]?.trim() || 'This Course';
+            const done = getCompletedLessons().size;
+            showCompletionScreen(courseTitle, data.nextCourse, done);
             nextLessonBtn.disabled = false;
             prevLessonBtn.disabled = false;
         } else {
-            updateStatus('No more lessons available!');
+            const courseTitle = document.getElementById('lessonId').textContent.split('·')[1]?.trim() || 'This Course';
+            const done = getCompletedLessons().size;
+            showCompletionScreen(courseTitle, null, done);
             nextLessonBtn.disabled = false;
             prevLessonBtn.disabled = false;
         }
@@ -963,6 +1122,7 @@ async function reloadSessionWithNewLesson(newLessonId) {
         hideNextCoursePrompt();
         hideAnswerFeedback();
         hideVocabulary();
+        if (notesPanel) notesPanel.classList.add('hidden');
         const response = await fetch(`/api/session/new?lessonId=${encodeURIComponent(newLessonId)}`);
         const data = await response.json();
 
@@ -1009,6 +1169,122 @@ async function reloadSessionWithNewLesson(newLessonId) {
     }
 }
 
+// ─── Notes ─────────────────────────────────────────────────────────────────
+
+function saveNotes(lessonId, text) {
+    try {
+        const map = JSON.parse(localStorage.getItem('lessonNotes') || '{}');
+        map[lessonId] = text;
+        localStorage.setItem('lessonNotes', JSON.stringify(map));
+    } catch {}
+}
+
+function loadNotes(lessonId) {
+    try {
+        const map = JSON.parse(localStorage.getItem('lessonNotes') || '{}');
+        return map[lessonId] || '';
+    } catch { return ''; }
+}
+
+// ─── Course completion screen ──────────────────────────────────────────────
+
+function showCompletionScreen(courseTitle, nextCourse, completedCount) {
+    if (!completionScreen) return;
+    document.getElementById('completionTitle').textContent = courseTitle + ' — Complete!';
+    document.getElementById('completionSubtitle').textContent =
+        'You have finished all lessons in this course. Well done.';
+    document.getElementById('completionStats').innerHTML =
+        `<div class="completion-stat">${completedCount} lessons completed</div>`;
+    if (nextCourse && completionNextBtn) {
+        completionNextBtn.textContent = `Start ${nextCourse.title}`;
+        completionNextBtn.classList.remove('hidden');
+        pendingNextCourse = nextCourse;
+    } else if (completionNextBtn) {
+        completionNextBtn.classList.add('hidden');
+    }
+    splashScreen.classList.add('hidden');
+    lessonScreen.classList.add('hidden');
+    indexWindow.classList.add('hidden');
+    biblePanel.classList.add('hidden');
+    completionScreen.classList.remove('hidden');
+}
+
+function hideCompletionScreen() {
+    if (completionScreen) completionScreen.classList.add('hidden');
+}
+
+// ─── Streak ────────────────────────────────────────────────────────────────
+
+function recordStreak() {
+    try {
+        const today = new Date().toDateString();
+        const data = JSON.parse(localStorage.getItem('streak') || '{"date":null,"count":0}');
+        const yesterday = new Date(Date.now() - 86400000).toDateString();
+        if (data.date === today) return data.count;
+        if (data.date === yesterday) {
+            data.count += 1;
+        } else if (data.date !== today) {
+            data.count = 1;
+        }
+        data.date = today;
+        localStorage.setItem('streak', JSON.stringify(data));
+        return data.count;
+    } catch { return 0; }
+}
+
+function getStreak() {
+    try {
+        const data = JSON.parse(localStorage.getItem('streak') || '{"date":null,"count":0}');
+        const today = new Date().toDateString();
+        const yesterday = new Date(Date.now() - 86400000).toDateString();
+        if (data.date === today || data.date === yesterday) return data.count;
+        return 0;
+    } catch { return 0; }
+}
+
+function updateStreakDisplay() {
+    const count = getStreak();
+    if (count > 0 && streakDisplay && streakCountEl) {
+        streakCountEl.textContent = count;
+        streakDisplay.classList.remove('hidden');
+    }
+}
+
+// ─── Font size ─────────────────────────────────────────────────────────────
+
+function applyFontSize(size) {
+    document.body.classList.remove('font-sm', 'font-md', 'font-lg');
+    document.body.classList.add('font-' + size);
+    document.querySelectorAll('.btn-font-size').forEach(b => {
+        b.classList.toggle('btn-font-size-active', b.getAttribute('data-size') === size);
+    });
+}
+
+// ─── Dark mode ─────────────────────────────────────────────────────────────
+
+function applyDarkMode(on) {
+    document.body.classList.toggle('dark-mode', on);
+    if (darkModeToggle) darkModeToggle.title = on ? 'Switch to light mode' : 'Toggle dark mode';
+}
+
+// ─── Bible chapter navigation ──────────────────────────────────────────────
+
+function parseBibleRef(ref) {
+    // e.g. "Matthew 3:1-17" → { book: 'Matthew', chapter: 3 }
+    const m = ref.match(/^(.+?)\s+(\d+)/);
+    if (!m) return null;
+    return { book: m[1], chapter: parseInt(m[2], 10) };
+}
+
+function navigateBibleChapter(delta) {
+    if (!currentBibleBook || !currentBibleChapter) return;
+    const nextChapter = currentBibleChapter + delta;
+    if (nextChapter < 1) return;
+    const ref = `${currentBibleBook} ${nextChapter}`;
+    if (bibleSearchInput) bibleSearchInput.value = ref;
+    lookUpPassage(ref);
+}
+
 // ─── Helpers ───────────────────────────────────────────────────────────────
 
 function updateStatus(message) { document.getElementById('status').textContent = message; }
@@ -1040,6 +1316,23 @@ window.addEventListener('load', () => {
         updateMicStatus('Speech recognition not supported. Use tap commands below.', '#ff9800');
         if (micBtn) micBtn.disabled = true;
     }
-    // #6: Show resume context on splash if a lesson was previously in progress
+
+    // Dark mode
+    applyDarkMode(localStorage.getItem('darkMode') === 'true');
+
+    // Font size
+    const savedSize = localStorage.getItem('fontSize') || 'md';
+    applyFontSize(savedSize);
+
+    // Speed persistence
+    const savedRate = localStorage.getItem('speechRate');
+    if (savedRate && rateRange && rateValue) {
+        rateRange.value = savedRate;
+        rateValue.textContent = `${parseFloat(savedRate).toFixed(2)}x`;
+    }
+
+    // Streak display on splash
+    updateStreakDisplay();
+
     showResumeContext();
 });

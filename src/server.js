@@ -170,7 +170,9 @@ const server = http.createServer(async (req, res) => {
       acc.get(key).lessons.push({
         id: lesson.lesson_id,
         title: lesson.title,
-        sequence: lesson.sequence || 0
+        sequence: lesson.sequence || 0,
+        objective: lesson.objective || '',
+        studyNotes: lesson.study_notes || ''
       });
       return acc;
     }, new Map());

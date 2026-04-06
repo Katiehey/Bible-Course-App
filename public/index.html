@@ -11,6 +11,7 @@
         <div class="header">
             <h1>Bible Course App</h1>
             <p>Interactive Voice-Guided Bible Study</p>
+            <button id="darkModeToggle" class="btn-dark-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
         </div>
 
         <div id="debugPanel" class="debug-panel hidden">
@@ -41,9 +42,24 @@
             </div>
         </div>
 
+        <!-- Course completion screen -->
+        <div id="completionScreen" class="completion-screen hidden">
+            <div class="completion-badge">Course Complete</div>
+            <h2 id="completionTitle" class="completion-title"></h2>
+            <p id="completionSubtitle" class="completion-subtitle"></p>
+            <div id="completionStats" class="completion-stats"></div>
+            <button id="completionNextBtn" class="btn-primary completion-action hidden">Start Next Course</button>
+            <button id="completionIndexBtn" class="btn-secondary completion-action" style="margin-top:8px;">Browse All Courses</button>
+            <button id="completionHomeBtn" class="btn-secondary completion-action" style="margin-top:8px;">Return Home</button>
+        </div>
+
         <div id="splash" class="splash">
             <!-- First-run guidance -->
             <p class="splash-tagline">Each lesson guides you through Scripture with audio. Tap a command or speak to navigate through each section.</p>
+            <!-- Streak display -->
+            <div id="streakDisplay" class="streak-display hidden">
+                <span class="streak-fire">&#9733;</span> <span id="streakCount">0</span>-day streak
+            </div>
 
             <!-- Overall progress bar -->
             <div id="splashProgress" class="splash-progress hidden">
@@ -149,6 +165,16 @@
                     </div>
                 </details>
 
+                <!-- Notes panel -->
+                <div id="notesPanel" class="notes-panel hidden">
+                    <div class="notes-header">My Notes</div>
+                    <textarea id="notesInput" class="notes-input" placeholder="Write your thoughts, questions, or reflections here..."></textarea>
+                    <div class="notes-actions">
+                        <button id="saveNotesBtn" class="btn-primary" style="margin:0;padding:8px 18px;font-size:0.9em;">Save</button>
+                        <button id="clearNotesBtn" class="btn-secondary" style="margin:0;padding:8px 18px;font-size:0.9em;">Clear</button>
+                    </div>
+                </div>
+
                 <!-- #5: Vocabulary panel (shown on close segment) -->
                 <div id="vocabularyPanel" class="vocabulary-panel hidden">
                     <div class="vocab-header">Key Terms</div>
@@ -172,7 +198,10 @@
                 <!-- Utility buttons directly below mic -->
                 <div class="btn-group-utility">
                     <button id="playBtn" class="btn-primary" style="margin:0;">Play Audio</button>
+                    <button id="pauseBtn" class="btn-stop hidden">Pause</button>
                     <button id="stopBtn" class="btn-stop">Stop</button>
+                    <button id="replayBtn" class="btn-stop">Replay</button>
+                    <button id="notesBtn" class="btn-stop">Notes</button>
                     <button id="openBibleFromLessonBtn" class="btn-bible-lesson">NET Bible</button>
                     <button id="openIndexFromLessonBtn" class="btn-secondary">Index</button>
                 </div>
@@ -191,6 +220,14 @@
                         <label for="rateRange">Speed</label>
                         <input id="rateRange" type="range" min="0.8" max="1.3" step="0.05" value="1.0" />
                         <span id="rateValue">1.0x</span>
+                    </div>
+                    <div class="tts-row">
+                        <label>Text size</label>
+                        <div class="font-size-btns">
+                            <button class="btn-font-size" data-size="sm" aria-label="Small text">A</button>
+                            <button class="btn-font-size btn-font-size-active" data-size="md" aria-label="Medium text">A</button>
+                            <button class="btn-font-size" data-size="lg" aria-label="Large text">A</button>
+                        </div>
                     </div>
                 </details>
 
@@ -245,6 +282,6 @@
             setTimeout(() => { if(!window.__appLoaded){ log('warn: app.js did not load'); } }, 2000);
         })();
     </script>
-    <script src="app.js?v=8"></script>
+    <script src="app.js?v=9"></script>
 </body>
 </html>
