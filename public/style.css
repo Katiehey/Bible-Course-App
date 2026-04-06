@@ -63,6 +63,41 @@ body {
     font-weight: 500;
 }
 
+/* ─── Splash enhancements ────────────────────────────────────────────────── */
+
+.splash-tagline {
+    font-size: 0.9em;
+    color: #888;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.splash-progress {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.splash-progress-label {
+    font-size: 0.8em;
+    color: #667eea;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.splash-progress-bar {
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.splash-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3px;
+    transition: width 0.4s ease;
+}
+
 /* ─── Index ──────────────────────────────────────────────────────────────── */
 
 .index-window {
@@ -210,7 +245,8 @@ body {
     line-height: 1.4;
 }
 
-.lesson-id { color: #999; font-size: 0.9em; }
+/* #5: Lesson position — readable, not raw ID */
+.lesson-id { color: #888; font-size: 0.82em; letter-spacing: 0.01em; }
 
 /* ─── Step indicator ─────────────────────────────────────────────────────── */
 
@@ -233,16 +269,17 @@ body {
     flex: 0 0 auto;
 }
 
+/* #9: Larger step dots */
 .step-dot {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background: #ddd;
     border: 2px solid #ccc;
     transition: all 0.25s ease;
 }
 
-.step-label { font-size: 0.6em; color: #bbb; text-align: center; white-space: nowrap; }
+.step-label { font-size: 0.65em; color: #aaa; text-align: center; white-space: nowrap; font-weight: 500; }
 
 .step-divider {
     flex: 1;
@@ -290,7 +327,18 @@ body {
     letter-spacing: 0.02em;
 }
 
-.audio-script { color: #555; line-height: 1.6; font-size: 1em; }
+/* #8: Larger, more readable lesson text */
+.audio-script { color: #444; line-height: 1.75; font-size: 1.08em; }
+
+/* #2: Answer prompt label */
+.answer-prompt {
+    margin-top: 14px;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #667eea;
+}
 
 /* #1: Answer feedback banner */
 .answer-feedback {
@@ -515,6 +563,13 @@ body {
 .btn-chip.btn-chip-current { opacity: 0.8; border-color: #667eea; color: #667eea; }
 .btn-chip.btn-chip-current:hover { background: #eef0ff; }
 
+/* #3: Loading state while server responds */
+.btn-chip.btn-chip-loading {
+    opacity: 0.5;
+    cursor: wait;
+    position: relative;
+}
+
 .manual-command { display: flex; gap: 8px; }
 .manual-command input {
     flex: 1;
@@ -673,9 +728,31 @@ body {
 .bible-net-description {
     font-size: 0.85em;
     color: #888;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     line-height: 1.4;
 }
+
+/* #10: Bible lookup history chips */
+.bible-history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.bible-history-chip {
+    background: #f0eeff;
+    border: 1px solid #d5cef7;
+    color: #5a4a9e;
+    font-size: 0.78em;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.bible-history-chip:hover { background: #e2d9ff; }
 
 .btn-bible-close {
     background: none;

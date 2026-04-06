@@ -28,6 +28,7 @@
                 <button id="closeBibleBtn" class="btn-bible-close" aria-label="Close Bible reader">✕</button>
             </div>
             <p class="bible-net-description">New English Translation — designed for clarity and accuracy in modern English.</p>
+            <div id="bibleHistory" class="bible-history hidden"></div>
             <div class="bible-search-row">
                 <input id="bibleSearchInput" type="text"
                     placeholder="e.g. John 3:16  or  Romans 8:1-4  or  Psalm 23"
@@ -41,7 +42,16 @@
         </div>
 
         <div id="splash" class="splash">
-            <!-- #6: Resume context — shown when a lesson is in progress -->
+            <!-- First-run guidance -->
+            <p class="splash-tagline">Each lesson guides you through Scripture with audio. Tap a command or speak to navigate through each section.</p>
+
+            <!-- Overall progress bar -->
+            <div id="splashProgress" class="splash-progress hidden">
+                <div class="splash-progress-label"><span id="splashProgressText"></span></div>
+                <div class="splash-progress-bar"><div id="splashProgressFill" class="splash-progress-fill"></div></div>
+            </div>
+
+            <!-- Resume context — shown when a lesson is in progress -->
             <div id="resumeContext" class="resume-context hidden">
                 <div class="resume-label">Resume where you left off</div>
                 <div id="resumeDetail" class="resume-detail"></div>
@@ -67,7 +77,7 @@
                 <h2 id="lessonTitle">Lesson Title</h2>
                 <!-- #10: Lesson objective -->
                 <p id="lessonObjective" class="lesson-objective hidden"></p>
-                <p id="lessonId" class="lesson-id">ID: bf01_lesson_01</p>
+                <p id="lessonId" class="lesson-id"></p>
             </div>
 
             <!-- 7-dot step indicator -->
@@ -115,6 +125,8 @@
                     <div id="audioScript" class="audio-script">
                         Click the microphone to start speaking, or tap a command below to begin.
                     </div>
+                    <!-- Answer prompt — visible only during question segment -->
+                    <div id="answerPrompt" class="answer-prompt hidden">Your answer:</div>
                     <!-- #1: Answer feedback banner -->
                     <div id="answerFeedback" class="answer-feedback hidden"></div>
                 </div>
@@ -233,6 +245,6 @@
             setTimeout(() => { if(!window.__appLoaded){ log('warn: app.js did not load'); } }, 2000);
         })();
     </script>
-    <script src="app.js?v=7"></script>
+    <script src="app.js?v=8"></script>
 </body>
 </html>

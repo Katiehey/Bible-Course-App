@@ -206,6 +206,10 @@ const server = http.createServer(async (req, res) => {
     const session = new SessionController(lesson, userId, silentLogger);
     sessions.set(userId, session);
 
+    const meta = courseMeta.get(lesson.course_id);
+    const courseTitle = meta ? meta.title : null;
+    const totalInCourse = meta ? meta.total_lessons : null;
+
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       userId,
@@ -215,7 +219,9 @@ const server = http.createServer(async (req, res) => {
         objective: lesson.objective || null,
         segments: lesson.segments.length,
         course_id: lesson.course_id,
-        sequence: lesson.sequence
+        sequence: lesson.sequence,
+        courseTitle,
+        totalInCourse
       }
     }));
     return;

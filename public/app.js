@@ -107,6 +107,8 @@ const startNextCourseBtn = document.getElementById('startNextCourseBtn');
 const resumeContext      = document.getElementById('resumeContext');
 const resumeDetail       = document.getElementById('resumeDetail');
 const lessonObjective    = document.getElementById('lessonObjective');
+const answerPrompt       = document.getElementById('answerPrompt');
+const bibleHistoryEl     = document.getElementById('bibleHistory');
 
 // Bible reader
 const biblePanel         = document.getElementById('biblePanel');
@@ -119,6 +121,7 @@ const openBibleFromLessonBtn  = document.getElementById('openBibleFromLessonBtn'
 
 let lessonIndexCache = [];
 let pendingNextCourse = null; // { id, title, firstLessonId, ... }
+let bibleHistory = []; // last 5 looked-up references
 
 const SEGMENT_ORDER = ['orientation', 'reading', 'context', 'analysis', 'themes', 'question', 'close'];
 
@@ -316,7 +319,14 @@ safeAddListener(document.getElementById('resetBtn'), 'click', () => {
 commandButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const cmd = btn.getAttribute('data-command');
-        if (cmd) { debugLog('tap: ' + cmd); sendCommand(cmd); }
+        if (!cmd) return;
+        debugLog('tap: ' + cmd);
+        btn.classList.add('btn-chip-loading');
+        btn.disabled = true;
+        sendCommand(cmd).finally(() => {
+            btn.classList.remove('btn-chip-loading');
+            btn.disabled = false;
+        });
     });
 });
 
@@ -442,7 +452,9 @@ async function resumeAtSegment(segmentType) {
             if (nextLessonBtn) nextLessonBtn.classList.remove('hidden');
             showVocabulary(data.vocabulary);
         }
-        updateStatus(`Resumed from "${data.segment}". Tap Play Audio to replay, or continue.`);
+        showAnswerPrompt(data.segment);
+        if (data.script) speakText(data.script);
+        updateStatus(`Resumed from "${data.segment}".`);
         debugLog('resume: positioned at ' + data.segment);
     } catch (err) {
         debugLog('resume error: ' + err.message);
@@ -473,7 +485,11 @@ async function initializeSession(overrideLessonId = null) {
         localStorage.setItem('currentLessonId', currentLessonId);
 
         document.getElementById('lessonTitle').textContent = data.lesson.title;
-        document.getElementById('lessonId').textContent = `ID: ${data.lesson.id} (${data.lesson.sequence})`;
+        const lessonPos = data.lesson.totalInCourse
+            ? `Lesson ${data.lesson.sequence} of ${data.lesson.totalInCourse}`
+            : `Lesson ${data.lesson.sequence}`;
+        const courseLabel = data.lesson.courseTitle ? ` · ${data.lesson.courseTitle}` : '';
+        document.getElementById('lessonId').textContent = lessonPos + courseLabel;
 
         // #10: Show objective
         showObjective(data.lesson.objective);
@@ -557,6 +573,9 @@ async function sendCommand(command) {
         // #8: Passage reference badge
         updatePassageBadge(data.passageRef, data.segment);
 
+        // #2: Show/hide answer prompt
+        showAnswerPrompt(data.segment);
+
         // #4: Next lesson button + cross-course prompt
         if (data.segment === 'close') {
             if (nextLessonBtn) nextLessonBtn.classList.remove('hidden');
@@ -569,6 +588,7 @@ async function sendCommand(command) {
 
         if (data.script) {
             document.getElementById('audioScript').textContent = data.script;
+            // #1: Auto-play audio when a new segment loads
             setTimeout(() => { speakText(data.script); }, 100);
         }
 
@@ -603,6 +623,16 @@ function updatePassageBadge(passageRef, segment) {
     } else {
         passageBadge.classList.add('hidden');
         // Keep currentPassageRef set for the rest of the lesson (not cleared on segment change)
+    }
+}
+
+// Answer prompt — shown only on question segment
+function showAnswerPrompt(segment) {
+    if (!answerPrompt) return;
+    if (segment === 'question') {
+        answerPrompt.classList.remove('hidden');
+    } else {
+        answerPrompt.classList.add('hidden');
     }
 }
 
@@ -648,17 +678,48 @@ function hideNextCoursePrompt() {
     pendingNextCourse = null;
 }
 
-// #6: Resume context on splash
+// #6/#7: Resume context + button label + splash progress
 function showResumeContext() {
     const ctx = getResumeContext();
-    if (!ctx || !resumeContext || !resumeDetail) return;
-    const segLabel = ctx.segment ? ctx.segment.charAt(0).toUpperCase() + ctx.segment.slice(1) : '';
-    resumeDetail.textContent = `${ctx.title} — ${segLabel}`;
-    resumeContext.classList.remove('hidden');
+    if (ctx && resumeContext && resumeDetail) {
+        const segLabel = ctx.segment ? ctx.segment.charAt(0).toUpperCase() + ctx.segment.slice(1) : '';
+        resumeDetail.textContent = `${ctx.title} — ${segLabel}`;
+        resumeContext.classList.remove('hidden');
+    }
+    // #7: Change button label if there's saved progress
+    if (startBtn) {
+        startBtn.textContent = ctx ? 'Continue Learning' : 'Begin Learning';
+    }
+    // #6: Splash overall progress bar
+    updateSplashProgress();
 }
 
 function hideResumeContext() {
     if (resumeContext) resumeContext.classList.add('hidden');
+}
+
+async function updateSplashProgress() {
+    const completed = getCompletedLessons();
+    if (completed.size === 0) return;
+    try {
+        if (!lessonIndexCache.length) {
+            const r = await fetch('/api/index');
+            const d = await r.json();
+            lessonIndexCache = d.courses || [];
+        }
+        const total = lessonIndexCache.reduce((sum, c) => sum + (c.lessons || []).length, 0);
+        if (!total) return;
+        const done = completed.size;
+        const pct = Math.min(100, Math.round((done / total) * 100));
+        const progressEl = document.getElementById('splashProgress');
+        const textEl = document.getElementById('splashProgressText');
+        const fillEl = document.getElementById('splashProgressFill');
+        if (progressEl && textEl && fillEl) {
+            textEl.textContent = `${done} of ${total} lessons complete`;
+            fillEl.style.width = `${pct}%`;
+            progressEl.classList.remove('hidden');
+        }
+    } catch { /* non-critical */ }
 }
 
 // ─── NET Bible reader ──────────────────────────────────────────────────────
@@ -710,6 +771,10 @@ async function lookUpPassage(ref) {
             return;
         }
 
+        // #10: Track history (last 5 unique refs)
+        bibleHistory = [ref, ...bibleHistory.filter(r => r !== ref)].slice(0, 5);
+        renderBibleHistory();
+
         bibleResult.innerHTML = renderBiblePassage(data);
         debugLog('bible: rendered ' + data.verses.length + ' verses');
     } catch (err) {
@@ -717,6 +782,21 @@ async function lookUpPassage(ref) {
             '<p class="bible-error">Could not connect. Bible lookup requires an internet connection.</p>';
         debugLog('bible: fetch error - ' + err.message);
     }
+}
+
+function renderBibleHistory() {
+    if (!bibleHistoryEl || bibleHistory.length === 0) return;
+    bibleHistoryEl.classList.remove('hidden');
+    bibleHistoryEl.innerHTML = bibleHistory.map(ref =>
+        `<button class="bible-history-chip" data-ref="${ref}">${ref}</button>`
+    ).join('');
+    bibleHistoryEl.querySelectorAll('.bible-history-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const r = btn.getAttribute('data-ref');
+            if (bibleSearchInput) bibleSearchInput.value = r;
+            lookUpPassage(r);
+        });
+    });
 }
 
 function renderBiblePassage(data) {
@@ -897,7 +977,11 @@ async function reloadSessionWithNewLesson(newLessonId) {
         currentLessonId = data.lesson.id;
         currentSegmentType = null;
         document.getElementById('lessonTitle').textContent = data.lesson.title;
-        document.getElementById('lessonId').textContent = `ID: ${data.lesson.id} (${data.lesson.sequence})`;
+        const rPos = data.lesson.totalInCourse
+            ? `Lesson ${data.lesson.sequence} of ${data.lesson.totalInCourse}`
+            : `Lesson ${data.lesson.sequence}`;
+        const rCourse = data.lesson.courseTitle ? ` · ${data.lesson.courseTitle}` : '';
+        document.getElementById('lessonId').textContent = rPos + rCourse;
         document.getElementById('audioScript').textContent = '';
 
         showObjective(data.lesson.objective);
